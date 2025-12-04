@@ -11,7 +11,7 @@
     <header class="page-header">
       <div class="page-title">Parking</div>
       <div class="page-subtitle">
-        Find parking info for major venues in one place.
+        Browse venues to see parking notes and official parking pages.
       </div>
     </header>
 
@@ -27,7 +27,7 @@
         />
 
         <div class="helper-text">
-          Tap a venue below to view parking notes and a link to the official parking page when available.
+          Tap a venue below to view parking notes and the official parking page when available.
         </div>
 
         <div class="list" id="venueList"></div>
@@ -41,6 +41,22 @@
 
         <div class="section-title" id="detailVenueName">Venue</div>
 
+        <!-- Map -->
+        <div class="section-title" style="margin-top: 10px;">Parking Map</div>
+        <div class="map-shell">
+          <iframe
+            id="parkingMap"
+            class="map-frame"
+            src=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <p class="helper-text" style="margin-top: 4px;">
+          Map location is approximate. Always follow the venue’s official directions and signage on event day.
+        </p>
+
+        <!-- Notes -->
         <div class="section-title" style="margin-top: 10px;">Parking Notes</div>
         <p class="section-body" id="parkingNote">
           Loading parking info…
