@@ -16,6 +16,7 @@ const backToListBtnP = document.getElementById("backToListBtn");
 let parkingData = {};
 let parkingVenueIds = [];
 
+// Turn "dickies_arena" into "Dickies Arena"
 function displayNameFromSlug(slug) {
   return slug
     .split("_")
@@ -23,6 +24,7 @@ function displayNameFromSlug(slug) {
     .join(" ");
 }
 
+// Render the folder list
 function renderFolderViewParking(filterText = "") {
   folderViewP.style.display = "block";
   detailViewP.style.display = "none";
@@ -59,7 +61,7 @@ function renderFolderViewParking(filterText = "") {
     if (venueData.officialParkingUrl) {
       meta.textContent = "Official parking page available";
     } else {
-      meta.textContent = "Full parking link not added yet";
+      meta.textContent = "Parking link not added yet";
     }
 
     card.appendChild(title);
@@ -71,6 +73,7 @@ function renderFolderViewParking(filterText = "") {
   });
 }
 
+// Render the detail view for a single venue
 function showDetailViewParking(venueId) {
   const venueData = parkingData[venueId] || {};
   const displayName = displayNameFromSlug(venueId);
@@ -109,13 +112,19 @@ function showDetailViewParking(venueId) {
   }
 }
 
+// Load JSON and initialize
 async function initParking() {
-  try:
+  try {
     const res = await fetch("/data/parking.json");
+    if (!res.ok) {
+      throw new Error("Failed to fetch parking.json: " + res.status);
+    }
+
     parkingData = await res.json();
-    parkingVenueIds = Object.keys(parkingData).sort((a, b) =>
+    parkingVenueIds = Object.keys(parkingData || {}).sort((a, b) =>
       displayNameFromSlug(a).localeCompare(displayNameFromSlug(b))
     );
+
     renderFolderViewParking();
   } catch (err) {
     console.error(err);
@@ -128,18 +137,19 @@ async function initParking() {
   }
 }
 
-// Search
+// Wire up search
 if (searchInputP) {
   searchInputP.addEventListener("input", (e) => {
     renderFolderViewParking(e.target.value);
   });
 }
 
-// Back
+// Wire up "Back to All Venues"
 if (backToListBtnP) {
   backToListBtnP.onclick = () => {
     renderFolderViewParking(searchInputP ? searchInputP.value : "");
   };
 }
 
+// Kick things off
 initParking();
