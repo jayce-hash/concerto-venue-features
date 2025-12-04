@@ -11,7 +11,7 @@
     <header class="page-header">
       <div class="page-title">Parking</div>
       <div class="page-subtitle">
-        Browse venues to see parking notes and official parking pages.
+        Browse venues and view parking details in a clean, Concerto-style view.
       </div>
     </header>
 
@@ -27,56 +27,44 @@
         />
 
         <div class="helper-text">
-          Tap a venue below to view parking notes and the official parking page when available.
+          Tap a venue below to see parking notes and, when available, a link to the official parking page.
         </div>
 
         <div class="list" id="venueList"></div>
       </div>
 
-      <!-- DETAIL VIEW -->
+      <!-- DETAIL VIEW (PRO UPGRADE) -->
       <div id="detailView" style="display: none;">
         <div class="badge-row">
           <div class="badge-pill" id="updatedBadge">Updated</div>
         </div>
 
-        <div class="section-title" id="detailVenueName">Venue</div>
+        <div class="section-title" id="detailVenueName">Parking</div>
 
-        <!-- Map -->
-        <div class="section-title" style="margin-top: 10px;">Parking Map</div>
-        <div class="map-shell">
-          <iframe
-            id="parkingMap"
-            class="map-frame"
-            src=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
-        </div>
-        <p class="helper-text" style="margin-top: 4px;">
-          Map location is approximate. Always follow the venue’s official directions and signage on event day.
-        </p>
-
-        <!-- Notes -->
-        <div class="section-title" style="margin-top: 10px;">Parking Notes</div>
+        <div class="section-title" style="margin-top: 10px;">Overview</div>
         <p class="section-body" id="parkingNote">
           Loading parking info…
         </p>
 
+        <div class="section-title" style="margin-top: 10px;">Concerto Notes</div>
         <p class="status-text" id="parkingStatus"></p>
 
-        <div class="button-row">
+        <div class="button-row" style="margin-top: 14px;">
           <button class="btn-primary" id="openParkingPageBtn">
             View Official Parking Info
+          </button>
+          <button class="btn-secondary" id="openMapsBtn">
+            Open in Maps
           </button>
         </div>
 
         <p class="helper-text">
-          Parking options, pricing, and availability may vary by event. Always confirm through the venue’s official channels.
+          Parking options, pricing, and availability may vary by event. Always confirm directly with the venue before you arrive.
         </p>
 
         <button
           class="btn-secondary"
-          style="margin-top: 10px; width: 100%;"
+          style="margin-top: 12px; width: 100%;"
           id="backToListBtn"
         >
           Back to All Venues
