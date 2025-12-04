@@ -2,24 +2,28 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Concerto • Parking</title>
+  <title>Concerto • Parking Guides</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
 
-  <!-- Shared Concerto styling -->
-  <link rel="stylesheet" href="/shared/styles.css" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <div class="page">
-    
-    <!-- Header (NO LOGO FOR NOW) -->
+    <!-- Top header -->
     <header class="page-header">
       <div class="page-header-inner">
-        <div style="height: 0;"></div>
+        <div class="brand-mark">
+          <div class="brand-title">Concerto</div>
+          <div class="brand-subtitle">Parking Guides</div>
+        </div>
 
         <div class="search-wrapper">
           <input
@@ -28,118 +32,104 @@
             placeholder="Search a venue..."
             autocomplete="off"
           />
-          <div id="searchResults" class="search-results"></div>
         </div>
       </div>
     </header>
 
-    <!-- Main area -->
-    <main class="layout" style="background: var(--bg);">
-      <div
-        style="
-          width: 100%;
-          max-width: 680px;
-          margin: 12px auto 0;
-          padding: 0 16px 20px;
-          height: calc(100vh - 100px);
-          overflow-y: auto;
-        "
-      >
+    <!-- Main layout -->
+    <main class="page-main">
+      <!-- LIST VIEW -->
+      <section id="listView" class="card-shell">
+        <div class="intro-card">
+          <h1>Parking by Venue</h1>
+          <p>
+            Browse any venue and open a clean, concise view with official parking links,
+            map preview, and Concerto notes.
+          </p>
+        </div>
 
-        <!-- LIST VIEW -->
-        <section id="folderView">
-          <div
-            class="place-card"
-            style="margin-bottom: 10px; padding: 14px;"
-          >
-            <h2 class="place-name" style="font-size: 1rem;">Parking by Venue</h2>
-            <p class="place-meta" style="margin-top: 4px;">
-              Browse all venues and tap one to see parking notes and official parking links.
-            </p>
+        <div id="venueList" class="list-body">
+          <!-- Venue cards injected here -->
+        </div>
+      </section>
+
+      <!-- DETAIL VIEW -->
+      <section id="detailView" class="card-shell card-shell--hidden">
+        <button id="backToListBtn" class="back-link" type="button">
+          ← Back to all venues
+        </button>
+
+        <div class="detail-header">
+          <div>
+            <h2 id="detailVenueName" class="detail-title">Parking at Venue</h2>
+            <p id="detailSubtitle" class="detail-subtitle"></p>
           </div>
+          <span id="updatedBadge" class="badge">Updated</span>
+        </div>
 
-          <div id="venueList" class="guide-results"></div>
-        </section>
-
-        <!-- DETAIL VIEW -->
-        <section id="detailView" style="display: none;">
-          <div class="place-card" style="margin-bottom: 12px;">
-            <div style="margin-bottom: 8px;">
-              <span
-                id="updatedBadge"
-                style="
-                  display: inline-block;
-                  background: #e7ecf7;
-                  padding: 3px 10px;
-                  border-radius: 999px;
-                  font-size: 0.72rem;
-                  letter-spacing: 0.06em;
-                  text-transform: uppercase;
-                  color: var(--muted);
-                "
-              >
-                Updated
-              </span>
-            </div>
-
-            <h2 id="detailVenueName" class="place-name" style="font-size: 1rem;"></h2>
-
-            <h3 style="font-size: 0.88rem; margin: 12px 0 4px;">Overview</h3>
-            <p id="parkingNote" class="place-meta" style="font-size: 0.88rem;"></p>
-
-            <h3 style="font-size: 0.88rem; margin: 12px 0 4px;">Concerto Notes</h3>
-            <p id="parkingStatus" style="font-size: 0.84rem; color: var(--muted);"></p>
-
-            <div style="display: flex; gap: 10px; flex-wrap: wrap; margin-top: 14px;">
-              <button
-                id="openParkingPageBtn"
-                class="details-primary-btn"
-                type="button"
-                style="padding: 8px 14px; font-size: 0.86rem;"
-              >
-                View Official Parking Info
-              </button>
-
-              <button
-                id="openMapsBtn"
-                type="button"
-                style="
-                  border-radius: 999px;
-                  border: 1px solid var(--line);
-                  background: #ffffff;
-                  padding: 8px 14px;
-                  font-size: 0.86rem;
-                  cursor: pointer;
-                  box-shadow: var(--shadow-soft);
-                "
-              >
-                Open in Maps
-              </button>
-            </div>
+        <!-- Map preview -->
+        <div class="section">
+          <div class="section-label">Map Preview</div>
+          <div class="map-shell">
+            <iframe
+              id="parkingMap"
+              class="map-frame"
+              src=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
           </div>
+          <p class="helper">
+            Map location is approximate. Always follow the venue’s posted signs and official directions.
+          </p>
+        </div>
 
-          <button
-            id="backToListBtn"
-            type="button"
-            style="
-              width: 100%;
-              border-radius: 999px;
-              border: 1px solid var(--line);
-              background: #ffffff;
-              padding: 10px;
-              font-size: 0.88rem;
-              cursor: pointer;
-              box-shadow: var(--shadow-soft);
-            "
-          >
-            Back to All Venues
-          </button>
-        </section>
+        <!-- Overview -->
+        <div class="section">
+          <div class="section-label">Parking Overview</div>
+          <p id="parkingNote" class="body-text">
+            Loading parking details…
+          </p>
+        </div>
 
-      </div>
+        <!-- Rideshare / tips -->
+        <div class="section">
+          <div class="section-label">Rideshare & Tips</div>
+          <p id="rideshareText" class="body-text body-text--muted">
+            No specific rideshare notes added yet.
+          </p>
+        </div>
+
+        <!-- Lots -->
+        <div class="section">
+          <div class="section-label">Lots & Garages</div>
+          <ul id="lotsList" class="lots-list">
+            <!-- Lots injected here -->
+          </ul>
+          <p id="lotsEmpty" class="helper">
+            We’ll be adding specific lots and garages for this venue soon.
+          </p>
+        </div>
+
+        <div class="section">
+          <div class="section-label">Actions</div>
+          <div class="button-row">
+            <button id="openParkingPageBtn" class="btn-primary" type="button">
+              View Official Parking Info
+            </button>
+            <button id="openMapsBtn" class="btn-secondary" type="button">
+              Open in Maps
+            </button>
+          </div>
+          <p class="footnote">
+            Parking availability and pricing can change per event. Always confirm through
+            your ticket provider or the venue’s official channels.
+          </p>
+        </div>
+      </section>
     </main>
   </div>
 
-  <script src="/parking/app.js"></script>
+  <script src="app.js"></script>
 </body>
 </html>
