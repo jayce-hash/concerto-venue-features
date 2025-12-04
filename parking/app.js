@@ -1,4 +1,4 @@
-// Parking folder + detail view
+// Parking folder + Pro detail view
 
 const folderViewP = document.getElementById("folderView");
 const detailViewP = document.getElementById("detailView");
@@ -8,6 +8,7 @@ const venueListElP = document.getElementById("venueList");
 
 const detailVenueNameElP = document.getElementById("detailVenueName");
 const updatedBadgeElP = document.getElementById("updatedBadge");
+const parkingMapEl = document.getElementById("parkingMap");
 const parkingNoteEl = document.getElementById("parkingNote");
 const parkingStatusEl = document.getElementById("parkingStatus");
 const openParkingPageBtn = document.getElementById("openParkingPageBtn");
@@ -73,7 +74,7 @@ function renderFolderViewParking(filterText = "") {
   });
 }
 
-// Render the detail view for a single venue
+// Render the Pro detail view for a single venue
 function showDetailViewParking(venueId) {
   const venueData = parkingData[venueId] || {};
   const displayName = displayNameFromSlug(venueId);
@@ -81,16 +82,21 @@ function showDetailViewParking(venueId) {
   folderViewP.style.display = "none";
   detailViewP.style.display = "block";
 
+  // Header
   detailVenueNameElP.textContent = displayName;
+  updatedBadgeElP.textContent = venueData.updated || "Updated";
 
-  // Main parking note (use note field or default)
+  // Map: simple Google Maps embed using venue name
+  const mapQuery = encodeURIComponent(`${displayName} parking`);
+  const mapUrl = `https://www.google.com/maps?q=${mapQuery}&output=embed`;
+  parkingMapEl.src = mapUrl;
+
+  // Parking notes
   parkingNoteEl.textContent =
     venueData.note ||
     "We haven’t added specific parking notes for this venue yet.";
 
-  updatedBadgeElP.textContent = venueData.updated || "Updated";
-
-  // Status text
+  // Status text (for missing official link)
   if (!venueData.officialParkingUrl) {
     parkingStatusEl.textContent =
       "We don’t have a direct parking page linked for this venue yet. Please check your ticket or the venue website for the latest info.";
@@ -98,7 +104,7 @@ function showDetailViewParking(venueId) {
     parkingStatusEl.textContent = "";
   }
 
-  // Button behavior — NO GOOGLE FALLBACK
+  // Button behavior — NO GOOGLE AS PRIMARY CTA
   if (venueData.officialParkingUrl) {
     openParkingPageBtn.disabled = false;
     openParkingPageBtn.textContent = "View Official Parking Info";
@@ -137,14 +143,14 @@ async function initParking() {
   }
 }
 
-// Wire up search
+// Search
 if (searchInputP) {
   searchInputP.addEventListener("input", (e) => {
     renderFolderViewParking(e.target.value);
   });
 }
 
-// Wire up "Back to All Venues"
+// Back
 if (backToListBtnP) {
   backToListBtnP.onclick = () => {
     renderFolderViewParking(searchInputP ? searchInputP.value : "");
