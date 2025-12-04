@@ -1,1 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Concerto Microfeatures</title>
+  <link rel="stylesheet" href="/shared/styles.css">
+  <style>
+    /* Minimal homepage styling layered over shared */
+    .home-wrap {
+      text-align: center;
+      padding: 48px 20px;
+      color: #f8f9f9;
+    }
+
+    .home-title {
+      font-family: "Cormorant Garamond", serif;
+      font-size: 28px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+
+    .home-sub {
+      font-size: 14px;
+      opacity: 0.75;
+      margin-bottom: 40px;
+    }
+
+    .home-links {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      max-width: 260px;
+      margin: 0 auto;
+    }
+
+    a.home-btn {
+      display: block;
+      background: #121e36;
+      color: #f8f9f9;
+      padding: 14px 18px;
+      border-radius: 999px;
+      text-decoration: none;
+      font-family: "Cormorant Garamond", serif;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      font-size: 14px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.4);
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <div class="home-wrap">
+      <div class="home-title">Concerto Microfeatures</div>
+      <div class="home-sub">Bag Policy • Parking • Concessions</div>
+
+      <div class="home-links">
+        <a class="home-btn" href="/bag-policy/?venueId=test_venue&venueName=Test%20Venue&city=City">Bag Policy Test</a>
+        <a class="home-btn" href="/parking/?venueId=test_venue&venueName=Test%20Venue&city=City&lat=32&lng=-97">Parking Test</a>
+        <a class="home-btn" href="/concessions/?venueId=test_venue&venueName=Test%20Venue&city=City">Concessions Test</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
 
