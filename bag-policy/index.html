@@ -1,1 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Bag Policy • Concerto</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&display=swap" rel="stylesheet" />
+
+  <!-- Shared Styles -->
+  <link rel="stylesheet" href="/shared/styles.css" />
+</head>
+<body>
+  <div class="page">
+
+    <header class="page-header">
+      <div class="page-title">Bag Policy</div>
+      <div id="venueName" class="page-venue"></div>
+      <div id="venueCity" class="page-subtitle"></div>
+    </header>
+
+    <main class="card-shell">
+
+      <div class="badge-row">
+        <div class="badge-pill">Clear Bags</div>
+        <div class="badge-pill">Security</div>
+        <div id="updatedBadge" class="badge-pill"></div>
+      </div>
+
+      <div class="section-title">Summary</div>
+      <div id="policyText" class="section-body">
+        Loading bag policy…
+      </div>
+
+      <div class="helper-text">
+        Always double-check the official venue website before you head out. Policies can change.
+      </div>
+
+      <div class="button-row">
+        <button id="viewFullPolicyBtn" class="btn-primary">View Full Policy</button>
+        <button id="shopEssentialsBtn" class="btn-secondary">Essentials Kit</button>
+      </div>
+
+      <div class="small-label">Allowed</div>
+      <div id="allowedChips" class="chip-row"></div>
+
+      <div class="small-label">Not Allowed</div>
+      <div id="notAllowedChips" class="chip-row"></div>
+
+      <div id="status" class="status-text"></div>
+
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
 
