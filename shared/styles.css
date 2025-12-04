@@ -1,1 +1,272 @@
+/* --------------------------------------------------
+   Concerto Shared Styles
+   Applied to Bag Policy / Parking / Concessions
+-------------------------------------------------- */
+
+/* Base reset-ish */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Inter", sans-serif;
+  background: #0d1524;
+  color: #121212;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Page wrapper */
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: radial-gradient(circle at top, #202b46 0, #0d1524 55%, #050913 100%);
+}
+
+/* Header */
+.page-header {
+  padding: 18px 16px 8px;
+  padding-top: max(env(safe-area-inset-top), 16px);
+  color: #f8f9f9;
+}
+
+.page-title {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 20px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.page-venue {
+  margin-top: 4px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.page-subtitle {
+  margin-top: 2px;
+  font-size: 13px;
+  opacity: 0.76;
+}
+
+/* Main card shell */
+.card-shell {
+  flex: 1;
+  margin: 10px 12px 16px;
+  padding: 16px 14px 18px;
+  border-radius: 18px;
+  background: rgba(248, 249, 249, 0.98);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(10px);
+  overflow-y: auto;
+}
+
+/* Badge row */
+.badge-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+
+.badge-pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  border: 1px solid rgba(18, 30, 54, 0.15);
+  background: #eef1f6;
+  color: #121e36;
+}
+
+/* Section titles & body */
+.section-title {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  color: #121e36;
+}
+
+.section-body {
+  font-size: 13px;
+  line-height: 1.5;
+  color: #121212;
+}
+
+/* Helper text */
+.helper-text {
+  margin-top: 8px;
+  font-size: 11px;
+  line-height: 1.4;
+  color: #5f6470;
+}
+
+/* Buttons row */
+.button-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 14px 0 10px;
+}
+
+.btn-primary,
+.btn-secondary {
+  flex: 1 1 0;
+  border-radius: 999px;
+  padding: 10px 14px;
+  font-size: 13px;
+  font-family: "Cormorant Garamond", serif;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.btn-primary {
+  background: #121e36;
+  color: #f8f9f9;
+  box-shadow: 0 6px 16px rgba(9, 15, 30, 0.55);
+}
+
+.btn-primary:disabled {
+  opacity: 0.5;
+  cursor: default;
+  box-shadow: none;
+}
+
+.btn-secondary {
+  background: #ffffff;
+  color: #121e36;
+  border: 1px solid rgba(18, 30, 54, 0.18);
+}
+
+/* Small labels */
+.small-label {
+  margin-top: 6px;
+  margin-bottom: 4px;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #606575;
+}
+
+/* Chips row */
+.chip-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 11px;
+  background: #eef1f6;
+  color: #121e36;
+}
+
+/* Status / footnote text */
+.status-text {
+  margin-top: 10px;
+  font-size: 11px;
+  line-height: 1.4;
+  color: #777c8a;
+}
+
+/* Generic list styles (for parking lots / concession stands) */
+.list {
+  margin-top: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.list-item {
+  padding: 8px 10px;
+  border-radius: 12px;
+  background: #ffffff;
+  border: 1px solid rgba(18, 30, 54, 0.08);
+}
+
+.list-item-title {
+  font-size: 13px;
+  font-weight: 600;
+  color: #141827;
+}
+
+.list-item-meta {
+  margin-top: 2px;
+  font-size: 11px;
+  color: #6a6f7c;
+}
+
+.list-item-actions {
+  margin-top: 6px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+/* Link pills */
+.link-pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 11px;
+  text-decoration: none;
+  border: 1px solid rgba(18, 30, 54, 0.16);
+  color: #121e36;
+  background: #f4f5f8;
+}
+
+/* Map shell (used in Parking) */
+.map-shell {
+  padding: 0 16px 10px;
+}
+
+.map-frame {
+  width: 100%;
+  height: 190px;
+  border: none;
+  border-radius: 16px;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.5);
+}
+
+/* Scroll behavior */
+.card-shell::-webkit-scrollbar {
+  width: 4px;
+}
+
+.card-shell::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.18);
+  border-radius: 999px;
+}
+
+/* Small screen tweaks */
+@media (min-width: 480px) {
+  .card-shell {
+    margin: 14px auto 20px;
+    max-width: 420px;
+  }
+}
 
