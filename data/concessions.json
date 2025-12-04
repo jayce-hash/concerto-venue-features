@@ -1,0 +1,974 @@
+{
+  "acrisure_arena": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "acrisure_stadium": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "alamodome": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "albertsons_stadium": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "allegiant_stadium": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "amalie_arena": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "amerant_bank_arena": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "american_airlines_center": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "american_family_field": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "angel_stadium": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "at_t_stadium": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "bok_center": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "ball_arena": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "bank_of_america_stadium": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "barclays_center": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "bethel_woods_center_for_the_arts": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "broadview_stage_at_spac": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "bridgestone_arena": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "busch_stadium": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "cfg_bank_arena": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "chi_health_center": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "caesars_superdome": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "camp_randall_stadium": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "camping_world_stadium": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "capital_one_arena": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "chaifetz_arena": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "chase_center": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "chase_field": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "citi_field": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "citizens_bank_park": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "climate_pledge_arena": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "colonial_life_arena": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "comerica_park": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "commonwealth_stadium": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "coors_field": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "credit_union_1_amphitheatre": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "crypto_com_arena": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "daikin_park": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "delta_center": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "desert_diamond_arena": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "dickies_arena": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "dodger_stadium": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "dolby_live": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "dos_equis_pavilion": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "empower_federal_credit_union_amphitheater": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "empower_field": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "enterprise_center": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "everbank_stadium": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "fedex_forum": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "fenway_park": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "fiserv_forum": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "food_city_center": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "ford_field": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "freedom_mortgage_pavilion": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "frost_bank_center": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "geha_field_at_arrowhead_stadium": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "gainbridge_fieldhouse": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "gas_south_arena": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "gillette_stadium": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "globe_life_field": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "golden_1_center": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "great_american_ball_park": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "hard_rock_stadium": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "heritage_bank_center": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "hersheypark_stadium": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "highmark_stadium": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "hollywood_bowl": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "honda_center": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "huntington_bank_field": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "intuit_dome": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "isleta_amphitheater": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "jiffy_lube_live": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "john_paul_jones_arena": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "kaseya_center": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "kauffman_stadium": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "keybank_center": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "kia_center": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "kia_forum": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "lambeau_field": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "lenovo_center": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "levi_s_stadium": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "lincoln_financial_field": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "little_caesars_arena": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "loandepot_park": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "lucas_oil_stadium": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "lumen_field": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "m_t_bank_stadium": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "madison_square_garden": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "mercedes_benz_stadium": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "metlife_stadium": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "mgm_grand_garden_arena": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "moda_center": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "mohegan_sun_arena": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "moody_center": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "nrg_stadium": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "nationals_park": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "nationwide_arena": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "nissan_stadium": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "northwest_stadium": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "north_island_credit_union_amphitheatre": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "oakland_arena": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "oracle_park": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "oriole_park_at_camden_yards": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "phx_arena": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "pnc_park": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "ppg_paints_arena": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "paycom_center": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "paycor_stadium": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "pechanga_arena": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "petco_park": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "petersen_events_center": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "pinnacle_bank_arena": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "progressive_field": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "providence_park": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "prudential_center": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "rate_field": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "raymond_james_stadium": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "red_rocks_amphitheatre": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "rocket_arena": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "rogers_arena": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "rogers_centre": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "rupp_arena": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "sap_center": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "schottenstein_center": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "scotiabank_arena": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "simmons_bank_arena": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "smoothie_king_center": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "sofi_stadium": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "soldier_field": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "spectrum_center": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "state_farm_arena": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "state_farm_stadium": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "sun_bowl_stadium": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "t_mobile_arena": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "t_mobile_park": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "t_mobile_center": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "td_garden": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "target_center": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "target_field": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "the_anthem": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "the_armory": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "the_dome_at_america_s_center": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "the_pinnacle": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "the_sphere": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "thunder_ridge_nature_arena": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "toyota_center": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "truist_park": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "u_s_bank_stadium": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "ubs_arena": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "uc_berkeley_greek_theatre": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "united_center": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "utah_first_credit_union_amphitheatre": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "uw_panther_arena": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "van_andel_arena": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "veterans_united_home_loans_amphitheater": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "walmart_amp": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "wells_fargo_arena": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "wells_fargo_center": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "wrigley_field": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "xl_center": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "xcel_energy_center": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  },
+  "yankee_stadium": {
+    "updated": "",
+    "note": "See the concessions page for details.",
+    "stands": [],
+    "officialConcessionsUrl": null
+  }
+}
