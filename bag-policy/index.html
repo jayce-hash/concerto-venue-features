@@ -2,60 +2,82 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Bag Policy • Concerto</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-
-  <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&display=swap" rel="stylesheet" />
-
-  <!-- Shared Styles -->
+  <title>Bag Policies • Concerto</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="/shared/styles.css" />
 </head>
 <body>
   <div class="page">
-
     <header class="page-header">
-      <div class="page-title">Bag Policy</div>
-      <div id="venueName" class="page-venue"></div>
-      <div id="venueCity" class="page-subtitle"></div>
+      <div class="page-title">Bag Policies</div>
+      <div class="page-subtitle">
+        Browse venues and see their bag rules in a clean, Concerto-style view.
+      </div>
     </header>
 
     <main class="card-shell">
+      <!-- FOLDER VIEW -->
+      <div id="folderView">
+        <div class="small-label">Search Venues</div>
+        <input
+          id="venueSearch"
+          type="text"
+          placeholder="Start typing a venue name..."
+          style="width: 100%; padding: 8px 10px; border-radius: 999px; border: 1px solid rgba(18,30,54,0.25); font-size: 13px; margin-bottom: 10px; outline: none;"
+        />
 
-      <div class="badge-row">
-        <div class="badge-pill">Clear Bags</div>
-        <div class="badge-pill">Security</div>
-        <div id="updatedBadge" class="badge-pill"></div>
+        <div class="helper-text">
+          Tap a venue below to see its bag policy summary and a link to the full official policy.
+        </div>
+
+        <div class="list" id="venueList"></div>
       </div>
 
-      <div class="section-title">Summary</div>
-      <div id="policyText" class="section-body">
-        Loading bag policy…
+      <!-- DETAIL VIEW -->
+      <div id="detailView" style="display: none;">
+        <div class="badge-row">
+          <div class="badge-pill" id="updatedBadge">Updated</div>
+        </div>
+
+        <div class="section-title" id="detailVenueName">Venue</div>
+
+        <div class="section-title" style="margin-top: 10px;">Summary</div>
+        <p class="section-body" id="policyText">
+          Loading the latest bag policy…
+        </p>
+
+        <div class="small-label">Allowed</div>
+        <div class="chip-row" id="allowedChips"></div>
+
+        <div class="small-label">Not Allowed</div>
+        <div class="chip-row" id="notAllowedChips"></div>
+
+        <p class="status-text" id="status"></p>
+
+        <div class="button-row">
+          <button class="btn-primary" id="viewFullPolicyBtn">
+            View Full Policy
+          </button>
+          <button class="btn-secondary" id="shopEssentialsBtn">
+            Essentials Kit
+          </button>
+        </div>
+
+        <p class="helper-text">
+          Always confirm the policy close to show time, as rules can change by event.
+        </p>
+
+        <button
+          class="btn-secondary"
+          style="margin-top: 10px; width: 100%;"
+          id="backToListBtn"
+        >
+          Back to All Venues
+        </button>
       </div>
-
-      <div class="helper-text">
-        Always double-check the official venue website before you head out. Policies can change.
-      </div>
-
-      <div class="button-row">
-        <button id="viewFullPolicyBtn" class="btn-primary">View Full Policy</button>
-        <button id="shopEssentialsBtn" class="btn-secondary">Essentials Kit</button>
-      </div>
-
-      <div class="small-label">Allowed</div>
-      <div id="allowedChips" class="chip-row"></div>
-
-      <div class="small-label">Not Allowed</div>
-      <div id="notAllowedChips" class="chip-row"></div>
-
-      <div id="status" class="status-text"></div>
-
     </main>
   </div>
 
-  <script src="app.js"></script>
+  <script src="/bag-policy/app.js"></script>
 </body>
 </html>
-
