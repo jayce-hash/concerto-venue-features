@@ -1,1 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Concessions • Concerto</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="/shared/styles.css" />
+</head>
+<body>
+  <div class="page">
+    <header class="page-header">
+      <div class="page-title">Concessions</div>
+      <div class="page-subtitle">
+        Explore food & drink info by venue.
+      </div>
+    </header>
 
+    <main class="card-shell">
+      <!-- FOLDER VIEW -->
+      <div id="folderView">
+        <div class="small-label">Search Venues</div>
+        <input
+          id="venueSearch"
+          type="text"
+          placeholder="Start typing a venue name..."
+          style="width: 100%; padding: 8px 10px; border-radius: 999px; border: 1px solid rgba(18,30,54,0.25); font-size: 13px; margin-bottom: 10px; outline: none;"
+        />
+
+        <div class="helper-text">
+          Tap a venue below to see concessions notes and a link to the official food & beverage page when available.
+        </div>
+
+        <div class="list" id="venueList"></div>
+      </div>
+
+      <!-- DETAIL VIEW -->
+      <div id="detailView" style="display: none;">
+        <div class="badge-row">
+          <div class="badge-pill" id="updatedBadge">Updated</div>
+        </div>
+
+        <div class="section-title" id="detailVenueName">Venue</div>
+
+        <div class="section-title" style="margin-top: 10px;">Concessions Overview</div>
+        <p class="section-body" id="concessionsNote">
+          Loading concessions info…
+        </p>
+
+        <p class="status-text" id="concessionsStatus"></p>
+
+        <div class="button-row">
+          <button class="btn-primary" id="openConcessionsPageBtn">
+            View Full Concessions
+          </button>
+        </div>
+
+        <p class="helper-text">
+          Menus and offerings can vary by event. Always confirm directly with the venue for the most current options.
+        </p>
+
+        <button
+          class="btn-secondary"
+          style="margin-top: 10px; width: 100%;"
+          id="backToListBtn"
+        >
+          Back to All Venues
+        </button>
+      </div>
+    </main>
+  </div>
+
+  <script src="/concessions/app.js"></script>
+</body>
+</html>
