@@ -1,1 +1,10 @@
+[build]
+  publish = "."
+
+# Optional: allow JSON to be fetched easily if you ever embed this elsewhere
+[[headers]]
+  for = "/data/*"
+    [headers.values]
+      Access-Control-Allow-Origin = "*"
+      Access-Control-Allow-Headers = "*"
 
