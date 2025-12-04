@@ -5,27 +5,22 @@
   <title>Concerto • Parking</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 
-  <!-- Fonts (same as Venue Map) -->
+  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
-    rel="stylesheet"
-  />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-  <!-- Shared Concerto styles -->
+  <!-- Shared Concerto styling -->
   <link rel="stylesheet" href="/shared/styles.css" />
 </head>
 <body>
   <div class="page">
-    <!-- Top header (same structure as Venue Map) -->
+    
+    <!-- Header (NO LOGO FOR NOW) -->
     <header class="page-header">
       <div class="page-header-inner">
-        <img
-          src="IMG_3180.jpeg"
-          alt="Concerto - From the concert, to the city"
-          class="brand-logo"
-        />
+        <div style="height: 0;"></div>
+
         <div class="search-wrapper">
           <input
             id="venueSearch"
@@ -33,83 +28,53 @@
             placeholder="Search a venue..."
             autocomplete="off"
           />
-          <!-- (We aren't using the dropdown here, but keeping the element is harmless) -->
           <div id="searchResults" class="search-results"></div>
         </div>
       </div>
     </header>
 
-    <!-- Main content (folder + detail stacked in a clean card layout) -->
+    <!-- Main area -->
     <main class="layout" style="background: var(--bg);">
       <div
         style="
           width: 100%;
           max-width: 680px;
-          margin: 10px auto 0;
-          padding: 0 16px 16px;
-          box-sizing: border-box;
-          height: calc(100vh - 90px);
+          margin: 12px auto 0;
+          padding: 0 16px 20px;
+          height: calc(100vh - 100px);
           overflow-y: auto;
         "
       >
-        <!-- FOLDER VIEW -->
+
+        <!-- LIST VIEW -->
         <section id="folderView">
           <div
-            style="
-              background: var(--card);
-              border-radius: 18px;
-              border: 1px solid var(--line);
-              box-shadow: var(--shadow-soft);
-              padding: 12px 14px 10px;
-              margin-bottom: 10px;
-            "
+            class="place-card"
+            style="margin-bottom: 10px; padding: 14px;"
           >
-            <h2
-              style="
-                margin: 0 0 4px;
-                font-size: 0.98rem;
-                font-weight: 500;
-              "
-            >
-              Parking by Venue
-            </h2>
-            <p
-              style="
-                margin: 0 0 6px;
-                font-size: 0.86rem;
-                color: var(--muted);
-              "
-            >
-              Browse all venues and tap one to see parking notes and the official parking page when available.
+            <h2 class="place-name" style="font-size: 1rem;">Parking by Venue</h2>
+            <p class="place-meta" style="margin-top: 4px;">
+              Browse all venues and tap one to see parking notes and official parking links.
             </p>
           </div>
 
-          <!-- Results list (we'll use place-card styling for each venue) -->
-          <div id="venueList" class="guide-results">
-            <!-- JS injects cards here -->
-          </div>
+          <div id="venueList" class="guide-results"></div>
         </section>
 
-        <!-- DETAIL VIEW (Pro-style parking detail) -->
-        <section
-          id="detailView"
-          style="display: none;"
-        >
-          <div
-            class="place-card"
-            style="margin-top: 4px; margin-bottom: 10px;"
-          >
-            <div class="badge-row" style="margin-bottom: 6px;">
+        <!-- DETAIL VIEW -->
+        <section id="detailView" style="display: none;">
+          <div class="place-card" style="margin-bottom: 12px;">
+            <div style="margin-bottom: 8px;">
               <span
                 id="updatedBadge"
                 style="
                   display: inline-block;
-                  padding: 2px 8px;
+                  background: #e7ecf7;
+                  padding: 3px 10px;
                   border-radius: 999px;
                   font-size: 0.72rem;
-                  text-transform: uppercase;
                   letter-spacing: 0.06em;
-                  background: #e7ecf7;
+                  text-transform: uppercase;
                   color: var(--muted);
                 "
               >
@@ -117,63 +82,20 @@
               </span>
             </div>
 
-            <h2
-              id="detailVenueName"
-              class="place-name"
-              style="font-size: 1rem; margin-bottom: 6px;"
-            >
-              Parking
-            </h2>
+            <h2 id="detailVenueName" class="place-name" style="font-size: 1rem;"></h2>
 
-            <h3
-              style="
-                margin: 0 0 4px;
-                font-size: 0.9rem;
-                font-weight: 500;
-              "
-            >
-              Overview
-            </h3>
-            <p
-              id="parkingNote"
-              class="place-meta"
-              style="margin: 0 0 10px; font-size: 0.88rem;"
-            >
-              Loading parking info…
-            </p>
+            <h3 style="font-size: 0.88rem; margin: 12px 0 4px;">Overview</h3>
+            <p id="parkingNote" class="place-meta" style="font-size: 0.88rem;"></p>
 
-            <h3
-              style="
-                margin: 0 0 4px;
-                font-size: 0.9rem;
-                font-weight: 500;
-              "
-            >
-              Concerto Notes
-            </h3>
-            <p
-              id="parkingStatus"
-              style="
-                margin: 0 0 10px;
-                font-size: 0.84rem;
-                color: var(--muted);
-              "
-            ></p>
+            <h3 style="font-size: 0.88rem; margin: 12px 0 4px;">Concerto Notes</h3>
+            <p id="parkingStatus" style="font-size: 0.84rem; color: var(--muted);"></p>
 
-            <div
-              style="
-                display: flex;
-                flex-wrap: wrap;
-                gap: 8px;
-                margin-top: 8px;
-                margin-bottom: 4px;
-              "
-            >
+            <div style="display: flex; gap: 10px; flex-wrap: wrap; margin-top: 14px;">
               <button
                 id="openParkingPageBtn"
                 class="details-primary-btn"
                 type="button"
-                style="font-size: 0.86rem; padding: 7px 14px;"
+                style="padding: 8px 14px; font-size: 0.86rem;"
               >
                 View Official Parking Info
               </button>
@@ -184,10 +106,9 @@
                 style="
                   border-radius: 999px;
                   border: 1px solid var(--line);
-                  background: #fff;
-                  padding: 6px 14px;
-                  font-size: 0.84rem;
-                  color: var(--ink);
+                  background: #ffffff;
+                  padding: 8px 14px;
+                  font-size: 0.86rem;
                   cursor: pointer;
                   box-shadow: var(--shadow-soft);
                 "
@@ -195,16 +116,6 @@
                 Open in Maps
               </button>
             </div>
-
-            <p
-              style="
-                margin: 6px 0 0;
-                font-size: 0.8rem;
-                color: var(--muted);
-              "
-            >
-              Parking options, pricing, and availability may vary by event. Always confirm directly with the venue before you arrive.
-            </p>
           </div>
 
           <button
@@ -214,10 +125,9 @@
               width: 100%;
               border-radius: 999px;
               border: 1px solid var(--line);
-              background: #fff;
-              padding: 8px 14px;
-              font-size: 0.86rem;
-              color: var(--ink);
+              background: #ffffff;
+              padding: 10px;
+              font-size: 0.88rem;
               cursor: pointer;
               box-shadow: var(--shadow-soft);
             "
@@ -225,6 +135,7 @@
             Back to All Venues
           </button>
         </section>
+
       </div>
     </main>
   </div>
