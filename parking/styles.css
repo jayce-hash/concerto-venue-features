@@ -1,1 +1,318 @@
+/* ============================================================
+   Concerto — Parking Guides (Pro Upgrade)
+   ============================================================ */
 
+:root {
+  --bg: #f8f9f9;
+  --ink: #121e36;
+  --muted: #5e6b86;
+  --line: #e2e7f0;
+  --card: #ffffff;
+  --accent: #1f2b4a;
+  --accent-soft: #e7ecf7;
+  --shadow-soft: 0 4px 10px rgba(18, 30, 54, 0.12);
+}
+
+/* Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, sans-serif;
+  background: radial-gradient(circle at top, #1b2338 0, #050916 50%, #05070d 100%);
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Page shell */
+.page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+.page-header {
+  background: rgba(5, 9, 22, 0.92);
+  border-bottom: 1px solid rgba(226, 231, 240, 0.08);
+  padding: 8px 0 10px;
+}
+
+.page-header-inner {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.brand-mark {
+  display: flex;
+  flex-direction: column;
+}
+
+.brand-title {
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #f8f9f9;
+}
+
+.brand-subtitle {
+  font-size: 0.78rem;
+  color: rgba(248, 249, 249, 0.78);
+}
+
+/* Search */
+.search-wrapper {
+  flex: 1;
+  position: relative;
+}
+
+#venueSearch {
+  width: 100%;
+  border-radius: 999px;
+  border: 1px solid rgba(226, 231, 240, 0.8);
+  padding: 7px 12px;
+  font-size: 0.86rem;
+  background: #fff;
+  outline: none;
+}
+
+/* Main */
+.page-main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0 14px;
+}
+
+.card-shell {
+  width: 100%;
+  max-width: 720px;
+  margin: 0 16px;
+  background: linear-gradient(135deg, rgba(248, 249, 249, 0.96), #ffffff);
+  border-radius: 18px;
+  border: 1px solid rgba(226, 231, 240, 0.9);
+  box-shadow: var(--shadow-soft);
+  padding: 10px 12px 12px;
+  overflow: hidden;
+}
+
+.card-shell--hidden {
+  display: none;
+}
+
+/* Intro card */
+.intro-card {
+  border-radius: 14px;
+  background: #ffffff;
+  border: 1px solid var(--line);
+  padding: 10px 12px;
+  margin-bottom: 8px;
+}
+
+.intro-card h1 {
+  margin: 0 0 4px;
+  font-size: 0.98rem;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.intro-card p {
+  margin: 0;
+  font-size: 0.86rem;
+  color: var(--muted);
+}
+
+/* List body */
+.list-body {
+  max-height: calc(100vh - 190px);
+  overflow-y: auto;
+  padding-right: 4px;
+}
+
+/* Venue cards */
+.place-card {
+  background: #ffffff;
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  padding: 9px 11px;
+  margin-bottom: 8px;
+  box-shadow: 0 2px 6px rgba(18, 30, 54, 0.06);
+  transition: transform 0.1s ease-out, box-shadow 0.1s ease-out;
+}
+
+.place-card:hover {
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-soft);
+}
+
+.place-name {
+  margin: 0 0 2px;
+  font-size: 0.94rem;
+  font-weight: 500;
+}
+
+.place-meta {
+  margin: 0;
+  font-size: 0.82rem;
+  color: var(--muted);
+}
+
+/* Detail header */
+.back-link {
+  border: none;
+  background: transparent;
+  padding: 2px 0 6px;
+  font-size: 0.82rem;
+  color: var(--muted);
+  cursor: pointer;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+.detail-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.detail-title {
+  margin: 0;
+  font-size: 0.98rem;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.detail-subtitle {
+  margin: 2px 0 0;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+.badge {
+  padding: 3px 9px;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  background: var(--accent-soft);
+  color: var(--muted);
+}
+
+/* Sections */
+.section {
+  margin-top: 10px;
+}
+
+.section-label {
+  font-size: 0.84rem;
+  font-weight: 600;
+  margin-bottom: 3px;
+  color: var(--ink);
+}
+
+.body-text {
+  margin: 0;
+  font-size: 0.88rem;
+  color: var(--ink);
+}
+
+.body-text--muted {
+  color: var(--muted);
+}
+
+.helper {
+  margin: 4px 0 0;
+  font-size: 0.78rem;
+  color: var(--muted);
+}
+
+.footnote {
+  margin: 6px 0 0;
+  font-size: 0.78rem;
+  color: var(--muted);
+}
+
+/* Map */
+.map-shell {
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  background: #d8dde8;
+}
+
+.map-frame {
+  width: 100%;
+  height: 180px;
+  border: none;
+}
+
+/* Lots list */
+.lots-list {
+  margin: 0;
+  padding-left: 16px;
+  font-size: 0.86rem;
+  color: var(--ink);
+}
+
+.lots-list li {
+  margin-bottom: 3px;
+}
+
+/* Buttons */
+.button-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 6px;
+}
+
+.btn-primary,
+.btn-secondary {
+  border-radius: 999px;
+  padding: 7px 14px;
+  font-size: 0.86rem;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #1f2b4a, #2b3b65);
+  color: #ffffff;
+  border-color: #1f2b4a;
+}
+
+.btn-primary:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.btn-secondary {
+  background: #ffffff;
+  color: var(--ink);
+  border-color: var(--line);
+}
+
+/* Scroll tweaks */
+@media (min-width: 768px) {
+  .list-body {
+    max-height: calc(100vh - 210px);
+  }
+}
