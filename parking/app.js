@@ -1,162 +1,145 @@
-// Helper to read URL params
-function param(name) {
-  return new URLSearchParams(window.location.search).get(name) || "";
+// Parking folder + detail view
+
+const folderViewP = document.getElementById("folderView");
+const detailViewP = document.getElementById("detailView");
+
+const searchInputP = document.getElementById("venueSearch");
+const venueListElP = document.getElementById("venueList");
+
+const detailVenueNameElP = document.getElementById("detailVenueName");
+const updatedBadgeElP = document.getElementById("updatedBadge");
+const parkingNoteEl = document.getElementById("parkingNote");
+const parkingStatusEl = document.getElementById("parkingStatus");
+const openParkingPageBtn = document.getElementById("openParkingPageBtn");
+const backToListBtnP = document.getElementById("backToListBtn");
+
+let parkingData = {};
+let parkingVenueIds = [];
+
+function displayNameFromSlug(slug) {
+  return slug
+    .split("_")
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(" ");
 }
 
-const venueId = param("venueId");
-const venueName = decodeURIComponent(param("venueName"));
-const venueCity = decodeURIComponent(param("city"));
-const lat = param("lat");
-const lng = param("lng");
+function renderFolderViewParking(filterText = "") {
+  folderViewP.style.display = "block";
+  detailViewP.style.display = "none";
 
-// Header text
-document.getElementById("venueName").textContent = venueName || "";
-document.getElementById("venueCity").textContent = venueCity || "";
+  const term = filterText.trim().toLowerCase();
+  venueListElP.innerHTML = "";
 
-// Elements
-const mapFrame = document.getElementById("mapFrame");
-const updatedBadgeEl = document.getElementById("parkingUpdatedBadge");
-const rideshareTextEl = document.getElementById("rideshareText");
-const parkingListEl = document.getElementById("parkingList");
-const parkingStatusEl = document.getElementById("parkingStatus");
-const openVenueInMapsBtn = document.getElementById("openVenueInMapsBtn");
-const openParkingPageBtn = document.getElementById("openParkingPageBtn");
+  const filteredIds = parkingVenueIds.filter((id) => {
+    const name = displayNameFromSlug(id).toLowerCase();
+    return !term || name.includes(term);
+  });
 
-// --- Map setup (no API key needed) ---
-(function setupMap() {
-  if (lat && lng) {
-    // Center on coordinates
-    mapFrame.src = `https://www.google.com/maps?q=${lat},${lng}&z=15&output=embed`;
-  } else if (venueName || venueCity) {
-    const query = encodeURIComponent(`${venueName} ${venueCity}`);
-    mapFrame.src = `https://www.google.com/maps?q=${query}&z=15&output=embed`;
-  } else {
-    // Fallback: generic map of USA
-    mapFrame.src = "https://www.google.com/maps?q=United%20States&z=3&output=embed";
+  if (!filteredIds.length) {
+    const empty = document.createElement("div");
+    empty.className = "status-text";
+    empty.textContent = "No venues match that search yet.";
+    venueListElP.appendChild(empty);
+    return;
   }
-})();
 
-// --- Button actions ---
-openVenueInMapsBtn.onclick = () => {
-  if (lat && lng) {
-    window.open(`https://www.google.com/maps/search/?api=1&query=${lat},${lng}`, "_blank");
-  } else if (venueName || venueCity) {
-    const query = encodeURIComponent(`${venueName} ${venueCity}`);
-    window.open(`https://www.google.com/maps/search/?api=1&query=${query}`, "_blank");
-  }
-};
+  filteredIds.forEach((id) => {
+    const venueData = parkingData[id] || {};
+    const card = document.createElement("div");
+    card.className = "list-item";
+    card.style.cursor = "pointer";
 
-openParkingPageBtn.onclick = () => {
-  // We'll wire the real URL after we load JSON
-};
+    const title = document.createElement("div");
+    title.className = "list-item-title";
+    title.textContent = displayNameFromSlug(id);
 
-// --- Load parking data from /data/parking.json ---
-async function loadParking() {
-  try {
-    const res = await fetch("/data/parking.json");
-    const data = await res.json();
+    const meta = document.createElement("div");
+    meta.className = "list-item-meta";
 
-    const venueParking = data[venueId];
-
-    if (!venueParking) {
-      updatedBadgeEl.textContent = "Updating Soon";
-      rideshareTextEl.textContent = "We’re still adding detailed parking information for this venue.";
-      parkingStatusEl.textContent = "";
-      openParkingPageBtn.disabled = true;
-      return;
-    }
-
-    // Updated badge
-    updatedBadgeEl.textContent = venueParking.updated || "Recently Updated";
-
-    // Rideshare text
-    rideshareTextEl.textContent =
-      venueParking.rideshare ||
-      "Check the venue’s official site or event page for the latest rideshare pickup and dropoff zones.";
-
-    // Wire Official Parking Info button
-    if (venueParking.officialParkingUrl) {
-      openParkingPageBtn.onclick = () => {
-        window.open(venueParking.officialParkingUrl, "_blank");
-      };
+    if (venueData.officialParkingUrl) {
+      meta.textContent = "Official parking page available";
     } else {
-      openParkingPageBtn.disabled = true;
+      meta.textContent = "Full parking link not added yet";
     }
 
-    // Lots list
-    parkingListEl.innerHTML = "";
-    const lots = venueParking.lots || [];
+    card.appendChild(title);
+    card.appendChild(meta);
 
-    if (!lots.length) {
-      const empty = document.createElement("div");
-      empty.className = "status-text";
-      empty.textContent = "Specific lot and garage details are coming soon.";
-      parkingListEl.appendChild(empty);
-    } else {
-      lots.forEach((lot) => {
-        const item = document.createElement("div");
-        item.className = "list-item";
+    card.onclick = () => showDetailViewParking(id);
 
-        const title = document.createElement("div");
-        title.className = "list-item-title";
-        title.textContent = lot.name || "Parking Lot";
+    venueListElP.appendChild(card);
+  });
+}
 
-        const meta = document.createElement("div");
-        meta.className = "list-item-meta";
+function showDetailViewParking(venueId) {
+  const venueData = parkingData[venueId] || {};
+  const displayName = displayNameFromSlug(venueId);
 
-        const bits = [];
-        if (lot.distance) bits.push(lot.distance);
-        if (lot.price) bits.push(lot.price);
-        if (lot.notes) bits.push(lot.notes);
-        meta.textContent = bits.join(" • ");
+  folderViewP.style.display = "none";
+  detailViewP.style.display = "block";
 
-        const actions = document.createElement("div");
-        actions.className = "list-item-actions";
+  detailVenueNameElP.textContent = displayName;
 
-        // Open in Maps link
-        const mapsLink = document.createElement("a");
-        mapsLink.className = "link-pill";
-        mapsLink.textContent = "Open in Maps";
-        if (lot.lat && lot.lng) {
-          mapsLink.href = `https://www.google.com/maps/search/?api=1&query=${lot.lat},${lot.lng}`;
-        } else if (lot.mapsUrl) {
-          mapsLink.href = lot.mapsUrl;
-        } else if (venueName || venueCity) {
-          const q = encodeURIComponent(`${venueName} parking`);
-          mapsLink.href = `https://www.google.com/maps/search/?api=1&query=${q}`;
-        } else {
-          mapsLink.href = "#";
-        }
-        mapsLink.target = "_blank";
-        actions.appendChild(mapsLink);
+  // Main parking note (use note field or default)
+  parkingNoteEl.textContent =
+    venueData.note ||
+    "We haven’t added specific parking notes for this venue yet.";
 
-        // Prepay Parking link (optional)
-        if (lot.prepayUrl) {
-          const prepayLink = document.createElement("a");
-          prepayLink.className = "link-pill";
-          prepayLink.textContent = "Prepay Parking";
-          prepayLink.href = lot.prepayUrl;
-          prepayLink.target = "_blank";
-          actions.appendChild(prepayLink);
-        }
+  updatedBadgeElP.textContent = venueData.updated || "Updated";
 
-        item.appendChild(title);
-        item.appendChild(meta);
-        item.appendChild(actions);
-
-        parkingListEl.appendChild(item);
-      });
-    }
-
-    // Note at bottom
+  // Status text
+  if (!venueData.officialParkingUrl) {
     parkingStatusEl.textContent =
-      venueParking.note || "Parking availability and pricing can vary by event.";
+      "We don’t have a direct parking page linked for this venue yet. Please check your ticket or the venue website for the latest info.";
+  } else {
+    parkingStatusEl.textContent = "";
+  }
+
+  // Button behavior — NO GOOGLE FALLBACK
+  if (venueData.officialParkingUrl) {
+    openParkingPageBtn.disabled = false;
+    openParkingPageBtn.textContent = "View Official Parking Info";
+    openParkingPageBtn.onclick = () => {
+      window.open(venueData.officialParkingUrl, "_blank");
+    };
+  } else {
+    openParkingPageBtn.disabled = true;
+    openParkingPageBtn.textContent = "Parking Link Coming Soon";
+    openParkingPageBtn.onclick = null;
+  }
+}
+
+async function initParking() {
+  try:
+    const res = await fetch("/data/parking.json");
+    parkingData = await res.json();
+    parkingVenueIds = Object.keys(parkingData).sort((a, b) =>
+      displayNameFromSlug(a).localeCompare(displayNameFromSlug(b))
+    );
+    renderFolderViewParking();
   } catch (err) {
     console.error(err);
-    rideshareTextEl.textContent = "We couldn’t load parking info right now.";
-    parkingStatusEl.textContent = "Try again in a moment, or check the venue’s official parking page.";
+    venueListElP.innerHTML = "";
+    const error = document.createElement("div");
+    error.className = "status-text";
+    error.textContent =
+      "We couldn't load parking data right now. Please try again later.";
+    venueListElP.appendChild(error);
   }
 }
 
-loadParking();
+// Search
+if (searchInputP) {
+  searchInputP.addEventListener("input", (e) => {
+    renderFolderViewParking(e.target.value);
+  });
+}
 
+// Back
+if (backToListBtnP) {
+  backToListBtnP.onclick = () => {
+    renderFolderViewParking(searchInputP ? searchInputP.value : "");
+  };
+}
+
+initParking();
