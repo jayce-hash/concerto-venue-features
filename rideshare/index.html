@@ -1,1 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Rideshare Guide</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page">
+    <!-- Top header -->
+    <header class="page-header">
+      <div class="page-header-inner">
+        <img
+          src="IMG_0093.jpeg"
+          alt="Rideshare"
+          class="brand-logo"
+        />
+        <div class="search-wrapper">
+          <input
+            id="venueSearch"
+            type="text"
+            placeholder="Search a venue..."
+            autocomplete="off"
+          />
+          <div id="searchResults" class="search-results"></div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Content -->
+    <main class="layout">
+      <section id="infoPanel" class="info-panel info-panel--empty">
+        <div class="info-empty">
+          <h2>Set up rideshare in one tap</h2>
+          <p>
+            Search a venue or browse below to see pickup / dropoff tips and
+            quick links for Uber and Lyft with the venue already selected.
+          </p>
+        </div>
+
+        <!-- Random browse list -->
+        <div id="browseList" class="browse-list"></div>
+
+        <!-- Filled once a venue is chosen -->
+        <div class="info-content" hidden>
+          <header class="info-header">
+            <div>
+              <h2 id="venueName"></h2>
+              <p id="venueLocation" class="venue-location"></p>
+            </div>
+          </header>
+
+          <div class="info-cards">
+            <!-- Overview / tips -->
+            <article class="info-card">
+              <h3>Rideshare &amp; Dropoff</h3>
+              <p id="rideshareNote" class="card-body"></p>
+            </article>
+
+            <!-- Deep-link buttons -->
+            <article class="info-card">
+              <h3>Uber &amp; Lyft Links</h3>
+              <p class="card-body small">
+                These links open Uber or Lyft with the venue filled in as the
+                destination or pickup. Always confirm the address inside the app before requesting.
+              </p>
+              <div class="rideshare-buttons">
+                <a id="uberTo" class="primary-btn secondary" href="#" target="_blank" rel="noopener noreferrer">
+                  Uber to Venue
+                </a>
+                <a id="uberFrom" class="primary-btn secondary" href="#" target="_blank" rel="noopener noreferrer">
+                  Uber from Venue
+                </a>
+                <a id="lyftTo" class="primary-btn secondary" href="#" target="_blank" rel="noopener noreferrer">
+                  Lyft to Venue
+                </a>
+                <a id="lyftFrom" class="primary-btn secondary" href="#" target="_blank" rel="noopener noreferrer">
+                  Lyft from Venue
+                </a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
