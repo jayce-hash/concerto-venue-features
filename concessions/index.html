@@ -2,73 +2,90 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Concessions • Concerto</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="/shared/styles.css" />
+  <title>Concessions Guide</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <div class="page">
+    <!-- Top header -->
     <header class="page-header">
-      <div class="page-title">Concessions</div>
-      <div class="page-subtitle">
-        Explore food & drink info by venue.
+      <div class="page-header-inner">
+        <!-- Replace src with your concessions header image if you want -->
+        <img
+          src="IMG_3180.jpeg"
+          alt="Concessions"
+          class="brand-logo"
+        />
+        <div class="search-wrapper">
+          <input
+            id="venueSearch"
+            type="text"
+            placeholder="Search a venue..."
+            autocomplete="off"
+          />
+          <div id="searchResults" class="search-results"></div>
+        </div>
       </div>
     </header>
 
-    <main class="card-shell">
-      <!-- FOLDER VIEW -->
-      <div id="folderView">
-        <div class="small-label">Search Venues</div>
-        <input
-          id="venueSearch"
-          type="text"
-          placeholder="Start typing a venue name..."
-          style="width: 100%; padding: 8px 10px; border-radius: 999px; border: 1px solid rgba(18,30,54,0.25); font-size: 13px; margin-bottom: 10px; outline: none;"
-        />
-
-        <div class="helper-text">
-          Tap a venue below to see concessions notes and a link to the official food & beverage page when available.
+    <!-- Content -->
+    <main class="layout">
+      <section id="infoPanel" class="info-panel info-panel--empty">
+        <div class="info-empty">
+          <h2>Find concessions by venue</h2>
+          <p>Search a venue above to see food &amp; drink options, notable stands, and a link to the official concessions page.</p>
         </div>
 
-        <div class="list" id="venueList"></div>
-      </div>
+        <div class="info-content" hidden>
+          <header class="info-header">
+            <div>
+              <h2 id="venueName"></h2>
+              <p id="venueLocation" class="venue-location"></p>
+            </div>
+          </header>
 
-      <!-- DETAIL VIEW -->
-      <div id="detailView" style="display: none;">
-        <div class="badge-row">
-          <div class="badge-pill" id="updatedBadge">Updated</div>
+          <div class="info-cards">
+            <!-- Overview -->
+            <article class="info-card">
+              <h3>Overview</h3>
+              <p id="concessionsNote" class="card-body"></p>
+            </article>
+
+            <!-- Stands -->
+            <article class="info-card" id="standsCard" hidden>
+              <h3>Notable Stands</h3>
+              <ul id="standsList" class="stands-list"></ul>
+            </article>
+
+            <!-- Official link -->
+            <article class="info-card" id="officialCard" hidden>
+              <h3>Full Menus &amp; Map</h3>
+              <p class="card-body">
+                For detailed locations, menus, and allergen information, use the official concessions page.
+              </p>
+              <a
+                id="concessionsLink"
+                class="primary-btn"
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View Official Concessions Info
+              </a>
+            </article>
+          </div>
         </div>
-
-        <div class="section-title" id="detailVenueName">Venue</div>
-
-        <div class="section-title" style="margin-top: 10px;">Concessions Overview</div>
-        <p class="section-body" id="concessionsNote">
-          Loading concessions info…
-        </p>
-
-        <p class="status-text" id="concessionsStatus"></p>
-
-        <div class="button-row">
-          <button class="btn-primary" id="openConcessionsPageBtn">
-            View Full Concessions
-          </button>
-        </div>
-
-        <p class="helper-text">
-          Menus and offerings can vary by event. Always confirm directly with the venue for the most current options.
-        </p>
-
-        <button
-          class="btn-secondary"
-          style="margin-top: 10px; width: 100%;"
-          id="backToListBtn"
-        >
-          Back to All Venues
-        </button>
-      </div>
+      </section>
     </main>
   </div>
 
-  <script src="/concessions/app.js"></script>
+  <script src="app.js" defer></script>
 </body>
 </html>
