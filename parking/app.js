@@ -1,180 +1,192 @@
-// Concerto — Parking Guides (Pro Upgrade JS)
-
-const listView = document.getElementById("listView");
-const detailView = document.getElementById("detailView");
-
-const venueListEl = document.getElementById("venueList");
-const searchInput = document.getElementById("venueSearch");
-
-const backToListBtn = document.getElementById("backToListBtn");
-
-const detailVenueNameEl = document.getElementById("detailVenueName");
-const detailSubtitleEl = document.getElementById("detailSubtitle");
-const updatedBadgeEl = document.getElementById("updatedBadge");
-const parkingMapEl = document.getElementById("parkingMap");
-const parkingNoteEl = document.getElementById("parkingNote");
-const rideshareTextEl = document.getElementById("rideshareText");
-const lotsListEl = document.getElementById("lotsList");
-const lotsEmptyEl = document.getElementById("lotsEmpty");
-const parkingStatusEl = document.getElementById("parkingStatus");
-const openParkingPageBtn = document.getElementById("openParkingPageBtn");
-const openMapsBtn = document.getElementById("openMapsBtn");
-
 let parkingData = {};
-let venueIds = [];
+let venuesList = [];
 
-// Helpers
-function displayNameFromSlug(slug) {
+const searchInput = document.getElementById("venueSearch");
+const searchResultsEl = document.getElementById("searchResults");
+
+const infoPanel = document.getElementById("infoPanel");
+const infoContent = document.querySelector(".info-content");
+const infoEmptyEl = document.querySelector(".info-empty");
+
+const browseListEl = document.getElementById("browseList");
+
+const venueNameEl = document.getElementById("venueName");
+const venueLocationEl = document.getElementById("venueLocation");
+
+const parkingNoteEl = document.getElementById("parkingNote");
+const rideshareCardEl = document.getElementById("rideshareCard");
+const rideshareTextEl = document.getElementById("rideshareText");
+const lotsCardEl = document.getElementById("lotsCard");
+const lotsListEl = document.getElementById("lotsList");
+const officialCardEl = document.getElementById("officialCard");
+const parkingLinkEl = document.getElementById("parkingLink");
+
+// Fetch parking JSON on load
+fetch("/data/parking.json")
+  .then((res) => res.json())
+  .then((data) => {
+    parkingData = data || {};
+    venuesList = buildVenuesList(parkingData);
+    renderBrowseList();
+  })
+  .catch((err) => {
+    console.error("Error loading parking.json", err);
+  });
+
+function buildVenuesList(data) {
+  const items = [];
+  for (const slug in data) {
+    const v = data[slug];
+    const nameGuess = prettifySlug(slug);
+    const city = v.city || "";
+    const state = v.state || "";
+    const label = state ? `${nameGuess} — ${city}, ${state}` : nameGuess;
+
+    items.push({ slug, label, city, state, displayName: nameGuess });
+  }
+  return items.sort((a, b) => a.displayName.localeCompare(b.displayName));
+}
+
+function prettifySlug(slug) {
+  if (!slug) return "";
   return slug
     .split("_")
-    .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
+    .map((p) => (p ? p.charAt(0).toUpperCase() + p.slice(1) : ""))
     .join(" ");
 }
 
-// LIST RENDERING
-function renderList(filterText = "") {
-  const term = filterText.trim().toLowerCase();
-  venueListEl.innerHTML = "";
+function renderBrowseList() {
+  if (!browseListEl || !venuesList.length) return;
 
-  const filtered = venueIds.filter((id) =>
-    displayNameFromSlug(id).toLowerCase().includes(term)
-  );
+  // Shuffle and take first 12
+  const shuffled = [...venuesList];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
 
-  if (!filtered.length) {
-    const empty = document.createElement("div");
-    empty.className = "place-meta";
-    empty.style.padding = "6px 2px";
-    empty.textContent = "No venues match that search.";
-    venueListEl.appendChild(empty);
+  const sample = shuffled.slice(0, 12);
+
+  browseListEl.innerHTML = sample
+    .map(
+      (v) =>
+        `<div class="browse-item" data-slug="${v.slug}">
+          ${v.label}
+        </div>`
+    )
+    .join("");
+}
+
+// Search behavior
+searchInput.addEventListener("input", () => {
+  const q = searchInput.value.trim().toLowerCase();
+  if (!q) {
+    searchResultsEl.classList.remove("visible");
+    searchResultsEl.innerHTML = "";
+    if (browseListEl) browseListEl.style.display = "block";
     return;
   }
 
-  filtered.forEach((id) => {
-    const data = parkingData[id];
-    const card = document.createElement("div");
-    card.className = "place-card";
-    card.style.cursor = "pointer";
+  if (browseListEl) browseListEl.style.display = "none";
 
-    const title = document.createElement("h3");
-    title.className = "place-name";
-    title.textContent = displayNameFromSlug(id);
+  const matches = venuesList.filter((v) =>
+    v.displayName.toLowerCase().includes(q)
+  );
 
-    const meta = document.createElement("p");
-    meta.className = "place-meta";
-    meta.textContent = data.officialParkingUrl
-      ? "Official parking page available"
-      : "Parking link not added yet";
+  if (!matches.length) {
+    searchResultsEl.classList.remove("visible");
+    searchResultsEl.innerHTML = "";
+    return;
+  }
 
-    card.appendChild(title);
-    card.appendChild(meta);
+  searchResultsEl.innerHTML = matches
+    .map(
+      (v) =>
+        `<div class="search-result-item" data-slug="${v.slug}">
+          ${v.label}
+        </div>`
+    )
+    .join("");
 
-    card.onclick = () => openDetail(id);
+  searchResultsEl.classList.add("visible");
+});
 
-    venueListEl.appendChild(card);
+// Click on search result
+searchResultsEl.addEventListener("click", (evt) => {
+  const item = evt.target.closest(".search-result-item");
+  if (!item) return;
+  const slug = item.getAttribute("data-slug");
+  const venue = venuesList.find((v) => v.slug === slug);
+  if (!venue) return;
+
+  searchInput.value = venue.displayName;
+  searchResultsEl.classList.remove("visible");
+  showVenue(slug);
+});
+
+// Click on browse item
+if (browseListEl) {
+  browseListEl.addEventListener("click", (evt) => {
+    const item = evt.target.closest(".browse-item");
+    if (!item) return;
+    const slug = item.getAttribute("data-slug");
+    showVenue(slug);
   });
 }
 
-// DETAIL VIEW
-function openDetail(venueId) {
-  const data = parkingData[venueId];
-  const displayName = displayNameFromSlug(venueId);
+// Hide search dropdown when clicking away
+document.addEventListener("click", (evt) => {
+  if (!searchResultsEl.contains(evt.target) && evt.target !== searchInput) {
+    searchResultsEl.classList.remove("visible");
+  }
+});
 
-  listView.classList.add("card-shell--hidden");
-  detailView.classList.remove("card-shell--hidden");
+function showVenue(slug) {
+  const v = parkingData[slug];
+  if (!v) return;
 
-  detailVenueNameEl.textContent = `Parking at ${displayName}`;
-  detailSubtitleEl.textContent = data.subtitle || "";
-  updatedBadgeEl.textContent = data.updated || "Updated recently";
+  infoPanel.classList.remove("info-panel--empty");
+  infoContent.hidden = false;
+  if (infoEmptyEl) infoEmptyEl.style.display = "none";
 
-  // Map
-  const query = encodeURIComponent(`${displayName} parking`);
-  const mapUrl = `https://www.google.com/maps?q=${query}&output=embed`;
-  parkingMapEl.src = mapUrl;
+  const prettyName = prettifySlug(slug);
+  venueNameEl.textContent = prettyName;
+
+  const locParts = [];
+  if (v.city) locParts.push(v.city);
+  if (v.state) locParts.push(v.state);
+  venueLocationEl.textContent = locParts.join(", ");
 
   // Overview
   parkingNoteEl.textContent =
-    data.note ||
-    "We haven’t added specific parking notes for this venue yet. Use the official parking link and map for the latest details.";
+    v.note ||
+    "Parking details for this venue are not available yet. Use the official parking page for the latest information.";
 
   // Rideshare
-  if (data.rideshare && data.rideshare.trim()) {
-    rideshareTextEl.textContent = data.rideshare;
-    rideshareTextEl.classList.remove("body-text--muted");
+  const rideshare = (v.rideshare || "").trim();
+  if (rideshare.length) {
+    rideshareTextEl.textContent = rideshare;
+    rideshareCardEl.hidden = false;
   } else {
-    rideshareTextEl.textContent =
-      "No specific rideshare notes added yet. We recommend checking your ticket or the venue’s website for pickup / dropoff instructions.";
-    rideshareTextEl.classList.add("body-text--muted");
+    rideshareTextEl.textContent = "";
+    rideshareCardEl.hidden = true;
   }
 
   // Lots
-  lotsListEl.innerHTML = "";
-  if (Array.isArray(data.lots) && data.lots.length > 0) {
-    data.lots.forEach((lot) => {
-      const li = document.createElement("li");
-      li.textContent = lot;
-      lotsListEl.appendChild(li);
-    });
-    lotsEmptyEl.style.display = "none";
+  if (Array.isArray(v.lots) && v.lots.length) {
+    lotsListEl.innerHTML = v.lots.map((lot) => `<li>${lot}</li>`).join("");
+    lotsCardEl.hidden = false;
   } else {
-    lotsEmptyEl.style.display = "block";
+    lotsListEl.innerHTML = "";
+    lotsCardEl.hidden = true;
   }
 
-  // Status + buttons
-  if (data.officialParkingUrl) {
-    parkingStatusEl.textContent = "";
-    openParkingPageBtn.disabled = false;
-    openParkingPageBtn.textContent = "View Official Parking Info";
-    openParkingPageBtn.onclick = () => {
-      window.open(data.officialParkingUrl, "_blank");
-    };
+  // Official parking link
+  if (v.officialParkingUrl) {
+    parkingLinkEl.href = v.officialParkingUrl;
+    officialCardEl.hidden = false;
   } else {
-    parkingStatusEl.textContent =
-      "We don’t have a direct parking link for this venue yet. Please check your ticket or the venue’s website for up-to-date information.";
-    openParkingPageBtn.disabled = true;
-    openParkingPageBtn.textContent = "Parking Link Coming Soon";
-    openParkingPageBtn.onclick = null;
-  }
-
-  // Open in Maps helper
-  openMapsBtn.onclick = () => {
-    const mapsSearch = encodeURIComponent(`${displayName} parking`);
-    window.open(
-      `https://www.google.com/maps/search/?api=1&query=${mapsSearch}`,
-      "_blank"
-    );
-  };
-}
-
-// BACK TO LIST
-backToListBtn.addEventListener("click", () => {
-  detailView.classList.add("card-shell--hidden");
-  listView.classList.remove("card-shell--hidden");
-});
-
-// SEARCH
-if (searchInput) {
-  searchInput.addEventListener("input", (e) => {
-    renderList(e.target.value);
-  });
-}
-
-// INIT
-async function initParking() {
-  try {
-    const res = await fetch("/data/parking.json");
-    if (!res.ok) throw new Error("Failed to load /data/parking.json");
-
-    parkingData = await res.json();
-    venueIds = Object.keys(parkingData).sort((a, b) =>
-      displayNameFromSlug(a).localeCompare(displayNameFromSlug(b))
-    );
-
-    renderList();
-  } catch (err) {
-    console.error(err);
-    venueListEl.innerHTML =
-      "<div class='place-meta' style='padding:6px 2px;'>We couldn't load parking data right now.</div>";
+    parkingLinkEl.href = "#";
+    officialCardEl.hidden = true;
   }
 }
-
-initParking();
