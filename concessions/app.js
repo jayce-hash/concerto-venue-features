@@ -6,6 +6,9 @@ const searchResultsEl = document.getElementById("searchResults");
 
 const infoPanel = document.getElementById("infoPanel");
 const infoContent = document.querySelector(".info-content");
+const infoEmptyEl = document.querySelector(".info-empty");
+const browseListEl = document.getElementById("browseList");
+
 const venueNameEl = document.getElementById("venueName");
 const venueLocationEl = document.getElementById("venueLocation");
 const concessionsNoteEl = document.getElementById("concessionsNote");
@@ -20,6 +23,7 @@ fetch("/data/concessions.json")
   .then((data) => {
     concessionsData = data || {};
     venuesList = buildVenuesList(concessionsData);
+    renderBrowseList();
   })
   .catch((err) => {
     console.error("Error loading concessions.json", err);
@@ -29,7 +33,6 @@ function buildVenuesList(data) {
   const items = [];
   for (const slug in data) {
     const v = data[slug];
-    // We don't have the original name stored, so use slug prettified
     const nameGuess = prettifySlug(slug);
     const city = v.city || "";
     const state = v.state || "";
@@ -37,7 +40,6 @@ function buildVenuesList(data) {
 
     items.push({ slug, label, city, state, displayName: nameGuess });
   }
-  // Sort alphabetically
   return items.sort((a, b) => a.displayName.localeCompare(b.displayName));
 }
 
@@ -50,14 +52,37 @@ function prettifySlug(slug) {
   return parts.join(" ");
 }
 
+function renderBrowseList() {
+  if (!browseListEl || !venuesList.length) return;
+
+  const shuffled = [...venuesList];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  const sample = shuffled.slice(0, 12);
+
+  browseListEl.innerHTML = sample
+    .map(
+      (v) =>
+        `<div class="browse-item" data-slug="${v.slug}">
+          ${v.label}
+        </div>`
+    )
+    .join("");
+}
+
 // Search handling
 searchInput.addEventListener("input", () => {
   const q = searchInput.value.trim().toLowerCase();
   if (!q) {
     searchResultsEl.classList.remove("visible");
     searchResultsEl.innerHTML = "";
+    if (browseListEl) browseListEl.style.display = "block";
     return;
   }
+
+  if (browseListEl) browseListEl.style.display = "none";
 
   const matches = venuesList.filter((v) =>
     v.displayName.toLowerCase().includes(q)
@@ -94,6 +119,17 @@ searchResultsEl.addEventListener("click", (evt) => {
   showVenue(slug);
 });
 
+// Click on a browse item
+if (browseListEl) {
+  browseListEl.addEventListener("click", (evt) => {
+    const item = evt.target.closest(".browse-item");
+    if (!item) return;
+    const slug = item.getAttribute("data-slug");
+    showVenue(slug);
+  });
+}
+
+// Hide search dropdown when clicking away
 document.addEventListener("click", (evt) => {
   if (!searchResultsEl.contains(evt.target) && evt.target !== searchInput) {
     searchResultsEl.classList.remove("visible");
@@ -106,7 +142,7 @@ function showVenue(slug) {
 
   infoPanel.classList.remove("info-panel--empty");
   infoContent.hidden = false;
-  document.querySelector(".info-empty").style.display = "none";
+  if (infoEmptyEl) infoEmptyEl.style.display = "none";
 
   const prettyName = prettifySlug(slug);
   venueNameEl.textContent = prettyName;
@@ -122,9 +158,7 @@ function showVenue(slug) {
 
   // Stands
   if (Array.isArray(v.stands) && v.stands.length) {
-    standsListEl.innerHTML = v.stands
-      .map((s) => `<li>${s}</li>`)
-      .join("");
+    standsListEl.innerHTML = v.stands.map((s) => `<li>${s}</li>`).join("");
     standsCardEl.hidden = false;
   } else {
     standsListEl.innerHTML = "";
