@@ -2162,4 +2162,36 @@
   "xl_center": {
     "updated": "",
     "officialParkingUrl": "https://www.xlcenter.com/plan-your-visit/directions-parking",
-    "note": "Parking is available surrounding PeoplesBank Arena and throughout Downtown Hartford, with 45 parking lots and garages operated by third-party companies. Fans can prepurchase parking in the Hartford 21 garage and reserve parking in advance using the LAZ parking reservation form. Metered street parking is free daily fr
+    "note": "Parking is available surrounding PeoplesBank Arena and throughout Downtown Hartford, with 45 parking lots and garages operated by third-party companies. Fans can prepurchase parking in the Hartford 21 garage and reserve parking in advance using the LAZ parking reservation form. Metered street parking is free daily from 6:00 pm to 8:00 am and all day on weekends.",
+    "rideshare": "Lyft is the official rideshare partner of PeoplesBank Arena, offering a discount code PEOPLESBANK for new users; no specific pickup/dropoff zone details are provided.",
+    "lots": [],
+    "city": "Hartford",
+    "state": "CT"
+  },
+  "grand_casino_arena": {
+    "updated": "",
+    "officialParkingUrl": "https://www.xcelenergycenter.com/plan-your-visit/parking",
+    "note": "Grand Casino Arena parking is primarily serviced by two on-site ramps: RiverCentre Parking Ramp and Kellogg Parking Ramp, both directly connected to the complex. RiverCentre Ramp uses license plate reader technology for faster entry and cashless payment via app, QR code, or pay station. ParkWhiz allows advance parking reservations for other lots, but not for these two ramps; event day parking at both ramps is first come, first served.",
+    "rideshare": "Gate 4 at the northeast corner of Grand Casino Arena on 5th Street is the official pickup and drop-off location for rideshare services, with Lyft as the official partner offering a discount code for new users.",
+    "lots": [
+      "RiverCentre Parking Ramp",
+      "Kellogg Parking Ramp"
+    ],
+    "city": "St. Paul",
+    "state": "MN"
+  },
+  "yankee_stadium": {
+    "updated": "",
+    "officialParkingUrl": "https://www.mlb.com/yankees/ballpark/information/directions-parking",
+    "note": "Yankee Stadium parking is available at several nearby garages, including the 164th Street Garage, Ruppert Plaza Garage, 161st Street Garage, and River Avenue Garage. Prepaid parking must be purchased through City Parking, which controls rates and policies, not the Yankees. Fans attending postseason games are advised to arrive early and use public transportation, as some garages may reach capacity quickly and Premium Parking Pass holders may be redirected to alternate lots.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [
+      "164th Street Garage",
+      "Ruppert Plaza Garage",
+      "161st Street Garage",
+      "River Avenue Garage"
+    ],
+    "city": "Bronx",
+    "state": "NY"
+  }
+}
