@@ -6,6 +6,9 @@ const searchResultsEl = document.getElementById("searchResults");
 
 const infoPanel = document.getElementById("infoPanel");
 const infoContent = document.querySelector(".info-content");
+const infoEmptyEl = document.querySelector(".info-empty");
+const browseListEl = document.getElementById("browseList");
+
 const venueNameEl = document.getElementById("venueName");
 const venueLocationEl = document.getElementById("venueLocation");
 
@@ -25,6 +28,7 @@ fetch("/data/bag_policies.json")
   .then((data) => {
     bagData = data || {};
     venuesList = buildVenuesList(bagData);
+    renderBrowseList();
   })
   .catch((err) => {
     console.error("Error loading bag_policies.json", err);
@@ -52,14 +56,37 @@ function prettifySlug(slug) {
     .join(" ");
 }
 
+function renderBrowseList() {
+  if (!browseListEl || !venuesList.length) return;
+
+  const shuffled = [...venuesList];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  const sample = shuffled.slice(0, 12);
+
+  browseListEl.innerHTML = sample
+    .map(
+      (v) =>
+        `<div class="browse-item" data-slug="${v.slug}">
+          ${v.label}
+        </div>`
+    )
+    .join("");
+}
+
 // Search
 searchInput.addEventListener("input", () => {
   const q = searchInput.value.trim().toLowerCase();
   if (!q) {
     searchResultsEl.classList.remove("visible");
     searchResultsEl.innerHTML = "";
+    if (browseListEl) browseListEl.style.display = "block";
     return;
   }
+
+  if (browseListEl) browseListEl.style.display = "none";
 
   const matches = venuesList.filter((v) =>
     v.displayName.toLowerCase().includes(q)
@@ -83,6 +110,7 @@ searchInput.addEventListener("input", () => {
   searchResultsEl.classList.add("visible");
 });
 
+// Click on search result
 searchResultsEl.addEventListener("click", (evt) => {
   const item = evt.target.closest(".search-result-item");
   if (!item) return;
@@ -94,6 +122,16 @@ searchResultsEl.addEventListener("click", (evt) => {
   searchResultsEl.classList.remove("visible");
   showVenue(slug);
 });
+
+// Click on browse item
+if (browseListEl) {
+  browseListEl.addEventListener("click", (evt) => {
+    const item = evt.target.closest(".browse-item");
+    if (!item) return;
+    const slug = item.getAttribute("data-slug");
+    showVenue(slug);
+  });
+}
 
 document.addEventListener("click", (evt) => {
   if (!searchResultsEl.contains(evt.target) && evt.target !== searchInput) {
@@ -107,7 +145,7 @@ function showVenue(slug) {
 
   infoPanel.classList.remove("info-panel--empty");
   infoContent.hidden = false;
-  document.querySelector(".info-empty").style.display = "none";
+  if (infoEmptyEl) infoEmptyEl.style.display = "none";
 
   const prettyName = prettifySlug(slug);
   venueNameEl.textContent = prettyName;
@@ -121,18 +159,14 @@ function showVenue(slug) {
     v.summary ||
     "This venue follows a clear bag-style security policy. Check the official bag policy link for full details.";
 
-  // Allowed
   if (Array.isArray(v.allowed) && v.allowed.length) {
-    allowedListEl.innerHTML = v.allowed
-      .map((item) => `<li>${item}</li>`)
-      .join("");
+    allowedListEl.innerHTML = v.allowed.map((item) => `<li>${item}</li>`).join("");
     allowedCardEl.hidden = false;
   } else {
     allowedListEl.innerHTML = "";
     allowedCardEl.hidden = true;
   }
 
-  // Not allowed
   if (Array.isArray(v.notAllowed) && v.notAllowed.length) {
     notAllowedListEl.innerHTML = v.notAllowed
       .map((item) => `<li>${item}</li>`)
@@ -143,7 +177,6 @@ function showVenue(slug) {
     notAllowedCardEl.hidden = true;
   }
 
-  // Extra
   if (v.note && v.note.trim().length) {
     extraTextEl.textContent = v.note;
     extraCardEl.hidden = false;
@@ -152,7 +185,6 @@ function showVenue(slug) {
     extraCardEl.hidden = true;
   }
 
-  // Official link
   if (v.fullLink) {
     bagLinkEl.href = v.fullLink;
     officialCardEl.hidden = false;
