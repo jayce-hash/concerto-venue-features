@@ -1,143 +1,142 @@
-// Concessions folder + detail view
-
-const folderViewC = document.getElementById("folderView");
-const detailViewC = document.getElementById("detailView");
-
-const searchInputC = document.getElementById("venueSearch");
-const venueListElC = document.getElementById("venueList");
-
-const detailVenueNameElC = document.getElementById("detailVenueName");
-const updatedBadgeElC = document.getElementById("updatedBadge");
-const concessionsNoteEl = document.getElementById("concessionsNote");
-const concessionsStatusEl = document.getElementById("concessionsStatus");
-const openConcessionsPageBtn = document.getElementById("openConcessionsPageBtn");
-const backToListBtnC = document.getElementById("backToListBtn");
-
 let concessionsData = {};
-let concessionsVenueIds = [];
+let venuesList = [];
 
-function displayNameFromSlug(slug) {
-  return slug
-    .split("_")
-    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
-    .join(" ");
-}
+const searchInput = document.getElementById("venueSearch");
+const searchResultsEl = document.getElementById("searchResults");
 
-function renderFolderViewConcessions(filterText = "") {
-  folderViewC.style.display = "block";
-  detailViewC.style.display = "none";
+const infoPanel = document.getElementById("infoPanel");
+const infoContent = document.querySelector(".info-content");
+const venueNameEl = document.getElementById("venueName");
+const venueLocationEl = document.getElementById("venueLocation");
+const concessionsNoteEl = document.getElementById("concessionsNote");
+const standsCardEl = document.getElementById("standsCard");
+const standsListEl = document.getElementById("standsList");
+const officialCardEl = document.getElementById("officialCard");
+const concessionsLinkEl = document.getElementById("concessionsLink");
 
-  const term = filterText.trim().toLowerCase();
-  venueListElC.innerHTML = "";
-
-  const filteredIds = concessionsVenueIds.filter((id) => {
-    const name = displayNameFromSlug(id).toLowerCase();
-    return !term || name.includes(term);
+// Fetch JSON on load
+fetch("/data/concessions.json")
+  .then((res) => res.json())
+  .then((data) => {
+    concessionsData = data || {};
+    venuesList = buildVenuesList(concessionsData);
+  })
+  .catch((err) => {
+    console.error("Error loading concessions.json", err);
   });
 
-  if (!filteredIds.length) {
-    const empty = document.createElement("div");
-    empty.className = "status-text";
-    empty.textContent = "No venues match that search yet.";
-    venueListElC.appendChild(empty);
+function buildVenuesList(data) {
+  const items = [];
+  for (const slug in data) {
+    const v = data[slug];
+    // We don't have the original name stored, so use slug prettified
+    const nameGuess = prettifySlug(slug);
+    const city = v.city || "";
+    const state = v.state || "";
+    const label = state ? `${nameGuess} — ${city}, ${state}` : nameGuess;
+
+    items.push({ slug, label, city, state, displayName: nameGuess });
+  }
+  // Sort alphabetically
+  return items.sort((a, b) => a.displayName.localeCompare(b.displayName));
+}
+
+function prettifySlug(slug) {
+  if (!slug) return "";
+  const parts = slug.split("_").map((p) => {
+    if (!p) return "";
+    return p.charAt(0).toUpperCase() + p.slice(1);
+  });
+  return parts.join(" ");
+}
+
+// Search handling
+searchInput.addEventListener("input", () => {
+  const q = searchInput.value.trim().toLowerCase();
+  if (!q) {
+    searchResultsEl.classList.remove("visible");
+    searchResultsEl.innerHTML = "";
     return;
   }
 
-  filteredIds.forEach((id) => {
-    const venueData = concessionsData[id] || {};
-    const card = document.createElement("div");
-    card.className = "list-item";
-    card.style.cursor = "pointer";
+  const matches = venuesList.filter((v) =>
+    v.displayName.toLowerCase().includes(q)
+  );
 
-    const title = document.createElement("div");
-    title.className = "list-item-title";
-    title.textContent = displayNameFromSlug(id);
+  if (!matches.length) {
+    searchResultsEl.classList.remove("visible");
+    searchResultsEl.innerHTML = "";
+    return;
+  }
 
-    const meta = document.createElement("div");
-    meta.className = "list-item-meta";
+  searchResultsEl.innerHTML = matches
+    .map(
+      (v) =>
+        `<div class="search-result-item" data-slug="${v.slug}">
+          ${v.label}
+        </div>`
+    )
+    .join("");
 
-    if (venueData.officialConcessionsUrl) {
-      meta.textContent = "Official concessions page available";
-    } else {
-      meta.textContent = "Concessions link not added yet";
-    }
+  searchResultsEl.classList.add("visible");
+});
 
-    card.appendChild(title);
-    card.appendChild(meta);
+// Click on a search result
+searchResultsEl.addEventListener("click", (evt) => {
+  const item = evt.target.closest(".search-result-item");
+  if (!item) return;
+  const slug = item.getAttribute("data-slug");
+  const venue = venuesList.find((v) => v.slug === slug);
+  if (!venue) return;
 
-    card.onclick = () => showDetailViewConcessions(id);
+  searchInput.value = venue.displayName;
+  searchResultsEl.classList.remove("visible");
+  showVenue(slug);
+});
 
-    venueListElC.appendChild(card);
-  });
-}
+document.addEventListener("click", (evt) => {
+  if (!searchResultsEl.contains(evt.target) && evt.target !== searchInput) {
+    searchResultsEl.classList.remove("visible");
+  }
+});
 
-function showDetailViewConcessions(venueId) {
-  const venueData = concessionsData[venueId] || {};
-  const displayName = displayNameFromSlug(venueId);
+function showVenue(slug) {
+  const v = concessionsData[slug];
+  if (!v) return;
 
-  folderViewC.style.display = "none";
-  detailViewC.style.display = "block";
+  infoPanel.classList.remove("info-panel--empty");
+  infoContent.hidden = false;
+  document.querySelector(".info-empty").style.display = "none";
 
-  detailVenueNameElC.textContent = displayName;
+  const prettyName = prettifySlug(slug);
+  venueNameEl.textContent = prettyName;
+
+  const locParts = [];
+  if (v.city) locParts.push(v.city);
+  if (v.state) locParts.push(v.state);
+  venueLocationEl.textContent = locParts.join(", ");
 
   concessionsNoteEl.textContent =
-    venueData.note ||
-    "We haven’t added specific concessions notes for this venue yet.";
+    v.note ||
+    "Concessions details for this venue are not available yet. Use the official concessions page for the latest information.";
 
-  updatedBadgeElC.textContent = venueData.updated || "Updated";
-
-  if (!venueData.officialConcessionsUrl) {
-    concessionsStatusEl.textContent =
-      "We don’t have a direct concessions page linked for this venue yet. Please check your ticket or the venue website for the latest info.";
+  // Stands
+  if (Array.isArray(v.stands) && v.stands.length) {
+    standsListEl.innerHTML = v.stands
+      .map((s) => `<li>${s}</li>`)
+      .join("");
+    standsCardEl.hidden = false;
   } else {
-    concessionsStatusEl.textContent = "";
+    standsListEl.innerHTML = "";
+    standsCardEl.hidden = true;
   }
 
-  // Button behavior — NO GOOGLE FALLBACK
-  if (venueData.officialConcessionsUrl) {
-    openConcessionsPageBtn.disabled = false;
-    openConcessionsPageBtn.textContent = "View Full Concessions";
-    openConcessionsPageBtn.onclick = () => {
-      window.open(venueData.officialConcessionsUrl, "_blank");
-    };
+  // Official link
+  if (v.officialConcessionsUrl) {
+    concessionsLinkEl.href = v.officialConcessionsUrl;
+    officialCardEl.hidden = false;
   } else {
-    openConcessionsPageBtn.disabled = true;
-    openConcessionsPageBtn.textContent = "Concessions Link Coming Soon";
-    openConcessionsPageBtn.onclick = null;
+    concessionsLinkEl.href = "#";
+    officialCardEl.hidden = true;
   }
 }
-
-async function initConcessions() {
-  try {
-    const res = await fetch("/data/concessions.json");
-    concessionsData = await res.json();
-    concessionsVenueIds = Object.keys(concessionsData).sort((a, b) =>
-      displayNameFromSlug(a).localeCompare(displayNameFromSlug(b))
-    );
-    renderFolderViewConcessions();
-  } catch (err) {
-    console.error(err);
-    venueListElC.innerHTML = "";
-    const error = document.createElement("div");
-    error.className = "status-text";
-    error.textContent =
-      "We couldn't load concessions data right now. Please try again later.";
-    venueListElC.appendChild(error);
-  }
-}
-
-// Search
-if (searchInputC) {
-  searchInputC.addEventListener("input", (e) => {
-    renderFolderViewConcessions(e.target.value);
-  });
-}
-
-// Back
-if (backToListBtnC) {
-  backToListBtnC.onclick = () => {
-    renderFolderViewConcessions(searchInputC ? searchInputC.value : "");
-  };
-}
-
-initConcessions();
