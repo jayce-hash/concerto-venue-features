@@ -1,174 +1,163 @@
-// Bag Policies folder + detail view
-
-const folderView = document.getElementById("folderView");
-const detailView = document.getElementById("detailView");
+let bagData = {};
+let venuesList = [];
 
 const searchInput = document.getElementById("venueSearch");
-const venueListEl = document.getElementById("venueList");
+const searchResultsEl = document.getElementById("searchResults");
 
-const detailVenueNameEl = document.getElementById("detailVenueName");
-const updatedBadgeEl = document.getElementById("updatedBadge");
-const policyTextEl = document.getElementById("policyText");
-const allowedEl = document.getElementById("allowedChips");
-const notAllowedEl = document.getElementById("notAllowedChips");
-const statusEl = document.getElementById("status");
-const viewFullBtn = document.getElementById("viewFullPolicyBtn");
-const essentialsBtn = document.getElementById("shopEssentialsBtn");
-const backToListBtn = document.getElementById("backToListBtn");
+const infoPanel = document.getElementById("infoPanel");
+const infoContent = document.querySelector(".info-content");
+const venueNameEl = document.getElementById("venueName");
+const venueLocationEl = document.getElementById("venueLocation");
 
-let bagPolicies = {};
-let venueIds = [];
+const bagSummaryEl = document.getElementById("bagSummary");
+const allowedCardEl = document.getElementById("allowedCard");
+const allowedListEl = document.getElementById("allowedList");
+const notAllowedCardEl = document.getElementById("notAllowedCard");
+const notAllowedListEl = document.getElementById("notAllowedList");
+const extraCardEl = document.getElementById("extraCard");
+const extraTextEl = document.getElementById("extraText");
+const officialCardEl = document.getElementById("officialCard");
+const bagLinkEl = document.getElementById("bagLink");
 
-// Turn "dickies_arena" into "Dickies Arena"
-function displayNameFromSlug(slug) {
+// Fetch JSON
+fetch("/data/bag_policies.json")
+  .then((res) => res.json())
+  .then((data) => {
+    bagData = data || {};
+    venuesList = buildVenuesList(bagData);
+  })
+  .catch((err) => {
+    console.error("Error loading bag_policies.json", err);
+  });
+
+function buildVenuesList(data) {
+  const items = [];
+  for (const slug in data) {
+    const v = data[slug];
+    const nameGuess = prettifySlug(slug);
+    const city = v.city || "";
+    const state = v.state || "";
+    const label = state ? `${nameGuess} — ${city}, ${state}` : nameGuess;
+
+    items.push({ slug, label, city, state, displayName: nameGuess });
+  }
+  return items.sort((a, b) => a.displayName.localeCompare(b.displayName));
+}
+
+function prettifySlug(slug) {
+  if (!slug) return "";
   return slug
     .split("_")
-    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+    .map((p) => (p ? p.charAt(0).toUpperCase() + p.slice(1) : ""))
     .join(" ");
 }
 
-function renderFolderView(filterText = "") {
-  folderView.style.display = "block";
-  detailView.style.display = "none";
-
-  const term = filterText.trim().toLowerCase();
-  venueListEl.innerHTML = "";
-
-  const filteredIds = venueIds.filter((id) => {
-    const name = displayNameFromSlug(id).toLowerCase();
-    return !term || name.includes(term);
-  });
-
-  if (!filteredIds.length) {
-    const empty = document.createElement("div");
-    empty.className = "status-text";
-    empty.textContent = "No venues match that search yet.";
-    venueListEl.appendChild(empty);
+// Search
+searchInput.addEventListener("input", () => {
+  const q = searchInput.value.trim().toLowerCase();
+  if (!q) {
+    searchResultsEl.classList.remove("visible");
+    searchResultsEl.innerHTML = "";
     return;
   }
 
-  filteredIds.forEach((id) => {
-    const venueData = bagPolicies[id] || {};
-    const card = document.createElement("div");
-    card.className = "list-item";
-    card.style.cursor = "pointer";
+  const matches = venuesList.filter((v) =>
+    v.displayName.toLowerCase().includes(q)
+  );
 
-    const title = document.createElement("div");
-    title.className = "list-item-title";
-    title.textContent = displayNameFromSlug(id);
+  if (!matches.length) {
+    searchResultsEl.classList.remove("visible");
+    searchResultsEl.innerHTML = "";
+    return;
+  }
 
-    const meta = document.createElement("div");
-    meta.className = "list-item-meta";
+  searchResultsEl.innerHTML = matches
+    .map(
+      (v) =>
+        `<div class="search-result-item" data-slug="${v.slug}">
+          ${v.label}
+        </div>`
+    )
+    .join("");
 
-    if (venueData.fullLink) {
-      meta.textContent = "Official bag policy link available";
-    } else {
-      meta.textContent = "Full bag policy link not added yet";
-    }
+  searchResultsEl.classList.add("visible");
+});
 
-    card.appendChild(title);
-    card.appendChild(meta);
+searchResultsEl.addEventListener("click", (evt) => {
+  const item = evt.target.closest(".search-result-item");
+  if (!item) return;
+  const slug = item.getAttribute("data-slug");
+  const venue = venuesList.find((v) => v.slug === slug);
+  if (!venue) return;
 
-    card.onclick = () => showDetailView(id);
+  searchInput.value = venue.displayName;
+  searchResultsEl.classList.remove("visible");
+  showVenue(slug);
+});
 
-    venueListEl.appendChild(card);
-  });
-}
+document.addEventListener("click", (evt) => {
+  if (!searchResultsEl.contains(evt.target) && evt.target !== searchInput) {
+    searchResultsEl.classList.remove("visible");
+  }
+});
 
-function showDetailView(venueId) {
-  const venueData = bagPolicies[venueId] || {};
-  const displayName = displayNameFromSlug(venueId);
+function showVenue(slug) {
+  const v = bagData[slug];
+  if (!v) return;
 
-  folderView.style.display = "none";
-  detailView.style.display = "block";
+  infoPanel.classList.remove("info-panel--empty");
+  infoContent.hidden = false;
+  document.querySelector(".info-empty").style.display = "none";
 
-  detailVenueNameEl.textContent = displayName;
+  const prettyName = prettifySlug(slug);
+  venueNameEl.textContent = prettyName;
 
-  policyTextEl.textContent =
-    venueData.summary ||
-    "We haven’t added a summary for this venue yet. Please review the full policy once it’s available.";
+  const locParts = [];
+  if (v.city) locParts.push(v.city);
+  if (v.state) locParts.push(v.state);
+  venueLocationEl.textContent = locParts.join(", ");
 
-  updatedBadgeEl.textContent = venueData.updated || "Updated";
+  bagSummaryEl.textContent =
+    v.summary ||
+    "This venue follows a clear bag-style security policy. Check the official bag policy link for full details.";
 
-  allowedEl.innerHTML = "";
-  (venueData.allowed || []).forEach((item) => {
-    const chip = document.createElement("div");
-    chip.className = "chip";
-    chip.textContent = item;
-    allowedEl.appendChild(chip);
-  });
-
-  notAllowedEl.innerHTML = "";
-  (venueData.notAllowed || []).forEach((item) => {
-    const chip = document.createElement("div");
-    chip.className = "chip";
-    chip.textContent = item;
-    notAllowedEl.appendChild(chip);
-  });
-
-  // Status / note
-  if (venueData.note) {
-    statusEl.textContent = venueData.note;
-  } else if (!venueData.fullLink) {
-    statusEl.textContent =
-      "We don’t have a direct bag policy link for this venue yet. Please check your ticket or the venue website for the latest info.";
+  // Allowed
+  if (Array.isArray(v.allowed) && v.allowed.length) {
+    allowedListEl.innerHTML = v.allowed
+      .map((item) => `<li>${item}</li>`)
+      .join("");
+    allowedCardEl.hidden = false;
   } else {
-    statusEl.textContent = "";
+    allowedListEl.innerHTML = "";
+    allowedCardEl.hidden = true;
   }
 
-  // Button behaviors — NO GOOGLE FALLBACK
-  if (venueData.fullLink) {
-    viewFullBtn.disabled = false;
-    viewFullBtn.textContent = "View Full Policy";
-    viewFullBtn.onclick = () => {
-      window.open(venueData.fullLink, "_blank");
-    };
+  // Not allowed
+  if (Array.isArray(v.notAllowed) && v.notAllowed.length) {
+    notAllowedListEl.innerHTML = v.notAllowed
+      .map((item) => `<li>${item}</li>`)
+      .join("");
+    notAllowedCardEl.hidden = false;
   } else {
-    viewFullBtn.disabled = true;
-    viewFullBtn.textContent = "Full Policy Link Coming Soon";
-    viewFullBtn.onclick = null;
+    notAllowedListEl.innerHTML = "";
+    notAllowedCardEl.hidden = true;
   }
 
-  // Essentials Kit (your shop URL)
-  essentialsBtn.onclick = () => {
-    window.open(
-      venueData.essentialsLink || "https://yourstore.com/concerto-essentials",
-      "_blank"
-    );
-  };
-}
+  // Extra
+  if (v.note && v.note.trim().length) {
+    extraTextEl.textContent = v.note;
+    extraCardEl.hidden = false;
+  } else {
+    extraTextEl.textContent = "";
+    extraCardEl.hidden = true;
+  }
 
-async function init() {
-  try {
-    const res = await fetch("/data/bag-policies.json");
-    bagPolicies = await res.json();
-    venueIds = Object.keys(bagPolicies).sort((a, b) =>
-      displayNameFromSlug(a).localeCompare(displayNameFromSlug(b))
-    );
-    renderFolderView();
-  } catch (err) {
-    console.error(err);
-    venueListEl.innerHTML = "";
-    const error = document.createElement("div");
-    error.className = "status-text";
-    error.textContent =
-      "We couldn't load bag policy data right now. Please try again later.";
-    venueListEl.appendChild(error);
+  // Official link
+  if (v.fullLink) {
+    bagLinkEl.href = v.fullLink;
+    officialCardEl.hidden = false;
+  } else {
+    bagLinkEl.href = "#";
+    officialCardEl.hidden = true;
   }
 }
-
-// Search
-if (searchInput) {
-  searchInput.addEventListener("input", (e) => {
-    renderFolderView(e.target.value);
-  });
-}
-
-// Back
-if (backToListBtn) {
-  backToListBtn.onclick = () => {
-    renderFolderView(searchInput ? searchInput.value : "");
-  };
-}
-
-init();
