@@ -1,1460 +1,2197 @@
 {
   "acrisure_arena": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://acrisurearena.com/plan-your-trip/a-z-guide-policies/",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://acrisurearena.com/plan-your-trip/parking/",
+    "note": "Acrisure Arena offers parking for over 3,000 vehicles adjacent to the arena. Parking passes can be purchased in advance online via ParkWhiz or on-site, with no cash accepted\u2014only tap-to-pay methods like credit/debit cards, Apple Pay, or Google Wallet. Cell service and Wi-Fi are very limited in parking areas, so have your parking pass ready before arrival.",
+    "rideshare": "Lyft is the official rideshare partner with a discount code ACRISUREARENA for 50% off the first two rides; no specific pickup/dropoff zone details are provided.",
+    "lots": [],
+    "city": "Thousand Palms",
+    "state": "CA"
   },
   "acrisure_stadium": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://acrisurestadium.com/guest-services/clear-bag-policy/",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://acrisurestadium.com/stadium/parking-directions/",
+    "note": "Parking is available at the new Champions Parking Garage located between Acrisure Stadium and PNC Park, offering over 400 spaces with mobile-only parking passes that are scanned upon entry. Entry to the garage is from West General Robinson Street and North Shore Drive, and no tailgating is allowed inside. Various other pre-sold and event day parking lots are accessible with directions provided via the Waze app, and alternate routes are recommended to avoid congestion on event days.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [
+      "Champions Parking Garage",
+      "Gold 1A Lot",
+      "Gold 1B Lot",
+      "Gold 1 Garage",
+      "Gold 2 Lot",
+      "Red 5 Garage",
+      "Red 5A Lot",
+      "Red 6 Lot",
+      "Red 7A Lot",
+      "Red 7B Lot",
+      "Red 7C Lot",
+      "Red 7D Lot",
+      "Blue 10 Garage",
+      "Clark Lot",
+      "Clark East Lot",
+      "Green 21 Lot",
+      "Green 22 Lot",
+      "Green 23 Lot",
+      "Green 32 Lot",
+      "Stage AE Lot",
+      "Green 31 Lot",
+      "Green 33 Lot",
+      "Blue 7F Lot",
+      "Blue 7G Lot",
+      "Blue 7H Lot",
+      "Blue 7J Lot",
+      "CCAC Lot",
+      "North Blue Canal Lot",
+      "Nova Place Garage",
+      "Rivers Casino Garage"
+    ],
+    "city": "Pittsburgh",
+    "state": "PA"
   },
   "alamodome": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.alamodome.com/plan-your-visit/clear-bag-policy",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.alamodome.com/plan-your-visit/parking-tailgating",
+    "note": "The Alamodome offers on-site parking primarily in Lots A, B, and C, with accessible parking in Lot A. Parking rates vary by event and are cashless, accepting most major credit cards. Off-site parking options are available through ParkWhiz, and fans should check event-specific details for rates, lot availability, and hours of operation.",
+    "rideshare": "The designated drop-off and pick-up zone for rideshare, taxis, and limos is in Lot D at 500 Tower of Americas Way, except during the NCAA Men's Final Four weekend when it is unavailable.",
+    "lots": [
+      "Lot A",
+      "Lot B",
+      "Lot C",
+      "Lot D"
+    ],
+    "city": "San Antonio",
+    "state": "TX"
   },
   "albertsons_stadium": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://broncosports.com/sports/2024/8/19/fan-guide-2024",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://broncosports.com/sports/2024/8/19/fan-guide-2024",
+    "note": "No specific parking details are provided in the text for Albertsons Stadium. There is no information about on-site or off-site lots, prepaid parking, or payment methods.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [],
+    "city": "Boise",
+    "state": "ID"
   },
   "allegiant_stadium": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.allegiantstadium.com/plan-your-visit/bag-check-policy",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.allegiantstadium.com/plan-your-visit/directions-parking",
+    "note": "Parking at Allegiant Stadium is available in multiple lots operated by MGM Resorts International and must be purchased in advance via SpotHero or Park Mobile, as the stadium is cashless and does not allow re-entry once you exit a lot. Parking lots open about four hours before kickoff and close one hour after events. Fans should plan ahead, allow extra time for arrival, and note that overnight parking and re-entry are not permitted.",
+    "rideshare": "Rideshare pick-up and drop-off is located in Lot N, just north of the stadium, with additional taxi, shuttle, and general drop-off/pick-up areas west of the stadium near Diablo and Procyon.",
+    "lots": [
+      "Lot A",
+      "Lot D",
+      "Lot F",
+      "Lot N"
+    ],
+    "city": "Las Vegas",
+    "state": "NV"
   },
   "amalie_arena": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.amaliearena.com/arena-info/policies",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.amaliearena.com/plan-your-visit/parking",
+    "note": "Parking is available in multiple garages and lots near the arena, all of which accept card payments only and are first come, first served. It is recommended to purchase parking ahead of time at ParkWhiz.com for convenience. Several lots are within a short walking distance, and some offer free TECO Streetcar rides to the arena.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [
+      "Teal Lot",
+      "Foundation 2 Lot",
+      "Tampa Convention Center Garage",
+      "Pink Lot",
+      "Fort Brooke Garage",
+      "Whiting Garage",
+      "Pam Iorio Parking Garage",
+      "Foundation 1 Lot",
+      "Channelside Parking Garage",
+      "Florida Aquarium Lot",
+      "Garrison Street Lot"
+    ],
+    "city": "Tampa",
+    "state": "FL"
   },
   "amerant_bank_arena": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.amerantbankarena.com/arena-info/security-policies",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.amerantbankarena.com/plan-your-visit/directions-parking",
+    "note": "Parking at Amerant Bank Arena is available in multiple on-site lots accessible via various gates, with general parking in Lots A and D and club/valet parking in designated club lots and garages. Fans are encouraged to pre-purchase parking to save time and money, and parking fees vary by event and lot type. Follow gate and lane instructions for club parking and use designated ADA parking areas with proper placards.",
+    "rideshare": "Rideshare vehicles enter and exit through Gate 3 and Gate 2 respectively, with guest drop-off and pickup at the North Pedestrian Walkway entrance; Lyft is the official rideshare partner offering a discount code.",
+    "lots": [
+      "Lot A",
+      "Lot D",
+      "B Club Lot",
+      "C Club Lot",
+      "F Club Lot",
+      "Amerant Vault Parking",
+      "Garage",
+      "DEX VIP Parking Lot"
+    ],
+    "city": "Sunrise",
+    "state": "FL"
   },
   "american_airlines_center": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.americanairlinescenter.com/plan-your-visit/arena-faq",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.americanairlinescenter.com/parking",
+    "note": "American Airlines Center offers over 5,000 parking spaces mostly within two blocks of the venue, with additional lots to the south and east within walking distance. Lexus Garage opens at noon on event days, while other lots open two hours before and close two hours after events. Credit cards are accepted at managed lots, and prepaid parking passes can be purchased; overnight parking and in-and-out privileges are not allowed.",
+    "rideshare": "Lyft is the official rideshare partner with a promo code AACENTER for 50% off the first two rides; no specific pickup/dropoff zones are detailed.",
+    "lots": [
+      "Comerica Garage",
+      "Commons Garage",
+      "Lexus Garage",
+      "D Garage",
+      "Lot A",
+      "Lot E",
+      "Lot F",
+      "Lot K",
+      "Inspiration Lot"
+    ],
+    "city": "Dallas",
+    "state": "TX"
   },
   "american_family_field": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.mlb.com/brewers/ballpark/security",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.mlb.com/brewers/ballpark/transportation/parking",
+    "note": "American Family Field uses a License Plate Recognition system for all parking lots with no cashiers or scanners. Fans can pre-purchase advance parking passes or buy parking onsite via QR code using Apple Pay, Google Pay, or credit card. Parking lots typically open three hours before first pitch, or 2.5 hours before for Monday-Thursday games starting at 6:15 or 6:40 p.m.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [],
+    "city": "Milwaukee",
+    "state": "WI"
   },
   "angel_stadium": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.mlb.com/angels/ballpark/security",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.mlb.com/angels/ballpark/transportation/directions",
+    "note": "Angel Stadium parking is accessible via three entrances: Douglass Road, State College Boulevard, and Orangewood Avenue, with lots opening two and a half hours before the first pitch. General parking costs $20 in-person or $22 online, preferred parking is $30 in-person or $32 online, and oversized vehicle/bus parking is $100 in-person. Payment is cashless, accepting debit/credit cards and Apple/Android Pay; prepaid parking ticket holders should use the Express Entry Lane on Orangewood Avenue.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [
+      "Lexus Lot"
+    ],
+    "city": "Anaheim",
+    "state": "CA"
   },
-  "at_t_stadium": {
+  "att_stadium": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://attstadium.com/stadium-info/bags/",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://attstadium.com/stadium-info/parking/#",
+    "note": "AT&T Stadium offers approximately 12,000 parking spaces across 15 numbered lots on-site, plus nearly 12,000 additional spaces in lettered lots near the Texas Rangers Ballpark. Parking areas open about five hours before Cowboys games, and parking passes must be purchased in advance for designated lots. Guests must park only in their assigned lots, follow attendants' directions, and note that no items may be left around vehicles except in designated tailgating areas.",
+    "rideshare": "Rideshare pickup and drop-off for this season is located in Lot 15, with taxis staged at the Miller LiteHouse area off North Collins Street and Cowboys Way for pre-event drop-off and post-event pick-up.",
+    "lots": [
+      "Lot 1",
+      "Lot 6",
+      "Lot 14",
+      "Lot 15",
+      "Silver Lot 14"
+    ],
+    "city": "Arlington",
+    "state": "TX"
   },
   "bok_center": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.bokcenter.com/plan-your-visit/bag-policy",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.bokcenter.com/plan-your-visit/directions-parking",
+    "note": "Parking at BOK Center can be purchased in advance for all events through the partner ParkWhiz. Fans are encouraged to arrive early and consider sustainable transportation options. Detailed directions to the venue are available to assist with navigation.",
+    "rideshare": "All rideshare pick-ups and drop-offs occur at the designated Rideshare Zone on 1st Street, between Denver and Cheyenne, with signage on-site to guide riders.",
+    "lots": [],
+    "city": "Tulsa",
+    "state": "OK"
   },
   "ball_arena": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.ballarena.com/arena-information/arena-policies-faq/",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.ballarena.com/plan-your-visit/parking-directions/",
+    "note": "Ball Arena offers multiple on-site parking lots that open 3 hours prior to events, with credit/debit cards accepted at all lots except the Tundra lot which also accepts cash with a discount for card payments. Fans can purchase parking in advance via Ticketmaster or Laz Parking for daily and monthly options. Accessible parking is available on a first-come, first-served basis with required state-issued permits.",
+    "rideshare": "Rideshare, taxi, and limo pick-up and drop-off are located at the Ball Arena Rideshare lot at 5th and Walnut Streets in the 4Runner West parking lot, with ADA accessible pick-up/drop-off at the roundabout on 9th Street.",
+    "lots": [
+      "Toyota Camry Lot",
+      "Toyota Corolla Lot",
+      "Toyota 4Runner Lot",
+      "Toyota Tacoma Lot",
+      "Toyota Tundra Lot",
+      "Elitch's Lot",
+      "Toyota RAV4 Lot",
+      "TRD-Pro Lot"
+    ],
+    "city": "Denver",
+    "state": "CO"
   },
   "bank_of_america_stadium": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.panthers.com/stadium/clear-bag",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.panthers.com/stadium/parking-directions",
+    "note": "There are over 30,000 parking spaces within a 10-15 minute walk of Bank of America Stadium, with parking operators leasing spaces on a match-by-match or seasonal basis. Fans with assigned parking will receive digital parking passes via email before the season starts, while others must arrange their own parking. It is recommended to plan ahead due to frequent road closures in Uptown on gamedays, and prepaid parking can be secured in advance through the SpotHero app.",
+    "rideshare": "Fans are advised to use rideshare pickup and drop-off at the corner of Third and Church Streets, next to Romare Bearden Park.",
+    "lots": [],
+    "city": "Charlotte",
+    "state": "NC"
   },
   "barclays_center": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.barclayscenter.com/bags-backpacks-large-bags-suit-cases",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.barclayscenter.com/getting-here/parking",
+    "note": "Parking at Barclays Center is available through SpotHero, the official partner app that allows fans to book convenient and affordable parking in advance. There is no mention of on-site or off-site lots, but prepaid reservations are encouraged for ease and cashless payment.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [],
+    "city": "Brooklyn",
+    "state": "NY"
   },
   "bethel_woods_center_for_the_arts": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.bethelwoodscenter.org/visit/visit-faqs/code-of-conduct",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.bethelwoodscenter.org/visit/directions-parking",
+    "note": "Parking at Bethel Woods Center for the Arts is free in the Healey Brothers general parking lot, which is secure and well-lit. Motorcycle parking is available adjacent to the Transportation Assistance Depot. There is no mention of prepaid parking or cashless payment options.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [
+      "Healey Brothers Parking Lot",
+      "Motorcycle Parking Lot"
+    ],
+    "city": "Bethel",
+    "state": "NY"
   },
   "broadview_stage_at_spac": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://spac.org/saratoga-performing-arts-center/about/our-partners/live-nation/",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://spac.org/saratoga-performing-arts-center/your-visit/getting-here/",
+    "note": "The main parking for Saratoga Performing Arts Center is located in the Route 50 East Lot (Main Parking Lot) at 398 Ballston Avenue, Saratoga Springs, NY. Parking is on-site, clearly marked, and accessible via Avenue of the Pines inside Saratoga Spa State Park. Visitors should follow signs to the main lot and box office; no mention of prepaid or cashless payment is provided.",
+    "rideshare": "A designated rideshare drop off and pick up location is in the Route 50 East Lot (Main Parking Lot), with clear signage directing drivers to the curbside area; Uber and Lyft services are available throughout the Capital Region.",
+    "lots": [
+      "Route 50 East Lot (Main Parking Lot)"
+    ],
+    "city": "Saratoga Springs",
+    "state": "NY"
   },
   "bridgestone_arena": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.bridgestonearena.com/plan-your-visit/bag-policy",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.bridgestonearena.com/directions-parking",
+    "note": "Parking for Bridgestone Arena is available at multiple nearby garages and lots operated by Metropolis, with options to purchase parking upon entry or in advance online for select locations. On-site parking is available at the Bridgestone Arena garage, and several off-site garages are within walking distance. Complimentary parking with shuttle service is offered at Nissan Stadium Lot R for home games without conflicts.",
+    "rideshare": "Lyft is the official rideshare partner with a discount code available for first-time users; no specific pickup/dropoff zones are detailed.",
+    "lots": [
+      "Fifth + Broadway Garage",
+      "222 2nd Ave Garage",
+      "Nashville Yards Garages",
+      "Bridgestone Arena Parking",
+      "Pinnacle at Symphony Place Garage",
+      "First Baptist Church of Nashville Parking",
+      "Fifth Ave. of the Arts Garage",
+      "Music City Center Parking",
+      "Nissan Stadium Parking Lot R"
+    ],
+    "city": "Nashville",
+    "state": "TN"
   },
   "busch_stadium": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.mlb.com/cardinals/ballpark/security",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.mlb.com/cardinals/tickets/parking",
+    "note": "Fans can purchase individual game day parking passes digitally via the MLB Ballpark app. Parking is available at the All-Star Lot, located directly across from Gate 2 on the southwest side of Busch Stadium, and the One Cardinal Way Garage at Ballpark Village, which opens 3 hours before game time. Cash is not accepted on the day of the event, and passes can be bought as part of ticket purchases or separately online.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [
+      "All-Star Lot",
+      "One Cardinal Way Garage",
+      "Lot A",
+      "Lot B",
+      "Lot C",
+      "Starr Lot"
+    ],
+    "city": "St. Louis",
+    "state": "MO"
   },
   "cfg_bank_arena": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://cfgbankarena.com/a-z-guide/",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://cfgbankarena.com/plan-your-trip/",
+    "note": "Several parking options are available within proximity to CFG Bank Arena, with the ability to pre-purchase parking spaces at various downtown lots and garages to make arrival easier. No mention of on-site parking or cashless payment specifics was provided. Directions to the arena from multiple regions are detailed for drivers.",
+    "rideshare": "Lyft is the official rideshare partner of CFG Bank Arena, offering a discount code for first-time users; no specific pickup/dropoff zone details are provided.",
+    "lots": [],
+    "city": "Baltimore",
+    "state": "MD"
   },
   "chi_health_center": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://chihealthcenteromaha.com/arena/arena-clear-bag-policy/",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://chihealthcenteromaha.com/plan-your-visit/directions-and-parking/",
+    "note": "Parking at CHI Health Center Omaha includes surface parking for $10, garage parking when available for $15, and bus, RV, and trailer parking for $25 with additional fees as needed. Accepted payments include cash, Visa, MasterCard, Discover, and American Express. Note that in/out parking is not permitted.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [],
+    "city": "Omaha",
+    "state": "NE"
   },
   "caesars_superdome": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.caesarssuperdome.com/plan-your-visit/event-day-safety-security",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.caesarssuperdome.com/plan-your-visit/directions-parking",
+    "note": "The Caesars Superdome offers seven parking garages and two surface lots adjacent to the venue and the Smoothie King Center. Parking garages accept credit or debit cards only, and there is an option for pre-purchasing event parking. The garages and lots are managed by Legends Global and include both short-term and long-term monthly contract parking options.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [
+      "#1",
+      "#1A",
+      "#2",
+      "#2A",
+      "#5",
+      "#6",
+      "Champions Garage",
+      "Lot 3",
+      "Lot 4"
+    ],
+    "city": "New Orleans",
+    "state": "LA"
   },
   "camp_randall_stadium": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://uwbadgers.com/sports/2017/7/14/football-bag-policy-faqs.aspx",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://transportation.wisc.edu/event-parking/",
+    "note": "We haven't added detailed parking notes yet. Use the official parking map for the most accurate information on lots, garages, and access routes.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [],
+    "city": "Madison",
+    "state": "WI"
   },
   "camping_world_stadium": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.campingworldstadium.com/plan-your-visit/a-to-z",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.campingworldstadium.com/plan-your-visit/directions-parking",
+    "note": "Camping World Stadium offers multiple parking lots surrounding the venue, with Lot A and Lot B being primary options accessible via various routes. Parking locations may change depending on the event, so attendees should check the specific event page for designated parking and shuttle availability. A free stadium shuttle service is available for some events, providing convenient transport between downtown Orlando and the stadium.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [
+      "Lot A",
+      "Lot B",
+      "Lot C"
+    ],
+    "city": "Orlando",
+    "state": "FL"
   },
   "capital_one_arena": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.capitalonearena.com/arena-policies",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.capitalonearena.com/directions-parking",
+    "note": "Capital One Arena offers parking in its Arena Garage and nearby lots and garages within walking distance. Fans can reserve guaranteed parking spots in advance through SpotHero, which provides prepaid, cashless parking passes that can be printed or redeemed via mobile phone. This reservation system offers rates up to 50% off drive-up prices and ensures guaranteed entry to the selected location.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [],
+    "city": "Washington",
+    "state": "DC"
   },
   "chaifetz_arena": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.chaifetzarena.com/plan-your-visit/clear-bag-policy",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.chaifetzarena.com/plan-your-visit/parking",
+    "note": "Parking at Chaifetz Arena includes a variety of covered and uncovered options such as the Olive/Compton Garage, Laclede Garage, and the Fred Weber VIP Lot. Not all garages are open for every event and parking is subject to availability upon arrival. All garage parking is cashless and accepts only major credit/debit cards.",
+    "rideshare": "The designated rideshare drop-off and pick-up location is at 3402 Laclede Ave, St. Louis, MO 63013.",
+    "lots": [
+      "Olive/Compton Garage",
+      "Laclede Garage",
+      "Fred Weber VIP Lot"
+    ],
+    "city": "St. Louis",
+    "state": "MO"
   },
   "chase_center": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://chasecenter.com/fan-safety-bag-policy/",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.chasecenter.com/plan-your-visit/transportation/parking/",
+    "note": "Parking at Chase Center is available in several on-site garages and lots. Prepaid parking is recommended as it ensures a guaranteed spot and faster entry. The venue uses cashless payment systems for convenience and safety.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [
+      "Yellow Lot",
+      "Blue Lot",
+      "Green Lot",
+      "East Garage",
+      "West Garage"
+    ],
+    "city": "San Francisco",
+    "state": "CA"
   },
   "chase_field": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.mlb.com/dbacks/ballpark/information/bag-policy",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.mlb.com/dbacks/ballpark/transportation/parking",
+    "note": "Fans can pre-book parking spots near Chase Field through the preferred partner ParkWhiz to secure convenient parking before arriving. The parking options are off-site and can be reserved in advance online, facilitating a smoother arrival experience. No specific mention of on-site lots, cashless payment, or other standout instructions are provided.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [],
+    "city": "Phoenix",
+    "state": "AZ"
   },
   "citi_field": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.mlb.com/mets/ballpark/information/bag-policy",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.mlb.com/mets/ballpark/transportation/driving-parking",
+    "note": "Fans can park in five on-site lots within Citi Field\u2019s fence line and five additional off-site lots that accommodate general parking, with shuttle service available from some off-site locations. Early bird discounted off-site parking is available at the Skyview Mall garage, a 10-minute walk from the stadium, and pre-booking is encouraged via NYMetsParking.com. All parking lots open one hour before stadium gates, are cashless (credit/debit cards, Mets Gift Cards, Apple Pay, Google Pay), and cash payers can temporarily park free in Lot G to use a reverse ATM for card payment.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [
+      "Lot B",
+      "Lot C",
+      "Lot D",
+      "Lot E",
+      "Lot F",
+      "Southfield/Commuter Lot",
+      "Stadium View East",
+      "Stadium View West",
+      "Marina East",
+      "Flushing Meadows-Corona Park",
+      "Skyview Mall Garage",
+      "Lot G"
+    ],
+    "city": "Queens",
+    "state": "NY"
   },
   "citizens_bank_park": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.mlb.com/phillies/ballpark/information/health-safety-protocols",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.mlb.com/phillies/ballpark/transportation/parking",
+    "note": "There are multiple parking lots surrounding Citizens Bank Park, and fans are advised to arrive early and park in the first available lot. Parking costs $25 per car, with oversized vehicles charged $50. Pre-paid and preferred parking passes grant access to designated lots, but there are no assigned spots within the lots. Tailgating is permitted only in specific lots and lots open either three or five hours before the event depending on tailgating rules.",
+    "rideshare": "Lot T is designated as the Uber RideShare lot for all events, serving as the only dropoff and pickup location with an Uber-branded lounge, and drivers must be actively accepting trips to enter or remain in the zone.",
+    "lots": [
+      "Lot A",
+      "Lot B",
+      "Lot C",
+      "Lot D",
+      "Lot E",
+      "Lot F",
+      "Lot G",
+      "Lot H",
+      "Lot M",
+      "Lot N",
+      "Lot O",
+      "Lot R",
+      "Lot T",
+      "Lot V"
+    ],
+    "city": "Philadelphia",
+    "state": "PA"
   },
   "climate_pledge_arena": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.climatepledgearena.com/arena-guide/",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.climatepledgearena.com/transportation/",
+    "note": "Parking for events is available at three convenient garages: Arena Garage, 1st Ave N Garage, and 5th Ave Garage, with ADA parking closest in the Arena and 1st Ave N Garages. Pre-purchase parking is recommended via provided links or the Kraken + CPA Mobile App, which also offers additional area parking options. Rates start at $7 per hour plus tax, and EV charging stations are available in the Arena Garage.",
+    "rideshare": "Lyft is the official rideshare partner with designated drop-off zones before events and a 30-minute post-event pickup restriction near the arena, with passengers directed to a specific pickup location east of the arena during that time.",
+    "lots": [
+      "Arena Garage",
+      "1st Ave N Garage",
+      "5th Ave Garage"
+    ],
+    "city": "Seattle",
+    "state": "WA"
   },
   "colonial_life_arena": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.coloniallifearena.com/plan-your-visit/clear-bag",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.coloniallifearena.com/directions-parking",
+    "note": "There are many parking options around the Colonial Life Arena throughout USC, City, and The Vista areas. Parking lots and garages are owned and operated by various entities, so prices and payment methods vary and can change without notice. Handicap parking is available in most lots with proper state-issued permits, and disabled patrons can be dropped off at the arena front before parking elsewhere.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [],
+    "city": "Columbia",
+    "state": "SC"
   },
   "comerica_park": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.mlb.com/tigers/ballpark/security",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.mlb.com/tigers/ballpark/transportation/parking",
+    "note": "Fans can pre-book parking spots near Comerica Park through the preferred partner ParkWhiz for convenience. All lots owned by Olympia Development in The District Detroit are modernized, paved, secure, and accept credit card payments. General parking is first come, first served starting two hours before game time, with no tailgating or in-and-out privileges allowed. Reserved parking is available for season ticketholders and suite holders by contacting Olympia Development Parking Services.",
+    "rideshare": "The designated drop off/pick up area for shuttles, including private rental vans and mini buses, is on Clifford between Elizabeth and Columbia and Fisher Freeway; no staging or parking is permitted in this zone.",
+    "lots": [
+      "Lot 4",
+      "61 E. Elizabeth",
+      "D Garage"
+    ],
+    "city": "Detroit",
+    "state": "MI"
   },
   "commonwealth_stadium": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.edmonton.ca/attractions_events/commonwealth_stadium/safety-security",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.edmonton.ca/attractions_events/commonwealth_stadium/getting-here",
+    "note": "There are four parking lots (A, B, C, and D) with approximately 750 spots, but no public parking is available on-site during CFL games and major events. Public transportation is highly recommended. Parking is available at the Edmonton Expo Centre for $16, or $10 for Edmonton Elks Season Ticket Holders on game days.",
+    "rideshare": "The curb lane on 112 Avenue eastbound from 95 Street to Stadium Road is a dedicated drop-off and pick-up location for the general public and rideshare.",
+    "lots": [
+      "Lot A",
+      "Lot B",
+      "Lot C",
+      "Lot D"
+    ],
+    "city": "Edmonton",
+    "state": "AB"
   },
   "coors_field": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.mlb.com/rockies/ballpark/security",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.mlb.com/rockies/tickets/parking",
+    "note": "Advance individual game parking passes for Coors Field are available starting at $18 Monday-Thursday and $23 Friday-Sunday, purchasable online, at the ticket office, Dugout Stores, by phone, or on gameday at Lot A or B if available. Parking lots open 2\u00bd hours before game time and accept only credit cards at entrance; day-of-game passes are available for Lot B if advance passes sell out. Motorcycle parking is available in Lot B, and shuttle service drops off at Gate A.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [
+      "Lot A",
+      "Lot B"
+    ],
+    "city": "Denver",
+    "state": "CO"
   },
   "credit_union_1_amphitheatre": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.creditunion1amp.com/visit",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.creditunion1amp.com/visit",
+    "note": "Parking at Credit Union 1 Amphitheatre requires purchasing a parking pass in advance. Parking lots typically open one hour before gates open, and fans should check the venue's social media for official times. No mention of cashless payment or off-site parking options was provided.",
+    "rideshare": "The venue encourages booking rides with Uber Reserve to ensure reliable pickup and dropoff during crowded events.",
+    "lots": [],
+    "city": "Tinley Park",
+    "state": "IL"
   },
-  "crypto_com_arena": {
+  "cryptocom_arena": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.cryptoarena.com/general-info-faq",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.cryptoarena.com/getting-here",
+    "note": "Crypto.com Arena offers 3,300 parking spaces in arena-owned lots and over 10,000 additional spaces within a 7-10 minute walk in privately operated lots. Parking is first come, first served with no overnight or in-and-out privileges. Event parking rates vary by lot, with some lots opening hours before events; oversized vehicles require advance arrangements. Electric vehicle charging and motorcycle parking are available for a fee.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [
+      "West Garage (Lot W)",
+      "East Garage (Lot E)",
+      "Lot 1",
+      "Lot C"
+    ],
+    "city": "Los Angeles",
+    "state": "CA"
   },
   "daikin_park": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.mlb.com/astros/ballpark/information/guide#p-content",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.mlb.com/astros/ballpark/parking",
+    "note": "Daikin Park parking is available in numerous downtown Houston garages and surface lots within walking distance, with nearly 25,000 spaces nearby. Fans are advised to park in the area where they enter Downtown and exit in the same direction for a smooth experience. It is recommended to book parking in advance through the SpotHero app, as prepaid reservations are available and parking purchased via SpotHero is not shown on the official map.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [],
+    "city": "Houston",
+    "state": "TX"
   },
   "delta_center": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.deltacenter.com/arena-policies-faq/",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.deltacenter.com/parking/",
+    "note": "Parking at the Delta Center includes multiple uncovered and covered lots nearby, with options for game-by-game parking passes available through ParkWhiz. Some lots offer free or discounted parking, such as City Creek Mall with the first 2 hours free, and Crown Burger providing parking passes with a $35 purchase on game nights. Fans can enter the arena through various doors depending on the lot, and free UTA TRAX rides are available within the Free Fare Downtown Zone until midnight.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [
+      "Park Place",
+      "Japanese Church of Christ",
+      "The Gateway Mall",
+      "The Triad Center",
+      "City Creek Mall",
+      "Hyatt House",
+      "Crown Burger",
+      "West High"
+    ],
+    "city": "Salt Lake City",
+    "state": "UT"
   },
   "desert_diamond_arena": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.desertdiamondarena.com/venue-info/bag-policy/",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.desertdiamondarena.com/venue-info/parking/",
+    "note": "Parking at Desert Diamond Arena is available in multiple on-site lots opening one hour before event doors. Pre-paid parking offers expedited entry and exit, guaranteed spots near the arena until 30 minutes after event start, and must be purchased up to one hour before the event. Payment at lots is cashless, accepting only credit or debit cards.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [
+      "Lot G",
+      "Lot J",
+      "Lot L",
+      "Yellow Lot",
+      "Garage",
+      "South VIP",
+      "East VIP",
+      "West VIP"
+    ],
+    "city": "Glendale",
+    "state": "AZ"
   },
   "dickies_arena": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://dickiesarena.com/fa-content/uploads/2022/02/BagPolicyFlyer_0419_v3.pdf",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://dickiesarena.com/directions-and-parking/",
+    "note": "Dickies Arena offers ample on-site parking including the Yellow Lots and the 2,200-space Chevrolet Parking Garage. Parking lots open 3\u00bd hours before showtime, with general prepaid parking available in both the Yellow Lots and Chevrolet Garage, and preferred/reserved parking in the Chevrolet Garage. Guests can pay with cash or credit card at any parking lot, and the cost varies depending on the event.",
+    "rideshare": "Ride share drop-off is at the west entrance on Dickies Way, and pickup is on Harley Avenue at the north end of the building; guests should exit to Harley Avenue and wait there for their driver.",
+    "lots": [
+      "Yellow Lots",
+      "Chevrolet Parking Garage",
+      "Montgomery Lot"
+    ],
+    "city": "Fort Worth",
+    "state": "TX"
   },
   "dodger_stadium": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.mlb.com/dodgers/ballpark/information/guide#",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.mlb.com/dodgers/ballpark/transportation/general-parking",
+    "note": "Fans can use General Admission Parking which may direct them to various lots depending on arrival time and traffic, or purchase Preferred Parking for specific areas. Parking gates open 2.5 hours before game time, and prepaid parking is encouraged to improve safety and traffic flow. Tailgating and alcohol consumption in parking lots are strictly prohibited, and disabled parking is available in designated lots with a limited ADA shuttle service.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [
+      "Lots 2",
+      "Lots 3",
+      "Lots 4",
+      "Lots 5",
+      "Lots 6",
+      "Lots 7",
+      "Lots 8",
+      "Lots 10",
+      "Lots 11",
+      "Lots 12",
+      "Lots 15",
+      "Lots B",
+      "Lots D",
+      "Lots F",
+      "Lots G",
+      "Lots K",
+      "Lots L",
+      "Lots N",
+      "Lots P"
+    ],
+    "city": "Los Angeles",
+    "state": "CA"
   },
   "dolby_live": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://parkmgm.mgmresorts.com/en/entertainment/dolby-live.html",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://mgmresorts.parkmobile.io/dolby-live",
+    "note": "The Dolby Live venue is located at 3770 S Las Vegas Blvd, Las Vegas, NV. Parking details are managed through ParkMobile, indicating a likely cashless, prepaid parking system. No specific on-site or off-site lot information is provided in the text.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [],
+    "city": "Las Vegas",
+    "state": "NV"
   },
   "dos_equis_pavilion": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.dosequispavilion.com/know-before-you-go",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.dosequispavilion.com/know-before-you-go",
+    "note": "Parking at Dos Equis Pavilion requires purchasing one parking pass per vehicle, starting at $20 for General Parking when bought online before the event day. Parking lots typically open about an hour before gate time, and the venue is cash-free, so all payments must be made by card or via a cash-to-card exchange at the merchandise booth. For easier entry and exit, Ultra VIP and VIP Parking options are available with added benefits like Fast Lane access.",
+    "rideshare": "Drop-off and pick-up areas are located on the west side of the venue through Gate 6 off Robert B. Collum Blvd; inform parking staff when dropping off, and arrive 45 minutes before show end for pickup to avoid long waits.",
+    "lots": [],
+    "city": "Dallas",
+    "state": "TX"
   },
   "empower_federal_credit_union_amphitheater": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.asmsyracuse.com/p/amphitheater/guest-services/clear-bag-policy",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.asmsyracuse.com/p/amphitheater/guest-services/directions--parking",
+    "note": "Parking is located in the Orange Lot on a first-come, first-served basis with no reserving or early arrival exceptions. Premier Parking is available near the main entrance in the west end of the Orange Lot and must be purchased in advance online or at the box office, with hangtags required for lot access. Only credit cards and mobile payments are accepted; cash is not accepted onsite.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [
+      "Orange Lot",
+      "Premier Parking"
+    ],
+    "city": "Syracuse",
+    "state": "NY"
   },
   "empower_field": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.empowerfieldatmilehigh.com/clear-bag-policy-1",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.empowerfieldatmilehigh.com/directions-and-parking",
+    "note": "On-site stadium parking permits for the 2025 season are sold out, so fans should review alternative parking options including offsite lots. Tailgating is allowed with one permit per vehicle space, and there is no re-entry once a permit is scanned. ADA parking permits can be purchased on event day on a first-come, first-served basis in designated ADA lots, with all parking being cashless.",
+    "rideshare": "Drop-off and pickup locations for rideshare and taxi services are in different areas; fans should consult the venue map for exact locations.",
+    "lots": [
+      "Lot L",
+      "Lot D",
+      "Lot G"
+    ],
+    "city": "Denver",
+    "state": "CO"
   },
   "enterprise_center": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.enterprisecenter.com/guest-services/arena-a-z-guide",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.enterprisecenter.com/plan-your-visit/parking",
+    "note": "Approximately 6,500 parking spaces are available within 1,800 feet of Enterprise Center, including a 1,270-car garage immediately adjacent to the building. Many nearby garages and surface lots offer affordable and convenient access, with Enterprise Center Parking signs directing guests. SpotHero is the official parking partner, allowing fans to reserve parking ahead of time.",
+    "rideshare": "Guests being dropped off or picked up should use Market or Clark streets, as 14th Street is closed during events for safety.",
+    "lots": [
+      "7th Street Garage",
+      "10th & Pine Garage",
+      "Central Downtown Garage",
+      "Citi Park",
+      "Cupples Station Garage",
+      "Justice Center Garage",
+      "Kiel Center Garage",
+      "Kiener East Garage",
+      "Kiener West Garage",
+      "Laclede's Landing Lot",
+      "Mansion House Garage",
+      "Ninth Street Garage",
+      "Park Pacific Parking Garage",
+      "Quik Park Garage",
+      "St. Louis Center East",
+      "St. Louis Convention Center Hotel Garage",
+      "Stadium East Garage",
+      "Stadium West Garage",
+      "360 S. 18th Street Lot",
+      "Union Station South Lot",
+      "409 S 15th Street Lot",
+      "1303 Spruce Street Lot",
+      "OYO City Center Hotel",
+      "415 S. 11th Street Lot",
+      "11th and Clark Lot",
+      "10th and Spruce Lot",
+      "City Block 426",
+      "Parkside Garage and Lot",
+      "1215 Olive Lot",
+      "Tucker and St. Charles Lot"
+    ],
+    "city": "St. Louis",
+    "state": "MO"
   },
   "everbank_stadium": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://everbankstadium.com/purse-bag-policy",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.jaguars.com/stadium/parking",
+    "note": "Jaguars ticket holders can access parking passes via the official Jacksonville Jaguars App, with lots opening four hours before kickoff and closing two hours after the game. While prepaid parking passes for EverBank Stadium lots are sold out for the 2025 season, various cash lots are available on game day within walking distance. Vehicles must park only in their designated lots to avoid towing, and passes are scanned for entry.",
+    "rideshare": "Rideshare pickup is located post-game on Beaver Street near Lot Z, with guests advised to exit on the West side of the stadium for easiest access and to follow pink RIDESHARE signage throughout the parking lots.",
+    "lots": [
+      "Lot A",
+      "Lot C",
+      "Lot D",
+      "Lot E",
+      "Lot J",
+      "Lot M",
+      "Lot N",
+      "Lot P",
+      "Lot S",
+      "Lot TT",
+      "Lot V",
+      "Lot Z",
+      "Met Park",
+      "Sports Complex Garage",
+      "Arena Garage",
+      "Old Cypress Parking"
+    ],
+    "city": "Jacksonville",
+    "state": "FL"
   },
   "fedex_forum": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://fedexforum.com/arena-policy-updates",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://fedexforum.com/plan-your-visit/parking",
+    "note": "FedExForum offers 1,500 parking spaces in the attached five-level FedExForum Gossett Motors Parking Garage with two entrances on Dr. M.L. King Jr. Avenue. Parking is sold seasonally for Memphis Grizzlies and Tigers games and is first-come, first-served for other events, with rates varying by event type. Guests are encouraged to carpool and allow extra time due to potential traffic and construction delays.",
+    "rideshare": "Guest, limo, taxi, and express shuttle bus drop off is located at the east end of the arena on Fourth Street between Beale and Dr. M.L. King Jr. Avenue; vehicles may not park or wait in this area.",
+    "lots": [
+      "FedExForum Gossett Motors Parking Garage"
+    ],
+    "city": "Memphis",
+    "state": "TN"
   },
   "fenway_park": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.mlb.com/redsox/ballpark/information/security",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.mlb.com/redsox/ballpark/transportation/parking",
+    "note": "The Boston Red Sox strongly encourage fans to use public transportation to Fenway Park. If driving, fans should park in lots or garages corresponding to their route of approach to reduce traffic, and pre-book parking in advance through SpotHero for convenience and affordability. Parking in the Fenway/Kenmore Residential Parking District without a valid sticker will result in a $100 fine.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [
+      "Brookline Lot",
+      "Public Parking",
+      "Beacon Street/Maitland Parking",
+      "Fenway Center Bower Garage",
+      "Landmark",
+      "Target",
+      "Fenway Triangle Trilogy",
+      "Deaconess Garage",
+      "Queensberry Garage",
+      "Museum of Fine Arts",
+      "Van Ness Street Parking",
+      "Van Ness/Jersey Street Lot",
+      "Tasty Burger",
+      "1330 Boylston Street Garage",
+      "1284 Boylston Lot",
+      "Ipswich Garage",
+      "Boston Conservatory",
+      "Commonwealth Hotel",
+      "Somerset Garage"
+    ],
+    "city": "Boston",
+    "state": "MA"
   },
   "fiserv_forum": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.fiservforum.com/plan-your-visit/a-z-guide",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.fiservforum.com/plan-your-visit/directions-parking",
+    "note": "Parking for Fiserv Forum is available in nearby parking structures including the 5th Street Parking Structure and Highland Structure, with options to reserve spots in advance via SpotHero for discounted rates. Limited metered street parking is also available, and tailgating is not permitted in any adjacent parking areas or Deer District property. Bicycle parking is free and available at designated locations near the arena.",
+    "rideshare": "Lyft is the official rideshare partner with pickup and drop-off located on Juneau Avenue.",
+    "lots": [
+      "5th Street Parking Structure",
+      "Highland Structure",
+      "Isaac's Garage",
+      "Brewery Structure"
+    ],
+    "city": "Milwaukee",
+    "state": "WI"
   },
   "food_city_center": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://utsports.com/sports/2023/11/28/thompson-boling-arena-at-food-city-center.aspx",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://parking.utk.edu/parking/special-events/non-athletic/",
+    "note": "Parking for concerts and special events at Food City Center is available on-site around Thompson-Boling Arena for $20, with some events offering advance purchase premium parking. A reduced rate of $10 is available on the Ag Campus lots with accessible shuttle service starting about 90 minutes before the event. To avoid traffic backups, enter campus via Joe Johnson Drive.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [
+      "Neyland Stadium Garage",
+      "Andy Holt Tower Garage",
+      "Top-level @ Andy Holt Tower",
+      "Lot next to Art & Architecture Circle Park",
+      "Off Circle Park near Old Speech and Hearing",
+      "Student Union across from Neyland Stadium",
+      "McClung Tower garage",
+      "Staff lot across from Wayne Basler Boathouse",
+      "Volunteer Blvd Garage at Pat Head Summitt St",
+      "Ag Campus CC1",
+      "Ag Campus CC4",
+      "Ag Campus S65/66"
+    ],
+    "city": "Knoxville",
+    "state": "TN"
   },
   "ford_field": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.fordfield.com/plan-your-visit/bag-policy",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.fordfield.com/plan-your-visit/parking",
+    "note": "Parking facilities adjacent to Ford Field and Comerica Park are available on a first come, first serve basis starting about four hours prior to kickoff. Reserving spaces is not allowed, tailgating and re-entry are prohibited, and all parking is ADA compliant with designated disabled parking areas. Additional disabled parking is available in Lot 4 and the Ford Field Parking Deck for guests with proper permits.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [
+      "Lot 4",
+      "Ford Field Parking Deck"
+    ],
+    "city": "Detroit",
+    "state": "MI"
   },
   "freedom_mortgage_pavilion": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.freedommortgagepavilion.com/visit",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.freedommortgagepavilion.com/visit",
+    "note": "Parking is available at lots surrounding the waterfront with varying prices. For easier entry and exit, Premier Parking or VIP Parking is recommended. Payment is credit card only, and accessible parking is available near the venue with a required placard.",
+    "rideshare": "Uber and Lyft drop-off points are located at Wiggins Circle (end of Martin Luther King Boulevard) and the corner of Clinton and 3rd Street, both a short half-block walk to the venue.",
+    "lots": [
+      "Lot 1"
+    ],
+    "city": "Camden",
+    "state": "NJ"
   },
   "frost_bank_center": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://go.frostbankcenter.com/bag-policy-security-screening",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.frostbankcenter.com/plan-your-visit/parking-info",
+    "note": "Fans can purchase parking tickets in advance for the Frost Bank Center located at 1 Frost Bank Center Drive, San Antonio, TX. Multiple parking lots are available on-site with designated entry and exit routes. It is recommended to use the arena doors closest to Section 125 for pickup and rideshare services.",
+    "rideshare": "Fans arriving by drop-off may use any parking lot gate, and for pickup, they should meet their driver at the designated Passenger & Rideshare Pick-up Zone in Lot 5 near Section 125.",
+    "lots": [
+      "Lot 1",
+      "Lot 2",
+      "Lot 3",
+      "Lot 4",
+      "Lot 5"
+    ],
+    "city": "San Antonio",
+    "state": "TX"
   },
   "geha_field_at_arrowhead_stadium": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.chiefs.com/stadium/clearbag",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.chiefs.com/stadium/parking/directionsandmaps",
+    "note": "Parking at GEHA Field at Arrowhead Stadium is managed with a counter-clockwise traffic flow where the tollgate entered and type of parking pass determine the parking lot assigned. Parking staff direct traffic based on availability, and some lots may not always be accessible. Fans can use an interactive 3D stadium map to plan their parking and trip in advance.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [],
+    "city": "Kansas City",
+    "state": "MO"
   },
   "gainbridge_fieldhouse": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.gainbridgefieldhouse.com/plan-your-visit/what-to-know-before-you-go",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.gainbridgefieldhouse.com/plan-your-visit/directions-parking",
+    "note": "There are several parking options throughout downtown Indianapolis within walking distance to Gainbridge Fieldhouse. The closest covered parking is the Virginia Avenue Parking Garage, connected to the Fieldhouse via a covered sky bridge on the third floor, with entrance off Maryland Street. Individual parking passes can be purchased in advance at select locations via ParkWhiz.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [
+      "Virginia Avenue Parking Garage"
+    ],
+    "city": "Indianapolis",
+    "state": "IN"
   },
   "gas_south_arena": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.gassouthdistrict.com/arena/event-security-clear-bags",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.gassouthdistrict.com/arena-parking-directions",
+    "note": "Parking for Gas South Arena guests is available in Lot A and Deck 2, with event parking rates typically starting two hours before the event. Prepaid parking passes are encouraged and can be purchased online via Ticketmaster.com or GasSouthDistrict.com to save time and guarantee a space. Payment on event days is cashless, accepted by credit/debit cards and Apple/Google Pay only.",
+    "rideshare": "Rideshare pick-up and staging for Uber, Lyft, taxi, and limo services is located outside the Arena in the A5 parking lot.",
+    "lots": [
+      "Lot A",
+      "Deck 1",
+      "Deck 2",
+      "Lot C"
+    ],
+    "city": "Duluth",
+    "state": "GA"
   },
   "gillette_stadium": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.gillettestadium.com/bag-policy/",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.gillettestadium.com/transportation/",
+    "note": "Parking at Gillette Stadium opens 4 hours before concerts and special events and closes immediately after. Free general parking is available on the opposite side of Route 1, while prepaid parking can be purchased for lots on the stadium side of Route 1. For other events like Patriots games and Revolution matches, parking times and pricing vary, with some free options and some paid; always check the specific event guide for details.",
+    "rideshare": "The designated Uber and Lyft drop off and pick up location is in Lot 15, closest to the CVS Health Gate.",
+    "lots": [
+      "Lot 15",
+      "Lot 5B"
+    ],
+    "city": "Foxborough",
+    "state": "MA"
   },
   "globe_life_field": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://globelifefield.com/bag-policy/",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://globelifefield.com/parking/",
+    "note": "Parking is available in multiple lots with easy access from major highways surrounding Globe Life Field. All parking lots are cashless, and passes can be purchased in advance via the MLB Ballpark app or at lot entry. There is a strict no in-and-out policy with no refunds, and lot open times vary by event.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [],
+    "city": "Arlington",
+    "state": "TX"
   },
   "golden_1_center": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.golden1center.com/faqs/",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.golden1center.com/visit/directions-and-parking/",
+    "note": "Fans are encouraged to purchase pre-paid parking passes online through the City of Sacramento's SacPark website. Parking garages open two hours prior to events and passes allow entry two hours before until two hours after the event. Parking is first-come, first-served with no guaranteed assigned spots, and passes are digital (print-at-home or mobile).",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [],
+    "city": "Sacramento",
+    "state": "CA"
   },
   "great_american_ball_park": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.mlb.com/reds/ballpark/information/guide",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.mlb.com/reds/ballpark/transportation/parking-directions",
+    "note": "Parking is available in multiple garages near Great American Ball Park, including the Central Riverfront Garage, Central Riverfront Garage West, and East Garage. Fans with prepaid parking passes have multiple recommended entry points for easier access, and using the specified GPS addresses is advised for the best route. Detailed directions from major highways are provided to guide fans to the appropriate garages based on their parking pass color.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [
+      "Central Riverfront Garage",
+      "Central Riverfront Garage West",
+      "East Garage"
+    ],
+    "city": "Cincinnati",
+    "state": "OH"
   },
   "hard_rock_stadium": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.hardrockstadium.com/stadium-policy/",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.hardrockstadium.com/stadium-policy/",
+    "note": "Parking at Hard Rock Stadium is sold out, but Park & Ride passes are still available. Directive parking is enforced to ensure smooth traffic flow, with specific rules for blue, orange, and yellow parking pass holders. Tailgating is allowed in designated 8'x10' spaces behind vehicles, and guests must follow parking staff instructions and occupy only one space per vehicle.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [
+      "Yellow Lot"
+    ],
+    "city": "Miami Gardens",
+    "state": "FL"
   },
   "heritage_bank_center": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://heritagebankcenter.com/venue-info",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://heritagebankcenter.com/directions",
+    "note": "Parking for Heritage Bank Center is available primarily at the East Garage located at 443 E Pete Rose Way, which is designated for all pre-paid parking pass holders. Another option is the Central Riverfront Garage at 149 Broadway. The venue is downtown and well-signposted, with multiple nearby garages and public transit options.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [
+      "East Garage",
+      "Central Riverfront Garage"
+    ],
+    "city": "Cincinnati",
+    "state": "OH"
   },
   "hersheypark_stadium": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.hersheyentertainment.com/hersheypark-stadium/info/food-drinks/",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.hersheyentertainment.com/hersheypark-stadium/info/",
+    "note": "Parking for Hersheypark Stadium is located within the Hersheypark parking lot, with general parking in field parking areas across Hersheypark Drive. Parking cost is included in the concert ticket price. ADA parking is available on a first-come, first-served basis in paved Hersheypark lots on the West Side and the upper lot, accessible via the main Hersheypark Entertainment Complex entrance.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [],
+    "city": "Hershey",
+    "state": "PA"
   },
   "highmark_stadium": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.buffalobills.com/stadium/a-z-guide",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.buffalobills.com/stadium/parking",
+    "note": "All Buffalo Bills controlled parking lots at Highmark Stadium require an advanced purchase parking pass starting in 2025, except for Lot 2 ADA and Lot 6 ADA which allow pay-on-arrival cashless parking. No day-of-game parking purchases are accepted in Bills lots. Parking is first-come, first-served with no space reservations, and all vehicles must park in designated spaces following staff instructions.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [
+      "Lot 1",
+      "Lot 2 ADA",
+      "Lot 6 ADA",
+      "Lot 7",
+      "Bus & Limo Lot"
+    ],
+    "city": "Orchard Park",
+    "state": "NY"
   },
   "hollywood_bowl": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.hollywoodbowl.com/visit/when-youre-here/house-rules",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.hollywoodbowl.com/visit/getting-here/parking",
+    "note": "Parking at the Hollywood Bowl is extremely limited and must be purchased in advance through ParkWhiz until sold out. All lots are stack parked with no early exit allowed, and lots open three hours before events. Cash or credit card is accepted if inventory remains, but advance purchase is strongly recommended. Parking in surrounding neighborhoods is prohibited to avoid tickets.",
+    "rideshare": "Lot C is designated as the Rideshare hub with no parking available in this lot.",
+    "lots": [
+      "Lot A",
+      "Lot B",
+      "Lot C",
+      "Lot D"
+    ],
+    "city": "Los Angeles",
+    "state": "CA"
   },
   "honda_center": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.hondacenter.com/arena-info/no-bag-policy/",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.hondacenter.com/plan-your-visit/parking/",
+    "note": "General parking is available at onsite lots and garages, including the newly available Katella Garage and Cerritos Garage, and is included with event tickets with no separate parking pass required. Guests should arrive at least 60 minutes early, use the Waze app for navigation, and photograph their parking location to find their vehicle easily. Accessible parking is available on a first-come, first-served basis for vehicles with a valid disability placard, and alternative unaffiliated parking options are nearby but not managed by Honda Center.",
+    "rideshare": "Rideshare and taxi drop off and pick up are available at ARTIC located at 2626 East Katella Avenue, with access via Douglass Road and Katella Avenue; guests should exit Honda Center through the South or East Entrances to reach ARTIC.",
+    "lots": [
+      "Katella Garage",
+      "Cerritos Garage"
+    ],
+    "city": "Anaheim",
+    "state": "CA"
   },
   "huntington_bank_field": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://huntingtonbankfield.com/know-before-you-go/",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://huntingtonbankfield.com/directions-parking/",
+    "note": "We haven't added detailed parking notes yet. Use the official parking map for the most accurate information on lots, garages, and access routes.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [],
+    "city": "Columbus",
+    "state": "OH"
   },
   "intuit_dome": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://intuitdome.com/about/faq",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://intuitdome.com/plan-your-visit/parking-information",
+    "note": "Parking at Intuit Dome is available in multiple on-site garages with prepaid parking passes recommended for guaranteed access. The venue is cashless, so all payments must be made in advance through the app or website. Fans should complete their Vehicle Profile in the LA Clippers + Intuit Dome App for faster entry using license plate recognition technology.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [
+      "VIP West Garage",
+      "Standard East Garage",
+      "Players' Garage"
+    ],
+    "city": "Inglewood",
+    "state": "CA"
   },
   "isleta_amphitheater": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.isletaamp.com/visit#faq",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.isletaamp.com/visit#faq",
+    "note": "General parking is included with your ticket and located on-site at Isleta Amphitheater. For easier entry and exit, Premier Parking upgrades are available. Accessible parking is available near the main entrances by the guitar and in the lower level lot, requiring a visible state-issued plate or placard and is first come, first served.",
+    "rideshare": "Guests are encouraged to reserve rides with Uber to ensure reliable pickup and dropoff during crowded events.",
+    "lots": [],
+    "city": "Albuquerque",
+    "state": "NM"
   },
   "jiffy_lube_live": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.jiffylubelive.com/visit",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.jiffylubelive.com/visit",
+    "note": "General admission parking is included with your ticket at Jiffy Lube Live. For easier entry and exit, fans can upgrade to Premier or VIP Parking, or choose Early Parking to beat the rush. Parking is first come, first served with no saving spaces allowed, and tailgating is permitted in designated areas following venue and Virginia state guidelines.",
+    "rideshare": "Guests are encouraged to book rides with Uber Reserve to ensure reliable pickup and dropoff during crowded events.",
+    "lots": [],
+    "city": "Bristow",
+    "state": "VA"
   },
   "john_paul_jones_arena": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.johnpauljonesarena.com/p/visit/azguide",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.johnpauljonesarena.com/p/visit/directions",
+    "note": "Parking for John Paul Jones Arena guests is available in multiple lots surrounding the arena, with parking passes required for these areas. Passes can be purchased online through official partners or at the box office, and payment is accepted via credit/debit card at the lots on event day. The venue is cashless for parking, merchandise, and concessions, so plan accordingly.",
+    "rideshare": "Rideshare and taxi drop-off is designated at a cut-out area off Massie Road, and carpooling or ridesharing is encouraged for larger events.",
+    "lots": [
+      "JPJ Garage",
+      "JPJ West Lot",
+      "JPJ South Lot",
+      "JPJ East Lot",
+      "Emmet-Ivy Garage",
+      "D1 Lot",
+      "Darden Garage",
+      "Central Grounds Garage",
+      "The Park"
+    ],
+    "city": "Charlottesville",
+    "state": "VA"
   },
   "kaseya_center": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.kaseyacenter.com/plan-your-visit/knowbeforeyougo",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.kaseyacenter.com/plan-your-visit/directions-parking",
+    "note": "Parking options immediately adjacent to Kaseya Center have been permanently reduced due to downtown Miami development. Guests are strongly advised to reserve parking ahead of time for guaranteed spots at nearby lots offering flat rates within convenient walking distance. Valet parking is available at Gate 4, and pre-reservation is recommended for all events.",
+    "rideshare": "Uber and rideshare drop-off is located at the corner of Bayshore Drive & HEAT Blvd, using Gate 6 for entry.",
+    "lots": [],
+    "city": "Miami",
+    "state": "FL"
   },
   "kauffman_stadium": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.mlb.com/royals/ballpark/information/guide",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.mlb.com/royals/ballpark/transportation",
+    "note": "Parking at Kauffman Stadium must be purchased in advance and shown via the MLB Ballpark app on your phone at the tollgates for entry. Guests should download the MLB Ballpark app before arriving. Specific parking gates correspond with seating locations, and detailed directions are provided for arrivals from all directions. Guests are encouraged to arrive early, and there is a revised traffic exit plan to improve safety and egress times.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [],
+    "city": "Kansas City",
+    "state": "MO"
   },
   "keybank_center": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://keybankcenter.com/page/health-and-safety",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://keybankcenter.com/page/parking",
+    "note": "Parking is available at the KeyBank Center parking ramp, surface lots, and the LECOM Harborcenter. All parking lots are cashless and accept major credit cards, Apple Pay, and Google Pay. Fans can purchase prepaid parking in advance through the official partner, JustPark, with passes emailed after checkout.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [
+      "KeyBank Center parking ramp",
+      "KeyBank Center surface lots",
+      "LECOM Harborcenter"
+    ],
+    "city": "Buffalo",
+    "state": "NY"
   },
   "kia_center": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.kiacenter.com/plan-your-visit/bag-policy/",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.kiacenter.com/directions-and-parking",
+    "note": "Kia Center offers reserved/pre-paid parking in the GEICO Garage at 400 West South Street and the 520 W Pine St. Garage (formerly HD Supply), both within walking distance of the arena. Parking can be purchased via Ticketmaster or the box office by 5 p.m. the day before the event. Additional downtown parking is available on a first-come, first-served basis with prices ranging from $10-$20, and event parking in the GEICO Garage is valid all day but does not allow re-entry.",
+    "rideshare": "Rideshare drop-off and pickup are designated at the corner of Hughey and Pine Street, a short walk from the arena, to ensure a smooth experience for attendees.",
+    "lots": [
+      "GEICO Garage",
+      "520 W Pine St. Garage",
+      "Blue Lot"
+    ],
+    "city": "Orlando",
+    "state": "FL"
   },
   "kia_forum": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://thekiaforum.com/venue-policies/",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://thekiaforum.com/stadium-parking/",
+    "note": "Prepaid parking is available for Kia Forum events and nearby venues, with on-site parking limited and sold on a first-come, first-served basis. Parking is cashless, accepting all major credit, debit, and contactless payments. Vehicles larger than 18 ft in length or 9 ft in width incur extra charges, and overnight parking is not allowed.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [],
+    "city": "Inglewood",
+    "state": "CA"
   },
   "lambeau_field": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.packers.com/lambeau-field/carry-in-policy",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.packers.com/lambeau-field/parking",
+    "note": "All parking lots surrounding Lambeau Field are sold out to season parking pass holders, which are offered on a one-year basis and may change location yearly. Individual game parking can be reserved through PMI in nearby lots, including a limited number of passes for Lot 15, which does not allow tailgating. Cashless $50 parking is available for guests with disabilities in Lots 4 and 7 on a first-come, first-served basis, and numerous private and free residential street parking options exist nearby.",
+    "rideshare": "Rideshare passengers are advised to be picked up or dropped off at the corner of Mike McCarthy Way and Holmgren Way near the east and south gates of the stadium.",
+    "lots": [
+      "Lot 4",
+      "Lot 7",
+      "Lot 15"
+    ],
+    "city": "Green Bay",
+    "state": "WI"
   },
   "lenovo_center": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.lenovocenter.com/arena-info/policies/bagpolicy",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.lenovocenter.com/parking-guide",
+    "note": "Guests can park onsite at Lenovo Center by entering from Edwards Mill Road, with general parking accessible via I-40 or Wade Avenue exits. Advance parking passes are available for purchase, allowing mobile pass scanning for easy entry. Parking prices vary by event and tailgating is permitted with specific rules; vehicles must be cleared within one hour after events unless otherwise permitted.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [
+      "Gate D",
+      "Gate F"
+    ],
+    "city": "Morrisville",
+    "state": "NC"
   },
-  "levi_s_stadium": {
+  "levis_stadium": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.levisstadium.com/bagpolicy/",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.levisstadium.com/plan-your-visit/parking/",
+    "note": "Parking passes for events at Levi\u2019s Stadium can be purchased in advance, with prices varying by event. Credit card lots are available on event day but are limited and may cost more than prepaid passes. Fans are encouraged to buy parking ahead of time to ensure availability and potentially lower costs.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [],
+    "city": "Santa Clara",
+    "state": "CA"
   },
   "lincoln_financial_field": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.lincolnfinancialfield.com/safety/",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.lincolnfinancialfield.com/parking/",
+    "note": "Parking is available in multiple on-site public and reserved lots at Lincoln Financial Field, with traffic patterns directed by Philadelphia Police to efficiently distribute vehicles after events. Parking rates vary by event type, with concerts priced at $40 for regular vehicles and $80 for oversized vehicles. Directions to the stadium and parking are well-marked from various regional routes, but no mention of prepaid or cashless payment options is provided.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "J",
+      "K (North)",
+      "K (East)",
+      "L (South)",
+      "L (North)",
+      "M/N (South)",
+      "M/N (North)",
+      "P",
+      "Q",
+      "R",
+      "W",
+      "X",
+      "T",
+      "S",
+      "U",
+      "V"
+    ],
+    "city": "Philadelphia",
+    "state": "PA"
   },
   "little_caesars_arena": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.313presents.com/venue/little-caesars-arena/little-caesars-rules-policies",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.313presents.com/venue/little-caesars-arena/directions-parking-1",
+    "note": "There are 32 parking locations throughout The District Detroit within a 10-minute walk of Little Caesars Arena. All parking is credit card only with no in/out privileges or overnight parking allowed. Fans are encouraged to pre-book parking online at ParkDistrictDetroit.com to save up to 25%. Accessible parking is available on a first-come, first-served basis at several garages closest to the arena.",
+    "rideshare": "The rideshare area is located off the westbound Fisher Service Drive, next to the UWM Garage.",
+    "lots": [
+      "Trinity Health Garage",
+      "UWM Garage",
+      "Temple West Garage",
+      "Comerica Garage",
+      "McLaren Garage",
+      "Tigers Garage"
+    ],
+    "city": "Detroit",
+    "state": "MI"
   },
   "loandepot_park": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.mlb.com/marlins/ballpark/information/guide",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.mlb.com/marlins/ballpark/transportation/parking",
+    "note": "loanDepot park offers parking in four parking garages on the North and South sides and six surface lots on the East and West sides, all operating on a free flow model. Parking passes must be purchased directly through official Marlins channels and prepaid parking is required to guarantee on-site parking. Payment is cashless and done via the MLB Ballpark app by registering your vehicle\u2019s license plate and activating your parking session using garage-specific codes or QR codes on site.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [
+      "Home Plate Garage",
+      "First Base Garage",
+      "Third Base Garage"
+    ],
+    "city": "Miami",
+    "state": "FL"
   },
   "lucas_oil_stadium": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.lucasoilstadium.com/attending-an-event/clear-bag-policy/",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.colts.com/game-day/parking-transportation",
+    "note": "Parking for Colts games is available in multiple downtown lots and garages around Lucas Oil Stadium, but the Colts do not operate these lots directly. Fans should purchase parking passes through ParkWhiz or contact the parking provider for details. Tailgating policies vary by lot operator, and fans are advised to arrive at least 3 hours before kickoff due to road closures and heavy traffic.",
+    "rideshare": "Rideshare pickup and drop-off are located on northbound Illinois Street, one block east of Lucas Oil Stadium.",
+    "lots": [
+      "South Lot",
+      "IFA Lot",
+      "Horseshoe Lot",
+      "Rolls-Royce Garage",
+      "Rolls-Royce B Lot",
+      "Government Center Garage",
+      "Lot A",
+      "Plaza Garage",
+      "LaRosa South"
+    ],
+    "city": "Indianapolis",
+    "state": "IN"
   },
   "lumen_field": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.lumenfield.com/plan-your-visit-stadium-guide/clear-bag-policy",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.lumenfield.com/plan-your-visit/parking-transportation",
+    "note": "Lumen Field offers two on-site parking options: the Lumen Field Parking Garage and the North Lot, both open daily and available for pre-purchase with pricing varying by event. Overnight or RV parking is not allowed, and oversized vehicles (above 8'3\") are only accommodated in the North Lot. Parking is cashless and rates may change on event days; StubHub parking passes are not accepted.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [
+      "Lumen Field Parking Garage",
+      "North Lot"
+    ],
+    "city": "Seattle",
+    "state": "WA"
   },
-  "m_t_bank_stadium": {
+  "mt_bank_stadium": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.baltimoreravens.com/game-day/nfl-bag-policy/",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.baltimoreravens.com/stadium/directions-parking",
+    "note": "Stadium parking lots open 4.5 hours before kickoff and are typically sold in advance by permit only, with all lots sold out for Ravens games. Fans without permits should use SpotHero or downtown parking options, or consider public transportation. Disabled parking is available on a first come, first served basis in Lots B, C, and R with a valid disabled placard and the registered owner present in the vehicle.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [
+      "Lot A",
+      "Lot B",
+      "Lot C",
+      "Lot R",
+      "Horseshoe Casino Garage"
+    ],
+    "city": "Baltimore",
+    "state": "MD"
   },
   "madison_square_garden": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://production1.msg.com/madison-square-garden/faqs?icmp=int-msg_vlp-link-list_faqs#prohibited",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.msg.com/madison-square-garden/directions/?CAMEFROM=CFC_web_MSG_Plan_Your_Visit_Transportation_240223",
+    "note": "No specific parking information is provided in the text for Madison Square Garden, including details about on-site or off-site lots, prepaid parking, or payment methods.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [],
+    "city": "New York",
+    "state": "NY"
   },
   "mercedes_benz_stadium": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.mercedesbenzstadium.com/guidelines",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://parking.mercedesbenzstadium.com/",
+    "note": "Mercedes-Benz Stadium offers 11 official on-site parking lots and additional off-site lots with varying prices based on proximity and event demand. All parking sessions for Falcons and United events must be prepaid online to guarantee a spot, as on-site payment is not guaranteed. Upon booking, detailed lot location and arrival instructions are provided, and tailgating is allowed in designated areas following stadium rules.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [
+      "Yellow Lot",
+      "Blue Lot",
+      "Vine City MARTA station",
+      "HDBY",
+      "Silver Deck",
+      "Red Deck",
+      "Orange Deck"
+    ],
+    "city": "Atlanta",
+    "state": "GA"
   },
   "metlife_stadium": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.metlifestadium.com/guest-services/stadium-bag-policy",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.metlifestadium.com/getting-here/general-event-parking-information",
+    "note": "We haven't added detailed parking notes yet. Use the official parking map for the most accurate information on lots, garages, and access routes.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [],
+    "city": "East Rutherford",
+    "state": "NJ"
   },
   "mgm_grand_garden_arena": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://mgmgrand.mgmresorts.com/en/entertainment/grand-garden-arena.html",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.mgmresorts.com/en/things-to-do/parking.html?defaultCSANameCd=_7396-5b3a92df93244df18c9d156b6da18aa0",
+    "note": "We haven't added detailed parking notes yet. Use the official parking map for the most accurate information on lots, garages, and access routes.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [],
+    "city": "Las Vegas",
+    "state": "NV"
   },
   "moda_center": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.rosequarter.com/plan-your-visit/venue-guide",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.rosequarter.com/plan-your-visit/directions-transportation",
+    "note": "The Rose Quarter offers over 2,500 parking spaces across four garages and two surface lots, with prepaid parking available via the Rose Quarter Box Office, Ticketmaster, or the parking purchase tool on the event page. Parking prices vary by event, typically ranging from $10 to $40, and electric vehicle charging stations are available free for paid parkers. Garages open approximately two hours before events, and off-site parking with shuttle service is available during Portland Trail Blazers home games.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [
+      "Garden Garage",
+      "Annex Garage",
+      "West Broadway Garage",
+      "East Broadway Garage",
+      "Benton Surface Lot"
+    ],
+    "city": "Portland",
+    "state": "OR"
   },
   "mohegan_sun_arena": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.moheganarenapa.com/plan-your-visit/bag-policy/",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.moheganarenapa.com/plan-your-visit/parking/",
+    "note": "Mohegan Sun Arena offers approximately 3,000 parking spaces adjacent to the venue accessible via Highland Park Blvd. or Mundy St. General parking is available for a fee payable by credit/debit card, mobile pay, or cash upon arrival, except for Penguins Hockey games where parking is included in the ticket price. Reserved and VIP parking can be purchased in advance online or at the box office, with specific entrance instructions for each.",
+    "rideshare": "Guests using ride share services should enter via Highland Park Blvd. and inform parking attendants to be directed to the designated drop off/pick up location.",
+    "lots": [
+      "General Parking Lot",
+      "Reserved Parking Lot",
+      "VIP Parking Lot"
+    ],
+    "city": "Uncasville",
+    "state": "CT"
   },
   "moody_center": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://moodycenteratx.com/arena-guide/",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://moodycenteratx.com/parking/",
+    "note": "Pre-purchase parking spots are available at various garages near Moody Center, with Manor Garage being pre-pay only and no longer accepting drive-up payments on event days. Due to construction and traffic, fans are advised to leave early and plan ahead. Manor Garage offers the closest ADA parking with limited space, and specific entry instructions apply for both north and southbound traffic.",
+    "rideshare": "A new ADA passenger drop-off/pick-up point is located on the northwest side of the venue on Robert Dedman Dr., accessible by notifying security at the checkpoint for disabled or mobile-impaired passengers.",
+    "lots": [
+      "Manor Garage",
+      "Trinity Garage",
+      "Parking Garage B",
+      "State Garage G",
+      "State Garage R"
+    ],
+    "city": "Austin",
+    "state": "TX"
   },
   "nrg_stadium": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.nrgpark.com/a-z-guide/",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.houstontexans.com/game-day/parking-tailgating/",
+    "note": "We haven't added detailed parking notes yet. Use the official parking map for the most accurate information on lots, garages, and access routes.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [],
+    "city": "Houston",
+    "state": "TX"
   },
   "nationals_park": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.mlb.com/nationals/ballpark/information/bag-policy",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.mlb.com/nationals/ballpark/transportation/driving-parking",
+    "note": "Nationals Park offers multiple parking options including Garage B and Garage C, which open 2 hours and 15 minutes before each game and close 1 hour after the game ends. It is highly recommended to purchase parking passes in advance as drive-up parking is only available on a limited, game-by-game basis. Tailgating is not permitted, and all parking lots are managed by professionals with ticket scanning required upon entry.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [
+      "Garage B",
+      "Garage C"
+    ],
+    "city": "Washington",
+    "state": "DC"
   },
   "nationwide_arena": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.nationwidearena.com/home/what-to-expect/",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.nationwidearena.com/directions-parking",
+    "note": "There are over 15,000 parking spaces within a 10-minute walk of Nationwide Arena in surface lots and parking garages. Parking can be purchased in advance or on the day of the event, with prices varying by location. Vehicles must be attended at all times in the pick-up/drop-off zone on West Street to avoid towing.",
+    "rideshare": "All pick-ups and drop-offs take place on West Street; vehicles must be attended at all times.",
+    "lots": [
+      "McConnell garage",
+      "Front Street garage"
+    ],
+    "city": "Columbus",
+    "state": "OH"
   },
   "nissan_stadium": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.tennesseetitans.com/stadium/bag-policy",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://nissanstadium.com/transportation/#1717431767819-51f5a6fe-061e",
+    "note": "On-site parking for Titans games at Nissan Stadium is sold out with no day-of sales available on campus. Fans should use nearby off-site parking options managed by Parking Management Company (PMC) or Downtown Partnership. Parking pass holders can access lot directions via the Waze Mobile App, and shuttle tickets are available for a $20 roundtrip ride but do not guarantee parking availability.",
+    "rideshare": "Nissan Stadium has two rideshare pick-up locations located on Interstate Drive and the intersection of S. 2nd Street and Crutcher St., with pedestrian routes clearly marked.",
+    "lots": [],
+    "city": "Nashville",
+    "state": "TN"
   },
   "northwest_stadium": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.commanders.com/stadium/clear-bag-policy",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.commanders.com/stadium/parking-and-directions",
+    "note": "Most parking lots at Northwest Stadium open 4 hours before major events and pre-purchasing parking passes is strongly recommended to guarantee a spot and ensure efficient entry. The Gray Lot is cash only, cannot be pre-purchased, and operates on a first-come, first-served basis, often selling out 2-3 hours before game time. Fans must park only in the lot assigned on their parking pass, and accessible parking is available in Lots E and H with proper placards.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [
+      "Bus/RV Lot",
+      "Gray Lot",
+      "Limo Lot - A",
+      "Lot A - Black",
+      "Lot A - Gold",
+      "Lot D - Burgundy",
+      "Lot D - Gold",
+      "Lot E - Black",
+      "Lot E - Gold",
+      "Lot F - Black",
+      "Lot F - Burgundy",
+      "Lot F - Gold",
+      "Lot G - Burgundy",
+      "Lot G - Gold",
+      "Lot H - Burgundy",
+      "Lot H - Gold",
+      "Red Zone Lot"
+    ],
+    "city": "Chicago",
+    "state": "IL"
   },
   "north_island_credit_union_amphitheatre": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.northislandcreditunionamp.com/faq",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.northislandcreditunionamp.com/visit#pick-your-parking",
+    "note": "General admission parking is included with your ticket at North Island Credit Union Amphitheatre. For easier entry and exit, you can upgrade to Premier Parking, VIP Parking, Priority Parking, or EZ Out Parking. No specific mention of on-site vs off-site lots or cashless payment details.",
+    "rideshare": "You can book rides with Uber Reserve to ensure pickup and dropoff at crowded events, removing uncertainty about rides to and from the venue.",
+    "lots": [],
+    "city": "Chula Vista",
+    "state": "CA"
   },
   "oakland_arena": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.theoaklandarena.com/plan/prohibited-items",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.theoaklandarena.com/plan/parking",
+    "note": "On-site parking is available at Oakland Arena and Oakland-Alameda County Coliseum with accommodations for limousines, buses, and RVs. Pre-paid parking passes are recommended and can be purchased online, with options including Platinum, VIP, and standard parking. All parking fees must be paid cashless onsite, and parking gates open two hours before events.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [
+      "GG Lot",
+      "C Lot"
+    ],
+    "city": "Oakland",
+    "state": "CA"
   },
   "oracle_park": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.mlb.com/giants/ballpark/information/guide",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.mlb.com/giants/ballpark/transportation/driving-and-parking",
+    "note": "There are dozens of parking lots and garages around Oracle Park. Fans wishing to park in Giants-controlled lots and garages must have a pre-purchased SpotHero reservation, including those with valid ADA placards. Tailgating is allowed only in Lot A near vehicles and must not interfere with others; reservations are required for oversize vehicles and buses through Group Ticketing.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [
+      "Lot A",
+      "Pier 48",
+      "153 Townsend"
+    ],
+    "city": "San Francisco",
+    "state": "CA"
   },
   "oriole_park_at_camden_yards": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.mlb.com/orioles/ballpark/information/security",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.mlb.com/orioles/ballpark/transportation",
+    "note": "Fans are strongly encouraged to purchase Orioles parking permits in advance as lots are permit-only and open one hour before gates open. Limited general parking may be available day-of-game in Lots F, G, and H. Over 30,000 off-site parking spaces are available within one mile in downtown/Inner Harbor garages and lots. Tailgating is not permitted in Orioles parking lots.",
+    "rideshare": "Drop-off and pick-up areas are available at three locations: east side of the Warehouse breezeway (Gate A), Home Plate Plaza on Russell Street service drive (Gate D), and north end of the service drive (Gate F).",
+    "lots": [
+      "Lot A",
+      "Lot B",
+      "Lot C",
+      "Lot D",
+      "Lot F",
+      "Lot G",
+      "Lot H",
+      "Lot K",
+      "Lot L",
+      "Lot N",
+      "Lot O",
+      "Lot Lee"
+    ],
+    "city": "Baltimore",
+    "state": "MD"
   },
   "mortgage_matchup_center": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.footprintcenter.com/plan-your-visit/policies-and-rules/",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.footprintcenter.com/plan-your-visit/transportation-parking/",
+    "note": "The Mortgage Matchup Center offers an attached five-story, 700-space parking garage primarily for suite holders, premium-seat owners, and limited general public parking, open daily 6 am to 6 pm on weekdays and during events. Additional parking is available at the nearby Jefferson Street Garage, a six-story, 1,450-space structure next door. Pre-paid parking options are available, and fans should note that if they arrive early to park, they cannot leave and return later.",
+    "rideshare": "Lyft drop-off locations include 1st Street/Jefferson, S 2nd Street, S 3rd Street, and E Jefferson Street, with pickup at S 3rd Street & E Jefferson Street; no specific Uber details provided.",
+    "lots": [
+      "Mortgage Matchup Center Garage",
+      "Jefferson Street Garage"
+    ],
+    "city": "Phoenix",
+    "state": "AZ"
   },
   "pnc_park": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.mlb.com/pirates/ballpark/bag-policy",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.mlb.com/pirates/ballpark/transportation/parking",
+    "note": "Fans are encouraged to arrive early or park in one of the eight Pittsburgh Parking Authority garages in the Golden Triangle and use the free \"T\" service or walk across the Roberto Clemente Bridge. North Shore parking is available via surface lots and garages, with passes purchasable through the MLB Ballpark app, online at pirates.com/parking, or by credit card upon arrival. To reduce delays, have your digital parking pass displayed on your mobile device before arriving, and consider reserving spots in advance via ParkMobile or ParkWhiz.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [
+      "7A",
+      "7B",
+      "7C",
+      "7D",
+      "River Road lots",
+      "NOVA Place garage",
+      "Blue 10 Garage"
+    ],
+    "city": "Pittsburgh",
+    "state": "PA"
   },
   "ppg_paints_arena": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.ppgpaintsarena.com/plan_your_visit/know-before-you-go-1",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.ppgpaintsarena.com/plan_your_visit/directions_parking",
+    "note": "Parking is available in the PPG Paints Arena Lots and the Parking Garage at PPG Paints Arena for non-hockey events. All lots are cashless, and pre-purchasing parking in advance through the partner ParkWhiz is strongly encouraged. Event parking rates vary and group buses can purchase prepaid bus parking passes by calling the venue.",
+    "rideshare": "Lyft is the official rideshare partner of PPG Paints Arena, offering 50% off the first two rides with code PPGPAINTS; no specific pickup/dropoff zones are mentioned.",
+    "lots": [
+      "PPG Paints Arena Lots",
+      "Parking Garage at PPG Paints Arena"
+    ],
+    "city": "Pittsburgh",
+    "state": "PA"
   },
   "paycom_center": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.paycomcenter.com/guest-services/security-policies",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.paycomcenter.com/plan-your-visit/parking-public-transportation",
+    "note": "Many parking lots and garages are available in Downtown Oklahoma City around Paycom Center. For detailed parking and transit options, visitors are encouraged to check the provided links on the venue's website. There is no specific mention of on-site lots, prepaid parking, or cashless payment options in the provided text.",
+    "rideshare": "Uber/Lyft pickup and drop off point is at Second and Harvey, located on the west side of Paycom Center.",
+    "lots": [],
+    "city": "Oklahoma City",
+    "state": "OK"
   },
   "paycor_stadium": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.bengals.com/stadium/prohibited-items-bag-policy",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.bengals.com/stadium/parking-and-directions",
+    "note": "Paycor Stadium offers multiple parking options including on-site garage lots (CRG Premium, CRG West, CRG Mid, CRG East) opening six hours prior to kickoff and surface lots (Lot 1, 1U, A, B, D, E, Hilltop, Hilltop North) opening four hours prior. Accessible parking is available in every lot for season ticket holders with passes, and single-game handicap parking is offered in Lot 1 on a first-come, first-served basis. Mobile tickets are recommended for contact-free entry via the Official Bengals App.",
+    "rideshare": "Rideshare drop-off and pick-up is located on 2nd Street between Vine and Walnut.",
+    "lots": [
+      "CRG Premium",
+      "CRG West",
+      "CRG Mid",
+      "CRG East",
+      "Lot 1",
+      "Lot 1U",
+      "Lot A",
+      "Lot B",
+      "Lot D",
+      "Lot E",
+      "Hilltop",
+      "Hilltop North",
+      "Duke Energy Center Garage 1",
+      "Duke Energy Center Garage 2",
+      "Fountain Square Garage",
+      "Enquirer Building Parking Garage",
+      "3rd and Race Street Lot",
+      "Scripps Center Garage",
+      "3rd and Main Lot",
+      "Queen City Square Parking Garage",
+      "Western and Southern Garage",
+      "Longworth Hall Lot",
+      "South Lot"
+    ],
+    "city": "Cincinnati",
+    "state": "OH"
   },
   "pechanga_arena": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://pechangaarenasd.com/plan-your-visit/rules-policies/",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://pechangaarenasd.com/plan-your-visit/directions-parking/",
+    "note": "Parking is available in the Pechanga Arena San Diego parking lot located at 3500 Sports Arena Blvd. Parking fees vary by event and can be paid in advance online or upon entry using a card; no cash payment is mentioned. General Admission Floor ticket holders cannot skip the line at the North Entrance, overnight parking is prohibited unless authorized, no re-entry is allowed, and parking in surrounding businesses is prohibited to avoid towing.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [],
+    "city": "San Diego",
+    "state": "CA"
   },
   "petco_park": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.mlb.com/padres/ballpark/entry-policies",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.mlb.com/padres/ballpark/transportation/downtown-map",
+    "note": "Padres preferred parking is available adjacent to Petco Park, and guests are strongly encouraged to pre-purchase their parking to guarantee a spot in these convenient lots. On weekends, special events, and large crowd games, fans should plan on using public transportation or parking facilities a short walk from the ballpark. A parking map is provided to help plan your trip.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [],
+    "city": "San Diego",
+    "state": "CA"
   },
   "petersen_events_center": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.peterseneventscenter.com/plan-your-visit/faqs",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.peterseneventscenter.com/plan-your-visit/directions-parking",
+    "note": "Attendees are recommended to park in the OC, TV, PG, or SO parking lots near the Petersen Events Center, with event parking rates usually around $20 per vehicle but subject to variation. The closest accessible parking is at the BioScience Tower (BST) garage, requiring a valid placard or license plate for accessible spaces. Guests are encouraged to arrive early to secure suitable parking.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [
+      "OC Lot",
+      "TV Lot",
+      "PG Garage",
+      "SO Garage",
+      "BioScience Tower Garage",
+      "J Lot"
+    ],
+    "city": "Pittsburgh",
+    "state": "PA"
   },
   "pinnacle_bank_arena": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.pinnaclebankarena.com/assets/doc/Clear-Bag-Policy-Graphic-8.5-x-11-9a45d34b21.pdf",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.pinnaclebankarena.com/plan-your-visit/directions-parking",
+    "note": "Parking is available in the Festival Parking Lot north of the arena and in the attached parking garage, which is reserved for premium seating ticket holders. Festival Parking Lot fees range from $3 to $10 per event. A pedestrian bridge connects the north parking areas to the arena for easy access.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [
+      "Festival Parking Lot",
+      "Premium Parking Garage",
+      "Red 1 Public Parking Garage",
+      "Green 2 Public Parking Garage",
+      "Blue 3 Public Parking Garage",
+      "Lumberworks Public Parking Garage"
+    ],
+    "city": "Lincoln",
+    "state": "NE"
   },
   "progressive_field": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.mlb.com/guardians/ballpark/information/guide",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.mlb.com/guardians/tickets/parking",
+    "note": "Fans who purchase parking passes can park in the Gateway East Garage located at 650 E Huron Rd, Cleveland, OH. Parking passes are mobile-only and delivered via the MLB Ballpark app, with entry allowed starting 3 hours before game time and exit up to 7 hours after the event start. The garage uses license plate readers for automatic billing, and ADA parking is available on a first-come, first-served basis upon notifying the attendant.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [
+      "Gateway East Garage",
+      "P-Lot"
+    ],
+    "city": "Cleveland",
+    "state": "OH"
   },
   "providence_park": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.ptfcmap.com/pages/clear-bag-policy-bag-check",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.ptfcmap.com/pages/transportation-parking",
+    "note": "Providence Park offers several on-site and nearby parking options, including prepaid parking to ensure a spot. Payment is cashless, so fans should be prepared to pay via card or app. It is recommended to arrive early and follow posted signs for designated parking areas.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [],
+    "city": "Portland",
+    "state": "OR"
   },
   "prudential_center": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.prucenter.com/safety",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.prucenter.com/parking",
+    "note": "Prudential Center offers over 3,500 parking spaces within two blocks, with options to reserve and pre-pay for parking to guarantee a spot. Key parking locations include the Parking Deck presented by Hyundai and several Green Street garages. BMW owners can access complimentary parking in the Green Street Parking Garage on a first-come, first-served basis, and Hyundai owners with pre-paid parking can park in reserved Hyundai-branded spaces by arriving at least one hour before doors open.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [
+      "Parking Deck presented by Hyundai",
+      "Green 3 & 4",
+      "Green Street Garage",
+      "Green 7"
+    ],
+    "city": "Newark",
+    "state": "NJ"
   },
   "rate_field": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.mlb.com/whitesox/ballpark/information/guide",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.mlb.com/whitesox/ballpark/transportation/parking",
+    "note": "Parking at Rate Field includes prepaid lots A, B, C, and G on the north side available for $27 Monday-Saturday and $17 on Sundays, with all transactions conducted inside the lots by official staff. Limited day-of-game credit/debit parking is available in Lots F and L on the south side for $30 Monday-Saturday and $20 on Sundays. Overflow parking is provided at IIT and McCormick Place with free shuttle service during busy games. All lots open two hours before game time and fans are encouraged to arrive early and use public transportation or rideshare to avoid delays.",
+    "rideshare": "Public transportation and rideshare services are highly recommended, but no specific pickup/dropoff zones are detailed in the text.",
+    "lots": [
+      "Lot A",
+      "Lot B",
+      "Lot C",
+      "Lot D",
+      "Lot F",
+      "Lot G",
+      "Lot L"
+    ],
+    "city": "Chicago",
+    "state": "IL"
   },
   "raymond_james_stadium": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://raymondjamesstadium.com/stadium-policies",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://raymondjamesstadium.com/parking-transportation",
+    "note": "Pre-paid parking is available at Raymond James Stadium and varies per event. Fans are encouraged to purchase parking in advance. Accessible (ADA) parking is provided, and all parking locations are cashless to streamline entry.",
+    "rideshare": "Ride sharing drop-off and pick-up information, including Uber and Lyft, is available at designated zones.",
+    "lots": [],
+    "city": "Tampa",
+    "state": "FL"
   },
   "red_rocks_amphitheatre": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.redrocksonline.com/plan-your-visit/permitted-prohibited-items/",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.coloradoamphitheater.com/red-rocks-amphitheater-parking/",
+    "note": "Parking at Red Rocks Amphitheatre is included in the price of your concert ticket with plenty of general parking available on-site. There are five parking lots that open about two hours before doors, with the upper lots closest to the venue and filling up fast, while lower lots require more uphill walking. Arrive at least an hour before the show to secure parking, avoid long lines, and find your seat.",
+    "rideshare": "Rideshares and carpooling are recommended to minimize traffic and wait times after the show, with drop-offs and pickups at the Trading Post or the Upper North or South lots.",
+    "lots": [
+      "Upper North lot",
+      "Upper South lot",
+      "Lower North lot",
+      "Lower South lot 1",
+      "Lower South lot 2"
+    ],
+    "city": "Morrison",
+    "state": "CO"
   },
   "rocket_arena": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.rocketarena.com/security-policies",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.rocketarena.com/directions-parking",
+    "note": "Parking is available on-site at the Gateway East Garage and JACK Cleveland Casino Garage, which together accommodate 3,300 cars and offer accessible parking with elevators and a connecting bridge to the venue. The Gateway East Garage uses license plate readers for cashless, automatic billing and requires event tickets to access the bridge entrance. Additional parking options are available within a 5-10 minute walk, with advance parking passes available through LAZ Parking and ParkWhiz.",
+    "rideshare": "Lyft is Rocket Arena\u2019s official rideshare partner, offering new users 50% off their first two rides with code ROCKETARENA.",
+    "lots": [
+      "Gateway East Garage",
+      "JACK Cleveland Casino Garage",
+      "Surface Parking Lot 522 Prospect Avenue",
+      "Surface Parking Lot 630 Prospect Avenue"
+    ],
+    "city": "Huntington",
+    "state": "WV"
   },
   "rogers_arena": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://rogersarena.com/faq-items/bag-policy/",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://rogersarena.com/parking-and-directions/",
+    "note": "We haven't added detailed parking notes yet. Use the official parking map for the most accurate information on lots, garages, and access routes.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [],
+    "city": "Vancouver",
+    "state": "Canada"
   },
   "rogers_centre": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.mlb.com/bluejays/tickets/health-and-safety/rogers-centre/concerts",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.mlb.com/bluejays/ballpark/transportation/parking",
+    "note": "Parking at Rogers Centre includes a limited amount of underground public parking divided into four zones with elevator access, and several outdoor lots within walking distance at various prices. Accessible parking spaces are available by reservation only, with reservations closing the day before the event. Fans are encouraged to book convenient and affordable parking in advance through the SpotHero app.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [
+      "Star Zone (Green)",
+      "Cloud Zone (Blue)",
+      "Sun Zone (Red)",
+      "Moon Zone (Yellow)",
+      "Rees & Queens Quay Convention Centre",
+      "Underground Parking (Lower Simcoe St.)",
+      "York St. & Bremner Blvd.",
+      "Front & Blue Jays Way",
+      "Blue Jays Way & Navy Warf Ct."
+    ],
+    "city": "Toronto",
+    "state": "Canada"
   },
   "rupp_arena": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.centralbankcenter.com/rupp-arena-2/plan-your-visit-2/security-bag-policy",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.centralbankcenter.com/rupp-arena/plan-your-visit/parking",
+    "note": "More than 10,000 parking spaces are available within a 10-minute walk of Rupp Arena, including on-site parking on West High Street and surrounding lots and garages. Most events require a parking fee, which must be paid cashless via major credit cards or mobile payments; cash is not accepted. Prepaid parking is available for some events through ParkWhiz, a site and app for reserving downtown parking spots.",
+    "rideshare": "Uber and Lyft drivers can drop off and pick up patrons just steps from the door, with simple instructions provided for a convenient rideshare experience.",
+    "lots": [],
+    "city": "Lexington",
+    "state": "KY"
   },
   "sap_center": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.sapcenter.com/plan-your-visit/bag-policy",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.sapcenter.com/plan-your-visit/directions-parking",
+    "note": "There are over 3,000 parking spaces within a 1/3-mile radius of the SAP Center, with approximately 1,500 spaces located on-site in a large parking lot accessible from Santa Clara Street or Julian Street. Parking lots typically open two hours before event start. San Jose Shark Season ticket holders can purchase prepaid parking in the main onsite ABC Lot prior to the season to guarantee a space.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [
+      "ABC Lot"
+    ],
+    "city": "San Jose",
+    "state": "CA"
   },
   "schottenstein_center": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.schottensteincenter.com/a-z-guide",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.schottensteincenter.com/plan-your-visit/directions-parking",
+    "note": "Parking is available immediately around the Schottenstein Center with over 10,000 surface and garage spaces within a short walk. Most lots require payment by credit/debit card or smartphone only, as they are cashless, and typically open 2 hours before event doors. Pre-purchasing special event parking is available online, and parking patterns may vary by event with directions favoring Ackerman Road over Lane Avenue.",
+    "rideshare": "Guests can be dropped off before events along Borror Drive on the north side of the building, and post-event rideshare pickups are directed to a designated area near St. John Arena with assistance available for guests with mobility concerns.",
+    "lots": [
+      "Scarlet Lots",
+      "Buckeye Lots"
+    ],
+    "city": "Columbus",
+    "state": "OH"
   },
   "scotiabank_arena": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.scotiabankarena.com/plan-your-visit/plan-your-visit-faq/bag-policy",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.scotiabankarena.com/plan-your-visit/getting-here",
+    "note": "Scotiabank Arena offers two levels of on-site parking primarily for private suite holders and office tenants, with a flat fee of $50 and cashless payment only. Fans are encouraged to book affordable public parking in advance via SpotHero for discounts up to 50% off drive-up rates. There are four accessible parking spaces available on-site that must be reserved in advance by calling Fan Services, and the garage has a 2-meter height restriction.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [
+      "Scotiabank Arena Parking Garage",
+      "15 York Street Public Parking"
+    ],
+    "city": "Toronto",
+    "state": "ON"
   },
   "simmons_bank_arena": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://simmonsbankarena.com/policies-guidelines/",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://simmonsbankarena.com/directions-parking/parking/",
+    "note": "Simmons Bank Arena does not sell parking online and advises verifying any third-party parking offers for legitimacy and proximity. After large events, Washington Avenue between Olive and Cypress Streets is closed to manage pedestrian traffic, with limited handicap parking accessible via Olive Street and Washington Avenue. The venue uses cashless parking.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [],
+    "city": "North Little Rock",
+    "state": "AR"
   },
   "smoothie_king_center": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.smoothiekingcentersuites.com/events/?categories=",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.smoothiekingcenter.com/plan-your-visit/directions-parking",
+    "note": "The Smoothie King Center offers public parking in seven garages and two surface lots adjacent to the venue and the Superdome, accommodating approximately 7,000 vehicles. Parking garages accept credit or debit cards only, and prepaid event parking is available. Fans should note that cash is not accepted in garages.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [
+      "#1",
+      "#1A",
+      "#2",
+      "#2A",
+      "#5",
+      "#6",
+      "Champions Garage",
+      "Lot 3",
+      "Lot 4"
+    ],
+    "city": "New Orleans",
+    "state": "LA"
   },
   "sofi_stadium": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.sofistadium.com/plan-your-visit/stadium-policies",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.sofistadium.com/plan-your-visit/parking-and-transportation",
+    "note": "All guests must have a prepaid, color-coded parking pass corresponding to a designated Hyundai parking zone to park on-site at SoFi Stadium. Parking passes should be purchased online in advance to save money and time, as prices increase on event day and no cash payments are accepted. Guests must enter through their assigned zone entry gate, display their digital parking pass on their phone, and follow parking staff directions; no parking without a pass is allowed and those without will be directed to offsite options.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [
+      "Hyundai Blue Parking Zone (Lots N)",
+      "Hyundai Brown Parking Zone (Lots C/D)",
+      "Hyundai Green Parking Zone (Lots A/B)",
+      "Hyundai Orange Parking Zone (Lots E/F/G/H)",
+      "Hyundai Pink Parking Zone (Lots H/I/P/Q)",
+      "Hyundai Purple Parking Zone (Lots K/L)",
+      "Yellow Parking Zone"
+    ],
+    "city": "Inglewood",
+    "state": "CA"
   },
   "soldier_field": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.soldierfield.com/plan-your-visit/bag-policy",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.soldierfieldparking.com/",
+    "note": "We haven't added detailed parking notes yet. Use the official parking map for the most accurate information on lots, garages, and access routes.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [],
+    "city": "Chicago",
+    "state": "IL"
   },
   "spectrum_center": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.spectrumcentercharlotte.com/plan-your-visit/a-z-guide",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.spectrumcentercharlotte.com/plan-your-visit/directions-parking",
+    "note": "Nearly 30,000 off-street parking spaces are available within a 15-minute walk of Spectrum Center. Guests can use SpotHero to find and reserve parking at various lots around the venue, with options for tailgating and oversized vehicles. The arena is located in Uptown Charlotte with convenient access to public transportation and multiple nearby parking facilities.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [],
+    "city": "Charlotte",
+    "state": "NC"
   },
   "state_farm_arena": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.statefarmarena.com/plan-your-visit/bag-policy",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.statefarmarena.com/arena-parking",
+    "note": "State Farm Arena offers multiple convenient parking options within a short walking distance, including the Sapphire Deck, Ruby Lot, State Farm Drive, and Diamond Deck. Fans are encouraged to pre-purchase parking through ParkMobile to guarantee a spot and secure the lowest prices. All parking is on-site with easy arena access and cashless payment via advance reservation.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [
+      "Sapphire Deck",
+      "Ruby Lot",
+      "State Farm Drive",
+      "Diamond Deck"
+    ],
+    "city": "Atlanta",
+    "state": "GA"
   },
   "state_farm_stadium": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.statefarmstadium.com/clear-bag-policy",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.statefarmstadium.com/plan-your-visit/directions-parking",
+    "note": "State Farm Stadium parking is available in multiple lots accessible via Glendale Avenue, Cardinals Way, and surface streets, with preferred parking accessed via Maryland Avenue and 95th Avenue. Fans are encouraged to purchase parking spots in advance through SeatGeek.com. The venue is cashless, accepting only credit cards for parking payments, and parking lots open four hours prior to kickoff on Cardinals gamedays.",
+    "rideshare": "The designated rideshare drop-off and pickup area is the Black Lot located south of State Farm Stadium.",
+    "lots": [
+      "General Parking (blue)",
+      "Preferred Parking (red)",
+      "Sportsman's Park",
+      "Black Lot"
+    ],
+    "city": "Glendale",
+    "state": "AZ"
   },
   "sun_bowl_stadium": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.utepspecialevents.com/prohibited_items/clear_bag_policy",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://sunbowl.org/plan-your-game-day/parking-and-tailgating",
+    "note": "Parking passes must be purchased in advance at the Sun Bowl Association office by the day before game day, with no sales or refunds on game day. Lots open at 6 AM on game day, and passes must be displayed upon entry. Free parking is available off Schuster Avenue, on Sun Bowl Drive, on the university campus, and on some adjacent streets; tailgating is limited and prohibited in the parking garage.",
+    "rideshare": "The rideshare lot is lot RA-2 at the corner of Randolph and Robinson, designated for Uber, Lyft, taxis, and limos pickup and dropoff.",
+    "lots": [
+      "Sun Bowl Drive parking garage",
+      "Lot SC-1",
+      "Lot RA-2",
+      "Premium Disabled lot (GR2)",
+      "Premium Club Parking lots (GR1 & SB5)"
+    ],
+    "city": "El Paso",
+    "state": "TX"
   },
   "t_mobile_arena": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.t-mobilearena.com/plan-your-visit/bag-check-policy",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.t-mobilearena.com/plan-your-visit/parking",
+    "note": "Reserved Event Parking allows patrons to pre-pay for parking at facilities close to T-Mobile Arena, including Park MGM, New York-New York, and Aria Event Garages. Parking passes are non-refundable and cannot be purchased on-site the night of the event. MGM Resorts is cashless for event parking, accepting only pre-paid parking passes, credit cards, or contactless payment.",
+    "rideshare": "Uber/rideshare drop-off is accessible through the ground level of the New York-New York parking garage, with pick-up at the nearest local casino property\u2014either New York-New York or Park MGM.",
+    "lots": [
+      "Park MGM Event Garage",
+      "New York-New York Event Garage",
+      "Aria Event Garage"
+    ],
+    "city": "Las Vegas",
+    "state": "NV"
   },
   "t_mobile_park": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.mlb.com/mariners/ballpark/gate-bag-policy-faq",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.mlb.com/mariners/tickets/parking",
+    "note": "T-Mobile Park offers a variety of parking options including the Mariners Garage located at 301-337 Edgar Martinez Dr S, which opens 3 hours prior to game time and features covered parking with attendants. There are also many parking garages and lots in the central business district north of the ballpark with reasonable evening and weekend rates. Motorcycle and bicycle parking are available, and fans can reserve parking in advance through the SpotHero app.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [
+      "Mariners Garage"
+    ],
+    "city": "Seattle",
+    "state": "WA"
   },
   "t_mobile_center": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.t-mobilecenter.com/plan_your_visit/faqs_1",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.t-mobilecenter.com/directions_parking",
+    "note": "T-Mobile Center offers convenient on-site parking in the Magenta Lot, available for advance purchase on a first-come, first-served basis. Additional parking is available nearby in the Red Lot Parking Garage and Yellow Lot Parking Garage. Oak Street is open for passenger drop-off and ADA drop-off, while Grand Boulevard is usually closed to traffic during events.",
+    "rideshare": "Oak Street is designated for passenger drop-off, including taxi and ride-share services, as well as ADA drop-off.",
+    "lots": [
+      "Magenta Lot",
+      "Red Lot Parking Garage",
+      "Yellow Lot Parking Garage"
+    ],
+    "city": "Kansas City",
+    "state": "MO"
   },
   "td_garden": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.tdgarden.com/policies",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.tdgarden.com/plan-your-visit/directions-parking/north-station-garage",
+    "note": "The primary parking option is the North Station Garage located directly beneath TD Garden, offering secure, covered parking with direct access to transit and nearby neighborhoods. Guests are encouraged to pre-purchase parking for $60 via Ticketmaster or Account Manager to guarantee availability and the best rate; day-of event parking is $65 if entering within 4 hours of the event start. EV charging stations are available on Levels 1 and 3, with entry recommended via the Causeway Street ramp for EV users.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [
+      "North Station Garage"
+    ],
+    "city": "Boston",
+    "state": "MA"
   },
   "target_center": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.targetcenter.com/plan-your-visit-1/know-before-you-go",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.targetcenter.com/plan-your-visit-1/parking",
+    "note": "There are nearly 25,000 parking spaces in 38 parking lots and ramps throughout downtown Minneapolis, most within a short walk or accessible via bus and light rail to Target Center. Fans are encouraged to reserve parking in advance through SpotHero for convenient, affordable, and discounted prepaid parking. ADA guests should park in Ramp A or B and enter via the skyway level; bus parking requires advance reservation with associated fees.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [
+      "Ramp A",
+      "Ramp B"
+    ],
+    "city": "Minneapolis",
+    "state": "MN"
   },
   "target_field": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.mlb.com/twins/ballpark/information/guide",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.mlb.com/twins/ballpark/transportation/parking",
+    "note": "There are nearly 7,000 parking spaces adjacent to Target Field in the ABC and Hawthorne ramps, which will be pay-at-entry starting March 28. Additionally, there are nearly 25,000 parking spaces available throughout downtown Minneapolis in various ramps and surface lots. It is recommended to reserve parking in advance through the SpotHero app for discounted rates and to arrive early to find the best parking spot.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [
+      "ABC Ramp",
+      "Hawthorne Ramp"
+    ],
+    "city": "Minneapolis",
+    "state": "MN"
   },
   "the_anthem": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://theanthemdc.com/faq/",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://theanthemdc.com/contact-directions/",
+    "note": "The Anthem is located at the intersection of Maine Avenue SW and 9th Street SW with parking information available via a provided link. There is no mention of on-site parking lots or prepaid parking options, so visitors should plan to use nearby garages or street parking. No details about cashless payment or special parking instructions are provided.",
+    "rideshare": "There are designated drop-off and pick-up locations for Uber, Lyft, the Taxi Commission, and DDot; check your app for specific locations.",
+    "lots": [],
+    "city": "Washington",
+    "state": "DC"
   },
   "the_armory": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://armorymn.com/information/faq/",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://armorymn.com/information/parking-and-directions/",
+    "note": "No parking information is currently available as the page redirects without providing details. Please check back later or consult the venue's official website for parking instructions.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [],
+    "city": "Minneapolis",
+    "state": "MN"
   },
-  "the_dome_at_america_s_center": {
+  "the_dome_at_americas_center": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://explorestlouis.com/the-dome-at-americas-center/prohibited-items/",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.thedomestlouis.com/parking/",
+    "note": "Parking is available in the garage and surface lots throughout downtown St. Louis, with no dedicated on-site parking at The Dome. Fans should expect heavy traffic and long waits for parking and exiting, and prepaid parking is recommended where available. Several nearby garages offer hourly and daily rates, but no mention of cashless payment is provided.",
+    "rideshare": "Passenger drop-off and pickup are permitted on the west lane of Broadway, with vehicle standing or parking prohibited; no specific rideshare services are mentioned.",
+    "lots": [
+      "7th Street Garage",
+      "St. Louis Convention Center Hotel Garage",
+      "St. Louis Center East",
+      "Citi Park",
+      "Ninth Street Garage"
+    ],
+    "city": "St. Louis",
+    "state": "MO"
   },
   "the_pinnacle": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://thepinnaclenashville.com/venue-info/#faq",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://thepinnaclenashville.com/venue-info/#parking",
+    "note": "There is ample paid parking at Nashville Yards in multiple gateless parking garages accessible from 10th Ave. N, including Nashville Yards, Pinnacle Tower, and Amazon Towers. Parking is cashless and managed by Metropolis, requiring you to create an account beforehand or scan a QR code upon arrival to pay. The garages are safe, well-lit, and located steps away from the venue.",
+    "rideshare": "Rideshare is highly encouraged with drop off and pick up located on 9th Ave. N & Commerce St.",
+    "lots": [
+      "Nashville Yards",
+      "Pinnacle Tower",
+      "Amazon Towers"
+    ],
+    "city": "Nashville",
+    "state": "TN"
   },
   "sphere_las_vegas": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.thesphere.com/faqs",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.thesphere.com/plan-your-visit/transportation-and-parking",
+    "note": "Due to construction at Sphere Las Vegas from November 5 through December 6, guests should plan additional time for transportation and parking. No specific details about on-site or off-site lots, prepaid parking, or cashless payment are provided.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [],
+    "city": "Las Vegas",
+    "state": "NV"
   },
   "thunder_ridge_nature_arena": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.thunderridgenaturearena.com/venue-info/bag-policy/",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.thunderridgenaturearena.com/venue-info/parking/",
+    "note": "General admission parking at Thunder Ridge Nature Arena is free with a valid concert ticket and available on-site. Upgraded Diamond and Premium parking lots near the venue require purchase and are accessed via Jones Road. ADA parking is free for patrons with a valid ADA placard, and RV/oversized parking is available for purchase with no hookups provided.",
+    "rideshare": "Rideshare and guest pickup/dropoff zones are designated and clearly signed, with tram services available before and after events to assist guests.",
+    "lots": [
+      "Diamond Parking",
+      "Premium",
+      "RV/OVERSIZE",
+      "ADA Parking",
+      "General Admission"
+    ],
+    "city": "Ridgedale",
+    "state": "MO"
   },
   "toyota_center": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.toyotacenter.com/plan-your-visit/bag-policy",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.toyotacenter.com/directions-parking",
+    "note": "Toyota Center features a dedicated 2,500-space, seven-story Toyota Tundra Garage on the south side of the venue, which is cashless and recommended to be reserved in advance for concerts and events. Garage parking is not available for non-passholders on Houston Rockets game days. There are also plenty of surface parking lots and street parking nearby.",
+    "rideshare": "Lyft is the official rideshare partner with a designated pickup area west towards Austin St, on the other side of Root Memorial Square Park; new users can use code TOYOTACE for discounts.",
+    "lots": [
+      "Toyota Tundra Garage"
+    ],
+    "city": "Houston",
+    "state": "TX"
   },
   "truist_park": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.mlb.com/braves/ballpark/bag-policy",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.mlb.com/braves/ballpark/transportation/parking",
+    "note": "Parking at Truist Park is available in multiple Braves owned or managed lots, with advance online purchase strongly recommended as parking is based on availability and only sold until first pitch. Motorcycle and bicycle parking are available, and oversized vehicle parking must be purchased in advance. EV charging stations are provided in several Battery Atlanta decks, and ADA parking is located in Lot 29 and the Red Deck with first-come, first-served spaces.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [
+      "Lot 29",
+      "Red Deck",
+      "Battery Red Deck",
+      "Battery Delta Deck",
+      "Battery Orange Deck",
+      "Battery Green Deck",
+      "Battery Purple Deck",
+      "Battery Silver Deck"
+    ],
+    "city": "Atlanta",
+    "state": "GA"
   },
-  "u_s_bank_stadium": {
+  "us_bank_stadium": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.usbankstadium.com/plan-your-visit/safety",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.usbankstadium.com/plan-your-visit/directions",
+    "note": "U.S. Bank Stadium does not directly manage public parking but is connected via skyway to the Stadium Parking Ramp. There are over 20,000 parking spaces within a 20-minute walk, with lots typically opening six hours before and closing two hours after events. Accessible parking is available and monitored, and all vehicles within the secured perimeter are subject to security inspection. Follow posted signage and staff directions, and avoid illegal parking to prevent tickets or towing.",
+    "rideshare": "Uber and Lyft guests are directed to pick up their rides at either 9th Avenue South between 6th and 7th Streets South or 3rd Street between Park Avenue and Portland Avenue.",
+    "lots": [],
+    "city": "Minneapolis",
+    "state": "MN"
   },
   "ubs_arena": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://ubsarena.com/bag-policy-prohibited-items/",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://ubsarena.com/parking/",
+    "note": "Parking at UBS Arena is available for purchase in advance via ParkWhiz or Ticketmaster, with pre-paid parking recommended and sold up until lot opening time. All parking lots are accessed via Cross Island Parkway exits 26A, 26B, and 26D, with general paid parking available on event days at Emerald Parking. Prices increase by $5\u2013$10 for concert parking purchased at the arena lots, and tailgating is prohibited.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [
+      "Emerald Parking",
+      "Belmont Park Garage",
+      "Silver Parking",
+      "Diamond Parking",
+      "Ruby Parking"
+    ],
+    "city": "Elmont",
+    "state": "NY"
   },
   "uc_berkeley_greek_theatre": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://thegreekberkeley.com/faq/",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://thegreekberkeley.com/venue-info/parking-and-directions/",
+    "note": "Parking near the Greek Theatre is very limited, and prepaid or third-party parking passes are not valid. Fans are encouraged to use public transportation, bike, or carpool. Nearby parking is available in downtown Berkeley lots and at the Lower Hearst and Upper Hearst UC Berkeley lots, which open for concert parking at 5:00pm, accept credit cards only, and have limited public spots. Disabled parking is available at the Upper Hearst parking garage.",
+    "rideshare": "There is a curbside drop-off area on Gayley Road just north of the Greek Theatre entrance for passengers with mobility disabilities; no other specific rideshare instructions are provided.",
+    "lots": [
+      "Lower Hearst",
+      "Upper Hearst"
+    ],
+    "city": "Berkeley",
+    "state": "CA"
   },
   "united_center": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.unitedcenter.com/venue/frequently-asked-questions/",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.unitedcenter.com/venue/directions-parking/",
+    "note": "We haven't added detailed parking notes yet. Use the official parking map for the most accurate information on lots, garages, and access routes.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [],
+    "city": "Chicago",
+    "state": "IL"
   },
   "utah_first_credit_union_amphitheatre": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.utahfirstamp.com/visit#faq",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.utahfirstamp.com/visit#faq",
+    "note": "General admission parking is included with your ticket and located on the east side of the venue near the south entrance. Upgraded parking options include Premier Parking, Ultra Premier Parking, and Reserved Parking, with Reserved Parking guaranteeing a quick exit within 30 minutes after the event. All parking lots are on the east side and within a short walk to the venue.",
+    "rideshare": "Rideshare drop off and pick up is located at 5150 Upper Ridge Rd., West Valley City, UT 84118, and guests are encouraged to book rides in advance using Uber Reserve for guaranteed pickup and drop off.",
+    "lots": [],
+    "city": "West Valley City",
+    "state": "UT"
   },
   "uw_panther_arena": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://uwmilwaukeepantherarena.com/events-tickets/bag-policy/",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://uwmilwaukeepantherarena.com/parking/",
+    "note": "Convenient indoor parking is available at the Baird Center Garage with easy access to UW-Milwaukee Panther Arena and nearby venues. Additional parking options include various downtown street spots and nearby garages. Parking passes can be purchased for the Kilbourn Avenue and Wells Street entrances.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [
+      "Baird Center Garage",
+      "330 W Wells St. Garage",
+      "6th & State Lot",
+      "Isaac\u2019s Garage",
+      "MATC Surface Lot"
+    ],
+    "city": "Milwaukee",
+    "state": "WI"
   },
   "van_andel_arena": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.vanandelarena.com/p/visit/van-andel-arena-faqs",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.vanandelarena.com/directions.aspx",
+    "note": "Parking near Van Andel Arena is managed by the City of Grand Rapids, with metered street parking available around the arena. Accessible parking is provided in all city-owned ramps and surface lots, with designated accessible and van-accessible spaces for vehicles displaying a valid disability placard or plate, filled on a first-come, first-served basis. Visitors are encouraged to use the Downtown Visitor's Mobility and Parking Guide to find options that fit their budget and needs.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [],
+    "city": "Grand Rapids",
+    "state": "MI"
   },
   "veterans_united_home_loans_amphitheater": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.veteransunitedhomeloansamphitheater.com/faqs",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.veteransunitedhomeloansamphitheater.com/parking?_gl=1*180zwf8*_ga*MTkzMzE4MTkxNC4xNzU4NjUxNDA5*_ga_H1KKSGW33X*czE3NTg2NTE0MDkkbzEkZzEkdDE3NTg2NTE0MjAkajQ5JGwwJGgw",
+    "note": "General parking is included with your ticket and accessible via Concert Drive or Dam Neck Road. Fans can purchase Preferred, Reserved, Oversized, or VIP parking in advance or on-site if available, with Preferred and Reserved lots located near the main entrance via Dam Neck Road. Tailgating is not permitted, and overnight parking is prohibited; accessible parking is available in Lots A and B.",
+    "rideshare": "Taxis and rideshare drop-off and pick-up occur outside the main entrance gate, with a designated tent at the main entrance for this purpose.",
+    "lots": [
+      "Lot A",
+      "Lot B",
+      "Lot E",
+      "VIP Lot",
+      "Preferred Parking",
+      "Reserved Parking"
+    ],
+    "city": "Virginia Beach",
+    "state": "VA"
   },
   "walmart_amp": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://amptickets.com/policies",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://amptickets.com/parking",
+    "note": "No specific parking information is provided for Walmart AMP in Rogers, AR. Fans should check the venue website or their tickets for details on parking options and payment methods.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [],
+    "city": "Rogers",
+    "state": "AR"
   },
-  "casey_s_center": {
+  "caseys_center": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.iowaeventscenter.com/plan-your-visit/faqs-venue-policies",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.iowaeventscenter.com/plan-your-visit/directions-parking",
+    "note": "Parking is available at the Iowa Events Center with entrances off 3rd Street and 5th Avenue. On-site parking costs $13 for cars and trucks and must be prepaid through JustPark, as the facility is cashless and does not accept on-site payments. Overnight parking is not allowed and vehicles left overnight will be towed. Additional city parking garages with skywalk access are available nearby.",
+    "rideshare": "Lyft is the official rideshare partner of the Iowa Events Center, offering a discount code IOWAEC for new users; no specific pickup/dropoff zone details are provided.",
+    "lots": [
+      "Orange Lot",
+      "Iowa Events Center Parking Lot",
+      "7th & Center St Park and Ride",
+      "5th & Keo Parking Garage",
+      "4th & Grand Parking Garage",
+      "3rd & Court Parking Garage"
+    ],
+    "city": "Des Moines",
+    "state": "IA"
   },
   "xfinity_mobile_arena": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.wellsfargocenterphilly.com/plan-your-visit/security-policy",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.wellsfargocenterphilly.com/plan-your-visit/parking",
+    "note": "Parking at Xfinity Mobile Arena is self-park only with no cash payments accepted; guests must pay via credit card, prepaid cards, or digital payments like Apple Pay and Google Pay. It is recommended to reserve parking in advance through the SpotHero app for discounted rates and quicker exits. Accessible parking is available adjacent to the east, west, and south entrances for vehicles with proper handicap designation.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [
+      "Lot A"
+    ],
+    "city": "Philadelphia",
+    "state": "PA"
   },
   "wrigley_field": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.mlb.com/cubs/ballpark/information/security",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.mlb.com/cubs/ballpark/transportation/parking",
+    "note": "Wrigley Field offers a variety of parking options including on-site lots and a free remote parking lot with shuttle service for night and weekend games. All parking lots accept cashless payments only, and fans can reserve parking in advance through the SpotHero app. Cubs personnel are available on location to assist guests.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [
+      "Remote Parking Lot",
+      "Toyota Camry Lot",
+      "Toyota RAV4 Lot",
+      "Irving Park Lot"
+    ],
+    "city": "Chicago",
+    "state": "IL"
   },
   "xl_center": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.xlcenter.com/plan-your-visit/faqs",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.xlcenter.com/plan-your-visit/directions-parking",
+    "note": "Parking is available surrounding PeoplesBank Arena and throughout Downtown Hartford, with 45 parking lots and garages operated by third-party companies. Fans can prepurchase parking in the Hartford 21 garage and reserve parking in advance using the LAZ parking reservation form. Metered street parking is free daily from 6:00 pm to 8:00 am and all day on weekends.",
+    "rideshare": "Lyft is the official rideshare partner of PeoplesBank Arena, offering a discount code PEOPLESBANK for new users; no specific pickup/dropoff zone details are provided.",
+    "lots": [],
+    "city": "Hartford",
+    "state": "CT"
   },
   "grand_casino_arena": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.xcelenergycenter.com/plan-your-visit/guest-services-guide",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.xcelenergycenter.com/plan-your-visit/parking",
+    "note": "Grand Casino Arena parking is primarily serviced by two on-site ramps: RiverCentre Parking Ramp and Kellogg Parking Ramp, both directly connected to the complex. RiverCentre Ramp uses license plate reader technology for faster entry and cashless payment via app, QR code, or pay station. ParkWhiz allows advance parking reservations for other lots, but not for these two ramps; event day parking at both ramps is first come, first served.",
+    "rideshare": "Gate 4 at the northeast corner of Grand Casino Arena on 5th Street is the official pickup and drop-off location for rideshare services, with Lyft as the official partner offering a discount code for new users.",
+    "lots": [
+      "RiverCentre Parking Ramp",
+      "Kellogg Parking Ramp"
+    ],
+    "city": "St. Paul",
+    "state": "MN"
   },
   "yankee_stadium": {
     "updated": "",
-    "summary": "",
-    "allowed": [],
-    "notAllowed": [],
-    "note": "",
-    "fullLink": "https://www.mlb.com/yankees/ballpark/information/entry",
-    "essentialsLink": ""
+    "officialParkingUrl": "https://www.mlb.com/yankees/ballpark/information/directions-parking",
+    "note": "Yankee Stadium parking is available at several nearby garages, including the 164th Street Garage, Ruppert Plaza Garage, 161st Street Garage, and River Avenue Garage. Prepaid parking must be purchased through City Parking, which controls rates and policies, not the Yankees. Fans attending postseason games are advised to arrive early and use public transportation, as some garages may reach capacity quickly and Premium Parking Pass holders may be redirected to alternate lots.",
+    "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
+    "lots": [
+      "164th Street Garage",
+      "Ruppert Plaza Garage",
+      "161st Street Garage",
+      "River Avenue Garage"
+    ],
+    "city": "Bronx",
+    "state": "NY"
   }
 }
