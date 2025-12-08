@@ -21,7 +21,8 @@
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   height: 100%;
@@ -220,18 +221,6 @@ html, body {
 .card-body.small {
   font-size: 0.8rem;
   color: var(--muted);
-}
-
-/* Bullet list (if we ever add more info later) */
-.bullet-list {
-  margin: 0;
-  padding-left: 18px;
-  font-size: 0.86rem;
-  color: var(--ink);
-}
-
-.bullet-list li {
-  margin-bottom: 3px;
 }
 
 /* Browse list of venues */
