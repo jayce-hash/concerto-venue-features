@@ -1,5 +1,5 @@
 /* ============================================================
-   Concerto — Concessions Guide (Light Ultra-Clean)
+   Bag Policy Guide (Light Ultra-Clean)
    ============================================================ */
 
 :root {
@@ -217,16 +217,40 @@ html, body {
   color: var(--ink);
 }
 
-/* Stands list */
-.stands-list {
+/* Bullet list */
+.bullet-list {
   margin: 0;
   padding-left: 18px;
   font-size: 0.86rem;
   color: var(--ink);
 }
 
-.stands-list li {
+.bullet-list li {
   margin-bottom: 3px;
+}
+
+/* Browse list of venues */
+.browse-list {
+  margin-top: 12px;
+  background: #fff;
+  border-radius: 16px;
+  border: 1px solid var(--line);
+  box-shadow: 0 2px 6px rgba(18, 30, 54, 0.06);
+  padding: 8px 10px;
+}
+
+.browse-item {
+  padding: 6px 4px;
+  font-size: 0.86rem;
+  cursor: pointer;
+}
+
+.browse-item + .browse-item {
+  border-top: 1px solid #eef1f7;
+}
+
+.browse-item:hover {
+  background: #f5f7fb;
 }
 
 /* Buttons */
