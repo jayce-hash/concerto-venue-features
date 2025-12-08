@@ -1,974 +1,2770 @@
 {
   "acrisure_arena": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://acrisurearena.com/plan-your-trip/food-beverages/"
+    "note": "Acrisure Arena offers a diverse food and beverage experience featuring market-style outlets with hot, fresh prepared foods, grab-and-go meals, and snack options including vegetarian, vegan, and gluten-free choices. Local and regional favorites highlight the menu, showcasing sustainable and award-winning Greater Palm Springs Area staples. Fans can enjoy a variety of cuisines from barbecue and burgers to tacos, pizza, and specialty snacks alongside multiple bar areas serving craft beers and cocktails. Signature items include CV BBQ\u2019s smoked tri-tip, Shaq\u2019s Big Chicken sandwiches, and celebrity chef Giada De Laurentiis\u2019 grandma-style pizza slices.",
+    "stands": [
+      "CV BBQ",
+      "French Fry Heavens",
+      "Tanner\u2019s Prime Burgers",
+      "Shelee\u2019s Grab & Go\u2019s",
+      "The Patio",
+      "Big Chicken",
+      "Casa Escobar",
+      "Koko\u2019s Bavarian",
+      "Pronto Pizza",
+      "Cabana Bars",
+      "Dip City",
+      "E&E Pels Lemonade",
+      "KettleMitas Kettle Corn",
+      "CV Nachos"
+    ],
+    "officialConcessionsUrl": "https://acrisurearena.com/plan-your-trip/food-beverages/",
+    "city": "Thousand Palms",
+    "state": "CA"
   },
   "acrisure_stadium": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://acrisurestadium.com/stadium/food-and-beverage/"
+    "note": "Acrisure Stadium offers a wide variety of food and beverage options featuring local Pittsburgh vendors and unique culinary concepts across multiple levels. Fans can enjoy speedy service, self-serve drink markets, and convenient mobile ordering to enhance their game day experience. Franco\u2019s Pizzeria with signature pizzas like the Gina Margharita and The Immaculate Pie",
+    "stands": [
+      "Franco\u2019s Pizzeria",
+      "Franco's Italian Army Gridiron Sausages",
+      "Drink Market"
+    ],
+    "officialConcessionsUrl": "https://acrisurestadium.com/stadium/food-and-beverage/",
+    "city": "Pittsburgh",
+    "state": "PA"
   },
   "alamodome": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.alamobowl.com/game-day/alamodome/"
+    "note": "The Alamodome offers a wide range of food and beverage options across multiple levels, featuring local favorites and classic stadium fare. Fans can enjoy everything from BBQ and Tex-Mex to hot dogs, pizza, and sweet treats, with convenient cashless concessions throughout the venue. Local favorites like Earl Abel\u2019s and Los Barrios are featured alongside classic stadium options.",
+    "stands": [
+      "Betty Lou\u2019s",
+      "Chickis Texican Grill",
+      "Dippin Dots",
+      "Dome Favorites",
+      "Earl Abel\u2019s",
+      "Johnny Rockets",
+      "Lagniappe Today",
+      "Los Barrios",
+      "Montana Street Icehouse Bar",
+      "Nathan\u2019s Hot Dogs",
+      "Papa John\u2019s",
+      "Seltzer Corner",
+      "Big Bib BBQ",
+      "Larcenty Bourbon",
+      "Chicki\u2019s Chicken",
+      "Bud Light Beer Garden",
+      "Hero Hut Military and First Responder Club"
+    ],
+    "officialConcessionsUrl": "https://www.alamobowl.com/game-day/alamodome/",
+    "city": "San Antonio",
+    "state": "TX"
   },
   "albertsons_stadium": {
     "updated": "",
-    "note": "",
+    "note": "Concessions information for this venue is not fully listed here yet. Check the venue website or your event ticket for food and drink options.",
     "stands": [],
-    "officialConcessionsUrl": null
+    "officialConcessionsUrl": "No Link",
+    "city": "Boise",
+    "state": "ID"
   },
   "allegiant_stadium": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://visit.allegiantstadium.com/plan-your-visit/food-beverage-menu-guide"
+    "note": "Allegiant Stadium offers a wide variety of food and beverage options across multiple concourses, including classic stadium fare like burgers, pizza, BBQ, and Mexican dishes, alongside diverse beverage choices such as draft beer, cocktails, and non-alcoholic drinks. Fans can enjoy options catering to different dietary preferences including gluten-free, vegetarian, and vegan selections. Signature cocktails like the Silver and Black Margarita and local-inspired items such as Hawaiian poke and Spam Musubi.",
+    "stands": [
+      "1800 Bar",
+      "1960 Bar",
+      "All on Red - Bloody Marys and Micheladas",
+      "America First Smart Shop",
+      "Antidote",
+      "Arrrgharita",
+      "Aspen Vodka",
+      "Auntie Anne's",
+      "BBQ Mexicana",
+      "Bacardi Bar",
+      "Beer Portable",
+      "Blue Moon Bar",
+      "Boomtown Burgers"
+    ],
+    "officialConcessionsUrl": "https://visit.allegiantstadium.com/plan-your-visit/food-beverage-menu-guide",
+    "city": "Las Vegas",
+    "state": "NV"
   },
   "amalie_arena": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.amaliearena.com/plan-your-visit/arena-dining"
+    "note": "Amalie Arena offers a diverse range of food and beverage options featuring bold flavors from Asian-inspired bao buns to classic stadium fare and local Tampa favorites. Fans can enjoy everything from gourmet sandwiches and authentic Mexican tacos to craft beers and tropical-themed snacks. Several locations are exclusive to club level guests, enhancing the premium experience. Cigar City Brewing Taproom, Double Bacon Burger, Cheesesteak Eggrolls, Hand-breaded Buttermilk Tenders",
+    "stands": [
+      "Bowl'd Over",
+      "Bull Market",
+      "Cigar City Brewing Taproom",
+      "Corona Bolts Bay",
+      "Corona Cove",
+      "Glory Days Grill",
+      "Loli's Tacos",
+      "Knead Italia",
+      "Market On Four",
+      "The Melt Away",
+      "Thunder Grill",
+      "Lightning Snacks",
+      "Moschella's Italian Eatery",
+      "Outback Steakhouse",
+      "Papa Johns Pizza",
+      "PDQ",
+      "Portside Place",
+      "Portside Grill"
+    ],
+    "officialConcessionsUrl": "https://www.amaliearena.com/plan-your-visit/arena-dining",
+    "city": "Tampa",
+    "state": "FL"
   },
   "amerant_bank_arena": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.nhl.com/panthers/arena/concessions"
+    "note": "Amerant Bank Arena offers a wide variety of food and beverage options including classic arena fare like burgers, hot dogs, nachos, and pizza, along with specialty items such as BBQ ribs, chicken sandwiches, and vegetarian choices. Fans can enjoy both alcoholic and non-alcoholic beverages, with several local and craft beer options available. Certified kosher offerings and gluten-free items are also available to accommodate diverse dietary needs. Kosher Korner with certified kosher options and local craft beers like Funky Buddha and VooDoo Vodka BBQ & Bar",
+    "stands": [
+      "Castaway Coffee",
+      "Lime Fresh",
+      "Mister Softee Cart",
+      "Pasta Cart",
+      "Playa Bowls",
+      "Stoner's Pizza",
+      "VooDoo Vodka BBQ & Bar",
+      "Kosher Korner"
+    ],
+    "officialConcessionsUrl": "https://www.nhl.com/panthers/arena/concessions",
+    "city": "Sunrise",
+    "state": "FL"
   },
   "american_airlines_center": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.americanairlinescenter.com/food-beverage/concessions"
+    "note": "American Airlines Center offers a wide variety of food and beverage options including classic arena favorites, local BBQ, Tex-Mex, fresh deli sandwiches, and a selection of beer, wine, and frozen margaritas. Fans can enjoy everything from signature smashburgers and street tacos to artisan soft pretzels and sweet treats throughout multiple concourse locations. Signature Smashburgers, Niman Ranch Hot Dogs, Zavala's Barbeque, and frozen margaritas",
+    "stands": [
+      "AvoEats",
+      "Big D Dogs + Brews",
+      "Bonanno Brothers Pizzeria",
+      "Bud and Burger",
+      "DBQ",
+      "El Taco Tex",
+      "Fast Break",
+      "Grill Zone",
+      "High Steaks",
+      "Hot Popped and Twisted",
+      "Market to Go",
+      "The Nutty Bavarian",
+      "Tostitos Cantina",
+      "Woodbridge Barrel Bar",
+      "Zavala's Barbeque",
+      "Bud Light Bar",
+      "7 Eleven Slurpee"
+    ],
+    "officialConcessionsUrl": "https://www.americanairlinescenter.com/food-beverage/concessions",
+    "city": "Dallas",
+    "state": "TX"
   },
   "american_family_field": {
     "updated": "",
-    "note": "",
+    "note": "Concessions information for this venue is not fully listed here yet. Check the venue website or your event ticket for food and drink options.",
     "stands": [],
-    "officialConcessionsUrl": null
+    "officialConcessionsUrl": "No Link",
+    "city": "Milwaukee",
+    "state": "WI"
   },
   "angel_stadium": {
     "updated": "",
-    "note": "",
+    "note": "Angel Stadium offers a variety of classic ballpark foods and beverages to enjoy during the game, featuring traditional favorites and a range of options to satisfy different tastes. Fans can find everything from snacks to full meals throughout the venue.",
     "stands": [],
-    "officialConcessionsUrl": "https://mktg.mlbstatic.com/angels/downloads/y2025/lets_eat_menu_2025.pdf"
+    "officialConcessionsUrl": "https://mktg.mlbstatic.com/angels/downloads/y2025/lets_eat_menu_2025.pdf",
+    "city": "Anaheim",
+    "state": "CA"
   },
-  "at_t_stadium": {
+  "att_stadium": {
     "updated": "",
-    "note": "",
+    "note": "AT&T Stadium offers a wide variety of food and beverage options to suit all tastes, featuring classic stadium fare alongside local flavors. Fans can enjoy everything from quick snacks to full meals throughout the venue.",
     "stands": [],
-    "officialConcessionsUrl": "https://attstadium.com/concessions-menu/"
+    "officialConcessionsUrl": "https://attstadium.com/concessions-menu/",
+    "city": "Arlington",
+    "state": "TX"
   },
   "bok_center": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.bokcenter.com/plan-your-visit/food-beverage"
+    "note": "BOK Center offers a wide range of food and beverage options including classic arena fare, chicken sandwiches, pizza, Italian ice, and gourmet popcorn. Fans can enjoy local favorites and family-owned treats alongside traditional snacks and refreshing drinks. Multiple stands provide something for every taste, from spicy wings to build-your-own nachos and boozy slushies. Build-your-own nachos and family-owned Italian ice",
+    "stands": [
+      "Big Chicken",
+      "Billys",
+      "Papa John's",
+      "Pepsi",
+      "Micoletti's",
+      "Doc Popcorn",
+      "The Candy Shop",
+      "Backstage",
+      "Fuel",
+      "Roadie's Grill",
+      "Slush Rush",
+      "Party Nachos - Trisha Yearwood"
+    ],
+    "officialConcessionsUrl": "https://www.bokcenter.com/plan-your-visit/food-beverage",
+    "city": "Tulsa",
+    "state": "OK"
   },
   "ball_arena": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.ballarena.com/food-drink/concessions/"
+    "note": "Ball Arena offers a variety of high-quality food and beverage options throughout the venue, including concessions, suites, and premium locations. Payment is primarily cashless, with select locations accepting cash. Guests can find assistance at Guest Relations kiosks for the latest food and drink offerings. Michelob Ultra Mountain House",
+    "stands": [
+      "Michelob Ultra Mountain House",
+      "C\u00f3digo Lounge",
+      "Colorado Social"
+    ],
+    "officialConcessionsUrl": "https://www.ballarena.com/food-drink/concessions/",
+    "city": "Denver",
+    "state": "CO"
   },
   "bank_of_america_stadium": {
     "updated": "",
-    "note": "",
+    "note": "Bank of America Stadium offers a variety of food and beverage options throughout the venue, including classic stadium fare and alcoholic beverages. Fans can enjoy a convenient concessions experience designed to keep them fueled and refreshed during the game.",
     "stands": [],
-    "officialConcessionsUrl": "https://www.panthers.com/stadium/concessions"
+    "officialConcessionsUrl": "https://www.panthers.com/stadium/concessions",
+    "city": "Charlotte",
+    "state": "NC"
   },
   "barclays_center": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.barclayscenter.com/food-beverage"
+    "note": "Barclays Center offers a diverse culinary experience featuring authentic neighborhood staples from Brooklyn restaurants, vendors, and suppliers. Fans can enjoy a variety of food and beverage options throughout the arena, including multiple clubs and bars. The selection includes wines, beers, and craft brews to complement the food offerings. Brooklyn Taste program featuring local Brooklyn restaurants and vendors",
+    "stands": [
+      "Brooklyn Craft",
+      "Grab & Go"
+    ],
+    "officialConcessionsUrl": "https://www.barclayscenter.com/food-beverage",
+    "city": "Brooklyn",
+    "state": "NY"
   },
   "bethel_woods_center_for_the_arts": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.bethelwoodscenter.org/pavilion/plan-your-pavilion-visit/dining"
+    "note": "Bethel Woods offers a variety of fresh, farm-inspired dining options featuring local flavors from Sullivan County and the Catskills. Enjoy casual fare during concerts, caf\u00e9 dining at Yasgur's Farm Caf\u00e9, and specialty stands across the campus. The venue is cashless, accepting cards and mobile payments only. Eddie's Pickles, Nikki C's fresh seafood, and What's Poppin hand-popped kettle corn.",
+    "stands": [
+      "Yasgur's Farm Caf\u00e9",
+      "The Green Room",
+      "Concert Classics",
+      "Eddie's Pickles",
+      "Nikki C's",
+      "Street Tacos",
+      "Luigi's",
+      "Lemon Love",
+      "What's Poppin",
+      "Whipped Cupcakes",
+      "Member Lounge"
+    ],
+    "officialConcessionsUrl": "https://www.bethelwoodscenter.org/pavilion/plan-your-pavilion-visit/dining",
+    "city": "Bethel",
+    "state": "NY"
   },
   "broadview_stage_at_spac": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://spac.org/saratoga-performing-arts-center/your-visit/the-spac-experience/food-drink/"
+    "note": "Enjoy a variety of food and drink options at Broadview Stage, including fresh salads, sandwiches, snacks, craft beers, wines, and cocktails. Local and sustainable ingredients are featured, with opportunities for picnic dining on the grounds. Exclusive dining experiences are available nearby at the Hall of Springs during select performances. Contemporary American cuisine with local and sustainable ingredients at Arts Dining; farm-to-table al fresco dining for Patrons\u2019 Club members.",
+    "stands": [
+      "Legends Concessions"
+    ],
+    "officialConcessionsUrl": "https://spac.org/saratoga-performing-arts-center/your-visit/the-spac-experience/food-drink/",
+    "city": "Saratoga Springs",
+    "state": "NY"
   },
   "bridgestone_arena": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.nhl.com/predators/arena/amenities"
+    "note": "Bridgestone Arena offers a wide variety of food and beverage options including barbecue, burgers, tacos, pizza, and a selection of alcoholic beverages. Fans can enjoy local flavors and popular concessions throughout multiple stands across the venue. Puckett's BBQ featuring pork, brisket, and classic sides",
+    "stands": [
+      "Puckett's BBQ",
+      "Burger Stand",
+      "Cheesesteak Stand",
+      "Chicken Tender Stand",
+      "Humphrey's Street Coffee",
+      "Christie Cookie Co.",
+      "Grilled Cheese Stand",
+      "Hotdog Stand",
+      "Fav Favs",
+      "Hunt Brothers Pizza",
+      "Taco Stand",
+      "Tailgate Brewery",
+      "Diskin Cider",
+      "Barrel House",
+      "Ole Smokey Moonshine",
+      "Truly Nashville Bar",
+      "Sailor Jerry"
+    ],
+    "officialConcessionsUrl": "https://www.nhl.com/predators/arena/amenities",
+    "city": "Nashville",
+    "state": "TN"
   },
   "busch_stadium": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.mlb.com/cardinals/ballpark/dining-concessions/food"
+    "note": "Busch Stadium offers a wide variety of food and beverage options ranging from classic ballpark favorites like hot dogs and smoked BBQ to Asian stir fry and craft beers. Fans can enjoy locally inspired smoked meats, fresh bakery rolls, and multiple convenient locations throughout the stadium. Beverage selections include domestic draft and bottled beers available at several bars and stands. St. Louis BBQ House smoked meats and Bacon Cheddar Sausage",
+    "stands": [
+      "Asian Action Station",
+      "Outfield Grill",
+      "Broadway BBQ",
+      "Carvery",
+      "Gate 1 Bar",
+      "Crowd The Plate",
+      "8th Street Market",
+      "El Birdos Nachos",
+      "Gashouse Grill",
+      "Topp Dog",
+      "Dizzy's Diners",
+      "Mini Market",
+      "1764 Craft Bar",
+      "Redbird Carvery",
+      "Ballpark Favorites",
+      "Redbird Club Pretzelry",
+      "Sandwich Showdown",
+      "Redbird Club Bar",
+      "Redbird Club Grill",
+      "Redbird Club Market",
+      "Left Field Pavilion",
+      "Mega Pizza Slice",
+      "Triple Play",
+      "Bowtie Bar",
+      "Terrace Grille",
+      "Freddy's"
+    ],
+    "officialConcessionsUrl": "https://www.mlb.com/cardinals/ballpark/dining-concessions/food",
+    "city": "St. Louis",
+    "state": "MO"
   },
   "cfg_bank_arena": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://cfgbankarena.com/food-beverage/"
+    "note": "CFG Bank Arena offers a wide variety of food and beverage options including classic arena fare like hot dogs, pizza, and nachos, alongside premium bars featuring local and official beverage partners. Fans can enjoy everything from seafood and chicken tenders to vegan and gluten-free choices, with multiple locations throughout the venue. The arena also features specialty bars and snack stands to enhance the game day experience. Signature items include the Crabcake Egg Roll, Old Bay Crabby Mac, and premium bars featuring Casamigos Tequila and Sagamore Rye Whiskey.",
+    "stands": [
+      "Bud Light B-Side Bar",
+      "Casamigos Bar",
+      "Sagamore Rye Bar",
+      "Modelo Bar",
+      "Cutwater Cocktail Bar",
+      "A Garden of Eatin",
+      "B'More Poppin'",
+      "Big Chicken",
+      "Frankie's Funnel",
+      "Jimmy's Famous Seafood",
+      "Koko's Bavarian",
+      "Mister Softee",
+      "Smashburger",
+      "Snack Shack",
+      "Sorrento of Arbutus",
+      "Stuggy's",
+      "Walking Taco",
+      "Grab + Go Market"
+    ],
+    "officialConcessionsUrl": "https://cfgbankarena.com/food-beverage/",
+    "city": "Baltimore",
+    "state": "MD"
   },
   "chi_health_center": {
     "updated": "",
-    "note": "",
+    "note": "CHI Health Center Omaha offers a wide range of food and beverage options including classic gameday favorites, hearty BBQ, vegan choices, snacks, and locally sourced draft beers. Concessions are available throughout the main and upper-level concourses, featuring diverse menu items to satisfy every craving. Availability and offerings may vary by event. New items like Birria Nachos, Nashville Hot Honey Chicken Sandwich, and local handcrafted ice cream.",
     "stands": [],
-    "officialConcessionsUrl": "https://chihealthcenteromaha.com/arena/concessions/"
+    "officialConcessionsUrl": "https://chihealthcenteromaha.com/arena/concessions/",
+    "city": "Omaha",
+    "state": "NE"
   },
   "caesars_superdome": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.caesarssuperdome.com/plan-your-visit/food-and-beverage"
+    "note": "Caesars Superdome offers a wide variety of food and beverage options featuring classic stadium fare alongside local New Orleans flavors. Fans can enjoy everything from po\u2019boys and jambalaya to hand-breaded fried shrimp and Creole sandwiches, with plenty of snacks, sweets, and a full selection of beers and cocktails. Multiple concession stands throughout the venue provide convenient access to both traditional and regional dishes. Po\u2019Boys, Jambalaya, Alligator Sausage, Muffuletta, Creole Beef Brisket Sandwich",
+    "stands": [
+      "Crescent City Cuisine",
+      "Bayou Kitchen & Market",
+      "Branson Bar",
+      "Tostitos Cantina",
+      "Mercado Tortillas",
+      "Crown Royal Tchoupitoulas Bar",
+      "Little Caesars Pizza",
+      "Beau Coup BBQ",
+      "504 Eats",
+      "Abita Beer Bar",
+      "Canal Street Cocktails",
+      "Bud Light Pontchartrain Bar"
+    ],
+    "officialConcessionsUrl": "https://www.caesarssuperdome.com/plan-your-visit/food-and-beverage",
+    "city": "New Orleans",
+    "state": "LA"
   },
   "camp_randall_stadium": {
     "updated": "",
-    "note": "",
+    "note": "Concessions information for this venue is not fully listed here yet. Check the venue website or your event ticket for food and drink options.",
     "stands": [],
-    "officialConcessionsUrl": null
+    "officialConcessionsUrl": "No Link",
+    "city": "Madison",
+    "state": "WI"
   },
   "camping_world_stadium": {
     "updated": "",
-    "note": "",
+    "note": "Concessions information for this venue is not fully listed here yet. Check the venue website or your event ticket for food and drink options.",
     "stands": [],
-    "officialConcessionsUrl": null
+    "officialConcessionsUrl": "No Link",
+    "city": "Orlando",
+    "state": "FL"
   },
   "capital_one_arena": {
     "updated": "",
-    "note": "",
+    "note": "Capital One Arena offers a variety of food and beverage options throughout the concourse, focusing on quick service and convenience with multiple concession stands across all levels. The venue maintains high health and safety standards and provides a cashless payment experience for faster transactions.",
     "stands": [],
-    "officialConcessionsUrl": "https://www.capitalonearena.com/food-beverage"
+    "officialConcessionsUrl": "https://www.capitalonearena.com/food-beverage",
+    "city": "Washington",
+    "state": "DC"
   },
   "chaifetz_arena": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.chaifetzarena.com/guest-experience/concessions"
+    "note": "Chaifetz Arena offers a diverse range of food and beverage options featuring local favorites and classic stadium fare, including Mexican, Italian, BBQ, and specialty burgers. Menus vary by stand and event, with all sales being cashless. A full selection of alcoholic and non-alcoholic drinks is also available. Award-winning barbecue from Pappy\u2019s Smokehouse and signature wings in multiple flavors.",
+    "stands": [
+      "Blue Agave Mexican",
+      "Fast Break Brews",
+      "Midtown Italiano",
+      "All-Star Eats",
+      "Blue Flame BBQ",
+      "Full Court Classics"
+    ],
+    "officialConcessionsUrl": "https://www.chaifetzarena.com/guest-experience/concessions",
+    "city": "St. Louis",
+    "state": "MO"
   },
   "chase_center": {
     "updated": "",
-    "note": "",
+    "note": "Chase Center offers a diverse range of food and beverage options featuring local flavors and popular favorites to satisfy every craving. Fans can enjoy everything from quick snacks to full meals, with a focus on quality and variety throughout the venue.",
     "stands": [],
-    "officialConcessionsUrl": "https://chasecenter.com/food-and-beverage/"
+    "officialConcessionsUrl": "https://chasecenter.com/food-and-beverage/",
+    "city": "San Francisco",
+    "state": "CA"
   },
   "chase_field": {
     "updated": "",
-    "note": "",
+    "note": "Chase Field offers a wide variety of food and beverage options to suit all tastes, including classic ballpark fare and local flavors. Fans can enjoy diverse dining locations throughout the ballpark, with options for dietary preferences and new menu items available. The venue also features lounges and value items for a complete ballpark experience.",
     "stands": [],
-    "officialConcessionsUrl": "https://www.mlb.com/dbacks/ballpark/dining-concessions"
+    "officialConcessionsUrl": "https://www.mlb.com/dbacks/ballpark/dining-concessions",
+    "city": "Phoenix",
+    "state": "AZ"
   },
   "citi_field": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.mlb.com/mets/ballpark/citi-field-dining-guide"
+    "note": "Citi Field offers a diverse range of food and beverage options featuring classic ballpark fare, local New York flavors, and specialty items including sushi, halal food, vegan and gluten-friendly choices. Fans can enjoy everything from hand-breaded chicken tenders to fresh sushi rolls and craft lemonades, with many local partners and unique concepts throughout the ballpark. Adam Richman\u2019s Burger Hall of Fame, Amazin\u2019 Chicken Co., Pat LaFrieda Meat Purveyors",
+    "stands": [
+      "Adam Richman\u2019s Burger Hall of Fame",
+      "Amazin\u2019 Chicken Co.",
+      "Amazin\u2019 Deli",
+      "Bases Loaded Lemonade",
+      "Beyond Nightlife Sushi",
+      "Big Mozz",
+      "Boozy Buckets",
+      "Chef Kwame\u2019s Patty Palace",
+      "Chiddy\u2019s Cheesesteaks",
+      "Coca-Cola Food Truck \u2013 Dorado Tacos & Quesadillas",
+      "Cookie Crumz",
+      "Dole Whip",
+      "From the Stretch",
+      "Fuku",
+      "Gluten Friendly Gyro",
+      "Jimmy\u2019s Greek Grill",
+      "Hot Pastrami on Rye",
+      "Lobster Shack",
+      "Metropolitan Fry Factory",
+      "Mister Softee",
+      "Mr. & Mrs. Met Candy Shop",
+      "Nachos",
+      "Naz\u2019s Halal Food",
+      "New York Panini",
+      "Pat LaFrieda Meat Purveyors",
+      "Pig Beach BBQ",
+      "Premio Hot or Sweet Sausage",
+      "Prime Kosher Sports",
+      "Prince Street Pizza",
+      "Seoul Bird",
+      "Shake Shack",
+      "Smoothies",
+      "Swingin' Wings",
+      "Taste of Queens \u2013 Thai Tai Eatery",
+      "Walk-Off Caf\u00e9",
+      "Wok N' Roll",
+      "Zeppole",
+      "Vegan City",
+      "Specialty Cocktails",
+      "Coffee",
+      "Vegetarian Options at Citi Field",
+      "Vegan Options at Citi Field",
+      "Gluten Friendly Options at Citi Field",
+      "Pat LaFrieda\u2019s Chop House",
+      "Grand Slammin\u2019 Sushi by Beyond Nightlife",
+      "Metro Market",
+      "The K Korner"
+    ],
+    "officialConcessionsUrl": "https://www.mlb.com/mets/ballpark/citi-field-dining-guide",
+    "city": "Queens",
+    "state": "NY"
   },
   "citizens_bank_park": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.mlb.com/phillies/ballpark/information/concessions"
+    "note": "Citizens Bank Park offers a wide variety of food and beverage options, featuring traditional ballpark fare alongside Philadelphia-inspired dishes. Fans can find healthier and gluten-free choices throughout the accessible concession areas, including spots in Ashburn Alley and the main concourse. Local favorites and diverse menus highlight the ballpark\u2019s commitment to quality and community. Bull\u2019s BBQ, Campo's Deli cheesesteaks, Chickie's & Pete's Crabfries\u00ae",
+    "stands": [
+      "1883 Burger Co",
+      "Ballpark Favorites",
+      "Budweiser Batter's Eye",
+      "Bull\u2019s BBQ",
+      "Campo's",
+      "Casamigos Bar",
+      "Chickie's & Pete's",
+      "Coca-Cola Corner"
+    ],
+    "officialConcessionsUrl": "https://www.mlb.com/phillies/ballpark/information/concessions",
+    "city": "Philadelphia",
+    "state": "PA"
   },
   "climate_pledge_arena": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.climatepledgearena.com/food-beverage/"
+    "note": "Climate Pledge Arena offers a diverse food and beverage program featuring local Seattle flavors and sustainable seafood, with options ranging from classic arena fare to plant-based and gluten-free choices. Guests can enjoy a variety of marketplaces, clubs, and lounges throughout the venue, with a focus on quality and memorable culinary experiences. Official sausage of the Seattle Kraken, sustainable Bristol Bay seafood, and plant-based IMPOSSIBLE\u2122 dishes.",
+    "stands": [
+      "1st Ave. Nachos",
+      "Ballard Pizza",
+      "Bavarian Meats\u00ae",
+      "Big Chicken",
+      "Bristol Bay Chowder",
+      "Bristol Bay Wild Market",
+      "Casa Escobar",
+      "Chefs Table",
+      "Coors Light Mountain Marketplace",
+      "Desserts",
+      "Dumpling House",
+      "Emerald City Smoothie",
+      "For The Grazers",
+      "Fowl Language",
+      "IMPOSSIBLE\u00ae: Test Kitchen",
+      "Local Lolli",
+      "Mercer Street Mac & BBQ",
+      "Mister Softee",
+      "Molly D Burgers"
+    ],
+    "officialConcessionsUrl": "https://www.climatepledgearena.com/food-beverage/",
+    "city": "Seattle",
+    "state": "WA"
   },
   "colonial_life_arena": {
     "updated": "",
-    "note": "",
+    "note": "Concessions information for this venue is not fully listed here yet. Check the venue website or your event ticket for food and drink options.",
     "stands": [],
-    "officialConcessionsUrl": null
+    "officialConcessionsUrl": "No Link",
+    "city": "Columbia",
+    "state": "SC"
   },
   "comerica_park": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.mlb.com/tigers/ballpark/food"
+    "note": "Comerica Park offers a diverse food and beverage experience featuring local Detroit restaurant partnerships and a variety of ballpark favorites with unique twists. Fans can enjoy everything from classic burgers and BBQ sandwiches to health-conscious bowls and wraps, plus rotating local food trucks on select weekends. Special themed menu items are also available during Heritage Nights. Slows Bar BQ sandwiches and Big Cat Court Smashburger",
+    "stands": [
+      "Big Cat Court",
+      "Shawarma section",
+      "Slows Bar BQ",
+      "Blue Moon Bistro",
+      "Little Caesars Pizza",
+      "The Great Greek Food Truck"
+    ],
+    "officialConcessionsUrl": "https://www.mlb.com/tigers/ballpark/food",
+    "city": "Detroit",
+    "state": "MI"
   },
   "commonwealth_stadium": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.edmonton.ca/attractions_events/commonwealth_stadium/food-beverage"
+    "note": "Food and beverage options at Commonwealth Stadium include a variety of concessions located on the east and west concourses, offering premium and classic stadium fare with gluten-friendly options available. Fans can enjoy everything from burgers and ribs to specialty snacks, along with a selection of craft beers, wines, cocktails, and premium coffees. Dedicated spaces like the Jackie Parker Room and Legends Club provide enhanced food and drink experiences for ticket holders. Teriyaki Chicken Burger, Gourmet Bacon Burger, Rib Bits, Ukrainian Dog",
+    "stands": [
+      "Chicken and Rib East and West",
+      "Specialty Burger East and West",
+      "Sausage East",
+      "Pizza East and West",
+      "Beer Concession 3 and 6",
+      "X-Bar Caesar Bar",
+      "Highball Express Satellite",
+      "Jackie Parker Room",
+      "Legends Club"
+    ],
+    "officialConcessionsUrl": "https://www.edmonton.ca/attractions_events/commonwealth_stadium/food-beverage",
+    "city": "Edmonton",
+    "state": "AB"
   },
   "coors_field": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.mlb.com/rockies/ballpark/food"
+    "note": "Coors Field offers a wide variety of food and beverage options including made-to-order burgers, salads, BBQ, gluten-friendly choices, and local craft beers. Fans can enjoy classic ballpark fare alongside unique items from local partners and specialty stands throughout the ballpark. Helton Burger, Famous Dave's BBQ, Biker Jim's specialty sausages",
+    "stands": [
+      "Helton Burger",
+      "Infield Greens Salad",
+      "Gluten Friendly",
+      "Famous Dave's",
+      "Biker Jims",
+      "Burrito Stand",
+      "Corona Beer Smash Burger",
+      "Silver Bullet Bar",
+      "Frose Sandlot",
+      "Carving Stations"
+    ],
+    "officialConcessionsUrl": "https://www.mlb.com/rockies/ballpark/food",
+    "city": "Denver",
+    "state": "CO"
   },
   "credit_union_1_amphitheatre": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.creditunion1amp.com/bites"
+    "note": "Credit Union 1 Amphitheatre offers a variety of food and drink options ranging from classic concert snacks to specialty items like burgers, chicken tenders, pizza, and Bavarian-style sausages. Fans can enjoy refreshing beverages including beer, cocktails, and non-alcoholic choices at multiple concession stands throughout the venue. Signature Mosh Burger, Rebel Hen Crispy Chicken, and Ziggy's Magic Pizza Shop",
+    "stands": [
+      "Mosh Burger",
+      "Rebel Hen Crispy Chicken",
+      "Ziggy's Magic Pizza Shop",
+      "Koko's",
+      "CVT Premium Soft Serve"
+    ],
+    "officialConcessionsUrl": "https://www.creditunion1amp.com/bites",
+    "city": "Tinley Park",
+    "state": "IL"
   },
-  "crypto_com_arena": {
+  "cryptocom_arena": {
     "updated": "",
-    "note": "",
+    "note": "Crypto.com Arena offers a wide range of food and beverage options featuring classic arena fare alongside local flavors. Fans can enjoy everything from quick snacks to hearty meals, with a focus on quality and variety throughout the venue.",
     "stands": [],
-    "officialConcessionsUrl": "https://www.nba.com/lakers/tickets/food-and-drink"
+    "officialConcessionsUrl": "https://www.nba.com/lakers/tickets/food-and-drink",
+    "city": "Los Angeles",
+    "state": "CA"
   },
   "daikin_park": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.mlb.com/astros/ballpark/information/concessions"
+    "note": "Daikin Park offers a wide variety of food and drink options including smoked BBQ, classic ballpark fare, healthy alternatives, and a large selection of craft beers and wines. Fans can enjoy local flavors like Karbach Brewery drafts and fresh Mexican-inspired snacks alongside traditional favorites and indulgent treats. 18-hour smoked brisket, large stadium wine selection, Karbach Brewery draft beers",
+    "stands": [
+      "19th Hole",
+      "Butcher",
+      "Butcher Express",
+      "Chic-fil-A",
+      "Cookies and Creamery",
+      "Dippin Dots & Ice Cream Pint Express",
+      "Elote and Pupusas",
+      "El Tiempo Margarita Bar",
+      "Fry-4-3",
+      "H-Town Grill",
+      "Home & Away",
+      "Karbach Bar",
+      "Kicken Nachos",
+      "Love Street Bar"
+    ],
+    "officialConcessionsUrl": "https://www.mlb.com/astros/ballpark/information/concessions",
+    "city": "Houston",
+    "state": "TX"
   },
   "delta_center": {
     "updated": "",
-    "note": "",
+    "note": "Enjoy a variety of food and beverage options throughout the Delta Center, with multiple concession stands located on Levels 3, 5, and 6 offering classic arena fare and refreshments to keep you fueled during events.",
     "stands": [],
-    "officialConcessionsUrl": "https://www.deltacenter.com/food-and-drinks/"
+    "officialConcessionsUrl": "https://www.deltacenter.com/food-and-drinks/",
+    "city": "Salt Lake City",
+    "state": "UT"
   },
   "desert_diamond_arena": {
     "updated": "",
-    "note": "",
+    "note": "Concessions information for this venue is not fully listed here yet. Check the venue website or your event ticket for food and drink options.",
     "stands": [],
-    "officialConcessionsUrl": null
+    "officialConcessionsUrl": "No Link",
+    "city": "Glendale",
+    "state": "AZ"
   },
   "dickies_arena": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://dickiesarena.com/230-2/"
+    "note": "Dickies Arena offers an in-house food and beverage experience featuring fresh menus made with quality ingredients. Guests can enjoy a variety of options across multiple levels, including the Plaza and Gallery levels, with a focus on local flavors and partnerships. Cowtown Fresh Fare by Texas Health",
+    "stands": [
+      "Ariat Club",
+      "Reliant Club",
+      "Cowtown Fresh Fare"
+    ],
+    "officialConcessionsUrl": "https://dickiesarena.com/230-2/",
+    "city": "Fort Worth",
+    "state": "TX"
   },
   "dodger_stadium": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.mlb.com/dodgers/ballpark/information/concessions-directory"
+    "note": "Dodger Stadium offers a wide variety of food and beverage options featuring classic ballpark fare like burgers, BBQ, carne asada dishes, and chicken tenders. Fans can enjoy specialty items from local partners such as King\u2019s Hawaiian and Shake Shack, with rotating menus highlighting unique flavors throughout the ballpark. King\u2019s Hawaiian BBQ sliders and Shake Shack burgers",
+    "stands": [
+      "Think Blue BBQ",
+      "King\u2019s Hawaiian",
+      "Shake Shack",
+      "La Taqueria",
+      "Fan Fare",
+      "Dodger Dog",
+      "Dodgertown Nachos & Beer",
+      "Top Deck Dogs",
+      "Hornitos Cantina",
+      "Delicious Hospitality"
+    ],
+    "officialConcessionsUrl": "https://www.mlb.com/dodgers/ballpark/information/concessions-directory",
+    "city": "Los Angeles",
+    "state": "CA"
   },
   "dolby_live": {
     "updated": "",
-    "note": "",
+    "note": "Concessions information for this venue is not fully listed here yet. Check the venue website or your event ticket for food and drink options.",
     "stands": [],
-    "officialConcessionsUrl": null
+    "officialConcessionsUrl": "No Link",
+    "city": "Las Vegas",
+    "state": "NV"
   },
   "dos_equis_pavilion": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.dosequispavilion.com/bites"
+    "note": "Dos Equis Pavilion offers a variety of food and drink options ranging from classic concert snacks to specialty items featuring local flavors. Fans can enjoy burgers, crispy chicken tenders, New York-style pizza, Bavarian sausages, and refreshing beverages including non-alcoholic choices. Conveniently located concession stands make it easy to grab a bite and get back to the show. Mosh Burger\u2019s 100% U.S. hormone-free beef patties and Koko\u2019s Bavarian specialty sausages stand out as signature offerings.",
+    "stands": [
+      "Mosh Burger",
+      "Rebel Hen Crispy Chicken",
+      "Ziggy's Magic Pizza Shop",
+      "Koko's Bavarian",
+      "CVT Premium Soft Serve"
+    ],
+    "officialConcessionsUrl": "https://www.dosequispavilion.com/bites",
+    "city": "Dallas",
+    "state": "TX"
   },
   "empower_federal_credit_union_amphitheater": {
     "updated": "",
-    "note": "",
+    "note": "Empower Federal Credit Union Amphitheater offers a variety of food and beverage options including a wide selection of alcoholic drinks available for purchase on site. Guests must show valid ID to buy alcohol, and outside beverages are not permitted. The venue is cashless, accepting only cards and mobile payments.",
     "stands": [],
-    "officialConcessionsUrl": "https://www.asmsyracuse.com/p/amphitheater/guest-services/a-z-guide"
+    "officialConcessionsUrl": "https://www.asmsyracuse.com/p/amphitheater/guest-services/a-z-guide",
+    "city": "Syracuse",
+    "state": "NY"
   },
   "empower_field": {
     "updated": "",
-    "note": "",
+    "note": "Empower Field offers a wide variety of food and beverage options, including new restaurants and menu items for the 2025 season. Fans can find choices that accommodate vegan, vegetarian, and gluten-friendly diets throughout the stadium. Concessions are available across multiple neighborhoods, from rooftops to lounges, ensuring convenient access to delicious bites on game day. Mile High Favs available for just $5",
     "stands": [],
-    "officialConcessionsUrl": "https://www.empowerfieldatmilehigh.com/food-beverage"
+    "officialConcessionsUrl": "https://www.empowerfieldatmilehigh.com/food-beverage",
+    "city": "Denver",
+    "state": "CO"
   },
   "enterprise_center": {
     "updated": "",
-    "note": "",
+    "note": "Enterprise Center offers a variety of food and beverage options to satisfy fans during events, featuring classic arena fare and a selection of drinks throughout the venue.",
     "stands": [],
-    "officialConcessionsUrl": "http://www.enterprisecenter.com/assets/doc/ConcessionList-ab710498e5.pdf"
+    "officialConcessionsUrl": "http://www.enterprisecenter.com/assets/doc/ConcessionList-ab710498e5.pdf",
+    "city": "St. Louis",
+    "state": "MO"
   },
   "everbank_stadium": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.jaguars.com/stadium/concessions"
+    "note": "EverBank Stadium offers a wide variety of food and beverage options including classic game day favorites, vegetarian, gluten-free, and dairy-free choices. Fans can enjoy everything from hot dogs, nachos, and burgers to ice cream and specialty items, with many stands featuring local flavors and new menu additions each season. DUUUVAL Dawgs, BBQ Mac & Cheese, Loaded Tots, Cheesesteak Nachos",
+    "stands": [
+      "Mrs. Field's & Auntie Anne's",
+      "Carvel Ice Cream",
+      "DUUUVAL Dawgs",
+      "DUUUVAL Dawgs Classic",
+      "Pita Den",
+      "Stadium Classics",
+      "Tailgate Grill",
+      "904 Prime Burger",
+      "Amazon Walk Out",
+      "Cheesesteak Stand",
+      "Loaded Nachos Stand",
+      "Sausage & Hot Dog Stand",
+      "Smokey Q Express",
+      "T&T Food Truck",
+      "Wings & Brews Stand",
+      "Al's Pizza",
+      "Monster Pie",
+      "Tosito's Taqueria",
+      "Tostito's Nachos & Walking Tacos",
+      "Yucatan Guacamole Cantina",
+      "Bono's BBQ"
+    ],
+    "officialConcessionsUrl": "https://www.jaguars.com/stadium/concessions",
+    "city": "Jacksonville",
+    "state": "FL"
   },
   "fedex_forum": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://fedexforum.com/plan-your-visit/grind-and-dine"
+    "note": "FedExForum offers a wide variety of food and beverage options including classic arena fare like burgers, hotdogs, chicken tenders, and nachos, as well as local specialties and multiple bars serving craft beers, cocktails, and seltzers. Fans can enjoy offerings from local vendors such as gourmet popcorn and gelato, with convenient concession stands located throughout the venue. Rendezvous BBQ sandwiches and Memphis' own Zio Matto Gelato",
+    "stands": [
+      "Chick-fil-A",
+      "Classics",
+      "Creamery",
+      "Grab N Go",
+      "I-Pop Gourmet Popcorn",
+      "Milagro Bar",
+      "Mini Melts",
+      "Modelo Bar",
+      "Pinnacle Zone",
+      "Rendezvous",
+      "Rock'n Dough",
+      "TacoNganas",
+      "The Grill",
+      "Wiseacre Brewery Bar",
+      "Zio Matto Gelato",
+      "4/4 Grill",
+      "Toyota Lounge",
+      "Bar And Grill",
+      "Clubtails",
+      "Food Court",
+      "New Amsterdam Bar",
+      "Smoke n Pour"
+    ],
+    "officialConcessionsUrl": "https://fedexforum.com/plan-your-visit/grind-and-dine",
+    "city": "Memphis",
+    "state": "TN"
   },
   "fenway_park": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.mlb.com/redsox/ballpark/concessions"
+    "note": "Fenway Park offers a wide variety of classic ballpark fare including burgers, chicken tenders, clam chowder, and specialty items like burrito bowls and dumplings. Fans can enjoy local flavors and popular snacks throughout multiple concourses and pavilions. Options include kid-friendly treats and a selection of beverages to suit all tastes. Boston Cr\u00e8me Pie, Savenor's Cheesesteak, Cavendish Farm French Fries",
+    "stands": [
+      "Burger Kitchen",
+      "Jersey Street",
+      "Kids Concourse, presented by L.L.Bean",
+      "Aura Pavilion",
+      "Truly Terrace",
+      "Sam Deck",
+      "Big Concourse",
+      "Home Plate Concourse",
+      "Right Field Concourse"
+    ],
+    "officialConcessionsUrl": "https://www.mlb.com/redsox/ballpark/concessions",
+    "city": "Boston",
+    "state": "MA"
   },
   "fiserv_forum": {
     "updated": "",
-    "note": "",
+    "note": "Fiserv Forum offers a variety of food and beverage options throughout the concourses, including quick-service stands and beverage bars. Guests can enjoy a range of snacks, meals, beer, and cocktails with convenient ordering and pickup options. Special diet menus are available upon request to accommodate different needs.",
     "stands": [],
-    "officialConcessionsUrl": "https://www.fiservforum.com/plan-your-visit/concessions"
+    "officialConcessionsUrl": "https://www.fiservforum.com/plan-your-visit/concessions",
+    "city": "Milwaukee",
+    "state": "WI"
   },
   "food_city_center": {
     "updated": "",
-    "note": "",
+    "note": "Concessions information for this venue is not fully listed here yet. Check the venue website or your event ticket for food and drink options.",
     "stands": [],
-    "officialConcessionsUrl": null
+    "officialConcessionsUrl": "No Link",
+    "city": "Knoxville",
+    "state": "TN"
   },
   "ford_field": {
     "updated": "",
-    "note": "",
+    "note": "Ford Field offers a variety of food and beverage options throughout the stadium, featuring healthy, gluten-free, and vegan choices to accommodate all fans. Enjoy a range of classic stadium fare alongside local flavors in a convenient and welcoming environment.",
     "stands": [],
-    "officialConcessionsUrl": "https://www.fordfield.com/where-to-eat-and-drink"
+    "officialConcessionsUrl": "https://www.fordfield.com/where-to-eat-and-drink",
+    "city": "Detroit",
+    "state": "MI"
   },
   "freedom_mortgage_pavilion": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.freedommortgagepavilion.com/bites"
+    "note": "Freedom Mortgage Pavilion offers a diverse range of food and drink options, from classic concert snacks like popcorn and nachos to specialty items including burgers, chicken tenders, pizza, and Bavarian-style sausages. Fans can enjoy refreshing cocktails, beer, and non-alcoholic beverages at conveniently located concession stands throughout the venue. Mosh Burger\u2019s 100% U.S. hormone-free beef patties and Koko\u2019s Bavarian specialty sausages stand out as signature offerings.",
+    "stands": [
+      "Mosh Burger",
+      "Rebel Hen Crispy Chicken",
+      "Ziggy's Magic Pizza Shop",
+      "Koko's Bavarian",
+      "CVT Premium Soft Serve"
+    ],
+    "officialConcessionsUrl": "https://www.freedommortgagepavilion.com/bites",
+    "city": "Camden",
+    "state": "NJ"
   },
   "frost_bank_center": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.frostbankcenter.com/arena/food-beverage"
+    "note": "Frost Bank Center offers a wide variety of food and beverage options including casual dining, local flavors, and premium bars. Fans can enjoy everything from shareable appetizers and burgers to specialty tacos and desserts, with a focus on local minority-owned restaurants and San Antonio-inspired dishes. Multiple bars serve a range of cocktails, beers, and frozen drinks throughout the venue. Davila's BBQ brisket tacos, Spurs Culinary Residency featuring local minority-owned restaurants, and 120 taps at the ULTRA Club.",
+    "stands": [
+      "Agave Club",
+      "Frost Club",
+      "ULTRA Club",
+      "Whataburger",
+      "Davila's BBQ/Grab & Go",
+      "Garrison Brothers Bar",
+      "North Main Bar",
+      "North Crust",
+      "Roadhouse",
+      "South Crust",
+      "South L Bar",
+      "SA Grille",
+      "South Main Bar",
+      "Spurs Culinary Residency",
+      "Spurs Street Eats",
+      "Sweet Spirits",
+      "Alamo City Grill",
+      "Beignet Stand",
+      "Bru Co",
+      "Burger Kitchen",
+      "Buy The Bottle",
+      "Cocktail Co",
+      "Cookies & Creamery",
+      "Fan Favorites Express",
+      "Fruit Cup/Cocktail Bar",
+      "Grab N Go Markets"
+    ],
+    "officialConcessionsUrl": "https://www.frostbankcenter.com/arena/food-beverage",
+    "city": "San Antonio",
+    "state": "TX"
   },
   "geha_field_at_arrowhead_stadium": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.chiefs.com/app/amenities/fieldlevel"
+    "note": "GEHA Field at Arrowhead Stadium offers a wide variety of food and beverage options including BBQ, fan favorites, kid-friendly meals, vegetarian and gluten-free choices, as well as local Kansas City flavors. Concessions are available throughout the stadium across multiple levels, featuring both classic stadium fare and specialty items. Beverage options include beer, cocktails, non-alcoholic drinks, and wine. KC Style BBQ and local favorites like Chef J BBQ and Smoak BBQ.",
+    "stands": [
+      "Burger Kitchen",
+      "Chef J BBQ",
+      "Chickie and Petes",
+      "Chiefs Bar",
+      "CommunityAmerica Club Level Bars",
+      "Connected Concepts",
+      "Coop",
+      "Cowtown",
+      "Dynasty!",
+      "Flame Grill",
+      "Food Truck Stand",
+      "Grab-N-Go",
+      "Hy-Vee Bar",
+      "KC Cocktails",
+      "KC Dilla",
+      "KC Style BBQ",
+      "Kingdom Classics",
+      "Kingdom Grill",
+      "Kingdom Kantina",
+      "Kingdom Lodge",
+      "Little Caesars",
+      "Little Caesars Market",
+      "Mac Shack",
+      "Primo",
+      "Sack Nation",
+      "Smoak BBQ"
+    ],
+    "officialConcessionsUrl": "https://www.chiefs.com/app/amenities/fieldlevel",
+    "city": "Kansas City",
+    "state": "MO"
   },
   "gainbridge_fieldhouse": {
     "updated": "",
-    "note": "",
+    "note": "Gainbridge Fieldhouse offers a variety of food and beverage options to satisfy fans during events, featuring classic stadium fare and a selection of drinks throughout the venue. The concessions provide convenient choices to keep you fueled and refreshed.",
     "stands": [],
-    "officialConcessionsUrl": "https://www.gainbridgefieldhouse.com/assets/doc/Dining-at-the-Fieldhouse-a062f85adc.pdf"
+    "officialConcessionsUrl": "https://www.gainbridgefieldhouse.com/assets/doc/Dining-at-the-Fieldhouse-a062f85adc.pdf",
+    "city": "Indianapolis",
+    "state": "IN"
   },
   "gas_south_arena": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.gassouthdistrict.com/arena/dine-with-us"
+    "note": "Gas South Arena offers a wide variety of food and beverage options across multiple concession stands, featuring classic arena fare like pizza, cheesesteaks, hot dogs, Mexican dishes, and grilled items. Guests can enjoy a range of snacks and beverages including domestic, import, and craft beers. The venue emphasizes diverse choices to satisfy all tastes throughout the concourse and club levels. Signature cheesesteaks, specialty hot dogs, and wood-fired pizzas",
+    "stands": [
+      "Una Fettina",
+      "Arena Dogs & Deli",
+      "P.W.\u2019s Cheese Steaks",
+      "Georgian Grill",
+      "Salsa Cantina",
+      "Club 64",
+      "Clubhouse Grill",
+      "Bistro"
+    ],
+    "officialConcessionsUrl": "https://www.gassouthdistrict.com/arena/dine-with-us",
+    "city": "Duluth",
+    "state": "GA"
   },
   "gillette_stadium": {
     "updated": "",
-    "note": "",
+    "note": "Gillette Stadium offers a wide variety of food and beverage options including classic stadium fare like burgers, pizza, chicken tenders, and BBQ sandwiches, along with snacks, salads, and wraps. Beverage choices range from domestic and craft beers to cocktails, soft drinks, and non-alcoholic options. Nut-free, dairy-free, and gluten-free options are available throughout the venue to accommodate different dietary needs. Pulled Pork Nachos, Hand Breaded Fried Chicken Sandwiches, Smashburgers",
     "stands": [],
-    "officialConcessionsUrl": "https://www.gillettestadium.com/concessions/"
+    "officialConcessionsUrl": "https://www.gillettestadium.com/concessions/",
+    "city": "Foxborough",
+    "state": "MA"
   },
   "globe_life_field": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.mlb.com/rangers/ballpark/concessions"
+    "note": "Globe Life Field offers a wide variety of food and beverage options featuring local Arlington restaurants and classic ballpark favorites. Fans can enjoy everything from barbecue and chicken wings to fresh salads and burgers, along with a full range of non-alcoholic and alcoholic drinks. The concessions highlight local flavors and provide diverse choices throughout the ballpark. Brisket Egg Rolls, Golden Chick Wicked Wings, Hurtado Barbeque specialties",
+    "stands": [
+      "Arlington Eats",
+      "Bahama Buck's",
+      "Blue Mint Thai",
+      "Farmer's Fridge",
+      "Golden Chick",
+      "Hurtado Barbeque",
+      "Pluckers",
+      "Whataburger"
+    ],
+    "officialConcessionsUrl": "https://www.mlb.com/rangers/ballpark/concessions",
+    "city": "Arlington",
+    "state": "TX"
   },
   "golden_1_center": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.golden1center.com/visit/local-eats/"
+    "note": "Golden 1 Center offers a diverse range of locally sourced, farm-to-fork inspired food options featuring handmade tacos, wood-fired pizzas, sausages, and classic favorites made with seasonal ingredients from within a 150-mile radius. The concessions celebrate Sacramento\u2019s culinary diversity with fresh, local, and sustainable offerings across multiple stands. Wood-fired pizzas from Paragary\u2019s, handmade street tacos from Centro, and Schwarz Fine Sausages hot dogs.",
+    "stands": [
+      "Big Cheese Dog House",
+      "Cafe Bernardo",
+      "Centro",
+      "Candy County Fair",
+      "El Jefe",
+      "Lil\u2019 Cheese Dog House",
+      "Paragary\u2019s",
+      "Petra Greek",
+      "Porchetta House"
+    ],
+    "officialConcessionsUrl": "https://www.golden1center.com/visit/local-eats/",
+    "city": "Sacramento",
+    "state": "CA"
   },
   "great_american_ball_park": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.mlb.com/reds/ballpark/gabp-food"
+    "note": "Great American Ball Park offers a wide range of food options from classic ballpark fare to local Cincinnati favorites and unique creations by award-winning Chef Gary Davis. Fans can enjoy everything from traditional wings and street tacos to specialty sandwiches and sweet treats. Local collaborations and diverse flavors make for a satisfying game day dining experience. Redlegs BBQ Walking Taco, a collaboration between Grippo\u2019s and Montgomery Inn",
+    "stands": [
+      "50 West Stand",
+      "Food Hub near section 112",
+      "Scouts Club",
+      "Food Bar near section 109",
+      "Food Bar near sections 129 & 416",
+      "Suite Bridge Ice Cream & Suite Bridge Bar"
+    ],
+    "officialConcessionsUrl": "https://www.mlb.com/reds/ballpark/gabp-food",
+    "city": "Cincinnati",
+    "state": "OH"
   },
   "hard_rock_stadium": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.hardrockstadium.com/concessions/"
+    "note": "Hard Rock Stadium offers a diverse range of food and beverage options featuring American classics, international cuisines like Argentinian, Cuban, Japanese, Middle Eastern, and Tex-Mex, as well as vegan and luxury choices. Fans can enjoy everything from stadium fare and fried chicken to sushi, barbecue, and desserts, showcasing the best flavors Miami has to offer. Local favorites include Cuban coffee and empanadas, Argentinian steak and choripan, and Southern BBQ.",
+    "stands": [
+      "Avo Eats by Avocados from Mexico",
+      "Benihana",
+      "Cafe La Carreta",
+      "CANTALOUPE & Pepsi Food Zone",
+      "Carvery",
+      "Cheeseburger Baby",
+      "Cluck",
+      "Craft Provisions",
+      "Crisppi\u2019s Chicken",
+      "Crust Artisan Pizza",
+      "Ella Cafe",
+      "Fan Favorites",
+      "Fatboy Smashburgers",
+      "Fuku",
+      "Gourmet Donuts",
+      "Granny B\u2019z",
+      "Italian Vice",
+      "Kebab Joint",
+      "La Mila Nation",
+      "Lcky Chckn",
+      "Little Caesars",
+      "Magic City Dogs",
+      "Novecento",
+      "Puffles Ice Cream & Waffles",
+      "Seafood Republic",
+      "Seed Bistro",
+      "Seed Grill",
+      "Shula Burger",
+      "Sobe Q",
+      "Sol Cubano",
+      "Stacked",
+      "Sushi Maki",
+      "Sweet Cream",
+      "Sweet Spot",
+      "Talkin Tacos",
+      "The AMEX Lounge",
+      "Tostitos Nacho Bar",
+      "Wynwood Walkthrough"
+    ],
+    "officialConcessionsUrl": "https://www.hardrockstadium.com/concessions/",
+    "city": "Miami Gardens",
+    "state": "FL"
   },
   "heritage_bank_center": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://heritagebankcenter.com/amenities"
+    "note": "Heritage Bank Center offers a wide variety of classic concession favorites including hamburgers, hot dogs, nachos, popcorn, chicken tenders, pretzels, and French fries, along with a selection of local craft beers and beverages. Fans can also enjoy specialty items like Skyline Chili Coneys and Glier\u2019s Goetta dishes. Multiple concession stands and portable locations throughout the venue provide convenient access to food and drinks. Skyline Chili Coneys and Glier\u2019s Goetta specialties",
+    "stands": [
+      "All Access Bar & Grill"
+    ],
+    "officialConcessionsUrl": "https://heritagebankcenter.com/amenities",
+    "city": "Cincinnati",
+    "state": "OH"
   },
   "hersheypark_stadium": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.hersheyentertainment.com/hersheypark-stadium/info/food-drinks/"
+    "note": "Hersheypark Stadium offers a wide variety of food and beverage options including classic stadium fare, fresh cut fries, smoked barbecue, and refreshing beverages. Fans can enjoy everything from hot dogs and pretzels to empanadas, cheesesteaks, and specialty cocktails throughout multiple concession stands around the venue. Bricker's Famous fresh cut fries, fresh smoked barbecue from Kennedy's Kitchen, and Cuban sandwiches from Los Tres Cubanos.",
+    "stands": [
+      "Twisted Tea",
+      "Wright's Concessions",
+      "East Snack Shack",
+      "Bricker's French Fry Trailer",
+      "East Concessions Stand",
+      "East Bar",
+      "On The Track Vendors",
+      "South Track Beverage Tents",
+      "South Central Beverage Tent",
+      "East Track Beverage Tents",
+      "West Track Beverage Tents",
+      "West Busch Light",
+      "West Beverage Stand",
+      "West Bar",
+      "West Brickers Grill",
+      "Backstage Bar",
+      "Los Tres Cubanos",
+      "Shorty's Funnel Cakes",
+      "Rita's",
+      "Kennedy's Kitchen",
+      "Philly Cheesesteak on a Roll"
+    ],
+    "officialConcessionsUrl": "https://www.hersheyentertainment.com/hersheypark-stadium/info/food-drinks/",
+    "city": "Hershey",
+    "state": "PA"
   },
   "highmark_stadium": {
     "updated": "",
-    "note": "",
+    "note": "Concessions information for this venue is not fully listed here yet. Check the venue website or your event ticket for food and drink options.",
     "stands": [],
-    "officialConcessionsUrl": null
+    "officialConcessionsUrl": "No Link",
+    "city": "Orchard Park",
+    "state": "NY"
   },
   "hollywood_bowl": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.hollywoodbowl.com/visit/when-youre-here/food-wine/street-foods"
+    "note": "The Hollywood Bowl offers a diverse range of food and drink options featuring LA\u2019s vibrant food scene, including gourmet pizzas, all-beef hot dogs, pulled-pork sandwiches, salads, burritos, vegetarian and vegan choices. Beer and wine are available throughout the venue, with several specialty stands serving classic and award-winning dishes. Award-winning fried chicken by Chef Suzanne Goin and classic Chao's Popcorn",
+    "stands": [
+      "Kitchen 22",
+      "Chao's Popcorn",
+      "Suzanne's Fried Chicken",
+      "Burritos",
+      "Hot Dogs",
+      "Pizza",
+      "Premium Bars",
+      "Snack Bar"
+    ],
+    "officialConcessionsUrl": "https://www.hollywoodbowl.com/visit/when-youre-here/food-wine/street-foods",
+    "city": "Los Angeles",
+    "state": "CA"
   },
   "honda_center": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.hondacenter.com/arena-info/concessions/"
+    "note": "Honda Center offers a wide variety of food and beverage options ranging from classic arena fare like burgers, hot dogs, and chicken tenders to specialty items including sushi, Hawaiian BBQ, and build-your-own tortas. Guests can enjoy local flavors, premium wines, craft beers, and specialty desserts throughout multiple concession stands and lounges across the venue. Hand-dipped beer battered fish & chips, Hawaiian BBQ Plate, and Honda Center\u2019s dedicated Wine Cellar with over 270 wines.",
+    "stands": [
+      "Go Mango",
+      "Express Eats",
+      "Anaheim Pizza Co.",
+      "Wild Wings",
+      "Slapshot Grill",
+      "Blue Line Taqueria",
+      "Hat Trick Hawaiian BBQ",
+      "Club Level Lounge",
+      "Sweet Sensations",
+      "Rolls & More",
+      "Jack Daniel L\u2019s Old No. 7 Club",
+      "The Wine Cellar Preserved by Sub-Zero",
+      "The Classics",
+      "Quack Snacks",
+      "Draft Picks",
+      "Arena Classics",
+      "Anaheim Chile"
+    ],
+    "officialConcessionsUrl": "https://www.hondacenter.com/arena-info/concessions/",
+    "city": "Anaheim",
+    "state": "CA"
   },
   "huntington_bank_field": {
     "updated": "",
-    "note": "",
+    "note": "Concessions information for this venue is not fully listed here yet. Use the official concessions link for the most up-to-date stands and menus.",
     "stands": [],
-    "officialConcessionsUrl": "https://huntingtonbankfield.com/concessions/"
+    "officialConcessionsUrl": "https://huntingtonbankfield.com/concessions/",
+    "city": "Columbus",
+    "state": "OH"
   },
   "intuit_dome": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://intuitdome.com/plan-your-visit/dining"
+    "note": "Enjoy a diverse culinary experience at Intuit Dome featuring fresh, fan-favorite dishes made in-house and a rotating lineup of local Inglewood restaurants. From quick bites to local eats, there\u2019s something to satisfy every craving. Neighborwood Eats showcases the culinary talents of Inglewood.",
+    "stands": [
+      "Neighborwood Eats",
+      "Modelo Cantina",
+      "Intuit Dome Markets"
+    ],
+    "officialConcessionsUrl": "https://intuitdome.com/plan-your-visit/dining",
+    "city": "Inglewood",
+    "state": "CA"
   },
   "isleta_amphitheater": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.isletaamp.com/bites"
+    "note": "Isleta Amphitheater offers a diverse range of food and drink options, from classic concert snacks like popcorn and nachos to specialty items including burgers, chicken tenders, pizza, and Bavarian-inspired sausages. Fans can enjoy refreshing alcoholic and non-alcoholic beverages at conveniently located concession stands throughout the venue. Signature items include the Mosh Burger, Rebel Hen crispy chicken tenders, and Bavarian sausages from Koko's.",
+    "stands": [
+      "Mosh Burger",
+      "Rebel Hen Crispy Chicken",
+      "Ziggy's Magic Pizza Shop",
+      "Koko's",
+      "CVT Premium Soft Serve"
+    ],
+    "officialConcessionsUrl": "https://www.isletaamp.com/bites",
+    "city": "Albuquerque",
+    "state": "NM"
   },
   "jiffy_lube_live": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.jiffylubelive.com/bites"
+    "note": "Jiffy Lube Live offers a diverse range of food and drink options, from classic concert snacks to specialty items like burgers, chicken tenders, pizza, and Bavarian-style sausages. Fans can enjoy refreshing shaved ice, premium soft serve ice cream, and a variety of beverages including beer, cocktails, and non-alcoholic drinks. Conveniently located concession stands ensure you can grab your favorites and get back to the show. Signature Mosh Burger, Rebel Hen Crispy Chicken, and Koko's Bavarian sausages",
+    "stands": [
+      "Mosh Burger",
+      "Rebel Hen Crispy Chicken",
+      "Ziggy's Magic Pizza Shop",
+      "Koko's Bavarian",
+      "ColdRush Shaved Ice",
+      "CVT Premium Soft Serve"
+    ],
+    "officialConcessionsUrl": "https://www.jiffylubelive.com/bites",
+    "city": "Bristow",
+    "state": "VA"
   },
   "john_paul_jones_arena": {
     "updated": "",
-    "note": "",
+    "note": "Concessions information for this venue is not fully listed here yet. Check the venue website or your event ticket for food and drink options.",
     "stands": [],
-    "officialConcessionsUrl": null
+    "officialConcessionsUrl": "No Link",
+    "city": "Charlottesville",
+    "state": "VA"
   },
   "kaseya_center": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.kaseyacenter.com/plan-your-visit/food-beverage"
+    "note": "Kaseya Center offers a diverse food and beverage experience featuring Miami\u2019s best chefs, local favorites, and fan-approved classics. From chef-driven tacos and smashburgers to vegan options and kid-friendly meals, there\u2019s something for every taste and craving throughout the arena. Chef Karla Hoyos\u2019 Tacotomia tacos and Skinny Louie\u2019s award-winning smashburgers",
+    "stands": [
+      "Tacotomia",
+      "Skinny Louie",
+      "Papa Johns",
+      "Chicken Ciao",
+      "Downtown/Uptown Dog",
+      "Flaming Hot Family Fun Zone",
+      "Fit Cart Vegan Plus",
+      "Grab N Go"
+    ],
+    "officialConcessionsUrl": "https://www.kaseyacenter.com/plan-your-visit/food-beverage",
+    "city": "Miami",
+    "state": "FL"
   },
   "kauffman_stadium": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.mlb.com/royals/ballpark/food"
+    "note": "Kauffman Stadium offers a wide variety of ballpark favorites, local specialties, and refreshing treats, featuring classic stadium fare alongside Kansas City\u2019s renowned barbecue and Italian options. Fans can enjoy affordable value menu items, local craft BBQ, and sweet treats throughout the ballpark. Joe\u2019s Kansas City Bar-B-Que\u2019s world-famous Z-Man Sandwich and Pasquantino\u2019s Italian Beef Pasqwich.",
+    "stands": [
+      "Joe\u2019s Kansas City Bar-B-Que",
+      "Pasquantino's",
+      "Buffalo State Pizza",
+      "Italian Sausage Co.",
+      "KCQ - Local Craft BBQ",
+      "Andy\u2019s Frozen Custard",
+      "Bases Loaded Nachos",
+      "Belfonte Ice Cream",
+      "Boulevard Quirk"
+    ],
+    "officialConcessionsUrl": "https://www.mlb.com/royals/ballpark/food",
+    "city": "Kansas City",
+    "state": "MO"
   },
   "keybank_center": {
     "updated": "",
-    "note": "",
+    "note": "Concessions information for this venue is not fully listed here yet. Check the venue website or your event ticket for food and drink options.",
     "stands": [],
-    "officialConcessionsUrl": null
+    "officialConcessionsUrl": "No Link",
+    "city": "Buffalo",
+    "state": "NY"
   },
   "kia_center": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.kiacenter.com/plan-your-visit/restaurants-bars"
+    "note": "Kia Center offers a diverse range of dining options from sit-down restaurants and exclusive lounges to casual bars and grab-and-go choices, featuring local Orlando chefs and partners. Fans can enjoy everything from upscale meals with arena views to relaxed bar fare and rooftop experiences with city vistas. Certified Local partners showcasing Orlando\u2019s culinary scene",
+    "stands": [
+      "Orlando Table",
+      "Jernigan's",
+      "The Gallagher Club",
+      "AssuredPartners Lounge",
+      "NUTRL Terrace",
+      "O3 Bar",
+      "Michelob ULTRA Baseline Bar",
+      "Sire Spirits SkyLounge",
+      "Tavern on Church"
+    ],
+    "officialConcessionsUrl": "https://www.kiacenter.com/plan-your-visit/restaurants-bars",
+    "city": "Orlando",
+    "state": "FL"
   },
   "kia_forum": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://thekiaforum.com/food-drink/"
+    "note": "The Kia Forum offers a diverse food and beverage experience featuring popular Southern California local brands, including pizza, hot dogs, and a variety of alcoholic and non-alcoholic drinks. Guests can enjoy quick service with two checkout-free stores for snacks and meals. Alcohol purchases require age verification. Fresh Brothers pizza and Papa Cantella\u2019s hot dogs",
+    "stands": [
+      "Fresh Brothers",
+      "Papa Cantella\u2019s"
+    ],
+    "officialConcessionsUrl": "https://thekiaforum.com/food-drink/",
+    "city": "Inglewood",
+    "state": "CA"
   },
   "lambeau_field": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.packers.com/lambeau-field/concession-links"
+    "note": "Lambeau Field offers a wide variety of food and beverage options featuring classic stadium fare alongside local Wisconsin flavors. Fans can enjoy everything from traditional game day snacks to hearty meals, with several concessions throughout the venue to keep you fueled. Johnsonville Tailgate Village",
+    "stands": [
+      "1919 Kitchen & Tap",
+      "Johnsonville Tailgate Village"
+    ],
+    "officialConcessionsUrl": "https://www.packers.com/lambeau-field/concession-links",
+    "city": "Green Bay",
+    "state": "WI"
   },
   "lenovo_center": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.lenovocenter.com/concessions"
+    "note": "Lenovo Center offers a diverse range of food and beverage options featuring local favorites and popular brands, including fresh sandwiches, BBQ, international flavors, and a variety of snacks and desserts. Concessions are available throughout the venue during event hours, with many stands located in key sections and premium lounges. Guests can enjoy everything from gourmet hot dogs and Peruvian chicken to craft beers and hand-dipped ice cream. Willy's Hot Chicken, Sup Dogs gourmet hot dogs, Alpaca Peruvian Chicken, Shake Shack burgers, Two Roosters ice cream",
+    "stands": [
+      "Willy's Hot Chicken",
+      "Sup Dogs",
+      "Alpaca Peruvian Chicken",
+      "The BBQ Lab",
+      "Buffalo Brothers",
+      "Chick-fil-A",
+      "Gonza Tacos y Tequila",
+      "Han-Dee Hugo's Marketplace",
+      "Primo Hoagies",
+      "Shake Shack",
+      "Tombachi",
+      "Two Roosters",
+      "The Carvery",
+      "Dippin\u2019 Dots Ice Cream",
+      "North Carolina BBQ Company",
+      "Nutty Bavarian",
+      "River's Edge Lodge - Deep River Brewing",
+      "Wicked Weed Brewing",
+      "Sausage Stop",
+      "Sinnfully Sinnamon",
+      "Sweet Carolina"
+    ],
+    "officialConcessionsUrl": "https://www.lenovocenter.com/concessions",
+    "city": "Morrisville",
+    "state": "NC"
   },
-  "levi_s_stadium": {
+  "levis_stadium": {
     "updated": "",
-    "note": "",
+    "note": "Levi\u2019s Stadium offers a wide variety of food and beverage options including classic stadium fare, specialty sandwiches, snacks, and a selection of cocktails, beer, wine, and non-alcoholic drinks. Fans can enjoy items like hot dogs, sausages, nachos, and local coffee, with options varying by section and event. Many stands feature premium draft beers and refreshing beverages to enhance the game day experience. Faithful Frank Hot Dog, Micheladas, Peet's Coffee",
     "stands": [],
-    "officialConcessionsUrl": "https://www.levisstadium.com/concessions/"
+    "officialConcessionsUrl": "https://www.levisstadium.com/concessions/",
+    "city": "Santa Clara",
+    "state": "CA"
   },
   "lincoln_financial_field": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.lincolnfinancialfield.com/food-and-concessions/"
+    "note": "Lincoln Financial Field offers a wide variety of food and beverage options featuring classic stadium fare, local Philadelphia favorites, and diverse choices including vegetarian, gluten-free, and kosher options. Fans can enjoy everything from Philly cheesesteaks and BBQ to international flavors and fresh snacks throughout the venue. Local favorites like Chickie\u2019s & Pete\u2019s CrabFries, Tony Luke\u2019s Roast Pork, and Philly Pretzel Factory stand out.",
+    "stands": [
+      "9th Street Market",
+      "America\u2019s Pie Kitchen & Grille",
+      "G\u2019Day Gourmet",
+      "Chickie\u2019s & Pete\u2019s",
+      "Philly Pretzel Factory",
+      "Philip\u2019s Cheesesteaks",
+      "Philly Cheesesteak Co",
+      "Tacos Americanos",
+      "The Pierogie Place",
+      "The Wing Kitchen",
+      "Tony Luke\u2019s",
+      "Zac\u2019s Hamburgers",
+      "Rita\u2019s Water Ice"
+    ],
+    "officialConcessionsUrl": "https://www.lincolnfinancialfield.com/food-and-concessions/",
+    "city": "Philadelphia",
+    "state": "PA"
   },
   "little_caesars_arena": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.313presents.com/venue/little-caesars-arena/where-to-eat"
+    "note": "Little Caesars Arena offers a wide variety of food options including arena classics, chicken dishes, grilled items, and signature Little Caesars pizza. Fans can enjoy multiple concession stands and four in-venue restaurants featuring local influences and craft beverages. Healthy and gluten-free options are also available throughout the arena. Signature Little Caesars pizza and Michigan craft beers",
+    "stands": [
+      "313 Grill Co.",
+      "The Classics",
+      "The Coop",
+      "Little Caesars Pizza",
+      "Taqueria",
+      "Mike's Pizza Bar",
+      "UWM District Market",
+      "Bell's Tap House",
+      "The Mixing Board"
+    ],
+    "officialConcessionsUrl": "https://www.313presents.com/venue/little-caesars-arena/where-to-eat",
+    "city": "Detroit",
+    "state": "MI"
   },
   "loandepot_park": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.mlb.com/marlins/ballpark/food"
+    "note": "loanDepot Park offers a wide variety of classic ballpark favorites alongside local Miami flavors, including Southern BBQ, Tex-Mex, and signature chicken dishes. Fans can enjoy affordable menu options, shareable bites, and refreshing drinks throughout the ballpark. Several stands feature partnerships with local brands to bring unique tastes to the game day experience. Hickory Slow Smoked Pork Nachos, Build-Your-Own Hot Dogs, Fresh Mexican Tacos",
+    "stands": [
+      "The Bullpen Bar and Grill",
+      "The Change Up",
+      "Sahlen's Top Dog",
+      "Fowl Pole",
+      "Magic City BBQ",
+      "Oppo Taco",
+      "Diamond Dough",
+      "Obie's",
+      "Blue Moon Brew Hall",
+      "Sliderz"
+    ],
+    "officialConcessionsUrl": "https://www.mlb.com/marlins/ballpark/food",
+    "city": "Miami",
+    "state": "FL"
   },
   "lucas_oil_stadium": {
     "updated": "",
-    "note": "",
+    "note": "Lucas Oil Stadium offers a wide variety of classic football favorites and refreshing beverages available at concession stands, kiosks, and vendors throughout the venue. All stands are accessible and accept major credit cards, with large print menus available upon request.",
     "stands": [],
-    "officialConcessionsUrl": "https://www.lucasoilstadium.com/attending-an-event/concessions/"
+    "officialConcessionsUrl": "https://www.lucasoilstadium.com/attending-an-event/concessions/",
+    "city": "Indianapolis",
+    "state": "IN"
   },
   "lumen_field": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.lumenfield.com/plan-your-visit/food-drink"
+    "note": "Lumen Field offers a diverse range of food and drink options featuring local Seattle flavors and partnerships with regional restaurants. Fans can enjoy unique, game-inspired dishes alongside rotating markets showcasing local chefs. The concessions emphasize community connection and sustainability through collaborations with over 25 local vendors. Signature items include Esquites, Catfish Nuggets, Yard Nachos, and the Bam Bam Smash Burger created with Seahawks legends.",
+    "stands": [
+      "Tierra Madre",
+      "Legion",
+      "PNW Kitchen",
+      "Big Walt's Kitchen",
+      "Night Market",
+      "PNW Marketplace",
+      "Bar Dojo",
+      "Tutta Bella Pizza",
+      "Lune Caf\u00e9"
+    ],
+    "officialConcessionsUrl": "https://www.lumenfield.com/plan-your-visit/food-drink",
+    "city": "Seattle",
+    "state": "WA"
   },
-  "m_t_bank_stadium": {
+  "mt_bank_stadium": {
     "updated": "",
-    "note": "",
+    "note": "Concessions information for this venue is not fully listed here yet. Check the venue website or your event ticket for food and drink options.",
     "stands": [],
-    "officialConcessionsUrl": null
+    "officialConcessionsUrl": "No Link",
+    "city": "Baltimore",
+    "state": "MD"
   },
   "madison_square_garden": {
     "updated": "",
-    "note": "",
+    "note": "Madison Square Garden offers a wide range of food and beverage options to suit all tastes, featuring classic arena fare and diverse choices throughout the venue. Fans can enjoy quick bites, snacks, and refreshing drinks while taking in the excitement of sports and entertainment events.",
     "stands": [],
-    "officialConcessionsUrl": "https://www.msg.com/madison-square-garden/food-drink"
+    "officialConcessionsUrl": "https://www.msg.com/madison-square-garden/food-drink",
+    "city": "New York",
+    "state": "NY"
   },
   "mercedes_benz_stadium": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.mercedesbenzstadium.com/all-vendors"
+    "note": "Mercedes-Benz Stadium offers a diverse food and beverage experience with options catering to various dietary preferences including vegetarian and gluten-free. The venue continuously innovates to enhance fan enjoyment with quick service and unique offerings throughout the concourses. Spirited Self-Service Cocktail Bar",
+    "stands": [
+      "MBS Express",
+      "Delta Fly-Through Lanes",
+      "Checkout-Free Market",
+      "Spirited Self-Service Cocktail Bar"
+    ],
+    "officialConcessionsUrl": "https://www.mercedesbenzstadium.com/all-vendors",
+    "city": "Atlanta",
+    "state": "GA"
   },
   "metlife_stadium": {
     "updated": "",
-    "note": "",
+    "note": "Concessions information for this venue is not fully listed here yet. Use the official concessions link for the most up-to-date stands and menus.",
     "stands": [],
-    "officialConcessionsUrl": "https://www.metlifestadium.com/guest-services/concessions-food-more/concessions-locations"
+    "officialConcessionsUrl": "https://www.metlifestadium.com/guest-services/concessions-food-more/concessions-locations",
+    "city": "East Rutherford",
+    "state": "NJ"
   },
   "mgm_grand_garden_arena": {
     "updated": "",
-    "note": "",
+    "note": "Concessions information for this venue is not fully listed here yet. Use the official concessions link for the most up-to-date stands and menus.",
     "stands": [],
-    "officialConcessionsUrl": "https://mgmgrand.mgmresorts.com/en/restaurants/foodcourt.html"
+    "officialConcessionsUrl": "https://mgmgrand.mgmresorts.com/en/restaurants/foodcourt.html",
+    "city": "Las Vegas",
+    "state": "NV"
   },
   "moda_center": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.rosequarter.com/plan-your-visit/concessions-guide"
+    "note": "Moda Center offers a wide variety of food and beverage options including classic BBQ, local fried chicken, Mexican and Hawaiian comfort foods, vegetarian and vegan choices, as well as multiple bars serving craft beers, cocktails, and local ciders. Fans can enjoy local favorites and quick service stands throughout the venue. Local favorites like Baes fried chicken, 19 Acres hard cider, and Fifty Licks ice cream.",
+    "stands": [
+      "Backcourt BBQ",
+      "Baes",
+      "Blaze's Bistro",
+      "Cha Cha Cha",
+      "Chop",
+      "Crafter's",
+      "Dippin' Dots",
+      "East Club Bar",
+      "Elysian Bar",
+      "Fan Fare",
+      "Fifty Licks",
+      "Fusion Shave Ice",
+      "Grab & Go",
+      "Hat Trick Grill",
+      "Hempler's Sausages",
+      "Hop Valley Hop Box",
+      "Hornitos Tequila Cart",
+      "Ironstrike",
+      "Kama'aina",
+      "Killer Burger",
+      "Kinnamon's",
+      "Knot Spot",
+      "Lemonade Stand",
+      "Liquor Cart",
+      "Low Bar",
+      "Marketplace",
+      "Mexi Masala",
+      "Milagro Cantina",
+      "Nacheaux",
+      "Pendleton Whisky Bar"
+    ],
+    "officialConcessionsUrl": "https://www.rosequarter.com/plan-your-visit/concessions-guide",
+    "city": "Portland",
+    "state": "OR"
   },
   "mohegan_sun_arena": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.moheganarenapa.com/plan-your-visit/concessions/"
+    "note": "Mohegan Sun Arena offers a wide variety of food and beverage options including traditional arena favorites, craft beers, and local specialties. Fans can enjoy everything from burgers, pizza, and hot dogs to soft pretzels, ice cream, and signature cocktails. Gluten-free options and seasonal items are also available at select locations throughout the venue. World Famous Crabfries, Smokeshack BBQ sandwiches, craft beers from Wallenpaupack Brewing Company and Dogfish Head",
+    "stands": [
+      "Center Ice Grill",
+      "Revello\u2019s Old Forge Pizza",
+      "Wallenpaupack Brewing Co",
+      "Auntie Anne's Pretzels",
+      "Malacari's Ice Cream and Wine",
+      "Brewski\u2019s and Brats",
+      "On The Rocks",
+      "Chickie\u2019s & Pete\u2019s",
+      "Power Play Pizza",
+      "Ace's Craft House",
+      "Stix Sports Bar",
+      "Smokeshack"
+    ],
+    "officialConcessionsUrl": "https://www.moheganarenapa.com/plan-your-visit/concessions/",
+    "city": "Uncasville",
+    "state": "CT"
   },
   "moody_center": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://moodycenteratx.com/food-beverage/"
+    "note": "Moody Center offers a diverse concessions experience featuring market-style outlets with hot, fresh prepared foods and authentic Austin favorites. Fans can enjoy a variety of options including smoked meats, hand-breaded chicken, New York style pizza, and classic snacks alongside a wide selection of beverages. Local flavors and family recipes add a unique touch to the menu throughout the venue. Shaq\u2019s iconic hand-breaded chicken sandwich with signature Shaq sauce and Trisha\u2019s family recipes",
+    "stands": [
+      "MDE: Most Dominant Ever!",
+      "Uncle Jerome",
+      "Stubbs Fries",
+      "Grab n\u2019 Go",
+      "Chick-fil-A",
+      "Build Your Own Nachos",
+      "Smoked Meats",
+      "New York Style Pizza",
+      "Trisha\u2019s Tailgate"
+    ],
+    "officialConcessionsUrl": "https://moodycenteratx.com/food-beverage/",
+    "city": "Austin",
+    "state": "TX"
   },
   "nrg_stadium": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.houstontexans.com/game-day/concessions-and-merch"
+    "note": "NRG Stadium offers a wide range of concession stands throughout the concourses, featuring classic stadium fare and beverages. Many stands are staffed by volunteers supporting local non-profits, adding a community-focused touch to the gameday experience. Accessible to all guests, the venue also includes several seated bar areas with live entertainment and game viewing. Volunteer-run stands supporting local non-profits",
+    "stands": [
+      "Bud Light Lounge",
+      "Bud Light Cantina",
+      "Crown Royal Saloon"
+    ],
+    "officialConcessionsUrl": "https://www.houstontexans.com/game-day/concessions-and-merch",
+    "city": "Houston",
+    "state": "TX"
   },
   "nationals_park": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.mlb.com/nationals/ballpark/concessions-guide"
+    "note": "Nationals Park offers a wide range of food and beverage options including specialty dishes, traditional ballpark fare, and several bars and restaurants featuring local breweries. Fans can enjoy diverse choices from crab cakes and Korean corn dogs to classic funnel cakes and ice cream. Dietary-friendly options are also available to accommodate various needs. Chesapeake Crab Cake Company, Ben's Chili Bowl, Ssongs Korean Corn Dogs",
+    "stands": [
+      "Haute Dog & Fries",
+      "Swizzler",
+      "Rita's Italian Ice & Custard",
+      "Kam and 46",
+      "Chesapeake Crab Cake Company",
+      "Ben's Chili Bowl",
+      "Eli's Crepes",
+      "Taqueria Picoso",
+      "Rocklands BBQ",
+      "Ssongs Korean Corn Dogs",
+      "Hard Times Caf\u00e9",
+      "Los Cinco Tacos",
+      "Melissa's Field of Greens featuring Mush DC",
+      "Capo Deli",
+      "Fuku",
+      "Kosher Grill",
+      "Arepa Zone",
+      "Champions Food Court",
+      "Champions Carvery",
+      "Lucky Danger",
+      "Roaming Rooster",
+      "Shake Shack",
+      "Grand Slam Grill",
+      "Pop Fly Popcorn",
+      "Dippin' Dots",
+      "South Mountain Creamery",
+      "Enzo's Pizza",
+      "Capital Candy Jar",
+      "Nats Snacks"
+    ],
+    "officialConcessionsUrl": "https://www.mlb.com/nationals/ballpark/concessions-guide",
+    "city": "Washington",
+    "state": "DC"
   },
   "nationwide_arena": {
     "updated": "",
-    "note": "",
+    "note": "Nationwide Arena offers a variety of food and beverage options for Blue Jackets games, including gluten-friendly and vegetarian choices. Menus may vary for other events. Guests can enjoy a range of classic arena fare in a safe and welcoming environment.",
     "stands": [],
-    "officialConcessionsUrl": "https://www.nhl.com/bluejackets/arena/#food-and-beverage"
+    "officialConcessionsUrl": "https://www.nhl.com/bluejackets/arena/#food-and-beverage",
+    "city": "Columbus",
+    "state": "OH"
   },
   "nissan_stadium": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://nissanstadium.com/concessions/"
+    "note": "Nissan Stadium offers a wide variety of food and beverage options featuring classic stadium fare, local barbecue, burgers, hot chicken, Tex-Mex, pizza, specialty cocktails, and vegetarian choices. Fans can enjoy offerings from popular Nashville brands and local favorites throughout multiple concourses. Beverage options include craft beers, specialty cocktails, coffee, and frozen drinks. Martin\u2019s Bar-B-Que, Hattie B\u2019s Hot Chicken, Little Caesars Pizza, and local craft beers.",
+    "stands": [
+      "Barbecue Martin\u2019s Bar-B-Que",
+      "Jack Daniel\u2019s BBQ",
+      "Nashgrille",
+      "Riverfront Grab n Go",
+      "Hattie B\u2019s Hot Chicken",
+      "Tri Star Chicken",
+      "Classic Hits",
+      "Daddy\u2019s Dogs",
+      "Mexican Sideline Cantina",
+      "Little Caesars",
+      "ICEE Frozen Mixed Cocktails",
+      "Build Your Own Bloody Mary and Mimosa Bar",
+      "Beermosas",
+      "Titans Tavern Wine Bar",
+      "Twice Daily",
+      "8th & Roast Coffee",
+      "Southern Smokehouse BBQ",
+      "Cumberland River Grill",
+      "Hall of Flame",
+      "TN General Store",
+      "Fireball Fiesta",
+      "Draft Bar",
+      "Jack Daniels Bars",
+      "Icee Bar"
+    ],
+    "officialConcessionsUrl": "https://nissanstadium.com/concessions/",
+    "city": "Nashville",
+    "state": "TN"
   },
   "northwest_stadium": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.commanders.com/stadium/kbyg/concession-maps"
+    "note": "Northwest Stadium offers a wide variety of food and beverage options including burgers, chicken, Mexican, pizza, BBQ, seafood, vegetarian, vegan, and gluten-free choices. Fans can enjoy a diverse selection of craft cocktails, beers, and spirits throughout the venue. Multiple bars and specialty stands provide convenient access to both classic stadium fare and unique local flavors. JWO Smashburger, Big Kyle BBQ Food Truck, Commanders Cocktails",
+    "stands": [
+      "JWO Smashburger",
+      "Big Kyle BBQ Food Truck",
+      "Black Box Bar",
+      "Blitz & Bubbles",
+      "Bud Light Bar",
+      "Captain Morgan Bar",
+      "Casamigos Bar",
+      "Chicken Guy",
+      "Commanders Cocktails",
+      "Craft Standard + Cutwater",
+      "Cutwater Bar",
+      "DC Half Smokes",
+      "DC-Que Feat District Taco",
+      "DMV Bar & Grill",
+      "Fan Fare",
+      "Fifty Yardline Bar",
+      "Horseshoe Bar",
+      "Jet Lemonade",
+      "Legendary Eats",
+      "Mac Shac",
+      "Mashgin - Grab N Go",
+      "Nutrl",
+      "Pattie Lou's Donuts",
+      "Pardon My Cheesesteak",
+      "Rita's Ice",
+      "Roll Up Bar",
+      "Roaming Rooster",
+      "Smashburger",
+      "Sire Lounge",
+      "Surf N' Turf",
+      "Swizzler",
+      "Totally Nutz",
+      "Washington Grill",
+      "West Endzone Bar"
+    ],
+    "officialConcessionsUrl": "https://www.commanders.com/stadium/kbyg/concession-maps",
+    "city": "Chicago",
+    "state": "IL"
   },
   "north_island_credit_union_amphitheatre": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.northislandcreditunionamp.com/bites"
+    "note": "North Island Credit Union Amphitheatre offers a variety of food and drink options ranging from classic concert snacks to specialty items inspired by local and regional flavors. Fans can enjoy burgers, crispy chicken tenders, New York-style pizza, Bavarian sausages, and refreshing beverages including non-alcoholic choices. Conveniently located concession stands make it easy to grab a bite and get back to the show. Signature items include the Mosh Burger, Rebel Hen crispy chicken tenders, and Koko\u2019s Bavarian sausages.",
+    "stands": [
+      "Mosh Burger",
+      "Rebel Hen Crispy Chicken",
+      "Ziggy's Magic Pizza Shop",
+      "Koko's Bavarian",
+      "CVT Premium Soft Serve"
+    ],
+    "officialConcessionsUrl": "https://www.northislandcreditunionamp.com/bites",
+    "city": "Chula Vista",
+    "state": "CA"
   },
   "oakland_arena": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.theoaklandarena.com/plan/eat-drink"
+    "note": "Oakland Arena offers a wide variety of food and beverage options including classic arena favorites, specialty items, and local flavors. Guests can enjoy everything from hot dogs and loaded nachos to craft cocktails, local craft beers, and international delicacies. The venue partners with local vendors to provide diverse choices throughout a fully cashless experience. Local Coliseum Classics and international offerings like Brazilian rolls, Argentinian empanadas, and Mexican street tacos",
+    "stands": [
+      "The Loop Stand"
+    ],
+    "officialConcessionsUrl": "https://www.theoaklandarena.com/plan/eat-drink",
+    "city": "Oakland",
+    "state": "CA"
   },
   "oracle_park": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.mlb.com/giants/ballpark/food/concessions-directory"
+    "note": "Oracle Park offers a diverse range of innovative and delicious food options featuring local and organic ingredients. Fans can enjoy everything from classic ballpark fare to unique dishes inspired by San Francisco\u2019s culinary scene, with many offerings from well-known local partners. Gilroy Garlic Fries, Crazy Crab'z Sandwich, Super Duper Burger, fuku\u00ae spicy fried chicken, Tony\u2019s Pizza",
+    "stands": [
+      "Diamond 58",
+      "Organic Coup",
+      "Crazy Crab'z",
+      "Super Duper Burger",
+      "fuku\u00ae",
+      "Tony\u2019s Pizza",
+      "Rah Rah Ramen",
+      "Pita Gyros",
+      "Da Poke-Mon"
+    ],
+    "officialConcessionsUrl": "https://www.mlb.com/giants/ballpark/food/concessions-directory",
+    "city": "San Francisco",
+    "state": "CA"
   },
   "oriole_park_at_camden_yards": {
     "updated": "",
-    "note": "",
+    "note": "Oriole Park at Camden Yards offers a variety of affordable food and beverage options, including classic ballpark favorites like hot dogs, pretzels, nachos, and popcorn. Fans can enjoy a selection of adult beverages, non-alcoholic drinks, and snacks throughout the ballpark. The menu features value items priced mostly at $5 or less, making it easy to find something for every taste and budget. All Beef Hot Dog and Pretzel Bites with Cheese",
     "stands": [],
-    "officialConcessionsUrl": "https://www.mlb.com/orioles/ballpark/food"
+    "officialConcessionsUrl": "https://www.mlb.com/orioles/ballpark/food",
+    "city": "Baltimore",
+    "state": "MD"
   },
   "mortgage_matchup_center": {
     "updated": "",
-    "note": "",
+    "note": "Enjoy a variety of food and beverage options at Mortgage Matchup Center, featuring vegetarian and gluten-free choices to suit diverse tastes. The concessions offer something for everyone attending concerts, sports games, and entertainment events.",
     "stands": [],
-    "officialConcessionsUrl": "https://www.footprintcenter.com/venue/food-and-beverage/"
+    "officialConcessionsUrl": "https://www.footprintcenter.com/venue/food-and-beverage/",
+    "city": "Phoenix",
+    "state": "AZ"
   },
   "pnc_park": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.visitpittsburgh.com/blog/what-to-eat-at-pnc-park/"
+    "note": "PNC Park offers a diverse food experience featuring classic ballpark fare, local Pittsburgh favorites, and new creative menu items including plant-based options. Fans can enjoy everything from smoked BBQ and sandwiches to unique snacks and indulgent desserts. Many concessions highlight regional flavors and partnerships with local restaurants. Polish Cannonballs, Chili Crunch Smashburger, Fried Almond Torte, Manny's BBQ, Primanti Bros. sandwiches",
+    "stands": [
+      "Cannonball Stand",
+      "Homeplate Market",
+      "Manny's BBQ Left Field",
+      "Chicken on the Hill & Cannonball Burger Right Field",
+      "Pop's Plaza Section 132",
+      "Primanti Bros. Section 108",
+      "Wings & Things by Caliente",
+      "Fat Head's Bullpen Bar Center Field"
+    ],
+    "officialConcessionsUrl": "https://www.visitpittsburgh.com/blog/what-to-eat-at-pnc-park/",
+    "city": "Pittsburgh",
+    "state": "PA"
   },
   "ppg_paints_arena": {
     "updated": "",
-    "note": "",
+    "note": "PPG Paints Arena offers a variety of food and beverage options throughout the venue, featuring classic arena fare and premium club experiences. Concessions are available at multiple locations, with selections subject to event availability.",
     "stands": [],
-    "officialConcessionsUrl": "https://www.ppgpaintsarena.com/ppg-paints-arena/concessions"
+    "officialConcessionsUrl": "https://www.ppgpaintsarena.com/ppg-paints-arena/concessions",
+    "city": "Pittsburgh",
+    "state": "PA"
   },
   "paycom_center": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.paycomcenter.com/plan-your-visit/concessions"
+    "note": "Paycom Center offers a wide variety of food and beverage options including classic stadium fare like hot dogs, nachos, and wings, as well as pizza, sandwiches, and local specialties. Fans can enjoy a mix of snacks, meals, and beverages including draft and craft beers, with gluten-free options available at several stands. The concessions feature both quick bites and more substantial meals to suit all tastes during events. Signature items include The Rumble sandwich, Okiedelphia, and local favorites like Schwabs hot dogs and BBQ Chophouse sandwiches.",
+    "stands": [
+      "Schwabs",
+      "Full Court Press",
+      "FastBreak",
+      "Candy Court",
+      "Club Special",
+      "Freddy's",
+      "Power Forward",
+      "Block City",
+      "Block City BBQ",
+      "Wing N It",
+      "Mazzios",
+      "Empire",
+      "Chop N' Block",
+      "Michelob Ultra Club",
+      "Old No. 7",
+      "Slam Burger",
+      "The Zone",
+      "Taco Mayo",
+      "Thunder Drive Thru",
+      "GastroPub",
+      "OKIE DILLA",
+      "The Baseline",
+      "Twisted Table"
+    ],
+    "officialConcessionsUrl": "https://www.paycomcenter.com/plan-your-visit/concessions",
+    "city": "Oklahoma City",
+    "state": "OK"
   },
   "paycor_stadium": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.bengals.com/stadium/concessions/"
+    "note": "Paycor Stadium offers a wide variety of food and beverage options ranging from classic game-day favorites to innovative culinary creations, featuring local Cincinnati flavors and well-known brands. Fans can enjoy everything from burgers and pizza to specialty cocktails and craft beers throughout multiple concession stands across the venue. Skyline Chili, Donatos Pizza, Cincy Burger + Fries",
+    "stands": [
+      "Bud Light City Bar",
+      "BuzzBallz Bar",
+      "Canopy Cantina",
+      "Boone County Bourbon Bar",
+      "Cincinnati Cocktail Co.",
+      "Cincy Burger + Fries",
+      "The Crown's Ruler",
+      "Donatos Pizza",
+      "Drink MKT",
+      "Gamedey Faves",
+      "Garage Beer Cave",
+      "Go Route",
+      "Gridiron Grill",
+      "Home Team Taps",
+      "Jungle Bar",
+      "Kckn Chckn",
+      "Kroger Grab and Go",
+      "Nacho Tigre",
+      "The Perch",
+      "Queen City Grill",
+      "Skyline Chili",
+      "TLC",
+      "Walk Thru Bru"
+    ],
+    "officialConcessionsUrl": "https://www.bengals.com/stadium/concessions/",
+    "city": "Cincinnati",
+    "state": "OH"
   },
   "pechanga_arena": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://pechangaarenasd.com/plan-your-visit/concessions/"
+    "note": "Pechanga Arena offers a variety of food and beverage options featuring local San Diego flavors, including pizza, Italian cuisine, tropical smoothies, and a selection of premium wines and spirits. Guests can enjoy offerings from well-known local partners throughout the concourse. Pizza Port, Nicolosi\u2019s Italian Restaurant, Cutwater Tequila, Maui Wowi Hawaiian Smoothies",
+    "stands": [
+      "Pizza Port",
+      "Nicolosi\u2019s Italian Restaurant",
+      "Cutwater Tequila",
+      "Just Enough Wines",
+      "Maui Wowi Hawaiian Smoothies"
+    ],
+    "officialConcessionsUrl": "https://pechangaarenasd.com/plan-your-visit/concessions/",
+    "city": "San Diego",
+    "state": "CA"
   },
   "petco_park": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.mlb.com/padres/ballpark/food"
+    "note": "Petco Park offers a diverse dining experience featuring local San Diego favorites and fresh seafood, alongside a wide selection of craft beers and specialty drinks. Fans can enjoy unique flavors from various stands throughout the ballpark, including gluten-free and kosher options. Baja Lobster Roll, Tijuana-Style Bacon-Wrapped Hot Dog, Deckman\u2019s fresh seafood, rotating boba flavors at Teaspoon",
+    "stands": [
+      "Deckman\u2019s at the Draft",
+      "Mini Donut Company",
+      "Mostra Coffee",
+      "Pacifico",
+      "Elote/Michelada cart",
+      "Kona Big Wave Patio",
+      "Teaspoon",
+      "An's Gelato",
+      "Blue Water Seafood .394 by Alesmith",
+      "Carnitas Snack Shack",
+      "Gaglione Brothers",
+      "Gelati & Peccati",
+      "Grand Ole BBQ",
+      "Hodad\u2019s",
+      "Jack in the Box",
+      "Negihama Sushi",
+      "Pizza Port",
+      "Puesto",
+      "Ranch 45 and Brandt Beef Lexus Club",
+      "Sambazon",
+      "Seaside Market",
+      "Spiro\u2019s Mediterranean",
+      "Budweiser Ballpark Eats",
+      "Elote",
+      "Frozen Friar",
+      "Lane Field Lemonade",
+      "Mister Softee",
+      "Randy Jones Grill",
+      "San Diego\u2019s Finest Hot Chicken"
+    ],
+    "officialConcessionsUrl": "https://www.mlb.com/padres/ballpark/food",
+    "city": "San Diego",
+    "state": "CA"
   },
   "petersen_events_center": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.peterseneventscenter.com/food-beverage"
+    "note": "The Petersen Events Center offers a variety of food and beverage options across multiple concession stands, featuring classic arena fare and catering services for private events. Guests can enjoy a range of choices to suit different tastes throughout the venue.",
+    "stands": [
+      "Baseline Grill",
+      "Fastbreak",
+      "Coaches Corner",
+      "Hardwood Cafe",
+      "Pitt on the Go",
+      "Premium Suites"
+    ],
+    "officialConcessionsUrl": "https://www.peterseneventscenter.com/food-beverage",
+    "city": "Pittsburgh",
+    "state": "PA"
   },
   "pinnacle_bank_arena": {
     "updated": "",
-    "note": "",
+    "note": "Pinnacle Bank Arena offers a wide variety of food and beverage options across 105 concession points, featuring everything from classic game-day favorites to elegant catering selections. The venue emphasizes sustainability by sourcing locally produced and sustainably raised products and minimizing environmental impact through green initiatives.",
     "stands": [],
-    "officialConcessionsUrl": "https://www.pinnaclebankarena.com/plan-your-visit/food-beverage"
+    "officialConcessionsUrl": "https://www.pinnaclebankarena.com/plan-your-visit/food-beverage",
+    "city": "Lincoln",
+    "state": "NE"
   },
   "progressive_field": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.mlb.com/guardians/ballpark/food"
+    "note": "Progressive Field offers a diverse food and beverage experience featuring local Cleveland restaurants with a variety of options including tacos, craft pizzas, grilled cheese, and unique hot dogs. Fans can enjoy flavors from different neighborhoods in the Right Field and Infield Districts, showcasing Cleveland's vibrant foodie scene. Signature items like the Wisconsin Brat Burger, Spaghetti and Meatball Pizza, and the Southside Slopes sandwich stand out.",
+    "stands": [
+      "Barrio",
+      "The Brew Kettle",
+      "Dante's Inferno",
+      "Fat Head's Brewery",
+      "Happy Dog",
+      "Melt",
+      "Momocho",
+      "Ohio City Burrito"
+    ],
+    "officialConcessionsUrl": "https://www.mlb.com/guardians/ballpark/food",
+    "city": "Cleveland",
+    "state": "OH"
   },
   "providence_park": {
     "updated": "",
-    "note": "",
+    "note": "Concessions information for this venue is not fully listed here yet. Check the venue website or your event ticket for food and drink options.",
     "stands": [],
-    "officialConcessionsUrl": null
+    "officialConcessionsUrl": "No Link",
+    "city": "Portland",
+    "state": "OR"
   },
   "prudential_center": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.prucenter.com/concessions"
+    "note": "Prudential Center offers a wide variety of food and beverage options including burgers, hot dogs, chicken, Mexican, pizza, desserts, snacks, vegetarian, kosher, and kid-friendly choices. Fans can enjoy selections from local partners and specialty stands throughout the arena. A full-service restaurant is also available for pre-event dining with handcrafted dishes. Smash by Pat LaFrieda burgers and Mighty Quinn offerings",
+    "stands": [
+      "Smash by Pat LaFrieda",
+      "Mighty Quinn",
+      "Heritage Kitchen",
+      "Goya Cantina",
+      "The Jersey Tomato",
+      "Goal Tenders",
+      "Melba's",
+      "Main Street Diner",
+      "Brick City Dogs",
+      "The Boardwalk",
+      "Popcorn For The People",
+      "Kosher",
+      "Mulberry Market"
+    ],
+    "officialConcessionsUrl": "https://www.prucenter.com/concessions",
+    "city": "Newark",
+    "state": "NJ"
   },
   "rate_field": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.mlb.com/whitesox/ballpark/concessions"
+    "note": "Rate Field offers a wide variety of food and beverage options including classic ballpark fare, vegetarian and vegan choices, and gluten-free options available upon request. Fans can enjoy plant-based burgers, hot dogs, and chicken tenders alongside traditional favorites throughout the ballpark. IMPOSIBLE plant-based burgers and hot dogs, plant-based chicken tenders, and chorizo",
+    "stands": [
+      "Classics Stands",
+      "Grill Stands",
+      "Carvery",
+      "Mac Shack",
+      "Buenos Nachos",
+      "IMPOSIBLE branded portable"
+    ],
+    "officialConcessionsUrl": "https://www.mlb.com/whitesox/ballpark/concessions",
+    "city": "Chicago",
+    "state": "IL"
   },
   "raymond_james_stadium": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.buccaneers.com/stadium/gameday/food-beverage"
+    "note": "Raymond James Stadium offers a diverse range of food and beverage options featuring scratch-made, chef-driven dishes with a focus on local and sustainable ingredients. Fans can enjoy everything from classic stadium snacks to gourmet meals inspired by Tampa's culinary scene. Seasonal specials and combos provide great value throughout the stadium. Tampa Cuban Dog, Tampa Mojo Chicken and Yellow Rice Bowl, Sweet Stack",
+    "stands": [
+      "The Galley",
+      "Skyway Grill",
+      "Desoto Deli",
+      "Ybor Press",
+      "Taste of Tampa",
+      "Bayshore Bites",
+      "Captain's Grill",
+      "Grille 76",
+      "Grid Iron Grill",
+      "Hyundai Club",
+      "Stadium Club",
+      "Little Caesars",
+      "PDQ",
+      "Aussie Grill",
+      "Tampa Fried Chicken Co."
+    ],
+    "officialConcessionsUrl": "https://www.buccaneers.com/stadium/gameday/food-beverage",
+    "city": "Tampa",
+    "state": "FL"
   },
   "red_rocks_amphitheatre": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.redrocksonline.com/plan-your-visit/eat-drink/"
+    "note": "Concessions at Red Rocks Amphitheatre offer a diverse selection of food and drink options featuring local partners and a variety of cuisines, including BBQ, pizza, tacos, and specialty coffee. Stands are conveniently located throughout the venue and Visitor Center to enhance your experience with quality, made-from-scratch offerings. Enjoy casual bites or a scenic meal at the Ship Rock Grille with stunning views. Award-winning locally roasted coffee, all natural chicken sandwiches, and NY-style pizza by the slice.",
+    "stands": [
+      "Anthony's Pizza & Pasta",
+      "Birdcall \u2013 All Natural Chicken",
+      "Greek Gyros",
+      "Huckleberry Roasters",
+      "Machete Tequila + Tacos",
+      "Maui Wowi",
+      "Rolling Smoke BBQ",
+      "Smashburger",
+      "Wyly\u2019s Fried Foods",
+      "Ship Rock Grille",
+      "Row 71 Bar"
+    ],
+    "officialConcessionsUrl": "https://www.redrocksonline.com/plan-your-visit/eat-drink/",
+    "city": "Morrison",
+    "state": "CO"
   },
   "rocket_arena": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.rocketarena.com/plan-your-visit/concessions"
+    "note": "Rocket Arena offers a wide variety of food and beverage options including pizza, burgers, chicken tenders, vegetarian and vegan choices, gluten-free items, desserts, and specialty concepts. Fans can enjoy local flavors and diverse stands throughout the venue, with selections suitable for all ages and dietary preferences. Swensons Burgs & Fries, Symon's Burger Joint, Quaker Steak and Lube, and Flour Pizza Co.",
+    "stands": [
+      "Insomnia Cookies",
+      "Swensons Burgs & Fries",
+      "Tenders Love and Chicken",
+      "Symon's Burger Joint",
+      "FanFuel",
+      "P St Market Caf\u00e9",
+      "Pearl\u2019s Kitchen",
+      "CLE/MKT",
+      "Quaker Steak and Lube",
+      "Flour Pizza Co.",
+      "Elmore\u2019s Smokehouse",
+      "Rocco's Cheesesteak",
+      "The Walking Taco",
+      "Dos-Uno-Seis Nachos",
+      "Georgio's Oven Fresh Pizza",
+      "Sauce the City",
+      "The Kernel Premium Popcorn",
+      "Dippin' Dots",
+      "Michelob Ultra",
+      "Beach Bum Beer",
+      "Fresca Mixed",
+      "Craft Land",
+      "CLE Cocktail"
+    ],
+    "officialConcessionsUrl": "https://www.rocketarena.com/plan-your-visit/concessions",
+    "city": "Huntington",
+    "state": "WV"
   },
   "rogers_arena": {
     "updated": "",
-    "note": "",
+    "note": "Concessions information for this venue is not fully listed here yet. Use the official concessions link for the most up-to-date stands and menus.",
     "stands": [],
-    "officialConcessionsUrl": "https://rogersarena.com/food-and-beverage-options/"
+    "officialConcessionsUrl": "https://rogersarena.com/food-and-beverage-options/",
+    "city": "Vancouver",
+    "state": "Canada"
   },
   "rogers_centre": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.mlb.com/bluejays/ballpark/food-and-beverage"
+    "note": "Rogers Centre offers a diverse range of food and beverage options including gluten-friendly, halal, vegan, and vegetarian choices, with a focus on celebrating Toronto's rich baseball history. Alcohol is available with specific service times, and coffee is served at multiple locations throughout the venue. Fans can bring outside food within policy guidelines and enjoy quick checkout options. Loonie Dog Night featuring classic and specialty hot dogs",
+    "stands": [
+      "The Stop",
+      "Tap and Go"
+    ],
+    "officialConcessionsUrl": "https://www.mlb.com/bluejays/ballpark/food-and-beverage",
+    "city": "Toronto",
+    "state": "Canada"
   },
   "rupp_arena": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.centralbankcenter.com/rupp-arena-2/plan-your-visit-2/levy-food-beverage-1"
+    "note": "Rupp Arena offers a wide variety of concession options including classic arena snacks, local favorites, and fresh grab-and-go items. Fans can enjoy everything from soft pretzels and nachos to specialty offerings like Cincinnati-style chili, BBQ, and soft serve ice cream. Beverage options include soft drinks, beer, wine, craft cocktails, and hard seltzers during select events. Skyline Chili, City BBQ, Chick-fil-A",
+    "stands": [
+      "Skyline Chili",
+      "Kroger Korner",
+      "Chick-fil-A",
+      "City BBQ",
+      "Taylor Belle's Soft Serve Ice Cream",
+      "Snack Attack",
+      "Wildcat Walk Thru",
+      "Hunt's Brothers Pizza"
+    ],
+    "officialConcessionsUrl": "https://www.centralbankcenter.com/rupp-arena-2/plan-your-visit-2/levy-food-beverage-1",
+    "city": "Lexington",
+    "state": "KY"
   },
   "sap_center": {
     "updated": "",
-    "note": "",
+    "note": "SAP Center offers a variety of food and beverage options to enhance your event experience, with convenient stands located throughout the venue. Fans can enjoy classic arena fare and refreshing drinks in a fan-friendly environment.",
     "stands": [],
-    "officialConcessionsUrl": "https://www.sapcenter.com/plan-your-visit/food-beverage"
+    "officialConcessionsUrl": "https://www.sapcenter.com/plan-your-visit/food-beverage",
+    "city": "San Jose",
+    "state": "CA"
   },
   "schottenstein_center": {
     "updated": "",
-    "note": "",
+    "note": "Concessions information for this venue is not fully listed here yet. Check the venue website or your event ticket for food and drink options.",
     "stands": [],
-    "officialConcessionsUrl": null
+    "officialConcessionsUrl": "No Link",
+    "city": "Columbus",
+    "state": "OH"
   },
   "scotiabank_arena": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.scotiabankarena.com/plan-your-visit/food-beverage/food-concessions"
+    "note": "Scotiabank Arena offers a wide variety of food and beverage options including classic arena fare, gourmet hot dogs, sushi, poutine, and specialty sandwiches. Fans can enjoy diverse choices from vegetarian and vegan to halal and kosher offerings, with several bars serving premium spirits and cocktails throughout the venue. Prime Rib Sandwich, Bacon Wrapped Hot Dog, premium house-made poutines",
+    "stands": [
+      "Aloette Go",
+      "Cherry St. BBQ",
+      "ChungChun Rice Dog",
+      "Coors Light Chill Zone",
+      "Kibo",
+      "Food Junction",
+      "Hogtown Gourmet Hot Dogs",
+      "Hot Stove Carve",
+      "Molson Canadian Brewhouse",
+      "Pizza Pizza",
+      "The Poutinerie",
+      "St. Patties",
+      "Tim Horton's",
+      "Wicked Carib",
+      "Captain Morgan Rum Bar",
+      "Ciroc Ultra Premium Bar",
+      "Crown Royal Bar",
+      "Don Julio Bar",
+      "Smirnoff Vodka Bar",
+      "World Class Bar"
+    ],
+    "officialConcessionsUrl": "https://www.scotiabankarena.com/plan-your-visit/food-beverage/food-concessions",
+    "city": "Toronto",
+    "state": "ON"
   },
   "simmons_bank_arena": {
     "updated": "",
-    "note": "",
+    "note": "Simmons Bank Arena offers a variety of food and beverage options to enjoy during concerts and events, featuring classic arena fare and local flavors to satisfy different tastes. Fans can find convenient concessions throughout the venue to keep energized and refreshed.",
     "stands": [],
-    "officialConcessionsUrl": "https://www.simmonsbankarena.com/plan-your-trip/restaurants/"
+    "officialConcessionsUrl": "https://www.simmonsbankarena.com/plan-your-trip/restaurants/",
+    "city": "North Little Rock",
+    "state": "AR"
   },
   "smoothie_king_center": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.smoothiekingcenter.com/plan-your-visit/food-and-beverage"
+    "note": "Smoothie King Center offers a wide range of food and beverage options including classic stadium fare, Cajun specialties, pizza, and refreshing smoothies. Fans can enjoy local flavors like Cajun jambalaya and alligator sausage alongside familiar favorites such as hot dogs, chicken strips, and pizza. Beverage choices include draft and canned beers, cocktails, wine, non-alcoholic options, and smoothies. Cajun Jambalaya, Ultimate Grilled Alligator Sausage Poboy, Parish Pizza",
+    "stands": [
+      "Smoothie King",
+      "BBB\u2019s Cajun Corner",
+      "Mini Melts",
+      "Tip Off",
+      "Allstar Lemonade",
+      "Ultra Bar",
+      "Tostitos Cantina",
+      "Beer Garden",
+      "Krispy Krunchy Chicken",
+      "Parish Pizza",
+      "Corona Bar"
+    ],
+    "officialConcessionsUrl": "https://www.smoothiekingcenter.com/plan-your-visit/food-and-beverage",
+    "city": "New Orleans",
+    "state": "LA"
   },
   "sofi_stadium": {
     "updated": "",
-    "note": "",
+    "note": "SoFi Stadium offers a diverse range of food and beverage options featuring classic stadium fare, local flavors, and craft beverages to enhance your game day experience.",
     "stands": [],
-    "officialConcessionsUrl": "https://dining.hollywoodparkca.com/?utm_medium=referral&utm_source=sofistadium.com&utm_content=Dining_guide_redirect"
+    "officialConcessionsUrl": "https://dining.hollywoodparkca.com/?utm_medium=referral&utm_source=sofistadium.com&utm_content=Dining_guide_redirect",
+    "city": "Inglewood",
+    "state": "CA"
   },
   "soldier_field": {
     "updated": "",
-    "note": "",
+    "note": "Concessions information for this venue is not fully listed here yet. Check the venue website or your event ticket for food and drink options.",
     "stands": [],
-    "officialConcessionsUrl": null
+    "officialConcessionsUrl": "No Link",
+    "city": "Chicago",
+    "state": "IL"
   },
   "spectrum_center": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.spectrumcentercharlotte.com/plan-your-visit/food-beverage"
+    "note": "Spectrum Center offers a diverse food and beverage experience featuring Carolina-inspired flavors and a wide variety of options from house-smoked BBQ and bulgogi rice bowls to fresh salads and local sweet treats. Fans can enjoy vibrant gathering spots and convenient grab-and-go markets throughout the concourse. The menu is designed to satisfy every craving during Hornets games and arena events. House-smoked BBQ, bulgogi rice bowls, and local sweet treats",
+    "stands": [
+      "Belk Concourse Fastbreak Market",
+      "Wrap & Roast",
+      "Buzz City Sandos",
+      "Rice Bowls Cart",
+      "Crown & Craft",
+      "Lunazul North District Bar",
+      "Brixx Pizza",
+      "Queen City Cravings",
+      "Biscuit & Butcher Cart",
+      "North District Eats",
+      "Buzz City Kernels",
+      "704 Kitchen",
+      "Baseline Bar",
+      "East Side Market",
+      "Noda Cantina",
+      "Bread & Cheez",
+      "Swarm & Salt",
+      "Carolina Quesadills",
+      "Piedmont Pit",
+      "Chick-Fil-A",
+      "South District Bar",
+      "Cobbler & Cream",
+      "Sideline Pizza Co.",
+      "Trade St. Pour Bar Cart",
+      "Trade St. Tacos",
+      "Uptown Concourse My Story Caf\u00e9",
+      "Corona Beach House Bar",
+      "Freddy\u2019s",
+      "Trade St. Pour House",
+      "Chick-Fil-A Express",
+      "Uptown Grill",
+      "Dr Pepper Pavilion Bar",
+      "Caldwell Street Sweets"
+    ],
+    "officialConcessionsUrl": "https://www.spectrumcentercharlotte.com/plan-your-visit/food-beverage",
+    "city": "Charlotte",
+    "state": "NC"
   },
   "state_farm_arena": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.statefarmarena.com/food-beverage"
+    "note": "State Farm Arena offers a diverse food and beverage experience featuring Southern-inspired dishes and local Atlanta favorites, with menus crafted under the guidance of award-winning chef G. Garvin. Guests can enjoy a variety of options including scratch-made pizza, hand-breaded chicken tenders, and vegetarian choices, all prepared with a commitment to sustainability and fast service. BBQ Smashburger, Jerk Chicken Sandwich, Blue Cheese Chips, Open Pit BBQ Ribs",
+    "stands": [
+      "Zac Brown\u2019s Social Club"
+    ],
+    "officialConcessionsUrl": "https://www.statefarmarena.com/food-beverage",
+    "city": "Atlanta",
+    "state": "GA"
   },
   "state_farm_stadium": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.statefarmstadium.com/food-and-beverage-menu-guide"
+    "note": "State Farm Stadium offers a wide variety of food and beverage options including classic stadium fare like chicken tenders, wings, fries, and sandwiches, alongside a broad selection of domestic and premium beers, wines, and cocktails. Fans can enjoy local craft brews and specialty drinks at multiple bars and portable stands throughout the venue. Big AZ Chicken Taquito, local Four Peaks craft beers",
+    "stands": [
+      "Jameson Bar",
+      "Red Zone Bar",
+      "End Zone Bar",
+      "Roost Bar",
+      "Flight Deck",
+      "1898 Club Bar",
+      "The Tailfeather",
+      "Cha Cha Mouche",
+      "Valley View Bar",
+      "Bubble Lounge",
+      "Grab N Go",
+      "Loft Grill",
+      "Gridiron Grill",
+      "Rivalry Grill",
+      "TD Cafe",
+      "Someburros",
+      "Cold Beer & Cheeseburgers",
+      "Humble Bistro",
+      "Pizzeria",
+      "Barrio Queen / Chicago Doghouse",
+      "Screwball Bar"
+    ],
+    "officialConcessionsUrl": "https://www.statefarmstadium.com/food-and-beverage-menu-guide",
+    "city": "Glendale",
+    "state": "AZ"
   },
   "sun_bowl_stadium": {
     "updated": "",
-    "note": "",
+    "note": "Concessions information for this venue is not fully listed here yet. Check the venue website or your event ticket for food and drink options.",
     "stands": [],
-    "officialConcessionsUrl": null
+    "officialConcessionsUrl": "No Link",
+    "city": "El Paso",
+    "state": "TX"
   },
   "t_mobile_arena": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.t-mobilearena.com/arena-information/arena-dining"
+    "note": "T-Mobile Arena offers a diverse range of food and beverage options featuring classic favorites, upscale pub fare, Mediterranean dishes, and decadent desserts from well-known local partners. Fans can enjoy everything from hand-carved sandwiches and gourmet nuts to signature cocktails and frozen treats throughout the venue. Freed's Bakery desserts, Capriotti's sandwiches, The Great Greek Mediterranean Grill",
+    "stands": [
+      "Capriotti's Sandwich Shop",
+      "Freed's Bakery & Dessert Shop",
+      "The Great Greek Mediterranean Grill",
+      "Cool Intentions",
+      "Pizza Forte",
+      "Shake Shack",
+      "BBQ Mexicana",
+      "BruHaus",
+      "Bud Home Ice",
+      "Bud Light Lounge",
+      "Extravagant Eats",
+      "Foley Family Wines Bar and Terrace",
+      "Four Peaks Carvery",
+      "Fuku Chicken",
+      "Golden Road GastroPub",
+      "Grab N Go Market",
+      "Ghost Lounge Gastro",
+      "Home Rice Advantage",
+      "Jameson Barrel Pub",
+      "Kona Big Wave Liquid Aloha",
+      "Lit Up Bar",
+      "Michelob Ultra Gold GastroPub",
+      "Neon Eats",
+      "Pizza Piena",
+      "Surfside Surf Shop",
+      "T-Mobile Market",
+      "Ultra Bar",
+      "The 1997",
+      "Breakaway Burgers",
+      "Brew Pub",
+      "Desert Smokehouse BBQ",
+      "GHOST TO GO",
+      "Glow Bar",
+      "Goose Island Bar",
+      "Golden Churros",
+      "Nacho Spot",
+      "Paradise Pizza",
+      "Silver State",
+      "702 Cantina"
+    ],
+    "officialConcessionsUrl": "https://www.t-mobilearena.com/arena-information/arena-dining",
+    "city": "Las Vegas",
+    "state": "NV"
   },
   "t_mobile_park": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.mlb.com/mariners/ballpark/top-eats"
+    "note": "T-Mobile Park offers a diverse range of food and beverage options, featuring local favorites and classic ballpark bites. Fans can enjoy everything from fresh poke bowls and seafood to plant-based nachos and specialty sandwiches, with multiple convenient concession stands throughout the venue. All stands are cashless for a smooth experience. Moto Pizza, Ivar\u2019s Halibut and Chips, Nakagawa Poke Bowl, The Natural Nacho",
+    "stands": [
+      "Nakagawa Poke Bowl",
+      "Ivar's",
+      "The Natural Nacho",
+      "Throwing Smoked Sausage",
+      "Grand Slammy",
+      "Chicken Tinga Nacho",
+      "Walk-Off Markets",
+      "Ichi Wings",
+      "Lil\u2019 Dumpers",
+      "Turn Two Teriyaki Chicken"
+    ],
+    "officialConcessionsUrl": "https://www.mlb.com/mariners/ballpark/top-eats",
+    "city": "Seattle",
+    "state": "WA"
   },
   "t_mobile_center": {
     "updated": "",
-    "note": "",
+    "note": "Concessions information for this venue is not fully listed here yet. Check the venue website or your event ticket for food and drink options.",
     "stands": [],
-    "officialConcessionsUrl": null
+    "officialConcessionsUrl": "No Link",
+    "city": "Kansas City",
+    "state": "MO"
   },
   "td_garden": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.tdgarden.com/plan-your-visit/concessions"
+    "note": "TD Garden offers a wide variety of food and beverage options across multiple levels, including family-friendly meals, craft beers, vegetarian and gluten-free choices, and local flavors. Fans can enjoy everything from hot entrees and snacks to desserts and refreshing drinks throughout the venue. Sam Adams Brewhouse and local craft beer selections",
+    "stands": [
+      "JetBlue Runway",
+      "Bud Light Top Shelf Bar",
+      "Craft Beer Garden",
+      "Coors Silver Bullet Bar",
+      "Sam Adams Brewhouse",
+      "MRKT",
+      "Causeway Cones",
+      "Nachos and Beer",
+      "Taqueria",
+      "Bud Light Blue Zone",
+      "Bulfinch Bar",
+      "Back Bay BBQ",
+      "Truly Market",
+      "Corona Market",
+      "North End Butcher",
+      "Draft Picks",
+      "On Tap",
+      "Big Bad Burger",
+      "Boston Common",
+      "Frito Lay Test Kitchen",
+      "Causeway Carvery",
+      "Garden Grill",
+      "Haymarket",
+      "Lucky's Chicken",
+      "Hub Hot Dog",
+      "Sal's Pizza"
+    ],
+    "officialConcessionsUrl": "https://www.tdgarden.com/plan-your-visit/concessions",
+    "city": "Boston",
+    "state": "MA"
   },
   "target_center": {
     "updated": "",
-    "note": "",
+    "note": "Target Center offers a variety of food and beverage options to enjoy during events, featuring classic arena fare and a selection of drinks to suit different tastes. Fans can find convenient concessions throughout the venue to keep energized and refreshed.",
     "stands": [],
-    "officialConcessionsUrl": "https://www.targetcenter.com/assets/doc/Concessions-Food-Manifest-032618-9e0fe9716e.pdf"
+    "officialConcessionsUrl": "https://www.targetcenter.com/assets/doc/Concessions-Food-Manifest-032618-9e0fe9716e.pdf",
+    "city": "Minneapolis",
+    "state": "MN"
   },
   "target_field": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.mlb.com/twins/ballpark/concessions"
+    "note": "Target Field offers a wide variety of food and beverage options including classic ballpark fare, specialty sandwiches, international flavors, vegetarian and gluten-free choices, and local Minnesota brews. Fans can enjoy everything from hot dogs and sausages to unique items like walleye sliders and chicken taquitos. Multiple local partners and diverse menus ensure there\u2019s something for every taste. Northwoods Walleye Slider, Kramarczuk\u2019s Sausages, Pizza Luc\u00e9",
+    "stands": [
+      "Hrbek's",
+      "Keeper's Heart Townball Tavern",
+      "Truly on Deck",
+      "Truly Grab & Go Counter",
+      "10,000 Lakes Bar",
+      "Pizza Luc\u00e9",
+      "Kramarczuk\u2019s",
+      "Soul Bowl",
+      "Union Hmong Kitchen"
+    ],
+    "officialConcessionsUrl": "https://www.mlb.com/twins/ballpark/concessions",
+    "city": "Minneapolis",
+    "state": "MN"
   },
   "the_anthem": {
     "updated": "",
-    "note": "",
+    "note": "The Anthem offers a diverse menu featuring handhelds like empanadas, wraps, burgers, and shareable snacks including fries and queso chips. A variety of local and craft beers are available on draft and in bottles, alongside non-alcoholic options and a coffee bar on the 3rd floor. Guests can also enjoy sweet treats like warm Belgian waffles with chocolate sauce. Argentine beef empanadas, smoked brisket basket, and a selection of Dogfish Head craft beers",
     "stands": [],
-    "officialConcessionsUrl": "https://theanthemdc.com/food-beverage/"
+    "officialConcessionsUrl": "https://theanthemdc.com/food-beverage/",
+    "city": "Washington",
+    "state": "DC"
   },
   "the_armory": {
     "updated": "",
-    "note": "",
+    "note": "The Armory offers a variety of food and beverage options featuring classic venue fare and local flavors to keep you fueled throughout the event.",
     "stands": [],
-    "officialConcessionsUrl": "https://armorymn.com/armory-premium-concessions-menu/"
+    "officialConcessionsUrl": "https://armorymn.com/armory-premium-concessions-menu/",
+    "city": "Minneapolis",
+    "state": "MN"
   },
-  "the_dome_at_america_s_center": {
+  "the_dome_at_americas_center": {
     "updated": "",
-    "note": "",
+    "note": "Concessions information for this venue is not fully listed here yet. Check the venue website or your event ticket for food and drink options.",
     "stands": [],
-    "officialConcessionsUrl": null
+    "officialConcessionsUrl": "No Link",
+    "city": "St. Louis",
+    "state": "MO"
   },
   "the_pinnacle": {
     "updated": "",
-    "note": "",
+    "note": "The Pinnacle offers a variety of food and beverage options designed to complement the live music experience in a modern, spacious setting. Guests can enjoy a range of concessions throughout the venue, with convenient access to refreshments during events.",
     "stands": [],
-    "officialConcessionsUrl": "https://thepinnaclenashville.com/venue-info/"
+    "officialConcessionsUrl": "https://thepinnaclenashville.com/venue-info/",
+    "city": "Nashville",
+    "state": "TN"
   },
   "sphere_las_vegas": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.thesphere.com/plan-your-visit/food-and-beverage"
+    "note": "Sphere Las Vegas offers a diverse range of food and beverage options including burgers, pizza, street tacos, pub fare, and specialty cocktails, with vegan, vegetarian, and gluten-friendly choices available at many locations. Enjoy local craft beers and premium spirits across multiple bars and quick-service spots throughout the venue. Sphere Burger, authentic street tacos, Sicilian pizza, and a wide selection of craft beers and tequilas.",
+    "stands": [
+      "Atrium Kitchen + Bar",
+      "Taphouse",
+      "Cantina",
+      "Circle Bar",
+      "Element Caf\u00e9 East",
+      "Element Caf\u00e9 West",
+      "Sphere Express",
+      "Radius Bar",
+      "Pizza Pi",
+      "Prime Burger",
+      "Curve Bar",
+      "Theory Lounge"
+    ],
+    "officialConcessionsUrl": "https://www.thesphere.com/plan-your-visit/food-and-beverage",
+    "city": "Las Vegas",
+    "state": "NV"
   },
   "thunder_ridge_nature_arena": {
     "updated": "",
-    "note": "",
+    "note": "Concessions information for this venue is not fully listed here yet. Check the venue website or your event ticket for food and drink options.",
     "stands": [],
-    "officialConcessionsUrl": null
+    "officialConcessionsUrl": "No Link",
+    "city": "Ridgedale",
+    "state": "MO"
   },
   "toyota_center": {
     "updated": "",
-    "note": "",
+    "note": "Concessions information for this venue is not fully listed here yet. Use the official concessions link for the most up-to-date stands and menus.",
     "stands": [],
-    "officialConcessionsUrl": "https://www.toyotacenter.com/plan-your-visit/concessions"
+    "officialConcessionsUrl": "https://www.toyotacenter.com/plan-your-visit/concessions",
+    "city": "Houston",
+    "state": "TX"
   },
   "truist_park": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.mlb.com/braves/ballpark/concessions"
+    "note": "Truist Park offers a wide variety of food and beverage options including classic ballpark favorites, specialty sandwiches, burgers, and local BBQ. Fans can enjoy diverse choices from quick bites to full meals, with options for gluten-free and vegetarian diets. Local flavors and popular brands are featured throughout the park. Fox Brothers BBQ, Grindhouse Burger, Coors Light Chophouse fish and chips",
+    "stands": [
+      "1871 Grille",
+      "Ballpark Classics",
+      "Blue Moon Beer Garden",
+      "Bona Fide Deluxe",
+      "Braves Grill & Go",
+      "Braves Market",
+      "The Carvery",
+      "Center Field Market",
+      "Chick-fil-A",
+      "Coops Champion Chicken",
+      "Coors Light Chophouse",
+      "Dippin' Dots",
+      "Fox Brothers BBQ",
+      "Grindhouse Burger",
+      "H&F Burgers",
+      "King of Pops",
+      "Mayfield Ice Cream Stand"
+    ],
+    "officialConcessionsUrl": "https://www.mlb.com/braves/ballpark/concessions",
+    "city": "Atlanta",
+    "state": "GA"
   },
-  "u_s_bank_stadium": {
+  "us_bank_stadium": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.usbankstadium.com/concessions-1"
+    "note": "U.S. Bank Stadium offers a wide variety of food and beverage options featuring local favorites, classic stadium fare, and diverse choices including vegan and gluten-free options. Fans can enjoy everything from traditional brat dogs and BBQ to sweet treats and craft cocktails throughout the venue. Minnesota\u2019s Original Brat Dogs, Official Fried Chicken, Wholesome Wanders vegan options",
+    "stands": [
+      "Birch's on the Lake",
+      "Cheetos Popcorn",
+      "Cold Stone Creamery",
+      "Curds & Cakes",
+      "Deez Philly's",
+      "Dippin' Dots",
+      "Dirty Soda Shoppe",
+      "EGGFLIP",
+      "Endzone Grill",
+      "Hippo Pockets",
+      "Hy-Vee Beverage Market",
+      "Karla's Sweet Treats",
+      "Lord Fletcher's",
+      "Maui Wowi",
+      "Minnesota\u2019s Original Brat Dogs",
+      "Official Fried Chicken",
+      "Old Southern BBQ",
+      "Original Hockey Mom Brownies",
+      "Parlour",
+      "PoppedCorn",
+      "Pothole Pizza",
+      "Redzone Grill",
+      "Roon\u2019s Savory Cones",
+      "Rusty Taco",
+      "Soul Bowl",
+      "Surly Smokehouse",
+      "Tender Lovin' Chix",
+      "The Kernel",
+      "The Rabbit Hole",
+      "Top Dog",
+      "Tostitos Nachos",
+      "T-Rex Cookie",
+      "Von Hanson's Meats",
+      "Walking Taco",
+      "Wholesome Wanders",
+      "Wit Love",
+      "Absolut Bar",
+      "Bacardi Bar",
+      "Crown Royal Bar",
+      "Drink MKT",
+      "Fireball Bar",
+      "Leinenkugel's",
+      "Minneapolis Cocktail Co",
+      "Northern Lite Bar",
+      "Patron Tequila",
+      "Pendleton Whisky",
+      "Vizzy Bar",
+      "Walk Thru Bru"
+    ],
+    "officialConcessionsUrl": "https://www.usbankstadium.com/concessions-1",
+    "city": "Minneapolis",
+    "state": "MN"
   },
   "ubs_arena": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://ubsarena.com/plan-your-trip/dining/"
+    "note": "UBS Arena offers a variety of market-style concessions featuring hot, freshly prepared foods alongside ready-to-go meals and self-serve snacks and beverages. There are 12 markets throughout the venue, including three large multi-concept locations with diverse menu options. Vegetarian, gluten-free, and kosher choices are available. Signature items include the Fear the Schmear pork belly sandwich and Big Chicken hand-breaded fried chicken tenders.",
+    "stands": [
+      "A Cut Above",
+      "Big Chicken",
+      "Burgerology",
+      "Empire Cheesesteaks",
+      "Fear the Schmear",
+      "Blue and Orange Kettle Corn"
+    ],
+    "officialConcessionsUrl": "https://ubsarena.com/plan-your-trip/dining/",
+    "city": "Elmont",
+    "state": "NY"
   },
   "uc_berkeley_greek_theatre": {
     "updated": "",
-    "note": "",
+    "note": "Food concessions are available throughout the Greek Theatre offering a variety of snacks, specialty drinks, and refreshments to enjoy during events.",
     "stands": [],
-    "officialConcessionsUrl": "https://thegreekberkeley.com/qdoes-the-greek-theatre-serve-food-and-refreshments/"
+    "officialConcessionsUrl": "https://thegreekberkeley.com/qdoes-the-greek-theatre-serve-food-and-refreshments/",
+    "city": "Berkeley",
+    "state": "CA"
   },
   "united_center": {
     "updated": "",
-    "note": "",
+    "note": "Concessions information for this venue is not fully listed here yet. Use the official concessions link for the most up-to-date stands and menus.",
     "stands": [],
-    "officialConcessionsUrl": "https://www.unitedcenter.com/venue/dining/"
+    "officialConcessionsUrl": "https://www.unitedcenter.com/venue/dining/",
+    "city": "Chicago",
+    "state": "IL"
   },
   "utah_first_credit_union_amphitheatre": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.utahfirstamp.com/bites"
+    "note": "Utah First Credit Union Amphitheatre offers a variety of food and drink options ranging from classic concert bites like popcorn and loaded nachos to specialty items including burgers, chicken tenders, pizza, and Bavarian-style sausages. Fans can enjoy refreshing alcoholic and non-alcoholic beverages at conveniently located concession stands throughout the venue. Mosh Burger\u2019s 100% U.S. hormone-free beef patties and Koko\u2019s Bavarian specialty sausages stand out as signature offerings.",
+    "stands": [
+      "Mosh Burger",
+      "Rebel Hen Crispy Chicken",
+      "Ziggy's Magic Pizza Shop",
+      "Koko's",
+      "CVT Premium Soft Serve"
+    ],
+    "officialConcessionsUrl": "https://www.utahfirstamp.com/bites",
+    "city": "West Valley City",
+    "state": "UT"
   },
   "uw_panther_arena": {
     "updated": "",
-    "note": "",
+    "note": "Concessions information for this venue is not fully listed here yet. Check the venue website or your event ticket for food and drink options.",
     "stands": [],
-    "officialConcessionsUrl": null
+    "officialConcessionsUrl": "No Link",
+    "city": "Milwaukee",
+    "state": "WI"
   },
   "van_andel_arena": {
     "updated": "",
-    "note": "",
+    "note": "Concessions information for this venue is not fully listed here yet. Check the venue website or your event ticket for food and drink options.",
     "stands": [],
-    "officialConcessionsUrl": null
+    "officialConcessionsUrl": "No Link",
+    "city": "Grand Rapids",
+    "state": "MI"
   },
   "veterans_united_home_loans_amphitheater": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.veteransunitedhomeloansamphitheater.com/bites"
+    "note": "Enjoy a variety of food and drink options at Veterans United Home Loans Amphitheater, from classic concert bites like popcorn and nachos to specialty offerings including burgers, chicken tenders, pizza, and Bavarian-style sausages. Refreshing beverages and premium soft serve ice cream are also available to keep you fueled throughout the show. Signature Mosh Burger, Rebel Hen crispy chicken tenders, and Koko\u2019s Bavarian sausages",
+    "stands": [
+      "Mosh Burger",
+      "Rebel Hen Crispy Chicken",
+      "Ziggy's Magic Pizza Shop",
+      "Koko's",
+      "CVT Premium Soft Serve"
+    ],
+    "officialConcessionsUrl": "https://www.veteransunitedhomeloansamphitheater.com/bites",
+    "city": "Virginia Beach",
+    "state": "VA"
   },
   "walmart_amp": {
     "updated": "",
-    "note": "",
+    "note": "Walmart AMP offers a variety of food and beverage options to keep fans refreshed and satisfied throughout events. Enjoy classic stadium fare alongside local flavors in a convenient setting.",
     "stands": [],
-    "officialConcessionsUrl": "https://amptickets.com/concessions"
+    "officialConcessionsUrl": "https://amptickets.com/concessions",
+    "city": "Rogers",
+    "state": "AR"
   },
-  "casey_s_center": {
+  "caseys_center": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.iowaeventscenter.com/wells-fargo-arena/food-beverage"
+    "note": "Casey's Center offers a variety of fresh food and beverage options from local partners throughout the concourse, including diverse concessions and event-specific specials. Guests can enjoy everything from Iowa BBQ and pizza to ice cream and craft cocktails, all served in a cashless environment. Iowa BBQ from Stu\u2019s BBQ and ice cream from Totally Rolled Ice Cream",
+    "stands": [
+      "Stu\u2019s BBQ",
+      "Casey's Pizza",
+      "Totally Rolled Ice Cream",
+      "The Fort"
+    ],
+    "officialConcessionsUrl": "https://www.iowaeventscenter.com/wells-fargo-arena/food-beverage",
+    "city": "Des Moines",
+    "state": "IA"
   },
   "xfinity_mobile_arena": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.wellsfargocenterphilly.com/plan-your-visit/concessions"
+    "note": "Xfinity Mobile Arena offers a wide variety of food and beverage options including classic arena fare, local favorites, and specialty items with multiple stands featuring sandwiches, pizza, chicken, and desserts. Fans can enjoy offerings from well-known local partners and a range of snacks, meals, and drinks throughout the concourses and mezzanine levels. Chickies & Pete\u2019s, Federal Donuts, Insomnia Cookies, Shake Shack",
+    "stands": [
+      "Spectrum Favorites",
+      "Federal Donuts",
+      "9th Street Italian Sandwiches",
+      "Cuz's Pizza / Chickie's and Pete's",
+      "The Coop",
+      "Melissa's Produce",
+      "Line Change",
+      "First Line Steaks",
+      "Buena Onda",
+      "Pizzeria Salvy",
+      "Shake Shack",
+      "Insomnia",
+      "Beach Treats",
+      "Kosher Grille",
+      "Patti & Sons Grill",
+      "Carselliano's Steaks",
+      "Fan Favorites",
+      "Sweet Spot",
+      "Grill Works",
+      "Liberty Grill",
+      "The Mini Coop",
+      "Mites Bites",
+      "Toothsome Milkshakes"
+    ],
+    "officialConcessionsUrl": "https://www.wellsfargocenterphilly.com/plan-your-visit/concessions",
+    "city": "Philadelphia",
+    "state": "PA"
   },
   "wrigley_field": {
     "updated": "",
-    "note": "",
+    "note": "Wrigley Field offers a variety of classic ballpark foods and beverages, featuring local flavors and traditional favorites to enjoy during the game. Fans can find a range of options from snacks to full meals throughout the venue.",
     "stands": [],
-    "officialConcessionsUrl": "https://www.mlb.com/cubs/ballpark/concessions"
+    "officialConcessionsUrl": "https://www.mlb.com/cubs/ballpark/concessions",
+    "city": "Chicago",
+    "state": "IL"
   },
   "xl_center": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.xlcenter.com/plan-your-visit/concessions"
+    "note": "XL Center offers a wide variety of food and beverage options including classic arena fare, local craft beers, and specialty eateries featuring barbecue, soul food, and unique pizza flavors. Fans can enjoy everything from fresh bowls and smash burgers to steamed cheeseburgers and baked potatoes, with several local partners represented. World's Famous Steamed Cheeseburgers and New England Style Barbecue",
+    "stands": [
+      "Carvel Soft Serve",
+      "Center Tap Beer",
+      "Chicken Fry",
+      "Cotton Candy & Snow Cones",
+      "Fresh Classics",
+      "H&H BBQ",
+      "Loyal 9 Fan Club",
+      "Playa Bowls",
+      "Perkatory Coffee",
+      "Pepsi Market",
+      "Popcorn and Almonds",
+      "Potato Pit-Stop",
+      "Randy's Wooster Street Pizza",
+      "Ted's Steamed Cheeseburgers",
+      "Soul Bowls",
+      "Suzie Q's Smash Burgers",
+      "White Claw Marketplace"
+    ],
+    "officialConcessionsUrl": "https://www.xlcenter.com/plan-your-visit/concessions",
+    "city": "Hartford",
+    "state": "CT"
   },
   "grand_casino_arena": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.xcelenergycenter.com/plan-your-visit/dine-with-us/concessions"
+    "note": "Grand Casino Arena offers a wide variety of food and beverage options including classic game-day favorites, local craft beers, and diverse cuisine from hand-crafted sausages to Korean-inspired dishes. Many local and regional partners contribute to a rich and flavorful concessions experience throughout the venue. Detroit-style Wrecktangle Pizza, Sheboygan Sausage Company, and local Minnesota craft beers",
+    "stands": [
+      "Wild Market",
+      "Sausage Haus",
+      "Craft Beers",
+      "Red Baron Pizza",
+      "J&Rs Dough Shop",
+      "Market House Sausage Cart",
+      "City Burger",
+      "Philly Post",
+      "Grab & Go",
+      "Soft-Serve Ice Cream",
+      "Food Court",
+      "Wild Greens",
+      "The Still by Cutwater Spirits",
+      "Wild Grill",
+      "Nordy's Knots Pretzel Cart",
+      "Mini Donuts",
+      "Bibigo",
+      "Wild Cantina",
+      "Camp Grill",
+      "Cabin Classics",
+      "Dessert Cart",
+      "Carvery",
+      "Concessions Cart",
+      "Craft Wall",
+      "Grand Ole Creamery Ice Cream",
+      "Pajarito",
+      "Wrecktangle Pizza",
+      "Revival",
+      "Wild Souvenir Mason Jars"
+    ],
+    "officialConcessionsUrl": "https://www.xcelenergycenter.com/plan-your-visit/dine-with-us/concessions",
+    "city": "St. Paul",
+    "state": "MN"
   },
   "yankee_stadium": {
     "updated": "",
-    "note": "",
-    "stands": [],
-    "officialConcessionsUrl": "https://www.mlb.com/yankees/ballpark/food"
+    "note": "Yankee Stadium offers a diverse range of food and beverage options featuring local favorites and new partners, including gourmet dishes, international flavors, and fresh ingredients grown on-site. Fans can enjoy a variety of social gathering spots throughout the stadium to enhance their dining experience. Goose Island\u2019s New York Legendary Ale and the Aspen Espresso Martini",
+    "stands": [
+      "Lobel\u2019s",
+      "Streetbird by Marcus Samuelsson",
+      "Bobby\u2019s Burgers",
+      "Mighty Quinn\u2019s",
+      "Fuku",
+      "Chef Christian Petroni",
+      "Mac Truck",
+      "Chickie\u2019s & Pete\u2019s",
+      "The Halal Guys",
+      "Benihana",
+      "Mister Softee",
+      "Blue Bunny",
+      "Baby Ruth",
+      "Brooklyn Dumpling Shop",
+      "Caribbean Food Delights",
+      "Nuchas",
+      "Surfside Iced Teas & Lemonades + Vodka",
+      "Sweet P Bakery",
+      "Mae Mae Caf\u00e9",
+      "Bondi Sushi",
+      "Change-Up Kitchen",
+      "Pepsi Food Court",
+      "Mastercard Batter\u2019s Eye Deck",
+      "FreshDirect Terrace",
+      "Toyota Terrace",
+      "LG OLED Sports Lounge",
+      "Budweiser Party Decks",
+      "Stella Artois Landing",
+      "Michelob Ultra Clubhouse",
+      "Kona Bleachers Bar"
+    ],
+    "officialConcessionsUrl": "https://www.mlb.com/yankees/ballpark/food",
+    "city": "Bronx",
+    "state": "NY"
   }
 }
