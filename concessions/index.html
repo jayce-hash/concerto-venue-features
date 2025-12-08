@@ -17,7 +17,6 @@
     <!-- Top header -->
     <header class="page-header">
       <div class="page-header-inner">
-        <!-- Replace src with your concessions header image if you want -->
         <img
           src="IMG_3180.jpeg"
           alt="Concessions"
@@ -40,9 +39,13 @@
       <section id="infoPanel" class="info-panel info-panel--empty">
         <div class="info-empty">
           <h2>Find concessions by venue</h2>
-          <p>Search a venue above to see food &amp; drink options, notable stands, and a link to the official concessions page.</p>
+          <p>Search a venue or browse below to see food &amp; drink options, notable stands, and a link to the official concessions page.</p>
         </div>
 
+        <!-- Random browse list -->
+        <div id="browseList" class="browse-list"></div>
+
+        <!-- Filled once a venue is chosen -->
         <div class="info-content" hidden>
           <header class="info-header">
             <div>
@@ -61,7 +64,7 @@
             <!-- Stands -->
             <article class="info-card" id="standsCard" hidden>
               <h3>Notable Stands</h3>
-              <ul id="standsList" class="stands-list"></ul>
+              <ul id="standsList" class="bullet-list"></ul>
             </article>
 
             <!-- Official link -->
