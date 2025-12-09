@@ -10,7 +10,10 @@
     "notAllowed": [
       "Bags with metal chains"
     ],
-    "note": "Bags required for medical necessity or diaper bags may be allowed with leadership approval."
+    "note": "Bags required for medical necessity or diaper bags may be allowed with leadership approval.",
+    "venueName": "Acrisure Arena",
+    "city": "Thousand Palms",
+    "state": "CA"
   },
   "acrisure_stadium": {
     "summary": "Acrisure Stadium requires fans to bring clear bags that do not exceed 12\" x 6\" x 12\" or small clutches up to 4.5\" x 6.5\". Bags must be clear plastic, vinyl, or PVC, and all bags are subject to inspection at entry. This policy helps speed up security while allowing fans to bring necessary personal items.",
@@ -27,7 +30,10 @@
       "Backpacks",
       "Large purses"
     ],
-    "note": "Diaper bags with medically necessary items are allowed after inspection. Each fan may carry one approved clear bag and one small clutch or purse."
+    "note": "Diaper bags with medically necessary items are allowed after inspection. Each fan may carry one approved clear bag and one small clutch or purse.",
+    "venueName": "Acrisure Stadium",
+    "city": "Pittsburgh",
+    "state": "PA"
   },
   "alamodome": {
     "summary": "The Alamodome allows clear bags up to 12\" x 6\" x 12\" and small clutches up to 5.5\" x 8.5\" to help speed up entry and enhance safety. All bags will be screened before entry. Guests are encouraged to avoid bringing bags when possible.",
@@ -54,7 +60,10 @@
       "Folding lawn chair bags",
       "Non-clear bags larger than 5.5\" x 8.5\""
     ],
-    "note": "Diaper bags must be accompanied by a guardian and child and contain childcare items; medically necessary bags larger than allowed sizes are permitted with screening. All bags, including exceptions, are subject to search. The venue reserves the right to prohibit any item deemed unsafe."
+    "note": "Diaper bags must be accompanied by a guardian and child and contain childcare items; medically necessary bags larger than allowed sizes are permitted with screening. All bags, including exceptions, are subject to search. The venue reserves the right to prohibit any item deemed unsafe.",
+    "venueName": "Alamodome",
+    "city": "San Antonio",
+    "state": "TX"
   },
   "albertsons_stadium": {
     "summary": "Albertsons Stadium requires fans to bring clear bags that meet size limits for faster entry and security screening. Small clutches are allowed if they fit within specified dimensions. All bags are subject to inspection upon entry.",
@@ -68,7 +77,10 @@
       "Backpacks",
       "Large purses"
     ],
-    "note": "Medical and diaper bags are allowed but must be inspected at security checkpoints."
+    "note": "Medical and diaper bags are allowed but must be inspected at security checkpoints.",
+    "venueName": "Albertsons Stadium",
+    "city": "Boise",
+    "state": "ID"
   },
   "allegiant_stadium": {
     "summary": "All bags brought into Allegiant Stadium must be clear plastic, vinyl, or PVC and cannot exceed 12\" x 6\" x 12\". Small clutches up to 4.5\" x 6.5\" x 2\" are also allowed in addition to one clear bag. All bags are subject to inspection before entry.",
@@ -91,7 +103,10 @@
       "Computer bags",
       "Camera bags"
     ],
-    "note": "Medical items are allowed but must be inspected. Bag check is available for a fee with cashless payment only."
+    "note": "Medical items are allowed but must be inspected. Bag check is available for a fee with cashless payment only.",
+    "venueName": "Allegiant Stadium",
+    "city": "Las Vegas",
+    "state": "NV"
   },
   "amalie_arena": {
     "summary": "Bags larger than 12x12x12 inches are not allowed in the arena. Large bags, except small clutches, must go through an x-ray scanner before entry. For hockey games, bags larger than 4x6x1.5 inches require screening.",
@@ -107,7 +122,10 @@
       "Large purses",
       "Backpacks"
     ],
-    "note": "Medical and parenting bags exceeding size limits are allowed but subject to additional searches. Bags do not need to be clear. Screening procedures vary by event type."
+    "note": "Medical and parenting bags exceeding size limits are allowed but subject to additional searches. Bags do not need to be clear. Screening procedures vary by event type.",
+    "venueName": "Amalie Arena",
+    "city": "Tampa",
+    "state": "FL"
   },
   "amerant_bank_arena": {
     "summary": "Amerant Bank Arena strongly discourages bringing bags to events. If necessary, bags must be smaller than 4\" x 6\" x 1.5\", such as small clutches or crossbodies, and all bags are subject to visual and X-ray screening. Clear bags are encouraged but not required.",
@@ -127,7 +145,10 @@
       "Hard-sided bags",
       "Large purses"
     ],
-    "note": "Diaper bags, breast pump bags, and bags needed for medical purposes are allowed but subject to visual and X-ray screening. No bag storage is available inside or near the arena."
+    "note": "Diaper bags, breast pump bags, and bags needed for medical purposes are allowed but subject to visual and X-ray screening. No bag storage is available inside or near the arena.",
+    "venueName": "Amerant Bank Arena",
+    "city": "Sunrise",
+    "state": "FL"
   },
   "american_airlines_center": {
     "summary": "Bags must be small and are subject to security screening. Clear bags are allowed but not required. Oversized bags, backpacks, and large totes are not permitted.",
@@ -143,7 +164,10 @@
       "Large totes",
       "Oversized bags larger than 14\" L x 6\" W x 14\" H"
     ],
-    "note": "Medical and diaper bags for small children are allowed but subject to inspection. All bags are subject to security screening. Oversized bags cannot be checked at the venue."
+    "note": "Medical and diaper bags for small children are allowed but subject to inspection. All bags are subject to security screening. Oversized bags cannot be checked at the venue.",
+    "venueName": "American Airlines Center",
+    "city": "Dallas",
+    "state": "TX"
   },
   "american_family_field": {
     "summary": "Fans may bring clear single-compartment bags up to 12\" x 12\" x 6\", small non-clear bags up to 9\" x 5\" x 2\", or one-gallon clear resealable bags. All bags are subject to inspection, and multi-compartment or larger non-clear bags are not allowed. This policy helps speed up entry and enhance safety.",
@@ -165,7 +189,10 @@
       "Large purses",
       "Duffle bags"
     ],
-    "note": "Exceptions are made for diaper bags up to 16\" x 16\" x 8\" and ADA or medically necessary items. All carry-in items must be inspected. Bags that do not comply will not be checked or stored by the venue."
+    "note": "Exceptions are made for diaper bags up to 16\" x 16\" x 8\" and ADA or medically necessary items. All carry-in items must be inspected. Bags that do not comply will not be checked or stored by the venue.",
+    "venueName": "American Family Field",
+    "city": "Milwaukee",
+    "state": "WI"
   },
   "angel_stadium": {
     "summary": "All bags brought into Angel Stadium will be inspected at the gates. Fans are encouraged to avoid bringing bags if possible to speed up entry, and all bags will be subject to security screening including metal detector checks. Certain small bags and clutches may be allowed but must comply with size and screening requirements.",
@@ -173,9 +200,12 @@
     "updated": "",
     "allowed": [],
     "notAllowed": [],
-    "note": "Fans should arrive early to allow time for security screening. Guests with medical devices that may trigger metal detectors should notify security staff for alternative screening. Strollers and wheelchairs are permitted but must go through screening."
+    "note": "Fans should arrive early to allow time for security screening. Guests with medical devices that may trigger metal detectors should notify security staff for alternative screening. Strollers and wheelchairs are permitted but must go through screening.",
+    "venueName": "Angel Stadium",
+    "city": "Anaheim",
+    "state": "CA"
   },
-  "at&t_stadium": {
+  "att_stadium": {
     "summary": "AT&T Stadium only allows clear bags up to 12\" x 6\" x 12\" or small clutches no larger than 4.5\" x 6.5\". All bags are subject to inspection for security purposes. Larger bags and certain types of containers are not permitted inside the stadium.",
     "fullLink": "https://attstadium.com/stadium-info/bags/",
     "updated": "",
@@ -197,7 +227,10 @@
       "Luggage of any kind",
       "Seat cushions"
     ],
-    "note": "Medically necessary items are allowed after proper inspection at a designated gate. Please limit the number of items you bring to the stadium on event days."
+    "note": "Medically necessary items are allowed after proper inspection at a designated gate. Please limit the number of items you bring to the stadium on event days.",
+    "venueName": "AT&T Stadium",
+    "city": "Arlington",
+    "state": "TX"
   },
   "bok_center": {
     "summary": "Guests may bring one clear bag no larger than 12\" x 6\" x 12\" or one clear one-gallon plastic bag, plus one small non-clear personal item no larger than 5\" x 8\". All bags and belongings are subject to search and metal detector screening upon entry. Items that may cause safety concerns or disruptions can be denied.",
@@ -213,7 +246,10 @@
       "Backpacks",
       "Large purses"
     ],
-    "note": "Exceptions are made for medical needs and special requirements. Diaper bags are allowed when accompanied by a child."
+    "note": "Exceptions are made for medical needs and special requirements. Diaper bags are allowed when accompanied by a child.",
+    "venueName": "BOK Center",
+    "city": "Tulsa",
+    "state": "OK"
   },
   "ball_arena": {
     "summary": "Ball Arena allows only small clutches, wristlets, and fanny packs measuring 4\" x 6\" x 1.5\" or smaller. Larger purses and backpacks are not permitted. Medical and diaper bags up to 14\" x 14\" x 6\" are allowed with proper inspection at designated entrances.",
@@ -230,7 +266,10 @@
       "Purses",
       "Backpacks"
     ],
-    "note": "Medical and diaper bags must be inspected at designated entrances. Bag check lockers are available near the main entrance for a fee."
+    "note": "Medical and diaper bags must be inspected at designated entrances. Bag check lockers are available near the main entrance for a fee.",
+    "venueName": "Ball Arena",
+    "city": "Denver",
+    "state": "CO"
   },
   "bank_of_america_stadium": {
     "summary": "This venue follows a clear bag-style security policy. Check the official bag policy link for full details before you arrive.",
@@ -238,7 +277,10 @@
     "updated": "",
     "allowed": [],
     "notAllowed": [],
-    "note": ""
+    "note": "",
+    "venueName": "Bank of America Stadium",
+    "city": "Charlotte",
+    "state": "NC"
   },
   "barclays_center": {
     "summary": "Bags larger than 10\" x 6\" x 2\" are not allowed inside the venue. Guests are encouraged to travel light and leave bags at home for faster entry. All bags are subject to screening and may be x-rayed upon entry.",
@@ -254,7 +296,10 @@
       "Large bags",
       "Suitcases"
     ],
-    "note": "Exceptions are made for guests with medical needs and those caring for infants. Credentialed media are exempt from this policy."
+    "note": "Exceptions are made for guests with medical needs and those caring for infants. Credentialed media are exempt from this policy.",
+    "venueName": "Barclays Center",
+    "city": "Brooklyn",
+    "state": "NY"
   },
   "bethel_woods_center_for_the_arts": {
     "summary": "Guests may bring clear tote bags up to 12\" x 6\" x 12\" or small clutch purses no larger than 5.5\" x 8.5\". All bags and items are subject to search upon entry for safety. Larger bags and certain items are not permitted to ensure a safe and enjoyable experience.",
@@ -276,7 +321,10 @@
       "Metal, aluminum, glass, or non-plastic reusable bottles or cans",
       "Alcoholic beverages"
     ],
-    "note": "A limit of two factory-sealed plastic water bottles per person is allowed. Please allow extra time for security screening at entry."
+    "note": "A limit of two factory-sealed plastic water bottles per person is allowed. Please allow extra time for security screening at entry.",
+    "venueName": "Bethel Woods Center for the Arts",
+    "city": "Bethel",
+    "state": "NY"
   },
   "broadview_stage_at_spac": {
     "summary": "Only clear plastic, vinyl, or PVC bags no larger than 12\" x 6\" x 12\" and small clutches, wristlets, or fanny packs no larger than 6\" x 9\" are allowed. All bags are subject to screening upon entry. No other bags of any type are permitted inside the venue.",
@@ -293,7 +341,10 @@
       "Duffel bags",
       "Coolers"
     ],
-    "note": "Medical items such as medicine, prescriptions, breast pumps, and milk coolers are allowed. Strollers are permitted but not recommended due to crowd size and limited maneuverability."
+    "note": "Medical items such as medicine, prescriptions, breast pumps, and milk coolers are allowed. Strollers are permitted but not recommended due to crowd size and limited maneuverability.",
+    "venueName": "Broadview Stage at SPAC",
+    "city": "Saratoga Springs",
+    "state": "NY"
   },
   "bridgestone_arena": {
     "summary": "Bridgestone Arena strongly discourages bringing bags to events for safety and faster entry. Bags larger than 12\"x12\"x6\" and backpacks are not allowed. Smaller bags, including clear bags and small clutches, are allowed but subject to screening.",
@@ -309,7 +360,10 @@
       "Backpacks of any size",
       "Bags larger than 12\" x 12\" x 6\""
     ],
-    "note": "All bags are subject to x-ray and visual inspection. Diaper and medical bags are allowed but require screening. No on-site storage is available. Guests should arrive early and travel light. Contact the arena 24 hours before the event for special accommodations."
+    "note": "All bags are subject to x-ray and visual inspection. Diaper and medical bags are allowed but require screening. No on-site storage is available. Guests should arrive early and travel light. Contact the arena 24 hours before the event for special accommodations.",
+    "venueName": "Bridgestone Arena",
+    "city": "Nashville",
+    "state": "TN"
   },
   "busch_stadium": {
     "summary": "Guests may bring bags, purses, and soft-sided coolers that do not exceed 10\" x 8\" x 10\". All bags will be inspected upon entry to ensure safety. Larger bags are not permitted to help maintain a secure environment.",
@@ -325,7 +379,10 @@
       "Backpacks",
       "Hard-sided coolers"
     ],
-    "note": "Exceptions are made for medical bags and diaper bags with a child. All bags are subject to inspection at entry."
+    "note": "Exceptions are made for medical bags and diaper bags with a child. All bags are subject to inspection at entry.",
+    "venueName": "Busch Stadium",
+    "city": "St. Louis",
+    "state": "MO"
   },
   "cfg_bank_arena": {
     "summary": "Guests are asked not to bring bags to the arena to ensure safety and speed up entry. Clear bags no larger than 14\" x 6\" x 14\" are allowed, as well as small clutches that do not need to be clear and must be no larger than 4.5\" x 6.5\". Medical bags are permitted but must be screened before entry.",
@@ -344,7 +401,10 @@
       "Mesh or straw bags",
       "Camera cases"
     ],
-    "note": "Items normally carried in diaper bags must be placed in a clear plastic bag for entry."
+    "note": "Items normally carried in diaper bags must be placed in a clear plastic bag for entry.",
+    "venueName": "CFG Bank Arena",
+    "city": "Baltimore",
+    "state": "MD"
   },
   "chi_health_center": {
     "summary": "CHI Health Center Omaha enforces a clear bag policy requiring all bags to be clear or small clutches that meet size limits, with all bags subject to security screening. Only one bag per ticket holder is allowed to ensure safety and convenience. Bags must be easily visible during screening.",
@@ -360,7 +420,10 @@
       "Large purses",
       "Oversized bags"
     ],
-    "note": "Exceptions are made for medically necessary bags, which must be inspected and approved by security. This policy may not apply to Convention Center events, so check in advance if attending those. Unapproved bags must be returned to vehicles or disposed of, as staff cannot hold bags on site."
+    "note": "Exceptions are made for medically necessary bags, which must be inspected and approved by security. This policy may not apply to Convention Center events, so check in advance if attending those. Unapproved bags must be returned to vehicles or disposed of, as staff cannot hold bags on site.",
+    "venueName": "CHI Health Center",
+    "city": "Omaha",
+    "state": "NE"
   },
   "caesars_superdome": {
     "summary": "Only clear bags made of plastic, vinyl, or PVC that do not exceed 12\" x 6\" x 12\" are allowed, along with small clutch bags no larger than 4.5\" x 6.5\". All bags must be open and ready for screening at entry. Walk-through metal detectors are used at all gates for security.",
@@ -378,7 +441,10 @@
       "Non-clear diaper bags",
       "Fanny packs"
     ],
-    "note": "Medically necessary items are allowed after inspection and tagging. Each person may bring one approved clear bag and one clutch. Bag policy may vary by event, so check event details before attending."
+    "note": "Medically necessary items are allowed after inspection and tagging. Each person may bring one approved clear bag and one clutch. Bag policy may vary by event, so check event details before attending.",
+    "venueName": "Caesars Superdome",
+    "city": "New Orleans",
+    "state": "LA"
   },
   "camp_randall_stadium": {
     "summary": "Camp Randall Stadium enforces a clear bag policy to enhance safety and speed up entry. Fans may bring one clear bag up to 12\" x 6\" x 12\" and one small clutch purse up to 6.5\" x 4.5\", both subject to security screening. Other bags and larger purses are not permitted.",
@@ -397,7 +463,10 @@
       "Camera bags",
       "Binocular cases"
     ],
-    "note": "Medical bags or equipment that do not fit in clear bags are allowed with inspection and tagging by security. Diaper bags are permitted but subject to thorough inspection. Seat cushions without pockets or compartments are allowed."
+    "note": "Medical bags or equipment that do not fit in clear bags are allowed with inspection and tagging by security. Diaper bags are permitted but subject to thorough inspection. Seat cushions without pockets or compartments are allowed.",
+    "venueName": "Camp Randall Stadium",
+    "city": "Madison",
+    "state": "WI"
   },
   "camping_world_stadium": {
     "summary": "This venue follows a clear bag-style security policy. Check the official bag policy link for full details before you arrive.",
@@ -405,10 +474,13 @@
     "updated": "",
     "allowed": [],
     "notAllowed": [],
-    "note": ""
+    "note": "",
+    "venueName": "Camping World Stadium",
+    "city": "Orlando",
+    "state": "FL"
   },
   "capital_one_arena": {
-    "summary": "Capital One Arena does not allow bags, backpacks, or purses inside the venue. Small wallet-size clutches no larger than 5\u201d x 7\u201d and medical or parenting bags up to 14\u201d x 14\u201d x 6\u201d are allowed but must go through security screening. All bags are subject to inspection to ensure safety.",
+    "summary": "Capital One Arena does not allow bags, backpacks, or purses inside the venue. Small wallet-size clutches no larger than 5â x 7â and medical or parenting bags up to 14â x 14â x 6â are allowed but must go through security screening. All bags are subject to inspection to ensure safety.",
     "fullLink": "https://www.capitalonearena.com/arena-policies",
     "updated": "",
     "allowed": [
@@ -421,7 +493,10 @@
       "Backpacks",
       "Purses"
     ],
-    "note": "Medical and parenting bags must enter through the corner of 6th and F Street. All bags are subject to security screening and may be refused if they pose a safety risk."
+    "note": "Medical and parenting bags must enter through the corner of 6th and F Street. All bags are subject to security screening and may be refused if they pose a safety risk.",
+    "venueName": "Capital One Arena",
+    "city": "Washington",
+    "state": "DC"
   },
   "chaifetz_arena": {
     "summary": "Guests may bring one clear bag no larger than 12\" x 6\" x 12\" and one small clutch no larger than 7.5\" x 5\". All bags are subject to inspection and must be clear plastic, vinyl, or PVC to speed entry and improve safety. Other bags are not permitted and will be returned or disposed of at the gate.",
@@ -440,7 +515,10 @@
       "Non-clear bags",
       "Bags exceeding size limits"
     ],
-    "note": "Medically necessary items that do not fit in a clear bag are allowed after inspection; diaper bags are allowed with a child present; no bag check is available, so prohibited items must be returned to vehicles or disposed of at entry."
+    "note": "Medically necessary items that do not fit in a clear bag are allowed after inspection; diaper bags are allowed with a child present; no bag check is available, so prohibited items must be returned to vehicles or disposed of at entry.",
+    "venueName": "Chaifetz Arena",
+    "city": "St. Louis",
+    "state": "MO"
   },
   "chase_center": {
     "summary": "All bags must be clear and meet size limits to enter the venue. Small clutches without handles are allowed if they fit within the specified dimensions. All bags are subject to screening upon entry.",
@@ -454,7 +532,10 @@
       "Backpacks",
       "Large purses"
     ],
-    "note": "Medical and diaper bags are allowed but must be screened."
+    "note": "Medical and diaper bags are allowed but must be screened.",
+    "venueName": "Chase Center",
+    "city": "San Francisco",
+    "state": "CA"
   },
   "chase_field": {
     "summary": "Chase Field enforces a clear bag policy to enhance safety and speed up entry. Bags must be clear and meet size limits, with small clutches allowed if they fit within specified dimensions. All bags are subject to search upon entry.",
@@ -478,7 +559,10 @@
       "Fanny packs",
       "Cinch bags"
     ],
-    "note": "All bags are subject to search. Medical and diaper bags are permitted. Secure bag storage options are available for non-approved bags."
+    "note": "All bags are subject to search. Medical and diaper bags are permitted. Secure bag storage options are available for non-approved bags.",
+    "venueName": "Chase Field",
+    "city": "Phoenix",
+    "state": "AZ"
   },
   "citi_field": {
     "summary": "Backpacks are generally not allowed inside Citi Field to improve security and speed up entry. Permitted bags include clear bags, small purses, diaper bags (not backpack-style), totes, drawstring, and messenger bags that do not exceed 16\"x16\"x8\". All bags will be screened before entry.",
@@ -497,7 +581,10 @@
       "Backpacks (except clear backpacks or medical/ADA exceptions)",
       "Bags larger than 16\"x16\"x8\""
     ],
-    "note": "Exceptions are made for backpacks used for medical or ADA reasons and backpacks purchased inside the venue during the event are allowed for that day only. There are no bag check facilities inside Citi Field."
+    "note": "Exceptions are made for backpacks used for medical or ADA reasons and backpacks purchased inside the venue during the event are allowed for that day only. There are no bag check facilities inside Citi Field.",
+    "venueName": "Citi Field",
+    "city": "Queens",
+    "state": "NY"
   },
   "citizens_bank_park": {
     "summary": "Only clear bags no larger than 12\" x 6\" x 12\", small clutch purses no larger than 5\" x 7\", medical bags, and diaper bags are allowed inside Citizens Bank Park. All bags will be inspected upon entry. Non-clear bags such as backpacks and drawstring bags are prohibited to help speed up entry.",
@@ -514,7 +601,10 @@
       "Drawstring bags",
       "Non-clear bags larger than allowed sizes"
     ],
-    "note": "Prohibited bags can be returned to vehicles or stored in lockers on Citizens Bank Way for a fee. All bags are subject to inspection following MLB security rules."
+    "note": "Prohibited bags can be returned to vehicles or stored in lockers on Citizens Bank Way for a fee. All bags are subject to inspection following MLB security rules.",
+    "venueName": "Citizens Bank Park",
+    "city": "Philadelphia",
+    "state": "PA"
   },
   "climate_pledge_arena": {
     "summary": "Guests are encouraged to avoid bringing bags. If needed, one bag no larger than 14\" x 14\" x 6\" or one small clutch/purse/wallet no larger than 4\" x 6\" x 1.5\" is allowed. All bags larger than a clutch must go through x-ray screening at designated entry points.",
@@ -528,7 +618,10 @@
       "Backpacks",
       "Large purses"
     ],
-    "note": "Medical, diaper, and parenting bags larger than a clutch must also go through x-ray screening. All bags must comply with size and prohibited items policies. Some events may restrict personal water bottles on the floor."
+    "note": "Medical, diaper, and parenting bags larger than a clutch must also go through x-ray screening. All bags must comply with size and prohibited items policies. Some events may restrict personal water bottles on the floor.",
+    "venueName": "Climate Pledge Arena",
+    "city": "Seattle",
+    "state": "WA"
   },
   "colonial_life_arena": {
     "summary": "Only clear plastic, vinyl, or PVC bags up to 12\" x 6\" x 12\" and small clutches up to 4.5\" x 6.5\" are allowed. One-gallon clear plastic freezer bags are also permitted. All bags are subject to search and bags exceeding size limits will not be allowed.",
@@ -551,7 +644,10 @@
       "Non-clear cinch/drawstring bags",
       "Fanny packs"
     ],
-    "note": "Medically necessary items and diapers with baby supplies are allowed after inspection and tagging. Family members, including children, may carry approved bags. All bags will be searched upon entry."
+    "note": "Medically necessary items and diapers with baby supplies are allowed after inspection and tagging. Family members, including children, may carry approved bags. All bags will be searched upon entry.",
+    "venueName": "Colonial Life Arena",
+    "city": "Columbia",
+    "state": "SC"
   },
   "comerica_park": {
     "summary": "Only single compartment bags, wallets, and clutches smaller than 4\" x 6\" x 1.5\" are allowed. Larger bags, purses, and clutches are prohibited. All permitted bags will be searched and guests must pass through metal detector screening upon entry.",
@@ -567,7 +663,10 @@
       "Large purses",
       "Backpacks"
     ],
-    "note": "Medical and diaper bags are allowed if smaller than 16\" x 16\" x 8\" and needed for medical necessity such as diaper bags, breast pumps, oxygen, insulin, or epi-pens. Guests should arrive early and minimize items brought. No weapons allowed."
+    "note": "Medical and diaper bags are allowed if smaller than 16\" x 16\" x 8\" and needed for medical necessity such as diaper bags, breast pumps, oxygen, insulin, or epi-pens. Guests should arrive early and minimize items brought. No weapons allowed.",
+    "venueName": "Comerica Park",
+    "city": "Detroit",
+    "state": "MI"
   },
   "commonwealth_stadium": {
     "summary": "Commonwealth Stadium has a no bag policy to speed up entry and improve safety. Guests may bring one clear plastic bag no larger than 12\" x 12\" x 6\" or one small clutch no larger than 6.5\" x 4.5\", both subject to search. Bags that do not meet these size or type requirements will not be allowed.",
@@ -582,7 +681,10 @@
       "Large purses",
       "Bags larger than 12\" x 12\" x 6\""
     ],
-    "note": "Exceptions are made for diaper bags and medically necessary items that do not fit in a clear bag. All bags are subject to search and enhanced screening if required."
+    "note": "Exceptions are made for diaper bags and medically necessary items that do not fit in a clear bag. All bags are subject to search and enhanced screening if required.",
+    "venueName": "Commonwealth Stadium",
+    "city": "Edmonton",
+    "state": "AB"
   },
   "coors_field": {
     "summary": "Bags must be soft-sided, single-pocket, and no larger than 16\" x 16\" x 8\". Backpacks, multi-pocket bags, and hard-sided containers are not allowed. All bags will be searched before entry.",
@@ -597,7 +699,10 @@
       "Multi-pocket bags or purses",
       "Hard-sided containers, coolers, or briefcases"
     ],
-    "note": "Guests may be asked to open coats for inspection. Express lanes are available for guests without bags. Service animals are permitted."
+    "note": "Guests may be asked to open coats for inspection. Express lanes are available for guests without bags. Service animals are permitted.",
+    "venueName": "Coors Field",
+    "city": "Denver",
+    "state": "CO"
   },
   "credit_union_1_amphitheatre": {
     "summary": "Only clear plastic, vinyl, or PVC tote bags no larger than 12\" x 6\" x 12\" and small clutch bags up to 6\" x 9\" (which do not need to be clear) are allowed. All bags will be searched upon entry. Bags that do not meet these requirements will not be permitted.",
@@ -612,17 +717,20 @@
       "Large purses",
       "Non-clear bags larger than allowed sizes"
     ],
-    "note": "Medication with prescription and matching photo ID is allowed in the amount needed for the event. Bags and items are subject to search, and refusal of search may result in denied entry. Policy may change depending on the show."
+    "note": "Medication with prescription and matching photo ID is allowed in the amount needed for the event. Bags and items are subject to search, and refusal of search may result in denied entry. Policy may change depending on the show.",
+    "venueName": "Credit Union 1 Amphitheatre",
+    "city": "Tinley Park",
+    "state": "IL"
   },
   "cryptocom_arena": {
-    "summary": "Bags, backpacks, purses, totes, clear bags, fanny packs, and camera bags are not allowed inside the arena. Small clutches and wallets smaller than 5\u201d x 9\u201d x 1\u201d are allowed but subject to security inspection. Medical and parental bags smaller than 14\u201d x 14\u201d x 6\u201d are permitted but must go through X-ray screening.",
+    "summary": "Bags, backpacks, purses, totes, clear bags, fanny packs, and camera bags are not allowed inside the arena. Small clutches and wallets smaller than 5â x 9â x 1â are allowed but subject to security inspection. Medical and parental bags smaller than 14â x 14â x 6â are permitted but must go through X-ray screening.",
     "fullLink": "https://www.cryptoarena.com/general-info-faq",
     "updated": "",
     "allowed": [
-      "Small clutches smaller than 5\u201d x 9\u201d x 1\u201d",
-      "Wallets smaller than 5\u201d x 9\u201d x 1\u201d",
-      "Medical bags smaller than 14\u201d x 14\u201d x 6\u201d",
-      "Parental bags smaller than 14\u201d x 14\u201d x 6\u201d"
+      "Small clutches smaller than 5â x 9â x 1â",
+      "Wallets smaller than 5â x 9â x 1â",
+      "Medical bags smaller than 14â x 14â x 6â",
+      "Parental bags smaller than 14â x 14â x 6â"
     ],
     "notAllowed": [
       "Bags",
@@ -633,7 +741,10 @@
       "Fanny packs",
       "Camera bags"
     ],
-    "note": "Guests with larger bags can rent lockers located near the Kobe Bryant Entrance. Medical and parental bags require X-ray screening at security."
+    "note": "Guests with larger bags can rent lockers located near the Kobe Bryant Entrance. Medical and parental bags require X-ray screening at security.",
+    "venueName": "Crypto.com Arena",
+    "city": "Los Angeles",
+    "state": "CA"
   },
   "daikin_park": {
     "summary": "Daikin Park allows fans to bring clear bags that meet size requirements and small clutches. All bags are subject to screening upon entry to ensure safety. Bags that do not meet the policy may be denied entry.",
@@ -647,7 +758,10 @@
       "Backpacks",
       "Large purses"
     ],
-    "note": ""
+    "note": "",
+    "venueName": "Daikin Park",
+    "city": "Houston",
+    "state": "TX"
   },
   "delta_center": {
     "summary": "Bags are generally not allowed inside the Delta Center. Diaper bags and medical bags are permitted if they do not exceed 14\" x 14\" x 6\", and small clutches are allowed if no larger than 4\" x 6\" x 2\". All medical and diaper bags will be screened by X-ray upon entry.",
@@ -661,10 +775,13 @@
     "notAllowed": [
       "All other bags including purses"
     ],
-    "note": "All medical and diaper bags are subject to X-ray screening at entry."
+    "note": "All medical and diaper bags are subject to X-ray screening at entry.",
+    "venueName": "Delta Center",
+    "city": "Salt Lake City",
+    "state": "UT"
   },
   "desert_diamond_arena": {
-    "summary": "Only small clutches, wallets, wristlets, and crossbody bags measuring no larger than 4.5\u201d x 6.5\u201d are allowed inside Desert Diamond Arena. Larger bags such as backpacks and purses are prohibited. Guests and bags are subject to screening upon entry.",
+    "summary": "Only small clutches, wallets, wristlets, and crossbody bags measuring no larger than 4.5â x 6.5â are allowed inside Desert Diamond Arena. Larger bags such as backpacks and purses are prohibited. Guests and bags are subject to screening upon entry.",
     "fullLink": "https://www.desertdiamondarena.com/venue-info/bag-policy/",
     "updated": "",
     "allowed": [
@@ -682,7 +799,10 @@
       "Laptop bags",
       "Camera bags"
     ],
-    "note": "Guests needing ADA or medical accommodations should contact Guest Services in advance. Sensory bags are available for checkout at Guest Services. There is no bag check or storage inside the arena."
+    "note": "Guests needing ADA or medical accommodations should contact Guest Services in advance. Sensory bags are available for checkout at Guest Services. There is no bag check or storage inside the arena.",
+    "venueName": "Desert Diamond Arena",
+    "city": "Glendale",
+    "state": "AZ"
   },
   "dickies_arena": {
     "summary": "This venue follows a clear bag-style security policy. Check the official bag policy link for full details before you arrive.",
@@ -690,7 +810,10 @@
     "updated": "",
     "allowed": [],
     "notAllowed": [],
-    "note": ""
+    "note": "",
+    "venueName": "Dickies Arena",
+    "city": "Fort Worth",
+    "state": "TX"
   },
   "dodger_stadium": {
     "summary": "Dodger Stadium requires fans to bring clear bags that meet size limits for entry. Small clutches are allowed if they meet the specified dimensions. All bags are subject to screening upon entry.",
@@ -704,7 +827,10 @@
       "Backpacks",
       "Large purses"
     ],
-    "note": "Medical and diaper bags may be allowed but are subject to inspection. All bags must be screened before entry."
+    "note": "Medical and diaper bags may be allowed but are subject to inspection. All bags must be screened before entry.",
+    "venueName": "Dodger Stadium",
+    "city": "Los Angeles",
+    "state": "CA"
   },
   "dolby_live": {
     "summary": "This venue follows a clear bag-style security policy. Check the official bag policy link for full details before you arrive.",
@@ -712,7 +838,10 @@
     "updated": "",
     "allowed": [],
     "notAllowed": [],
-    "note": ""
+    "note": "",
+    "venueName": "Dolby Live",
+    "city": "Las Vegas",
+    "state": "NV"
   },
   "dos_equis_pavilion": {
     "summary": "Only small clutches, wristlets, or fanny packs no larger than 6\" x 9\" and clear plastic bags no larger than 12\" x 12\" x 6\" are allowed inside the venue. All bags are subject to search upon entry. Guests may refuse a bag search, but the venue may refuse entry if bags do not meet the policy.",
@@ -729,7 +858,10 @@
       "Large purses",
       "Bags larger than allowed sizes"
     ],
-    "note": "If you have items not allowed, please return them to your vehicle. All bags will be searched at entry."
+    "note": "If you have items not allowed, please return them to your vehicle. All bags will be searched at entry.",
+    "venueName": "Dos Equis Pavilion",
+    "city": "Dallas",
+    "state": "TX"
   },
   "empower_federal_credit_union_amphitheater": {
     "summary": "The Empower Federal Credit Union Amphitheater requires fans to bring only clear bags that meet size limits to speed up entry and ensure safety. Bags must be clear and no larger than 12\" x 6\" x 12\" or a one-gallon clear plastic bag. Small clutches up to 4.5\" x 6.5\" are also allowed and all bags and items are subject to screening.",
@@ -756,7 +888,10 @@
       "Tinted or printed plastic bags",
       "Large wallets"
     ],
-    "note": "Non-clear bags inside clear bags are not allowed. Items like blankets, cameras, binoculars, and phones can be carried separately without a bag. Outside lawn chairs are not permitted for Live Nation shows, but limited rentals may be available. Prohibited bags must be returned to vehicles or discarded as there is no bag check service."
+    "note": "Non-clear bags inside clear bags are not allowed. Items like blankets, cameras, binoculars, and phones can be carried separately without a bag. Outside lawn chairs are not permitted for Live Nation shows, but limited rentals may be available. Prohibited bags must be returned to vehicles or discarded as there is no bag check service.",
+    "venueName": "Empower Federal Credit Union Amphitheater",
+    "city": "Syracuse",
+    "state": "NY"
   },
   "empower_field": {
     "summary": "Only clear bags up to 12\" x 6\" x 12\" or small clutches up to 4.5\" x 6.5\" are allowed inside the stadium. All bags and items are subject to screening at entry. Bags not meeting these size or clarity requirements will be prohibited.",
@@ -782,7 +917,10 @@
       "Diaper bags",
       "Mesh bags"
     ],
-    "note": "Diapers and wipes may be carried in an approved clear bag; diaper bags are not permitted. The list of allowed items may vary for concerts or other non-football events. Fans are encouraged to remove metal objects from pockets before screening. Lockers are available for a fee outside Gate 8 for prohibited items. Medical exceptions may be made with prior approval."
+    "note": "Diapers and wipes may be carried in an approved clear bag; diaper bags are not permitted. The list of allowed items may vary for concerts or other non-football events. Fans are encouraged to remove metal objects from pockets before screening. Lockers are available for a fee outside Gate 8 for prohibited items. Medical exceptions may be made with prior approval.",
+    "venueName": "Empower Field",
+    "city": "Denver",
+    "state": "CO"
   },
   "enterprise_center": {
     "summary": "Enterprise Center requires fans to follow specific bag guidelines for entry, including size limits and screening procedures. Clear bags of certain dimensions and small clutches are generally allowed. All bags are subject to inspection upon entry to ensure safety.",
@@ -793,7 +931,10 @@
       "Small clutches up to 4.5\" x 6.5\""
     ],
     "notAllowed": [],
-    "note": "Medical and diaper bags are typically allowed but may be subject to inspection. Bag policies may vary for certain events, and all guests should be prepared for security screening."
+    "note": "Medical and diaper bags are typically allowed but may be subject to inspection. Bag policies may vary for certain events, and all guests should be prepared for security screening.",
+    "venueName": "Enterprise Center",
+    "city": "St. Louis",
+    "state": "MO"
   },
   "everbank_stadium": {
     "summary": "EverBank Stadium enforces a clear bag policy allowing only clear bags up to 12\" x 6\" x 12\" and small clutches up to 4.5\" x 6.5\". All bags are subject to inspection and screening upon entry to ensure safety and speed up entry. Bags that do not meet these requirements are not permitted.",
@@ -811,7 +952,10 @@
       "Strollers",
       "Seat cushions"
     ],
-    "note": "Exceptions are made for medically necessary items after inspection. All items and guests are subject to search. Prohibited items must be stored in lockers, returned to vehicles, or disposed of before entry."
+    "note": "Exceptions are made for medically necessary items after inspection. All items and guests are subject to search. Prohibited items must be stored in lockers, returned to vehicles, or disposed of before entry.",
+    "venueName": "Everbank Stadium",
+    "city": "Jacksonville",
+    "state": "FL"
   },
   "fedex_forum": {
     "summary": "Only clear bags made of plastic, vinyl, or PVC no larger than 6x8x2 inches and small clear plastic storage bags one quart or smaller are allowed. Small wallets no larger than 5x3.5 inches are also permitted. All bags and wallets will be screened through X-Ray machines.",
@@ -826,7 +970,10 @@
       "Bags with all-over prints or decorations that block view",
       "Metal or chain straps on bags"
     ],
-    "note": "Limit one clear bag per person. Exceptions made for medically necessary items after inspection."
+    "note": "Limit one clear bag per person. Exceptions made for medically necessary items after inspection.",
+    "venueName": "FedEx Forum",
+    "city": "Memphis",
+    "state": "TN"
   },
   "fenway_park": {
     "summary": "Bags must be single-compartment and no larger than 12\" x 12\" x 6\" to be allowed inside Fenway Park. Backpacks and multi-compartment bags are not permitted. All bags and personal items are subject to screening, including metal detectors or physical searches.",
@@ -844,7 +991,10 @@
       "Duffel bags",
       "Multi-compartment bags"
     ],
-    "note": "Exceptions are made for diaper bags and bags with essential medical equipment. All fans and bags are subject to screening and must consent to inspection for entry."
+    "note": "Exceptions are made for diaper bags and bags with essential medical equipment. All fans and bags are subject to screening and must consent to inspection for entry.",
+    "venueName": "Fenway Park",
+    "city": "Boston",
+    "state": "MA"
   },
   "fiserv_forum": {
     "summary": "Bags smaller than 10\" x 6\" x 2\" or clear bags smaller than 14\" x 14\" x 6\" may be screened and allowed at any entrance. Non-clear bags larger than 10\" x 6\" x 2\" but not exceeding 14\" x 14\" x 6\" require x-ray screening. Backpacks, large duffles, and luggage are not permitted.",
@@ -860,7 +1010,10 @@
       "Large duffle bags",
       "Luggage"
     ],
-    "note": "Medical accommodation bags and infant/childcare bags are allowed but subject to additional screening. Additional restrictions may apply for specific events."
+    "note": "Medical accommodation bags and infant/childcare bags are allowed but subject to additional screening. Additional restrictions may apply for specific events.",
+    "venueName": "Fiserv Forum",
+    "city": "Milwaukee",
+    "state": "WI"
   },
   "food_city_center": {
     "summary": "Food City Center enforces a clear bag policy allowing one clear plastic bag no larger than 12\" x 6\" x 12\" or a one-gallon clear resealable plastic bag per person. Small clutches up to 4.5\" x 6.5\" are also permitted. All bags and items are subject to search at entry.",
@@ -876,7 +1029,10 @@
       "Large purses",
       "Diaper bags"
     ],
-    "note": "Medically necessary items must be searched. Diaper bag supplies should be carried in a clear bag. No items can be left or stored at the gates."
+    "note": "Medically necessary items must be searched. Diaper bag supplies should be carried in a clear bag. No items can be left or stored at the gates.",
+    "venueName": "Food City Center",
+    "city": "Knoxville",
+    "state": "TN"
   },
   "ford_field": {
     "summary": "Ford Field allows fans to bring clear bags that do not exceed 12\" x 6\" x 12\", one-gallon clear plastic freezer bags, and small clutch bags approximately the size of a hand. All bags are subject to screening to ensure safety and speed up entry. Fans are encouraged to avoid bringing bags when possible.",
@@ -891,7 +1047,10 @@
       "Backpacks",
       "Large purses"
     ],
-    "note": ""
+    "note": "",
+    "venueName": "Ford Field",
+    "city": "Detroit",
+    "state": "MI"
   },
   "freedom_mortgage_pavilion": {
     "summary": "Only small clutches, wristlets, or fanny packs no larger than 6\" x 9\" and clear plastic bags no bigger than 12\" x 12\" x 6\" are allowed inside. All bags are subject to search upon entry, and the venue may refuse entry if a bag search is declined. Guests should return any prohibited items to their vehicle before entering.",
@@ -909,7 +1068,10 @@
       "Large blankets",
       "Large umbrellas"
     ],
-    "note": "Bag policy may vary by event; all items are subject to change based on the show. Guests have the right to refuse a bag search, but entry may be denied. Please check specific event rules before attending."
+    "note": "Bag policy may vary by event; all items are subject to change based on the show. Guests have the right to refuse a bag search, but entry may be denied. Please check specific event rules before attending.",
+    "venueName": "Freedom Mortgage Pavilion",
+    "city": "Camden",
+    "state": "NJ"
   },
   "frost_bank_center": {
     "summary": "All bags brought into Frost Bank Center must be screened and cannot exceed 12\" x 12\" x 6\" in size. Bags larger than this are not allowed inside but can be stored at designated locations outside the arena for a fee. Security screening with magnetometers will be conducted for all guests.",
@@ -921,7 +1083,10 @@
     "notAllowed": [
       "Bags larger than 12\" x 12\" x 6\""
     ],
-    "note": "Two storage locations are available outside the Main East Entrance and Michelob Ultra Club Entrance for $10 per bag."
+    "note": "Two storage locations are available outside the Main East Entrance and Michelob Ultra Club Entrance for $10 per bag.",
+    "venueName": "Frost Bank Center",
+    "city": "San Antonio",
+    "state": "TX"
   },
   "geha_field_at_arrowhead_stadium": {
     "summary": "GEHA Field at Arrowhead Stadium enforces a clear bag policy to speed up entry and enhance safety. Fans may bring one clear bag no larger than 12\" x 6\" x 12\" or a small clutch no larger than 4.5\" x 6.5\". All bags are subject to inspection upon entry.",
@@ -945,7 +1110,10 @@
       "Mesh bags",
       "Large purses"
     ],
-    "note": "Medically necessary items are allowed after proper inspection."
+    "note": "Medically necessary items are allowed after proper inspection.",
+    "venueName": "GEHA Field at Arrowhead Stadium",
+    "city": "Kansas City",
+    "state": "MO"
   },
   "gainbridge_fieldhouse": {
     "summary": "All bags larger than 6\" x 9\" x 1.5\" are not allowed inside Gainbridge Fieldhouse. Guests should travel light and only bring small bags that meet the size requirements. All bags are subject to screening upon entry.",
@@ -959,7 +1127,10 @@
       "Signs larger than 11\" x 17\"",
       "Weapons of any type"
     ],
-    "note": ""
+    "note": "",
+    "venueName": "Gainbridge Fieldhouse",
+    "city": "Indianapolis",
+    "state": "IN"
   },
   "gas_south_arena": {
     "summary": "Gas South Arena requires all bags to be clear and subject to search during entry. Guests should bring clear bags or small clutches and be prepared for metal detector screening. Only small bags that meet size guidelines are allowed to help speed up the security process.",
@@ -980,7 +1151,10 @@
       "Strollers (may be checked at Guest Services)",
       "Metal water bottles"
     ],
-    "note": "Alternative screening is available for expectant mothers, wheelchair users, or guests with medical conditions. Guests should arrive early and limit personal items to expedite entry."
+    "note": "Alternative screening is available for expectant mothers, wheelchair users, or guests with medical conditions. Guests should arrive early and limit personal items to expedite entry.",
+    "venueName": "Gas South Arena",
+    "city": "Duluth",
+    "state": "GA"
   },
   "gillette_stadium": {
     "summary": "Gillette Stadium only allows clear bags up to 12\" x 12\" x 6\", one-gallon clear plastic freezer bags up to 11\" x 11\", and small wristlets or handheld wallets up to 6.5\" x 4.5\". All bags and items are subject to inspection upon entry. Bags exceeding these sizes are not permitted but mobile lockers are available for storage.",
@@ -998,7 +1172,10 @@
       "Strollers (except at Revolution games)",
       "Bags larger than allowed sizes"
     ],
-    "note": "Exceptions may be made for medical supplies or dietary needs with advance approval requested by email at least 48 hours before the event. Prohibited items will not be held at entrances; please leave them in your vehicle. Mobile lockers are available for bags that do not meet the policy."
+    "note": "Exceptions may be made for medical supplies or dietary needs with advance approval requested by email at least 48 hours before the event. Prohibited items will not be held at entrances; please leave them in your vehicle. Mobile lockers are available for bags that do not meet the policy.",
+    "venueName": "Gillette Stadium",
+    "city": "Foxborough",
+    "state": "MA"
   },
   "globe_life_field": {
     "summary": "Bags must be no larger than 16\" x 16\" x 8\" to enter Globe Life Field. Clear, sealed plastic bags no larger than quart size are allowed for outside food, and one sealed non-flavored water bottle under 1 liter is permitted. Backpacks and coolers are not allowed and all bags are subject to screening.",
@@ -1013,7 +1190,10 @@
       "Backpacks",
       "Coolers"
     ],
-    "note": "Exceptions are made for medical bags and manufactured diaper bags for infants and young children. Outside food is only allowed for Texas Rangers games; it is prohibited for other events."
+    "note": "Exceptions are made for medical bags and manufactured diaper bags for infants and young children. Outside food is only allowed for Texas Rangers games; it is prohibited for other events.",
+    "venueName": "Globe Life Field",
+    "city": "Arlington",
+    "state": "TX"
   },
   "golden_1_center": {
     "summary": "Backpacks and large bags are not allowed inside Golden 1 Center. Bags larger than 8\" x 6\" x 1\" are prohibited. Medical bags must be inspected and tagged by security.",
@@ -1027,7 +1207,10 @@
       "Backpacks",
       "Bags larger than 8\" x 6\" x 1\""
     ],
-    "note": "Baby bags, plastic bottles, and formula are permitted if within size limits. All bags are subject to security screening."
+    "note": "Baby bags, plastic bottles, and formula are permitted if within size limits. All bags are subject to security screening.",
+    "venueName": "Golden 1 Center",
+    "city": "Sacramento",
+    "state": "CA"
   },
   "great_american_ball_park": {
     "summary": "Guests are required to bring only small bags that meet size limits and are subject to screening before entry. Clear bags are preferred to speed up the process, and small clutches are allowed. All bags will be inspected for safety.",
@@ -1041,7 +1224,10 @@
       "Backpacks",
       "Large purses"
     ],
-    "note": "Medical and diaper bags may be allowed but are subject to inspection. All bags must be screened upon entry."
+    "note": "Medical and diaper bags may be allowed but are subject to inspection. All bags must be screened upon entry.",
+    "venueName": "Great American Ball Park",
+    "city": "Cincinnati",
+    "state": "OH"
   },
   "hard_rock_stadium": {
     "summary": "Hard Rock Stadium allows only clear bags up to 12\" x 6\" x 12\" or small bags up to 4.5\" x 6.5\" to speed up entry and enhance security. All bags are subject to search by security staff. Bags exceeding size limits must be returned to vehicles or checked at designated bag check locations for a fee.",
@@ -1057,7 +1243,10 @@
       "Purses or bags larger than 12\" x 6\" x 12\"",
       "Non-clear bags larger than 4.5\" x 6.5\""
     ],
-    "note": "Bag check is available near Entry gates 3, 5, 8, and 14 for a fee paid by credit card only and closes 60 minutes after gates close. Guests should retrieve checked bags promptly after the event. Items like smartphones, binoculars, and cameras are allowed."
+    "note": "Bag check is available near Entry gates 3, 5, 8, and 14 for a fee paid by credit card only and closes 60 minutes after gates close. Guests should retrieve checked bags promptly after the event. Items like smartphones, binoculars, and cameras are allowed.",
+    "venueName": "Hard Rock Stadium",
+    "city": "Miami Gardens",
+    "state": "FL"
   },
   "heritage_bank_center": {
     "summary": "All bags must be clear and no larger than 12\" x 12\" x 6\". Small clutches are allowed if they do not exceed 1\" x 6\" x 4\". All bags and guests are subject to security screening upon entry.",
@@ -1072,7 +1261,10 @@
       "Large purses",
       "Non-clear bags"
     ],
-    "note": "Diaper bags with an accompanying child and medical bags are allowed but subject to full search."
+    "note": "Diaper bags with an accompanying child and medical bags are allowed but subject to full search.",
+    "venueName": "Heritage Bank Center",
+    "city": "Cincinnati",
+    "state": "OH"
   },
   "hersheypark_stadium": {
     "summary": "All bags brought into Hersheypark Stadium must meet size and type restrictions for security screening. Clear bags of a certain size and small clutches are allowed to help speed up entry. All bags are subject to inspection upon entry.",
@@ -1086,7 +1278,10 @@
       "Backpacks",
       "Large purses"
     ],
-    "note": ""
+    "note": "",
+    "venueName": "Hersheypark Stadium",
+    "city": "Hershey",
+    "state": "PA"
   },
   "highmark_stadium": {
     "summary": "All bags brought into Highmark Stadium must meet size and type restrictions and are subject to screening upon entry. Clear bags are required to be within specific size limits, and small clutches are allowed. Bags that do not meet these requirements may be denied entry.",
@@ -1100,7 +1295,10 @@
       "Backpacks",
       "Large purses"
     ],
-    "note": "Medical and diaper bags are allowed but may be subject to additional screening. All bags are subject to search for safety reasons."
+    "note": "Medical and diaper bags are allowed but may be subject to additional screening. All bags are subject to search for safety reasons.",
+    "venueName": "Highmark Stadium",
+    "city": "Orchard Park",
+    "state": "NY"
   },
   "hollywood_bowl": {
     "summary": "Bags do not need to be clear but must fit under your seat and measure no more than 15 inches wide, 15 inches high, and 22 inches long. All bags are subject to security screening, and patrons at certain events will have their bags checked. Large containers, picnic baskets, and coolers exceeding these dimensions are not allowed past the ticket gates.",
@@ -1115,7 +1313,10 @@
       "Containers, picnic baskets, and coolers larger than 15\" x 15\" x 22\"",
       "Luggage"
     ],
-    "note": "Reusable liquid containers must be empty and can be filled at water stations. Security screening with metal detectors is required for all patrons. Arrive at least 30 minutes before the event to allow time for screening."
+    "note": "Reusable liquid containers must be empty and can be filled at water stations. Security screening with metal detectors is required for all patrons. Arrive at least 30 minutes before the event to allow time for screening.",
+    "venueName": "Hollywood Bowl",
+    "city": "Los Angeles",
+    "state": "CA"
   },
   "honda_center": {
     "summary": "All bags and purses must meet specific size limits and are subject to manual inspection. Clear bags are allowed if they fit within the size requirements. Backpacks and larger bags are not permitted.",
@@ -1132,7 +1333,10 @@
       "Large purses or bags exceeding size limits",
       "Clutches or purses larger than allowed dimensions"
     ],
-    "note": "Diaper bags and bags for medical items up to 12\" x 12\" x 12\" are allowed with additional screening. No bag check is available, so plan accordingly."
+    "note": "Diaper bags and bags for medical items up to 12\" x 12\" x 12\" are allowed with additional screening. No bag check is available, so plan accordingly.",
+    "venueName": "Honda Center",
+    "city": "Anaheim",
+    "state": "CA"
   },
   "huntington_bank_field": {
     "summary": "This venue follows a clear bag-style security policy. Check the official bag policy link for full details before you arrive.",
@@ -1140,7 +1344,10 @@
     "updated": "",
     "allowed": [],
     "notAllowed": [],
-    "note": ""
+    "note": "",
+    "venueName": "Huntington Bank Field",
+    "city": "Columbus",
+    "state": "OH"
   },
   "intuit_dome": {
     "summary": "Intuit Dome requires fans to follow a clear bag policy for entry. Bags must meet size limits and be subject to screening to ensure safety. Small clutches are allowed if they meet size requirements.",
@@ -1151,7 +1358,10 @@
       "Small clutches up to 4.5\" x 6.5\""
     ],
     "notAllowed": [],
-    "note": "Medical and diaper bags may be allowed with proper screening. All bags are subject to inspection upon entry."
+    "note": "Medical and diaper bags may be allowed with proper screening. All bags are subject to inspection upon entry.",
+    "venueName": "Intuit Dome",
+    "city": "Inglewood",
+    "state": "CA"
   },
   "isleta_amphitheater": {
     "summary": "Isleta Amphitheater requires bags to be screened upon entry. Clear bags of a certain size and small clutches are allowed for faster entry. All bags are subject to inspection to ensure safety.",
@@ -1162,7 +1372,10 @@
       "Small clutches up to 4.5\" x 6.5\""
     ],
     "notAllowed": [],
-    "note": "Medication must be in original containers with verifiable labeling. Service animals are allowed following ADA guidelines. All bags are subject to security screening."
+    "note": "Medication must be in original containers with verifiable labeling. Service animals are allowed following ADA guidelines. All bags are subject to security screening.",
+    "venueName": "Isleta Amphitheater",
+    "city": "Albuquerque",
+    "state": "NM"
   },
   "jiffy_lube_live": {
     "summary": "Jiffy Lube Live allows clear plastic, vinyl, or PVC bags up to 12\" x 6\" x 12\" and small clutch bags up to 6\" x 9\" that do not need to be clear. All bags are subject to search upon entry.",
@@ -1173,7 +1386,10 @@
       "Small clutches up to 6\" x 9\""
     ],
     "notAllowed": [],
-    "note": "All bags will be searched at entry. No mention of exceptions for medical or diaper bags."
+    "note": "All bags will be searched at entry. No mention of exceptions for medical or diaper bags.",
+    "venueName": "Jiffy Lube Live",
+    "city": "Bristow",
+    "state": "VA"
   },
   "john_paul_jones_arena": {
     "summary": "John Paul Jones Arena requires bags to be clear plastic, vinyl, or PVC and no larger than 12\" x 6\" x 12\". Small clutch bags up to 4.5\" x 6.5\" are also allowed but subject to search. All bags will be inspected upon entry.",
@@ -1195,7 +1411,10 @@
       "Computer bags",
       "Camera bags"
     ],
-    "note": "Medical bags are allowed after inspection at a designated gate."
+    "note": "Medical bags are allowed after inspection at a designated gate.",
+    "venueName": "John Paul Jones Arena",
+    "city": "Charlottesville",
+    "state": "VA"
   },
   "kaseya_center": {
     "summary": "For faster entry, fans are encouraged not to bring bags. Small bags or purses no larger than 10\" x 6\" x 2\" are allowed and will be searched. Larger bags are not permitted but rentable lockers are available nearby for storage.",
@@ -1211,7 +1430,10 @@
       "Backpacks",
       "Large purses"
     ],
-    "note": "Medical and infant bags will be scanned through x-ray machines. Stroller check-in is available for a fee. Lockers are available starting at $10, located near Gate 7 and the Box Office."
+    "note": "Medical and infant bags will be scanned through x-ray machines. Stroller check-in is available for a fee. Lockers are available starting at $10, located near Gate 7 and the Box Office.",
+    "venueName": "Kaseya Center",
+    "city": "Miami",
+    "state": "FL"
   },
   "kauffman_stadium": {
     "summary": "Kauffman Stadium requires fans to bring clear bags that meet size limits or small clutches for entry. All bags are subject to screening to ensure safety. Non-clear or oversized bags are generally not permitted.",
@@ -1222,7 +1444,10 @@
       "Small clutches up to 4.5\" x 6.5\""
     ],
     "notAllowed": [],
-    "note": "Medical and diaper bags are allowed but subject to inspection. All bags will be screened upon entry for security purposes."
+    "note": "Medical and diaper bags are allowed but subject to inspection. All bags will be screened upon entry for security purposes.",
+    "venueName": "Kauffman Stadium",
+    "city": "Kansas City",
+    "state": "MO"
   },
   "keybank_center": {
     "summary": "All bags, backpacks, and purses are not allowed inside the venue. Small clutches and wristlets no larger than 4\" x 6\" x 1.5\" are permitted and will be visually inspected. Exceptions are made for medically necessary items and diaper bags after thorough security screening.",
@@ -1236,7 +1461,10 @@
       "Backpacks",
       "Purses"
     ],
-    "note": "Medically necessary items and diaper bags are allowed after thorough security screening."
+    "note": "Medically necessary items and diaper bags are allowed after thorough security screening.",
+    "venueName": "KeyBank Center",
+    "city": "Buffalo",
+    "state": "NY"
   },
   "kia_center": {
     "summary": "Bags are generally not allowed inside Kia Center to ensure guest safety. Guests may bring one small clutch no larger than 4.5\" x 6.5\" x 1\". Medical and parent bags up to 14\" x 14\" x 6\" are allowed but must go through X-ray screening.",
@@ -1253,7 +1481,10 @@
       "Duffel bags",
       "Any bags larger than allowed sizes"
     ],
-    "note": "All bags allowed as exceptions are subject to X-ray screening at designated entry points."
+    "note": "All bags allowed as exceptions are subject to X-ray screening at designated entry points.",
+    "venueName": "Kia Center",
+    "city": "Orlando",
+    "state": "FL"
   },
   "kia_forum": {
     "summary": "Guests are encouraged to travel light and may bring clear bags no larger than 12 x 6 x 12 inches. Small clutches or wristlets up to 9 x 6 inches are allowed and do not need to be clear. All bags are subject to search, including x-ray screening.",
@@ -1265,7 +1496,10 @@
       "Diaper and medical bags accompanied by the Guest"
     ],
     "notAllowed": [],
-    "note": "Bag policy may vary by event; please check event-specific rules for any changes."
+    "note": "Bag policy may vary by event; please check event-specific rules for any changes.",
+    "venueName": "Kia Forum",
+    "city": "Inglewood",
+    "state": "CA"
   },
   "lambeau_field": {
     "summary": "Only clear bags made of plastic, vinyl, or PVC up to 12\" x 6\" x 12\" are allowed, including clear backpacks, fanny packs, and cinch bags. Small non-clear clutches up to 4.5\" x 6.5\" are also permitted. All guests and their belongings will be screened with walk-through metal detectors upon entry.",
@@ -1285,7 +1519,10 @@
       "Umbrellas",
       "Bags with buckles, grommets, or concealed areas"
     ],
-    "note": "All guests must pass through metal detectors without removing items like jackets, belts, or keys. Firearms and weapons are strictly prohibited on the property, including parking lots."
+    "note": "All guests must pass through metal detectors without removing items like jackets, belts, or keys. Firearms and weapons are strictly prohibited on the property, including parking lots.",
+    "venueName": "Lambeau Field",
+    "city": "Green Bay",
+    "state": "WI"
   },
   "lenovo_center": {
     "summary": "Small clutch or wristlet bags no larger than 4.5\" x 6.5\" are allowed without screening. Parenting and medical bags are permitted but must be screened through X-ray machines. Bag policies may vary by event and are subject to change for safety and efficiency.",
@@ -1297,10 +1534,13 @@
       "Medical bags and breast pumps"
     ],
     "notAllowed": [],
-    "note": "Parenting and medical bags must be screened and tagged. Bag policies for non-hockey and non-basketball events may vary by promoter. Guests with prohibited bags will be asked to return them to their vehicle. Expect longer wait times at bag screening lines."
+    "note": "Parenting and medical bags must be screened and tagged. Bag policies for non-hockey and non-basketball events may vary by promoter. Guests with prohibited bags will be asked to return them to their vehicle. Expect longer wait times at bag screening lines.",
+    "venueName": "Lenovo Center",
+    "city": "Morrisville",
+    "state": "NC"
   },
   "levis_stadium": {
-    "summary": "Levi\u2019s Stadium only allows clear bags no larger than 12\" x 6\" x 12\" and small clutches up to 4.5\" x 6.5\" inside the stadium. All bags are subject to inspection and must comply with the clear bag policy. Bags that do not meet these requirements must be returned to the vehicle.",
+    "summary": "Leviâs Stadium only allows clear bags no larger than 12\" x 6\" x 12\" and small clutches up to 4.5\" x 6.5\" inside the stadium. All bags are subject to inspection and must comply with the clear bag policy. Bags that do not meet these requirements must be returned to the vehicle.",
     "fullLink": "https://www.levisstadium.com/bagpolicy/",
     "updated": "",
     "allowed": [
@@ -1318,7 +1558,10 @@
       "Laptop bags",
       "Coolers (including soft-sided)"
     ],
-    "note": "Medical bags must be inspected and marked with a wristband or sticker. The bag policy applies to all events unless otherwise noted. Guests are encouraged to arrive early to avoid delays at entry."
+    "note": "Medical bags must be inspected and marked with a wristband or sticker. The bag policy applies to all events unless otherwise noted. Guests are encouraged to arrive early to avoid delays at entry.",
+    "venueName": "Leviâs Stadium",
+    "city": "Santa Clara",
+    "state": "CA"
   },
   "lincoln_financial_field": {
     "summary": "Fans may bring one clear bag no larger than 12\" x 6\" x 12\" or one one-gallon clear plastic freezer bag. Small clutch bags up to 4.5\" x 6.5\" are also allowed and can be carried along with one clear bag. All bags are subject to security screening upon entry.",
@@ -1342,10 +1585,13 @@
       "Camera bags",
       "Binocular cases"
     ],
-    "note": "Exceptions are made for medically necessary items after inspection. Diaper bags and infant items in clear bags are allowed. All guests and belongings will be screened, and prohibited items may be confiscated."
+    "note": "Exceptions are made for medically necessary items after inspection. Diaper bags and infant items in clear bags are allowed. All guests and belongings will be screened, and prohibited items may be confiscated.",
+    "venueName": "Lincoln Financial Field",
+    "city": "Philadelphia",
+    "state": "PA"
   },
   "little_caesars_arena": {
-    "summary": "Bags larger than 4\u201d x 6\u201d x 1.5\u201d are not allowed inside Little Caesars Arena. Small clear bags, wallets, clutches, and fanny packs that meet the size limit are permitted and subject to screening. Larger bags including those for laptops, tablets, cameras, and binoculars are prohibited.",
+    "summary": "Bags larger than 4â x 6â x 1.5â are not allowed inside Little Caesars Arena. Small clear bags, wallets, clutches, and fanny packs that meet the size limit are permitted and subject to screening. Larger bags including those for laptops, tablets, cameras, and binoculars are prohibited.",
     "fullLink": "https://www.313presents.com/venue/little-caesars-arena/little-caesars-rules-policies",
     "updated": "",
     "allowed": [
@@ -1361,7 +1607,10 @@
       "Camera bags",
       "Binocular bags"
     ],
-    "note": "Diaper bags, parenting bags, and medical bags required for dietary or medical needs are allowed if smaller than 16\" x 16\" x 8\". All bags are subject to security screening."
+    "note": "Diaper bags, parenting bags, and medical bags required for dietary or medical needs are allowed if smaller than 16\" x 16\" x 8\". All bags are subject to security screening.",
+    "venueName": "Little Caesars Arena",
+    "city": "Detroit",
+    "state": "MI"
   },
   "loandepot_park": {
     "summary": "Guests attending events at loanDepot Park must follow the bag policy which typically allows clear bags of a certain size and small clutches. All bags are subject to screening upon entry to ensure safety. Specific size limits and types of allowed bags help speed up entry and maintain security.",
@@ -1372,7 +1621,10 @@
       "Small clutches up to 4.5\" x 6.5\""
     ],
     "notAllowed": [],
-    "note": "Medical and diaper bags may be allowed but are subject to inspection. All bags will be screened before entry."
+    "note": "Medical and diaper bags may be allowed but are subject to inspection. All bags will be screened before entry.",
+    "venueName": "LoanDepot Park",
+    "city": "Miami",
+    "state": "FL"
   },
   "lucas_oil_stadium": {
     "summary": "All bags brought into Lucas Oil Stadium must be clear plastic, vinyl, or PVC and cannot exceed 12\" x 6\" x 12\". Medical bags and diaper bags are allowed but subject to security screening. Everyone entering the stadium will go through security screening regardless of the event.",
@@ -1384,7 +1636,10 @@
       "Medical bags with devices and supplies"
     ],
     "notAllowed": [],
-    "note": "Medical bags, including breast pumps, are exempt from the clear bag rule but will be searched. Breast milk and required medications are allowed if sealed in a clear container. Outside food and beverages are not permitted, but empty plastic water bottles can be brought in and filled at water stations."
+    "note": "Medical bags, including breast pumps, are exempt from the clear bag rule but will be searched. Breast milk and required medications are allowed if sealed in a clear container. Outside food and beverages are not permitted, but empty plastic water bottles can be brought in and filled at water stations.",
+    "venueName": "Lucas Oil Stadium",
+    "city": "Indianapolis",
+    "state": "IN"
   },
   "lumen_field": {
     "summary": "Lumen Field only allows clear bags made of plastic, vinyl, or PVC that do not exceed 12\" x 6\" x 12\", small clutches up to 4.5\" x 6.5\", and one-gallon clear plastic bags. Clear backpacks with no more than two pockets and within size limits are also permitted. All bags are subject to inspection for safety.",
@@ -1401,7 +1656,10 @@
       "Bags with multiple compartments or pockets beyond allowed limits",
       "Soft-sided seat cushions with pockets, zippers, metal frames, or straps"
     ],
-    "note": "Medically necessary items, including diaper bags, are allowed after inspection at designated VIP and club entrances. Outside food must follow the clear bag policy. Bag storage is available near North and South entrances for large bags during Seahawks and large stadium events."
+    "note": "Medically necessary items, including diaper bags, are allowed after inspection at designated VIP and club entrances. Outside food must follow the clear bag policy. Bag storage is available near North and South entrances for large bags during Seahawks and large stadium events.",
+    "venueName": "Lumen Field",
+    "city": "Seattle",
+    "state": "WA"
   },
   "mt_bank_stadium": {
     "summary": "M&T Bank Stadium enforces the NFL Clear Bag Policy requiring fans to bring only clear bags that meet size limits or small clutches for faster and safer entry. Clear bags must be plastic, vinyl, or PVC and not exceed 12\" x 6\" x 12\". Small clutches up to 4.5\" x 6.5\" are allowed along with one clear bag, and all bags are subject to inspection.",
@@ -1423,7 +1681,10 @@
       "Computer bags",
       "Camera bags"
     ],
-    "note": "Medically necessary items like oxygen tanks and medical devices are allowed after inspection at designated gates; fans are encouraged to place all items, including child/diaper necessities, in approved clear bags."
+    "note": "Medically necessary items like oxygen tanks and medical devices are allowed after inspection at designated gates; fans are encouraged to place all items, including child/diaper necessities, in approved clear bags.",
+    "venueName": "M&T Bank Stadium",
+    "city": "Baltimore",
+    "state": "MD"
   },
   "madison_square_garden": {
     "summary": "Madison Square Garden requires fans to bring clear bags that meet specific size limits for entry. Small clutches without straps are also allowed if they fit within the size restrictions. All bags are subject to screening upon entry.",
@@ -1437,7 +1698,10 @@
       "Backpacks",
       "Large purses"
     ],
-    "note": ""
+    "note": "",
+    "venueName": "Madison Square Garden",
+    "city": "New York",
+    "state": "NY"
   },
   "mercedes_benz_stadium": {
     "summary": "Mercedes-Benz Stadium requires fans to bring only clear bags that meet size limits or small clutches for entry. All bags are subject to screening to ensure safety and a smooth entry process.",
@@ -1448,7 +1712,10 @@
       "Small clutches up to 4.5\" x 6.5\""
     ],
     "notAllowed": [],
-    "note": ""
+    "note": "",
+    "venueName": "Mercedes-Benz Stadium",
+    "city": "Atlanta",
+    "state": "GA"
   },
   "metlife_stadium": {
     "summary": "This venue follows a clear bag-style security policy. Check the official bag policy link for full details before you arrive.",
@@ -1456,7 +1723,10 @@
     "updated": "",
     "allowed": [],
     "notAllowed": [],
-    "note": ""
+    "note": "",
+    "venueName": "MetLife Stadium",
+    "city": "East Rutherford",
+    "state": "NJ"
   },
   "mgm_grand_garden_arena": {
     "summary": "This venue follows a clear bag-style security policy. Check the official bag policy link for full details before you arrive.",
@@ -1464,7 +1734,10 @@
     "updated": "",
     "allowed": [],
     "notAllowed": [],
-    "note": ""
+    "note": "",
+    "venueName": "MGM Grand Garden Arena",
+    "city": "Las Vegas",
+    "state": "NV"
   },
   "moda_center": {
     "summary": "Bags 10x6x2 inches or smaller can be brought through expedited entry with minimal screening. Larger bags up to 14x14x6 inches are allowed but must go through a separate bag screening line, which may take longer. Bag check is available free of charge near the North Entrance but cannot accept prohibited items.",
@@ -1478,7 +1751,10 @@
     "notAllowed": [
       "Backpacks"
     ],
-    "note": "Bag check is free and located at the P3 Lobby of the Garden Garage next to the North Entrance. All bags must be screened by security. Prohibited items cannot be checked. Binocular cases must follow the bag size policy."
+    "note": "Bag check is free and located at the P3 Lobby of the Garden Garage next to the North Entrance. All bags must be screened by security. Prohibited items cannot be checked. Binocular cases must follow the bag size policy.",
+    "venueName": "Moda Center",
+    "city": "Portland",
+    "state": "OR"
   },
   "mohegan_sun_arena": {
     "summary": "Fans may bring one clear bag no larger than 12\" x 6\" x 12\" or a small clutch up to 4\" x 6\". Clear backpacks, fanny packs, and crossbody bags are allowed if they meet size and translucency requirements. All bags and items are subject to security inspection before entry.",
@@ -1510,7 +1786,10 @@
       "Strollers/car seats",
       "Any other bags not listed as allowed"
     ],
-    "note": "Diaper bags and infant carriers are allowed only with an infant present and are subject to inspection. Medically necessary items may be allowed after proper inspection. Guests must remove keys, phones, and metal objects from pockets for screening. No outside food or beverages are permitted."
+    "note": "Diaper bags and infant carriers are allowed only with an infant present and are subject to inspection. Medically necessary items may be allowed after proper inspection. Guests must remove keys, phones, and metal objects from pockets for screening. No outside food or beverages are permitted.",
+    "venueName": "Mohegan Sun Arena",
+    "city": "Uncasville",
+    "state": "CT"
   },
   "moody_center": {
     "summary": "Guests may bring one clear bag no larger than 14\" x 14\" x 6\" or one small non-clear clutch, purse, or wallet no larger than 5\" x 9\" x 1.5\". All bags are subject to screening upon entry. Larger bags and other types are not permitted.",
@@ -1525,7 +1804,10 @@
       "Large purses",
       "Bags exceeding size limits"
     ],
-    "note": "All bags will be screened at entry. Please review the full list of prohibited items before attending."
+    "note": "All bags will be screened at entry. Please review the full list of prohibited items before attending.",
+    "venueName": "Moody Center",
+    "city": "Austin",
+    "state": "TX"
   },
   "nrg_stadium": {
     "summary": "NRG Stadium may enforce a clear bag policy for some events, allowing only small clear bags or clutches within specific size limits. All bags are subject to inspection before entry. Backpacks and large bags exceeding 11\" x 17\" are not permitted.",
@@ -1540,19 +1822,22 @@
       "Backpacks",
       "Large bags exceeding 11\" x 17\""
     ],
-    "note": "Necessary diaper bags and medical bags are allowed but subject to inspection. Bag policies may vary by event, so check event-specific rules before attending."
+    "note": "Necessary diaper bags and medical bags are allowed but subject to inspection. Bag policies may vary by event, so check event-specific rules before attending.",
+    "venueName": "NRG Stadium",
+    "city": "Houston",
+    "state": "TX"
   },
   "nationals_park": {
-    "summary": "Bags must be clear plastic, vinyl, or PVC and not exceed 16\" x 16\" x 8\" to be allowed inside Nationals Park. Small clutches up to 5\" x 7\" x \u00be\" are also permitted. All bags are subject to search upon entry.",
+    "summary": "Bags must be clear plastic, vinyl, or PVC and not exceed 16\" x 16\" x 8\" to be allowed inside Nationals Park. Small clutches up to 5\" x 7\" x Â¾\" are also permitted. All bags are subject to search upon entry.",
     "fullLink": "https://www.mlb.com/nationals/ballpark/information/bag-policy",
     "updated": "",
     "allowed": [
       "Clear bags up to 16\" x 16\" x 8\"",
-      "Small clutches up to 5\" x 7\" x \u00be\""
+      "Small clutches up to 5\" x 7\" x Â¾\""
     ],
     "notAllowed": [
       "Backpacks",
-      "Non-clear bags larger than 5\" x 7\" x \u00be\"",
+      "Non-clear bags larger than 5\" x 7\" x Â¾\"",
       "Soft-sided coolers",
       "Hard coolers or ice chests",
       "Non-clear drawstring bags",
@@ -1560,10 +1845,13 @@
       "Computer bags",
       "Camera bags"
     ],
-    "note": "Diaper and medical bags are allowed and may use ADA/Family lanes. Bags purchased inside the stadium on the day of the event may be tagged and allowed for that day only. All bags placed in storage lockers are subject to inspection."
+    "note": "Diaper and medical bags are allowed and may use ADA/Family lanes. Bags purchased inside the stadium on the day of the event may be tagged and allowed for that day only. All bags placed in storage lockers are subject to inspection.",
+    "venueName": "Nationals Park",
+    "city": "Washington",
+    "state": "DC"
   },
   "nationwide_arena": {
-    "summary": "Bags are generally not permitted inside Nationwide Arena except for medical bags, diaper bags, or small clutches no larger than 8\u201d x 5\u201d x 1\u201d. All allowed bags will be screened through a designated security line. Guests are encouraged to bring as few items as possible.",
+    "summary": "Bags are generally not permitted inside Nationwide Arena except for medical bags, diaper bags, or small clutches no larger than 8â x 5â x 1â. All allowed bags will be screened through a designated security line. Guests are encouraged to bring as few items as possible.",
     "fullLink": "https://www.nationwidearena.com/home/what-to-expect/",
     "updated": "",
     "allowed": [
@@ -1576,7 +1864,10 @@
       "Large purses",
       "All other bags not listed as allowed"
     ],
-    "note": "All guests and bags are subject to search. Items deemed prohibited or offensive may be returned to vehicles or surrendered without return. Contactless security screenings are in place."
+    "note": "All guests and bags are subject to search. Items deemed prohibited or offensive may be returned to vehicles or surrendered without return. Contactless security screenings are in place.",
+    "venueName": "Nationwide Arena",
+    "city": "Columbus",
+    "state": "OH"
   },
   "nissan_stadium": {
     "summary": "Nissan Stadium requires fans to follow the NFL clear bag policy. Clear bags must be no larger than 12\" x 12\" x 6\", and small non-transparent bags must be no larger than 4.5\" x 6.5\". All bags are subject to security screening at the gates.",
@@ -1594,7 +1885,10 @@
       "Large purses",
       "Non-transparent bags larger than 4.5\" x 6.5\""
     ],
-    "note": "Non-approved bags cannot be emptied and placed inside a clear bag. The clear bag policy applies to all events at Nissan Stadium."
+    "note": "Non-approved bags cannot be emptied and placed inside a clear bag. The clear bag policy applies to all events at Nissan Stadium.",
+    "venueName": "Nissan Stadium",
+    "city": "Nashville",
+    "state": "TN"
   },
   "northwest_stadium": {
     "summary": "Northwest Stadium enforces a clear bag policy requiring fans to bring only clear bags or small clutches that meet size limits. Bags larger than the allowed size will not be permitted and all bags are subject to inspection. This policy helps ensure faster and safer entry into the stadium.",
@@ -1619,7 +1913,10 @@
       "Camera bags",
       "Non-approved seat cushions"
     ],
-    "note": "Medically necessary items are allowed after proper inspection at a designated gate."
+    "note": "Medically necessary items are allowed after proper inspection at a designated gate.",
+    "venueName": "Northwest Stadium",
+    "city": "Chicago",
+    "state": "IL"
   },
   "north_island_credit_union_amphitheatre": {
     "summary": "Clear bags up to 12\" x 6\" x 12\" are allowed, and small clutch bags up to 6\" x 9\" do not need to be clear. All bags will be searched before entry. Bags larger than these sizes or non-clear bags larger than a clutch are not permitted.",
@@ -1636,7 +1933,10 @@
       "Large or camping-sized backpacks",
       "Non-clear bags larger than a clutch"
     ],
-    "note": "Certified service animals are allowed; emotional support animals are not permitted. Blankets larger than 6' x 6' and lawn chairs are not allowed. Empty refillable water bottles and sealed water bottles up to 20oz are permitted."
+    "note": "Certified service animals are allowed; emotional support animals are not permitted. Blankets larger than 6' x 6' and lawn chairs are not allowed. Empty refillable water bottles and sealed water bottles up to 20oz are permitted.",
+    "venueName": "North Island Credit Union Amphitheatre",
+    "city": "Chula Vista",
+    "state": "CA"
   },
   "oakland_arena": {
     "summary": "Bags brought into Oakland Arena must be smaller than 14\" x 14\" x 6\" and are subject to search. Backpacks and bags larger than this size are not allowed. All bags and items will be screened at entry.",
@@ -1653,7 +1953,10 @@
       "Hard-sided containers",
       "Coolers"
     ],
-    "note": "All guests and items are subject to search. Bag check is not available, and prohibited items left at the gate will be discarded. Medical supplies and service animals are permitted."
+    "note": "All guests and items are subject to search. Bag check is not available, and prohibited items left at the gate will be discarded. Medical supplies and service animals are permitted.",
+    "venueName": "Oakland Arena",
+    "city": "Oakland",
+    "state": "CA"
   },
   "oracle_park": {
     "summary": "Oracle Park allows fans to bring clear bags that meet size requirements and small clutches. All bags are subject to screening upon entry to ensure safety. Bags that do not meet the policy may be prohibited from entry.",
@@ -1667,7 +1970,10 @@
       "Backpacks",
       "Large purses"
     ],
-    "note": "Medical and diaper bags are allowed but may be subject to inspection. All bags must be screened before entry."
+    "note": "Medical and diaper bags are allowed but may be subject to inspection. All bags must be screened before entry.",
+    "venueName": "Oracle Park",
+    "city": "San Francisco",
+    "state": "CA"
   },
   "oriole_park_at_camden_yards": {
     "summary": "Oriole Park at Camden Yards allows one approved bag per person which must be clear and meet size limits. All bags are subject to search through metal detectors. Small clutches and certain bags for medical or diaper use are permitted with screening.",
@@ -1685,7 +1991,10 @@
       "Large purses",
       "Non-clear bags exceeding size limits"
     ],
-    "note": "Medical equipment and diaper bags must go through a designated search lane. No re-entry is allowed once inside the ballpark. Fans should have all belongings before entering as no items can be left at entrances."
+    "note": "Medical equipment and diaper bags must go through a designated search lane. No re-entry is allowed once inside the ballpark. Fans should have all belongings before entering as no items can be left at entrances.",
+    "venueName": "Oriole Park at Camden Yards",
+    "city": "Baltimore",
+    "state": "MD"
   },
   "mortgage_matchup_center": {
     "summary": "Guests are required to bring clear bags that meet size limits for easy screening. Small clutches are allowed if they fit within specified dimensions. All bags will be subject to security screening upon entry.",
@@ -1696,7 +2005,10 @@
       "Small clutches up to 4.5\" x 6.5\""
     ],
     "notAllowed": [],
-    "note": ""
+    "note": "",
+    "venueName": "Mortgage Matchup Center",
+    "city": "Phoenix",
+    "state": "AZ"
   },
   "pnc_park": {
     "summary": "Each guest may bring one soft-sided bag into PNC Park that does not exceed 16\" x 16\" x 8\". All bags are subject to search upon entry to ensure safety and a smooth entry process.",
@@ -1710,7 +2022,10 @@
     "notAllowed": [
       "Bags larger than 16\" x 16\" x 8\""
     ],
-    "note": "All bags will be searched before entry."
+    "note": "All bags will be searched before entry.",
+    "venueName": "PNC Park",
+    "city": "Pittsburgh",
+    "state": "PA"
   },
   "ppg_paints_arena": {
     "summary": "No bags are permitted inside PPG Paints Arena except for small items that meet size limits and pass inspection. Wristlets or wallets no larger than 4\" x 6\" x 1.5\" are allowed. All bags requiring screening must be brought through designated entrances.",
@@ -1726,7 +2041,10 @@
       "Large purses",
       "Any other bags not listed as exceptions"
     ],
-    "note": "Exceptions are made only after inspection. Please enter through designated doors if carrying an item that requires screening. Check event-specific restrictions before attending."
+    "note": "Exceptions are made only after inspection. Please enter through designated doors if carrying an item that requires screening. Check event-specific restrictions before attending.",
+    "venueName": "PPG Paints Arena",
+    "city": "Pittsburgh",
+    "state": "PA"
   },
   "paycom_center": {
     "summary": "All bags brought into Paycom Center must be no larger than 6\" x 9\" x 2\" and will be subject to search upon entry. Detachable chain straps are not allowed on bags. Guests should expect screening measures including bag searches and metal detectors.",
@@ -1740,7 +2058,10 @@
       "Bags larger than 6\" x 9\" x 2\"",
       "Bags with detachable chain straps"
     ],
-    "note": "Guests bringing food for medical reasons should contact guest services in advance. All guests are subject to search including metal detectors or pat-downs. Paycom Center does not hold or safeguard personal belongings."
+    "note": "Guests bringing food for medical reasons should contact guest services in advance. All guests are subject to search including metal detectors or pat-downs. Paycom Center does not hold or safeguard personal belongings.",
+    "venueName": "Paycom Center",
+    "city": "Oklahoma City",
+    "state": "OK"
   },
   "paycor_stadium": {
     "summary": "Paycor Stadium requires fans to bring only clear bags that are no larger than 12\" x 6\" x 12\" or small clutches no larger than 4.5\" x 6.5\". All bags are subject to security screening to ensure compliance with these size and transparency rules.",
@@ -1762,7 +2083,10 @@
       "Printed or tinted bags",
       "Diaper bags"
     ],
-    "note": "Medically necessary items are allowed after inspection. Diapers and wipes can be carried in a clear bag, but diaper bags are not permitted. Each family member may bring one approved clear bag and one small clutch. Fans are encouraged to leave unnecessary items at home or in vehicles to speed up security."
+    "note": "Medically necessary items are allowed after inspection. Diapers and wipes can be carried in a clear bag, but diaper bags are not permitted. Each family member may bring one approved clear bag and one small clutch. Fans are encouraged to leave unnecessary items at home or in vehicles to speed up security.",
+    "venueName": "Paycor Stadium",
+    "city": "Cincinnati",
+    "state": "OH"
   },
   "pechanga_arena": {
     "summary": "All bags are subject to search. Only clear tote bags made of plastic, vinyl, or PVC up to 12\" x 6\" x 12\" and one-gallon clear plastic freezer bags are allowed. Small clutches up to 4.5\" x 6.5\" are permitted along with one clear bag. Metal detectors are used at all entrances, so plan to arrive early for screening.",
@@ -1780,7 +2104,10 @@
       "Laptop bags",
       "Oversized bags"
     ],
-    "note": "No general bag check is available. For sporting or family events, one unopened clear plastic water bottle (1 liter or smaller) per guest is allowed; all other outside food and beverages are prohibited."
+    "note": "No general bag check is available. For sporting or family events, one unopened clear plastic water bottle (1 liter or smaller) per guest is allowed; all other outside food and beverages are prohibited.",
+    "venueName": "Pechanga Arena",
+    "city": "San Diego",
+    "state": "CA"
   },
   "petco_park": {
     "summary": "Petco Park only allows single compartment clear plastic bags no larger than 12\" x 6\" x 12\" and small clutches or purses no larger than 5\" x 7\". All other bags, including backpacks, are prohibited to enhance security and speed up entry. All bags are subject to screening upon entry.",
@@ -1797,7 +2124,10 @@
       "Large purses",
       "Multi-compartment bags"
     ],
-    "note": "Exceptions are made for infant and medical bags. All bags will be screened at entry."
+    "note": "Exceptions are made for infant and medical bags. All bags will be screened at entry.",
+    "venueName": "Petco Park",
+    "city": "San Diego",
+    "state": "CA"
   },
   "petersen_events_center": {
     "summary": "The Petersen Events Center requires bags to be screened for safety. Clear bags of a certain size and small clutches are generally allowed to help speed entry. All bags are subject to inspection upon entry.",
@@ -1808,7 +2138,10 @@
       "Small clutches up to 4.5\" x 6.5\""
     ],
     "notAllowed": [],
-    "note": "Some events may have specific bag policies; please check before attending. All bags are subject to security screening at entry."
+    "note": "Some events may have specific bag policies; please check before attending. All bags are subject to security screening at entry.",
+    "venueName": "Petersen Events Center",
+    "city": "Pittsburgh",
+    "state": "PA"
   },
   "pinnacle_bank_arena": {
     "summary": "All bags must be clear and not exceed 12\" x 6\" x 12\" in size. Small clutches without handles or straps up to 4.5\" x 6.5\" are also allowed. All bags are subject to screening upon entry.",
@@ -1822,7 +2155,10 @@
       "Backpacks",
       "Large purses"
     ],
-    "note": "Medical and diaper bags are allowed but must be inspected. Please arrive early to allow time for bag screening."
+    "note": "Medical and diaper bags are allowed but must be inspected. Please arrive early to allow time for bag screening.",
+    "venueName": "Pinnacle Bank Arena",
+    "city": "Lincoln",
+    "state": "NE"
   },
   "progressive_field": {
     "summary": "Fans may bring small bags no larger than 16\" x 16\" x 8\", including manufactured diaper bags, medical bags, and small clutches. All bags are subject to screening upon entry. Larger bags and backpacks are not permitted.",
@@ -1835,7 +2171,10 @@
       "Small bags up to 16\" x 16\" x 8\""
     ],
     "notAllowed": [],
-    "note": "Diaper bags and medical bags are allowed regardless of size. All bags will be screened for security."
+    "note": "Diaper bags and medical bags are allowed regardless of size. All bags will be screened for security.",
+    "venueName": "Progressive Field",
+    "city": "Cleveland",
+    "state": "OH"
   },
   "providence_park": {
     "summary": "Fans attending events at Providence Park must bring clear bags that meet size limits or small clutches. All bags are subject to screening upon entry to ensure safety.",
@@ -1849,7 +2188,10 @@
       "Backpacks",
       "Large purses"
     ],
-    "note": "Medical and diaper bags are allowed but subject to inspection."
+    "note": "Medical and diaper bags are allowed but subject to inspection.",
+    "venueName": "Providence Park",
+    "city": "Portland",
+    "state": "OR"
   },
   "prudential_center": {
     "summary": "Bags up to 12\" x 12\" x 14\" are allowed inside Prudential Center. Backpacks of any size are not permitted. All guests and their bags are subject to security screening upon entry.",
@@ -1861,7 +2203,10 @@
     "notAllowed": [
       "Backpacks of all sizes"
     ],
-    "note": "Guests should be prepared for security screening when entering the venue."
+    "note": "Guests should be prepared for security screening when entering the venue.",
+    "venueName": "Prudential Center",
+    "city": "Newark",
+    "state": "NJ"
   },
   "rate_field": {
     "summary": "Rate Field requires fans to bring clear bags that meet size limits for faster entry and security screening. Small clutches are allowed if they meet specific size requirements. All bags are subject to inspection upon entry.",
@@ -1872,7 +2217,10 @@
       "Small clutches up to 4.5\" x 6.5\""
     ],
     "notAllowed": [],
-    "note": "Trained service animals are allowed; no other pets permitted. All bags and items are subject to security screening at entry."
+    "note": "Trained service animals are allowed; no other pets permitted. All bags and items are subject to security screening at entry.",
+    "venueName": "Rate Field",
+    "city": "Chicago",
+    "state": "IL"
   },
   "raymond_james_stadium": {
     "summary": "Raymond James Stadium enforces a no bag policy for all events, allowing only one small clutch bag no larger than 4.5\" by 6.5\". Bags larger than this size, even if clear, are not permitted and must be returned to vehicles or stored in on-site lockers. All items are subject to screening upon entry.",
@@ -1897,7 +2245,10 @@
       "Strollers",
       "Umbrellas"
     ],
-    "note": "Storage lockers are available for rent near Gate Suzuki Marine on Tom McEwen Blvd for bags that do not comply with the policy. Service animals are permitted. Policies may vary by event without notice."
+    "note": "Storage lockers are available for rent near Gate Suzuki Marine on Tom McEwen Blvd for bags that do not comply with the policy. Service animals are permitted. Policies may vary by event without notice.",
+    "venueName": "Raymond James Stadium",
+    "city": "Tampa",
+    "state": "FL"
   },
   "red_rocks_amphitheatre": {
     "summary": "All bags must be single-pocket or clear and fit within 13\" wide, 15\" tall, and 8\" deep. Small purses and fanny packs no larger than 6\" x 9\" are allowed. All bags and belongings are subject to inspection upon entry.",
@@ -1914,7 +2265,10 @@
       "Multi-pocket bags",
       "Bags larger than 13\" x 15\" x 8\""
     ],
-    "note": "Prescription medication must be in original containers with labels and only the amount needed for the event is allowed. All bags must be open and available for inspection at the gate."
+    "note": "Prescription medication must be in original containers with labels and only the amount needed for the event is allowed. All bags must be open and available for inspection at the gate.",
+    "venueName": "Red Rocks Amphitheatre",
+    "city": "Morrison",
+    "state": "CO"
   },
   "rocket_arena": {
     "summary": "Guests may bring purses no larger than 14\" x 14\" x 6\" that fit under the seat without blocking aisles. Larger bags, backpacks, and sealed packages are not allowed and must be screened through the designated X-ray lane. All bags and items are subject to security inspection and screening.",
@@ -1931,7 +2285,10 @@
       "Large purses",
       "Sealed packages"
     ],
-    "note": "Guests carrying purses larger than a clutch, diaper bags, or medical bags should use the X-ray lane. All items must pass security checks, and some items may be confiscated. Event-specific rules may apply and will be communicated before the event."
+    "note": "Guests carrying purses larger than a clutch, diaper bags, or medical bags should use the X-ray lane. All items must pass security checks, and some items may be confiscated. Event-specific rules may apply and will be communicated before the event.",
+    "venueName": "Rocket Arena",
+    "city": "Huntington",
+    "state": "WV"
   },
   "rogers_arena": {
     "summary": "This venue follows a clear bag-style security policy. Check the official bag policy link for full details before you arrive.",
@@ -1939,10 +2296,13 @@
     "updated": "",
     "allowed": [],
     "notAllowed": [],
-    "note": ""
+    "note": "",
+    "venueName": "Rogers Arena",
+    "city": "Vancouver",
+    "state": "Canada"
   },
   "rogers_centre": {
-    "summary": "Large bags and backpacks are not permitted inside Rogers Centre. Only small clutches, purses, or fanny packs smaller than 7\u201d x 4\u201d x 2\u201d are allowed and will be subject to security screening before entry.",
+    "summary": "Large bags and backpacks are not permitted inside Rogers Centre. Only small clutches, purses, or fanny packs smaller than 7â x 4â x 2â are allowed and will be subject to security screening before entry.",
     "fullLink": "https://www.mlb.com/bluejays/tickets/health-and-safety/rogers-centre/concerts",
     "updated": "",
     "allowed": [
@@ -1954,7 +2314,10 @@
       "Large bags",
       "Backpacks"
     ],
-    "note": "All bags are strongly discouraged. Artist gifts will not be accepted. All items are subject to search upon entry."
+    "note": "All bags are strongly discouraged. Artist gifts will not be accepted. All items are subject to search upon entry.",
+    "venueName": "Rogers Centre",
+    "city": "Toronto",
+    "state": "Canada"
   },
   "rupp_arena": {
     "summary": "Fans may bring one clear bag no larger than 12\" x 12\" x 6\" or one small clutch purse no larger than 9\" x 5\" x 2\". All bags and items will be searched before entry. Larger bags are not allowed and must be returned to vehicles or disposed of.",
@@ -1969,22 +2332,28 @@
       "Large purses",
       "Backpacks"
     ],
-    "note": "Diaper bags may exceed size limits but require inspection at Guest Services. Medically necessary items are allowed after proper inspection at designated gates."
+    "note": "Diaper bags may exceed size limits but require inspection at Guest Services. Medically necessary items are allowed after proper inspection at designated gates.",
+    "venueName": "Rupp Arena",
+    "city": "Lexington",
+    "state": "KY"
   },
   "sap_center": {
-    "summary": "Bags should be 5\u201d x 9\u201d x 2\u201d or smaller to speed up entry, but larger bags up to 20\u201d x 14\u201d x 11\u201d are allowed with X-Ray screening. All bags larger than 5\u201d x 9\u201d x 2\u201d must go through X-Ray inspection. Bags larger than 20\u201d x 14\u201d x 11\u201d are not permitted, and no bag check is available onsite.",
+    "summary": "Bags should be 5â x 9â x 2â or smaller to speed up entry, but larger bags up to 20â x 14â x 11â are allowed with X-Ray screening. All bags larger than 5â x 9â x 2â must go through X-Ray inspection. Bags larger than 20â x 14â x 11â are not permitted, and no bag check is available onsite.",
     "fullLink": "https://www.sapcenter.com/plan-your-visit/bag-policy",
     "updated": "",
     "allowed": [
-      "Bags up to 5\u201d x 9\u201d x 2\u201d",
-      "Bags up to 20\u201d x 14\u201d x 11\u201d with screening",
+      "Bags up to 5â x 9â x 2â",
+      "Bags up to 20â x 14â x 11â with screening",
       "Parenting bags with diapers and necessities",
       "Medical bags with required items"
     ],
     "notAllowed": [
-      "Bags larger than 20\u201d x 14\u201d x 11\u201d"
+      "Bags larger than 20â x 14â x 11â"
     ],
-    "note": "Medical and parenting bags of any size are allowed but must be screened and tagged. All bags larger than 5\u201d x 9\u201d x 2\u201d require X-Ray screening. Bags must fit under the seat to avoid hazards. No bag check or storage lockers are available onsite."
+    "note": "Medical and parenting bags of any size are allowed but must be screened and tagged. All bags larger than 5â x 9â x 2â require X-Ray screening. Bags must fit under the seat to avoid hazards. No bag check or storage lockers are available onsite.",
+    "venueName": "SAP Center",
+    "city": "San Jose",
+    "state": "CA"
   },
   "schottenstein_center": {
     "summary": "Bags or purses of any size are not permitted inside the Schottenstein Center. Only wallets and wristlets no larger than 5\"x8\"x1\" are allowed. All guests and items are subject to inspection upon entry.",
@@ -1998,7 +2367,10 @@
       "Bags of any size",
       "Purses of any size"
     ],
-    "note": "A dedicated screening lane is available for guests with medical, dietary, or childcare needs allowing one bag. Guests are encouraged to leave most items at home. Management reserves the right to determine prohibited items and may require guests to return items to their vehicle or surrender them without return."
+    "note": "A dedicated screening lane is available for guests with medical, dietary, or childcare needs allowing one bag. Guests are encouraged to leave most items at home. Management reserves the right to determine prohibited items and may require guests to return items to their vehicle or surrender them without return.",
+    "venueName": "Schottenstein Center",
+    "city": "Columbus",
+    "state": "OH"
   },
   "scotiabank_arena": {
     "summary": "Only small purses, clutches, or fanny packs smaller than 6.5\" x 4.5\" are allowed inside Scotiabank Arena. Bags that do not meet the size requirements may be subject to x-ray inspection or checked for a fee. Fans are encouraged to avoid bringing bags when possible.",
@@ -2014,7 +2386,10 @@
       "Large purses",
       "Bags larger than 6.5\" x 4.5\""
     ],
-    "note": "Bags needed for medical reasons may be allowed after x-ray inspection at designated gates. Bag check is available for $25 across from Gate 1. Policy may change depending on the event."
+    "note": "Bags needed for medical reasons may be allowed after x-ray inspection at designated gates. Bag check is available for $25 across from Gate 1. Policy may change depending on the event.",
+    "venueName": "Scotiabank Arena",
+    "city": "Toronto",
+    "state": "ON"
   },
   "simmons_bank_arena": {
     "summary": "All bags entering Simmons Bank Arena will be inspected. Bags larger than 14\" x 14\" x 6\" are not allowed inside. Guests should expect security screening including walk-through metal detectors.",
@@ -2032,7 +2407,10 @@
       "Luggage",
       "Bags larger than 14\" x 14\" x 6\""
     ],
-    "note": "Weapons and other prohibited items are not allowed. Service animals are permitted with advance notice. Some events may have additional restrictions."
+    "note": "Weapons and other prohibited items are not allowed. Service animals are permitted with advance notice. Some events may have additional restrictions.",
+    "venueName": "Simmons Bank Arena",
+    "city": "North Little Rock",
+    "state": "AR"
   },
   "smoothie_king_center": {
     "summary": "Only clear vinyl bags no larger than 14x14x6 inches, gallon-size Ziploc bags (one bag limit), and small clutch purses no larger than 4.5x6.5 inches are allowed inside the Smoothie King Center. All bags are subject to screening at entry. Backpacks, luggage, and strollers are not permitted.",
@@ -2048,7 +2426,10 @@
       "Luggage",
       "Strollers"
     ],
-    "note": ""
+    "note": "",
+    "venueName": "Smoothie King Center",
+    "city": "New Orleans",
+    "state": "LA"
   },
   "sofi_stadium": {
     "summary": "All bags brought into SoFi Stadium must be clear plastic, vinyl, or PVC and cannot exceed 12\" x 6\" x 12\". Small clutch bags up to 4.5\" x 6.5\" are also allowed. All bags are subject to security screening and must meet size and material requirements.",
@@ -2072,7 +2453,10 @@
       "Camera bags",
       "Non-approved seat cushions"
     ],
-    "note": "Bag policy may vary by event; oversized bags can be checked at bag valet locations for a fee. Service animals are permitted; emotional support animals are not."
+    "note": "Bag policy may vary by event; oversized bags can be checked at bag valet locations for a fee. Service animals are permitted; emotional support animals are not.",
+    "venueName": "SoFi Stadium",
+    "city": "Inglewood",
+    "state": "CA"
   },
   "soldier_field": {
     "summary": "Soldier Field enforces a clear bag policy allowing only clear bags up to 12\" x 6\" x 12\" or small non-clear clutches up to 4.5\" x 6.5\". All bags are subject to screening before entry. Bags that do not meet these size or clarity requirements are not permitted.",
@@ -2093,7 +2477,10 @@
       "Non-clear bags larger than 4.5\" x 6.5\"",
       "Non-approved seat cushions with pockets or zippers"
     ],
-    "note": "Medical bags and kits are allowed but will be searched. Diapers must be carried in a clear bag. Each family member may bring one approved clear bag and one small clutch purse."
+    "note": "Medical bags and kits are allowed but will be searched. Diapers must be carried in a clear bag. Each family member may bring one approved clear bag and one small clutch purse.",
+    "venueName": "Soldier Field",
+    "city": "Chicago",
+    "state": "IL"
   },
   "spectrum_center": {
     "summary": "Only small bags, clutches, crossbodies, and wristlets that do not exceed 5in x 7in x 1.5in are allowed. This size limit applies to all bags, whether clear or not. All permitted bags are subject to visual or x-ray screening upon entry.",
@@ -2111,7 +2498,10 @@
       "Duffel bags",
       "Suitcases"
     ],
-    "note": "Exceptions are made for diaper and medical bags, including breast pumps, which must go through x-ray screening upon entry."
+    "note": "Exceptions are made for diaper and medical bags, including breast pumps, which must go through x-ray screening upon entry.",
+    "venueName": "Spectrum Center",
+    "city": "Charlotte",
+    "state": "NC"
   },
   "state_farm_arena": {
     "summary": "Bags must be 14\" x 14\" x 6\" or smaller and are subject to screening. The arena does not require clear bags. Larger bags and backpacks are not allowed.",
@@ -2130,7 +2520,10 @@
       "Large purses",
       "Luggage"
     ],
-    "note": "Medical and diaper bags are exempt from size limits but are subject to search. Parents may bring plastic bottles of formula or milk. Bag policies may vary by event. Guests with non-compliant bags can use a paid bag check service near Gate 2."
+    "note": "Medical and diaper bags are exempt from size limits but are subject to search. Parents may bring plastic bottles of formula or milk. Bag policies may vary by event. Guests with non-compliant bags can use a paid bag check service near Gate 2.",
+    "venueName": "State Farm Arena",
+    "city": "Atlanta",
+    "state": "GA"
   },
   "state_farm_stadium": {
     "summary": "State Farm Stadium enforces a clear bag policy allowing only clear plastic, vinyl, or PVC bags up to 12\" x 6\" x 12\" and small non-clear clutches up to 4.5\" x 6.5\". All bags are subject to search and metal detector screening at entry. Bags not meeting these requirements will not be permitted.",
@@ -2149,7 +2542,10 @@
       "Luggage",
       "Non-clear bags larger than 4.5\" x 6.5\""
     ],
-    "note": "Medically necessary items are allowed after inspection. Diapers and wipes must be in a clear bag. Blankets and additional items must be carried loosely or in an approved clear bag. No storage is available for prohibited items."
+    "note": "Medically necessary items are allowed after inspection. Diapers and wipes must be in a clear bag. Blankets and additional items must be carried loosely or in an approved clear bag. No storage is available for prohibited items.",
+    "venueName": "State Farm Stadium",
+    "city": "Glendale",
+    "state": "AZ"
   },
   "sun_bowl_stadium": {
     "summary": "Sun Bowl Stadium enforces a clear bag policy requiring fans to bring only clear bags of a certain size or small clutches. All bags are subject to screening upon entry to ensure safety. This helps speed up entry and maintain a secure environment for all attendees.",
@@ -2163,7 +2559,10 @@
       "Backpacks",
       "Large purses"
     ],
-    "note": ""
+    "note": "",
+    "venueName": "Sun Bowl Stadium",
+    "city": "El Paso",
+    "state": "TX"
   },
   "t_mobile_arena": {
     "summary": "Bags larger than 9\" x 5\" x 2\" are not allowed inside the venue. Only small personal bags such as fanny packs, crossbody bags, and small purses within the size limit are permitted. Bags do not need to be clear, and all bags are subject to screening.",
@@ -2179,7 +2578,10 @@
       "Large purses",
       "Bags larger than 9\" x 5\" x 2\""
     ],
-    "note": "Bag check is available for a fee starting at $20 per bag; no re-entry is allowed and bags are not accessible during the event."
+    "note": "Bag check is available for a fee starting at $20 per bag; no re-entry is allowed and bags are not accessible during the event.",
+    "venueName": "T-Mobile Arena",
+    "city": "Las Vegas",
+    "state": "NV"
   },
   "t_mobile_park": {
     "summary": "Clear plastic bags no larger than 12\" x 6\" x 12\" or one gallon clear plastic zip-top bags are allowed. Small clutch bags up to 4.5\" x 6.5\" are permitted and do not need to be clear. All bags must be see-through and contents visible for security screening.",
@@ -2196,7 +2598,10 @@
       "Duffle bags",
       "Purses larger than 4.5\" x 6.5\""
     ],
-    "note": "Exceptions are made for medically necessary items and single compartment diaper bags when a child is present. All bags are subject to security inspection."
+    "note": "Exceptions are made for medically necessary items and single compartment diaper bags when a child is present. All bags are subject to security inspection.",
+    "venueName": "T-Mobile Park",
+    "city": "Seattle",
+    "state": "WA"
   },
   "t_mobile_center": {
     "summary": "Bags larger than 12\" x 6\" x 12\" and backpacks are not allowed inside the venue. Guests should pack lightly and expect all bags to be screened before entry. Certain items like diaper bags and medical bags are permitted but will be subject to screening.",
@@ -2216,7 +2621,10 @@
       "Weapons or objects resembling weapons",
       "Chain wallets"
     ],
-    "note": "All diaper and medical bags will be screened prior to entry. Guests are encouraged to check event-specific rules for any additional restrictions."
+    "note": "All diaper and medical bags will be screened prior to entry. Guests are encouraged to check event-specific rules for any additional restrictions.",
+    "venueName": "T-Mobile Center",
+    "city": "Kansas City",
+    "state": "MO"
   },
   "td_garden": {
     "summary": "TD Garden encourages guests to avoid bringing bags to events for faster entry. Small bags such as clutches, crossbodies, and wristlets are allowed if they do not exceed 4 x 6 x 1.5 inches. All permitted bags are subject to visual or x-ray screening upon entry.",
@@ -2233,10 +2641,13 @@
       "Backpacks",
       "Large purses"
     ],
-    "note": "Exceptions are made for diaper bags, breast pump bags, and medically necessary bags, which are subject to additional screening. Oversized bags can be checked for a fee at the on-site Event Bag Check. Guests should allow extra time for entry and plan accordingly."
+    "note": "Exceptions are made for diaper bags, breast pump bags, and medically necessary bags, which are subject to additional screening. Oversized bags can be checked for a fee at the on-site Event Bag Check. Guests should allow extra time for entry and plan accordingly.",
+    "venueName": "TD Garden",
+    "city": "Boston",
+    "state": "MA"
   },
   "target_center": {
-    "summary": "Bags brought into Target Center must be no larger than 5\u201d x 9\u201d. Diaper bags and medical bags are allowed but subject to search upon entry. Strollers are not permitted inside the venue.",
+    "summary": "Bags brought into Target Center must be no larger than 5â x 9â. Diaper bags and medical bags are allowed but subject to search upon entry. Strollers are not permitted inside the venue.",
     "fullLink": "https://www.targetcenter.com/plan-your-visit-1/know-before-you-go",
     "updated": "",
     "allowed": [
@@ -2247,7 +2658,10 @@
     "notAllowed": [
       "Strollers"
     ],
-    "note": "All bags are subject to search upon entry."
+    "note": "All bags are subject to search upon entry.",
+    "venueName": "Target Center",
+    "city": "Minneapolis",
+    "state": "MN"
   },
   "target_field": {
     "summary": "Target Field allows single-compartment bags no larger than 16\" x 16\" x 8\". Small purses, clear bags, and similar sized bags are permitted, while larger or multi-compartment bags are not allowed. Guests are encouraged to come without bags to speed up entry.",
@@ -2271,7 +2685,10 @@
       "Duffel bags",
       "Bags larger than 16\" x 16\" x 8\""
     ],
-    "note": "Bags containing medically necessary items and diaper bags are allowed regardless of size."
+    "note": "Bags containing medically necessary items and diaper bags are allowed regardless of size.",
+    "venueName": "Target Field",
+    "city": "Minneapolis",
+    "state": "MN"
   },
   "the_anthem": {
     "summary": "The Anthem requires fans to bring clear bags that meet size limits or small clutches for entry. All bags are subject to security screening upon entry to ensure safety.",
@@ -2282,7 +2699,10 @@
       "Small clutches up to 4.5\" x 6.5\""
     ],
     "notAllowed": [],
-    "note": ""
+    "note": "",
+    "venueName": "The Anthem",
+    "city": "Washington",
+    "state": "DC"
   },
   "the_armory": {
     "summary": "All bags must be clear and meet size restrictions to be allowed inside The Armory. Small clutches without handles or straps are permitted. All bags are subject to screening upon entry.",
@@ -2296,10 +2716,13 @@
       "Backpacks",
       "Large purses"
     ],
-    "note": ""
+    "note": "",
+    "venueName": "The Armory",
+    "city": "Minneapolis",
+    "state": "MN"
   },
   "the_dome_at_americas_center": {
-    "summary": "All bags entering The Dome at America\u2019s Center must be clear plastic bags no larger than 12\" x 6\" x 12\", small clutches no larger than 4.5\" x 6.5\", or diaper/parent bags. All bags are subject to security screening. Bags outside these size limits will not be allowed.",
+    "summary": "All bags entering The Dome at Americaâs Center must be clear plastic bags no larger than 12\" x 6\" x 12\", small clutches no larger than 4.5\" x 6.5\", or diaper/parent bags. All bags are subject to security screening. Bags outside these size limits will not be allowed.",
     "fullLink": "https://explorestlouis.com/the-dome-at-americas-center/prohibited-items/",
     "updated": "",
     "allowed": [
@@ -2313,7 +2736,10 @@
       "Coolers",
       "Non-clear bags larger than allowed sizes"
     ],
-    "note": "Prohibited items may vary by event. All bags are subject to search upon entry."
+    "note": "Prohibited items may vary by event. All bags are subject to search upon entry.",
+    "venueName": "The Dome at Americaâs Center",
+    "city": "St. Louis",
+    "state": "MO"
   },
   "the_pinnacle": {
     "summary": "The Pinnacle allows small purses and fanny packs up to 12\" x 12\" x 6\". Backpacks and large bags are not permitted. All bags are subject to security screening upon entry.",
@@ -2328,7 +2754,10 @@
       "Large bags",
       "Laptop bags"
     ],
-    "note": "Empty and refillable water bottles are allowed (metal bottles are not). Certified service animals with current vaccination records are permitted. Security may deny items based on event-specific rules and safety concerns."
+    "note": "Empty and refillable water bottles are allowed (metal bottles are not). Certified service animals with current vaccination records are permitted. Security may deny items based on event-specific rules and safety concerns.",
+    "venueName": "The Pinnacle",
+    "city": "Nashville",
+    "state": "TN"
   },
   "sphere_las_vegas": {
     "summary": "Guests may bring clear bags that meet size requirements or small clutches to the venue. All bags are subject to screening upon entry to ensure safety. Larger bags and backpacks are generally not permitted.",
@@ -2342,7 +2771,10 @@
       "Backpacks",
       "Large purses"
     ],
-    "note": "Medical and diaper bags are allowed but may be subject to additional screening. Please check event-specific rules before attending."
+    "note": "Medical and diaper bags are allowed but may be subject to additional screening. Please check event-specific rules before attending.",
+    "venueName": "Sphere Las Vegas",
+    "city": "Las Vegas",
+    "state": "NV"
   },
   "thunder_ridge_nature_arena": {
     "summary": "Thunder Ridge Nature Arena allows clear bags and small clutches that meet specific size limits. All bags are subject to security screening upon entry. Large bags such as backpacks and duffle bags are not permitted inside the venue.",
@@ -2357,7 +2789,10 @@
       "Duffle bags",
       "Large sacks or cases"
     ],
-    "note": "Medical and diaper bags are allowed but must be checked upon entry."
+    "note": "Medical and diaper bags are allowed but must be checked upon entry.",
+    "venueName": "Thunder Ridge Nature Arena",
+    "city": "Ridgedale",
+    "state": "MO"
   },
   "toyota_center": {
     "summary": "Fans are encouraged to travel light and only bring small bags no larger than 10\" x 6\" x 2\". Diaper bags and medical bags are allowed. All bags must be screened at designated entrances before entry.",
@@ -2369,7 +2804,10 @@
       "Medical bags"
     ],
     "notAllowed": [],
-    "note": "Bags are subject to search at entry. Fans must use designated bag entrances for screening. Lockers are available for rent outside the arena for bags not allowed inside. Toyota Center has a no re-entry policy, so bags checked cannot be accessed during the event."
+    "note": "Bags are subject to search at entry. Fans must use designated bag entrances for screening. Lockers are available for rent outside the arena for bags not allowed inside. Toyota Center has a no re-entry policy, so bags checked cannot be accessed during the event.",
+    "venueName": "Toyota Center",
+    "city": "Houston",
+    "state": "TX"
   },
   "truist_park": {
     "summary": "Bags are generally not allowed inside Truist Park. Exceptions include small clear bags no larger than 5 x 9 inches and small single compartment clutches. All bags are subject to screening upon entry.",
@@ -2387,7 +2825,10 @@
       "Backpacks",
       "Large purses"
     ],
-    "note": "A mobile locker bag storage is available on Power Alley for oversized bags at a fee ($11 per bag for games, $15 for special events). Exceptions are made for ADA needs and medical-related bags."
+    "note": "A mobile locker bag storage is available on Power Alley for oversized bags at a fee ($11 per bag for games, $15 for special events). Exceptions are made for ADA needs and medical-related bags.",
+    "venueName": "Truist Park",
+    "city": "Atlanta",
+    "state": "GA"
   },
   "us_bank_stadium": {
     "summary": "All bags brought into U.S. Bank Stadium must be clear plastic, vinyl, or PVC and not exceed 12\" x 6\" x 12\", or be a small clutch bag up to 4.5\" x 6.5\". All bags will be inspected and guests must pass through metal detectors or screening. Larger bags are not permitted and may be checked or returned to vehicles.",
@@ -2411,7 +2852,10 @@
       "Camera bags",
       "Diaper bags"
     ],
-    "note": "Medically necessary items are allowed after inspection at designated gates. Bag check service is available for bags exceeding policy limits."
+    "note": "Medically necessary items are allowed after inspection at designated gates. Bag check service is available for bags exceeding policy limits.",
+    "venueName": "U.S. Bank Stadium",
+    "city": "Minneapolis",
+    "state": "MN"
   },
   "ubs_arena": {
     "summary": "Bags no larger than 12\" x 12\" x 6\" are allowed and will be subject to screening. Backpacks of any size are not permitted. Medical and baby bags are allowed but must be screened before entry.",
@@ -2426,10 +2870,13 @@
       "Backpacks of all sizes",
       "Bags larger than 12\" x 12\" x 6\""
     ],
-    "note": "Medical and baby bags must be screened before entry. Exceptions are made for guests with medical requirements or special needs who should contact Guest Services in advance."
+    "note": "Medical and baby bags must be screened before entry. Exceptions are made for guests with medical requirements or special needs who should contact Guest Services in advance.",
+    "venueName": "UBS Arena",
+    "city": "Elmont",
+    "state": "NY"
   },
   "uc_berkeley_greek_theatre": {
-    "summary": "Small personal bags and backpacks are allowed, but large backpacks and bags that do not fit within your personal space are prohibited. Personal seat cushions and small blankets under 40\u201d x 60\u201d are permitted if they stay within your ticketed area. All bags are subject to security inspection upon entry.",
+    "summary": "Small personal bags and backpacks are allowed, but large backpacks and bags that do not fit within your personal space are prohibited. Personal seat cushions and small blankets under 40â x 60â are permitted if they stay within your ticketed area. All bags are subject to security inspection upon entry.",
     "fullLink": "https://thegreekberkeley.com/faq/",
     "updated": "",
     "allowed": [
@@ -2444,7 +2891,10 @@
       "Lawn furniture",
       "Large purses"
     ],
-    "note": "Blankets must stay within your ticketed area and cannot be used to hold extra spots. Security may remove any item deemed unsafe or disruptive. No strollers allowed. Service animals are permitted."
+    "note": "Blankets must stay within your ticketed area and cannot be used to hold extra spots. Security may remove any item deemed unsafe or disruptive. No strollers allowed. Service animals are permitted.",
+    "venueName": "UC Berkeley Greek Theatre",
+    "city": "Berkeley",
+    "state": "CA"
   },
   "united_center": {
     "summary": "This venue follows a clear bag-style security policy. Check the official bag policy link for full details before you arrive.",
@@ -2452,10 +2902,13 @@
     "updated": "",
     "allowed": [],
     "notAllowed": [],
-    "note": ""
+    "note": "",
+    "venueName": "United Center",
+    "city": "Chicago",
+    "state": "IL"
   },
   "utah_first_credit_union_amphitheatre": {
-    "summary": "Only small clutches, wristlets, or fanny packs no larger than 6\u201d x 9\u201d and clear plastic bags no bigger than 12\u201d x 12\u201d x 6\u201d are allowed inside the venue. All bags are subject to search upon entry, and the venue may refuse entry if a bag search is declined or if the bag does not meet requirements.",
+    "summary": "Only small clutches, wristlets, or fanny packs no larger than 6â x 9â and clear plastic bags no bigger than 12â x 12â x 6â are allowed inside the venue. All bags are subject to search upon entry, and the venue may refuse entry if a bag search is declined or if the bag does not meet requirements.",
     "fullLink": "https://www.utahfirstamp.com/visit#faq",
     "updated": "",
     "allowed": [
@@ -2472,7 +2925,10 @@
       "Hard-sided coolers",
       "Large or oversized bags"
     ],
-    "note": "Guests should return any prohibited items to their vehicles. All bags will be searched upon entry, and refusal of a bag search may result in denied entry."
+    "note": "Guests should return any prohibited items to their vehicles. All bags will be searched upon entry, and refusal of a bag search may result in denied entry.",
+    "venueName": "Utah First Credit Union Amphitheatre",
+    "city": "West Valley City",
+    "state": "UT"
   },
   "uw_panther_arena": {
     "summary": "Guests may bring clear bags up to 12\" x 6\" x 12\", gallon-sized clear zip bags, small wristlets up to 4\" x 6\" x 1\", or diaper and medical bags. All bags will be subject to search for safety. Private events may have different bag policies.",
@@ -2486,7 +2942,10 @@
       "Medical bags"
     ],
     "notAllowed": [],
-    "note": "Diaper and medical bags are allowed but will be searched. Check event-specific details for private events as their bag policies may differ."
+    "note": "Diaper and medical bags are allowed but will be searched. Check event-specific details for private events as their bag policies may differ.",
+    "venueName": "UW - Panther Arena",
+    "city": "Milwaukee",
+    "state": "WI"
   },
   "van_andel_arena": {
     "summary": "Van Andel Arena has a No Bag policy that does not allow bags, backpacks, or purses except for small clutches and bags needed for medical or parenting purposes. Small clutches no larger than 4.5\" x 6.5\" x 2\" are permitted. Medical and parenting bags must be screened by security and enter through a designated entrance.",
@@ -2502,7 +2961,10 @@
       "Large purses",
       "Any other bags not listed as allowed"
     ],
-    "note": "Medical and parenting bags require additional security screening and must enter through the ADA/Box office entrance on the far west side of the main entrance. Policy may change based on the event."
+    "note": "Medical and parenting bags require additional security screening and must enter through the ADA/Box office entrance on the far west side of the main entrance. Policy may change based on the event.",
+    "venueName": "Van Andel Arena",
+    "city": "Grand Rapids",
+    "state": "MI"
   },
   "veterans_united_home_loans_amphitheater": {
     "summary": "All bags brought into Veterans United Home Loans Amphitheater are subject to security screening. Clear bags that meet size requirements and small clutches are generally allowed to help speed entry. Guests should expect bag checks and follow size limits to ensure a smooth entry process.",
@@ -2516,7 +2978,10 @@
       "Backpacks",
       "Large purses"
     ],
-    "note": "All bags will be searched upon entry. Please check for any event-specific bag policies before attending."
+    "note": "All bags will be searched upon entry. Please check for any event-specific bag policies before attending.",
+    "venueName": "Veterans United Home Loans Amphitheater",
+    "city": "Virginia Beach",
+    "state": "VA"
   },
   "walmart_amp": {
     "summary": "This venue follows a clear bag-style security policy. Check the official bag policy link for full details before you arrive.",
@@ -2524,7 +2989,10 @@
     "updated": "",
     "allowed": [],
     "notAllowed": [],
-    "note": ""
+    "note": "",
+    "venueName": "Walmart AMP",
+    "city": "Rogers",
+    "state": "AR"
   },
   "caseys_center": {
     "summary": "Guests may bring one clear bag no larger than 12\" x 12\" x 6\", one one-gallon clear plastic freezer bag, or a small clutch no larger than 4.5\" x 6.5\". All bags are subject to search upon entry to maintain safety and security. Bags exceeding size limits or not meeting these criteria are not permitted.",
@@ -2541,7 +3009,10 @@
       "Duffel bags",
       "Oversized bags"
     ],
-    "note": "Exceptions are made for medical, family, or child care bags. All bags, including exceptions, are subject to search."
+    "note": "Exceptions are made for medical, family, or child care bags. All bags, including exceptions, are subject to search.",
+    "venueName": "Casey's Center",
+    "city": "Des Moines",
+    "state": "IA"
   },
   "xfinity_mobile_arena": {
     "summary": "Bags larger than 4.5\" x 6.5\" and smaller than 14\" x 14\" x 6\" are allowed if they pass X-ray screening at designated entrances. Small clutches, wristlets, and purses up to 4.5\" x 6.5\" are permitted without X-ray but subject to inspection. Backpacks, suitcases, and large multi-compartment bags are not allowed inside the venue.",
@@ -2556,7 +3027,10 @@
       "Suitcases",
       "Large multi-compartment bags"
     ],
-    "note": "Medical and parental bags smaller than 14\" x 14\" x 6\" are allowed after X-ray screening. Lockers are available for prohibited bags on the 11th Street side for a fee, subject to availability. All bags and guests are subject to search and secondary screening if needed."
+    "note": "Medical and parental bags smaller than 14\" x 14\" x 6\" are allowed after X-ray screening. Lockers are available for prohibited bags on the 11th Street side for a fee, subject to availability. All bags and guests are subject to search and secondary screening if needed.",
+    "venueName": "Xfinity Mobile Arena",
+    "city": "Philadelphia",
+    "state": "PA"
   },
   "wrigley_field": {
     "summary": "Bags larger than 16 x 16 x 8 inches, including backpacks and hard-sided coolers, are not allowed at Wrigley Field. Smaller bags such as purses, drawstring bags, fanny packs, lunch bags, briefcases, and soft-sided coolers under this size are permitted. All bags are subject to inspection upon entry.",
@@ -2576,7 +3050,10 @@
       "Hard-sided coolers of any size",
       "Bags larger than 16 x 16 x 8 inches"
     ],
-    "note": "Exceptions are made for medical bags and diaper bags accompanying guests with young children."
+    "note": "Exceptions are made for medical bags and diaper bags accompanying guests with young children.",
+    "venueName": "Wrigley Field",
+    "city": "Chicago",
+    "state": "IL"
   },
   "xl_center": {
     "summary": "Large bags, backpacks, luggage, laptops, tablets, coolers, and similar items are not allowed inside the XL Center. Small handbags of normal size may be allowed after inspection. All bags and items are subject to search upon entry.",
@@ -2594,10 +3071,13 @@
       "Coolers",
       "Briefcases"
     ],
-    "note": "Guests should arrive 45-60 minutes before events due to security screening. No storage or check area is provided for prohibited items. Enforcement is strict and without exceptions."
+    "note": "Guests should arrive 45-60 minutes before events due to security screening. No storage or check area is provided for prohibited items. Enforcement is strict and without exceptions.",
+    "venueName": "XL Center",
+    "city": "Hartford",
+    "state": "CT"
   },
   "grand_casino_arena": {
-    "summary": "For safety and faster entry, guests are strongly discouraged from bringing bags. Purses no larger than 12\u201d x 12\u201d x 6\u201d are allowed at designated X-ray entry points, and small wristlets or clutches up to 4\u201d x 6\u201d x 1.5\u201d are allowed at all entrances and subject to inspection.",
+    "summary": "For safety and faster entry, guests are strongly discouraged from bringing bags. Purses no larger than 12â x 12â x 6â are allowed at designated X-ray entry points, and small wristlets or clutches up to 4â x 6â x 1.5â are allowed at all entrances and subject to inspection.",
     "fullLink": "https://www.xcelenergycenter.com/plan-your-visit/guest-services-guide",
     "updated": "",
     "allowed": [
@@ -2609,7 +3089,10 @@
       "Coolers",
       "Large totes"
     ],
-    "note": "Medical and parenting bags are permitted but subject to X-ray screening."
+    "note": "Medical and parenting bags are permitted but subject to X-ray screening.",
+    "venueName": "Grand Casino Arena",
+    "city": "St. Paul",
+    "state": "MN"
   },
   "yankee_stadium": {
     "summary": "Only soft-sided bags that are 16 inches by 16 inches by 8 inches or smaller, and small soft-sided personal items, are allowed into Yankee Stadium. All bags and personal items are subject to physical search and metal detector screening before entry. Guests must remove metal items from pockets for inspection during the screening process.",
@@ -2621,6 +3104,9 @@
       "Empty reusable non-glass water bottles up to 24 oz"
     ],
     "notAllowed": [],
-    "note": "All guests, including children, must be screened via metal detectors. Infants and toddlers may be carried through, while older children may be asked to walk through on their own. Guests unable or unwilling to go through metal detectors can opt for manual screening."
+    "note": "All guests, including children, must be screened via metal detectors. Infants and toddlers may be carried through, while older children may be asked to walk through on their own. Guests unable or unwilling to go through metal detectors can opt for manual screening.",
+    "venueName": "Yankee Stadium",
+    "city": "Bronx",
+    "state": "NY"
   }
 }
