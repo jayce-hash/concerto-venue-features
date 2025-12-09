@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Rideshare Guide</title>
+  <title>Concerto · Rideshare</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 
   <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
     href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
     rel="stylesheet"
@@ -17,14 +17,16 @@
 </head>
 <body>
   <div class="page">
-    <!-- Top header -->
+    <!-- Header -->
     <header class="page-header">
       <div class="page-header-inner">
+        <!-- Logo (replace src if needed) -->
         <img
-          src="IMG_0993.jpeg"
-          alt="Rideshare Guide"
+          src="IMG_3180.jpeg"
+          alt="Concerto - From the concert, to the city"
           class="brand-logo"
         />
+
         <div class="search-wrapper">
           <input
             id="venueSearch"
@@ -37,72 +39,85 @@
       </div>
     </header>
 
-    <!-- Content -->
+    <!-- Layout -->
     <main class="layout">
-      <section id="infoPanel" class="info-panel info-panel--empty">
-        <!-- Empty / intro state -->
-        <div class="info-empty">
-          <h2>Set up rideshare in a tap</h2>
-          <p>
-            Search a venue or browse below to see pickup and dropoff tips,
-            plus quick links for Uber and Lyft with the venue pre-filled.
-          </p>
+      <!-- Left / top: venue list -->
+      <section class="list-panel">
+        <h2 class="panel-title">Browse Venues</h2>
+        <div id="venueList" class="venue-list">
+          <!-- Venue cards injected here -->
         </div>
+      </section>
 
-        <!-- Random browse list -->
-        <div id="browseList" class="browse-list"></div>
+      <!-- Right / bottom: detail panel -->
+      <section id="detailPanel" class="detail-panel detail-panel--empty">
+        <div class="detail-inner">
+          <p id="detailHint" class="detail-hint">
+            Select a venue to view rideshare info and quick links.
+          </p>
 
-        <!-- Filled once a venue is chosen -->
-        <div class="info-content" hidden>
-          <header class="info-header">
-            <div>
-              <h2 id="venueName"></h2>
-              <p id="venueLocation" class="venue-location"></p>
-            </div>
-          </header>
+          <div id="detailContent" class="detail-content" hidden>
+            <header class="detail-header">
+              <h2 id="venueName" class="detail-venue-name"></h2>
+              <p id="venueLocation" class="detail-venue-location"></p>
+            </header>
 
-          <div class="info-cards">
-            <!-- Overview / tips -->
-            <article class="info-card">
-              <h3 id="rideshareHeading">Rideshare Tips</h3>
-              <p id="rideshareNote" class="card-body"></p>
-              <p class="card-body small" id="rideshareCta">
-                Click below to use rideshare apps for this venue.
-              </p>
-            </article>
+            <!-- Rideshare Info (hidden if no text) -->
+            <section id="rideshare-info" class="section-block" hidden>
+              <h3 class="section-title">Rideshare Information</h3>
+              <p id="rideshare-text" class="section-body"></p>
+            </section>
 
-            <!-- Deep-link buttons -->
-            <article class="info-card">
-              <h3>Uber &amp; Lyft Links</h3>
-              <p class="card-body small">
-                These links open Uber or Lyft with the venue as the destination
-                or pickup. Always confirm the address and pickup spot in the app
-                before requesting your ride.
-              </p>
-              <div class="rideshare-buttons">
-                <button id="uberTo" class="primary-btn secondary">
+            <!-- Buttons (hidden if no lat/lng) -->
+            <section id="rideshare-buttons" class="section-block" hidden>
+              <h3 class="section-title">Open in Uber / Lyft</h3>
+              <div class="button-row">
+                <a
+                  id="uber-to"
+                  class="primary-chip"
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Uber to Venue
-                </button>
-                <button id="uberFrom" class="primary-btn secondary">
-                  Uber from Venue
-                </button>
-                <button id="lyftTo" class="primary-btn secondary">
-                  Lyft to Venue
-                </button>
-                <button id="lyftFrom" class="primary-btn secondary">
-                  Lyft from Venue
-                </button>
+                </a>
+                <a
+                  id="uber-from"
+                  class="primary-chip"
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Uber From Venue
+                </a>
               </div>
-            </article>
+              <div class="button-row">
+                <a
+                  id="lyft-to"
+                  class="primary-chip secondary"
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Lyft to Venue
+                </a>
+                <a
+                  id="lyft-from"
+                  class="primary-chip secondary"
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Lyft From Venue
+                </a>
+              </div>
+            </section>
           </div>
         </div>
       </section>
     </main>
   </div>
 
-  <!-- BuildFire SDK (so we can use linkToWeb + _system when inside the app) -->
-  <script src="https://s3-us-west-2.amazonaws.com/buildfire/js/buildfire.min.js"></script>
-
-  <script src="app.js" defer></script>
+  <script src="app.js"></script>
 </body>
 </html>
