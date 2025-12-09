@@ -12,23 +12,17 @@
 
   <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
   <div class="page">
-    <!-- Top header -->
+
+    <!-- Header -->
     <header class="page-header">
       <div class="page-header-inner">
-        <img
-          src="IMG_0993.jpeg"
-          alt="Rideshare"
-          class="brand-logo"
-        />
+        <img src="IMG_0993.jpeg" alt="Rideshare" class="brand-logo" />
+
         <div class="search-wrapper">
-          <input
-            id="venueSearch"
-            type="text"
-            placeholder="Search a venue..."
-            autocomplete="off"
-          />
+          <input id="venueSearch" type="text" placeholder="Search a venue..." autocomplete="off"/>
           <div id="searchResults" class="search-results"></div>
         </div>
       </div>
@@ -37,16 +31,17 @@
     <!-- Content -->
     <main class="layout">
       <section id="infoPanel" class="info-panel info-panel--empty">
+
         <div class="info-empty">
           <h2>Find rideshare by venue</h2>
-          <p>Search a venue or browse below to see pickup zones, dropoff tips, and quick Uber &amp; Lyft links.</p>
+          <p>Search a venue or browse below to see dropoff areas, tips, and quick Uber & Lyft links.</p>
         </div>
 
-    <!-- Random browse list -->
-<div id="venueList" class="browse-list"></div>
+        <div id="browseList" class="browse-list"></div>
 
-        <!-- Filled once a venue is chosen -->
+        <!-- Loaded venue -->
         <div class="info-content" hidden>
+
           <header class="info-header">
             <div>
               <h2 id="venueName"></h2>
@@ -55,36 +50,26 @@
           </header>
 
           <div class="info-cards">
-            <!-- Rideshare overview text (from rideshare.json) -->
-            <article class="info-card" id="rideshareCard" hidden>
-              <h3>Rideshare &amp; Dropoff</h3>
-              <p id="rideshareText" class="card-body"></p>
+
+            <!-- Overview -->
+            <article class="info-card" id="rideshareOverviewCard" hidden>
+              <h3>Rideshare Overview</h3>
+              <p id="overviewText" class="card-body"></p>
             </article>
 
-            <!-- Uber / Lyft buttons -->
-            <article class="info-card" id="rideshareButtonsCard" hidden>
-              <h3>Uber &amp; Lyft Shortcuts</h3>
-              <p class="card-body">
-                Use the shortcuts below to open your rideshare app with this venue pre-loaded.
-              </p>
+            <!-- Buttons -->
+            <article class="info-card" id="rideshareLinksCard" hidden>
+              <h3>Rideshare Links</h3>
 
-              <div class="rideshare-button-grid">
-                <button id="uber-to" class="primary-btn">
-                  Uber To Venue
-                </button>
-                <button id="uber-from" class="primary-btn">
-                  Uber From Venue
-                </button>
-                <button id="lyft-to" class="primary-btn">
-                  Lyft To Venue
-                </button>
-                <button id="lyft-from" class="primary-btn">
-                  Lyft From Venue
-                </button>
-              </div>
+              <a id="uberTo" class="primary-btn" target="_blank">Uber to Venue</a>
+              <a id="uberFrom" class="primary-btn" target="_blank">Uber from Venue</a>
+              <a id="lyftTo" class="primary-btn" target="_blank">Lyft to Venue</a>
+              <a id="lyftFrom" class="primary-btn" target="_blank">Lyft from Venue</a>
             </article>
+
           </div>
         </div>
+
       </section>
     </main>
   </div>
