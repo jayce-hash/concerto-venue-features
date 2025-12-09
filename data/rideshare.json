@@ -1,1298 +1,1298 @@
 {
   "acrisure_arena": {
-    "name": "Acrisure Arena",
+    "venueName": "Acrisure Arena",
     "city": "Thousand Palms",
     "state": "CA",
-    "rideshare": "Let Lyft be your ride to Acrisure Arena, as they are the Official Rideshare Partner. Use code ACRISUREARENA for 50% off your first two rides (up to $10/ride).",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "note": "Lyft is the official rideshare partner with a discount code ACRISUREARENA for 50% off the first two rides; no specific pickup/dropoff zone details are provided."
   },
   "acrisure_stadium": {
-    "name": "Acrisure Stadium",
+    "venueName": "Acrisure Stadium",
     "city": "Pittsburgh",
     "state": "PA",
-    "rideshare": "nan",
-    "lat": 40.4467166,
-    "lng": -80.0157199
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "alamodome": {
-    "name": "Alamodome",
+    "venueName": "Alamodome",
     "city": "San Antonio",
     "state": "TX",
-    "rideshare": "For rideshare services at the Alamodome, use the Drop-off and Pick-up Zone located in Lot D at 500 Tower of Americas Way, which is the safest and quickest area for access. Note that during peak traffic times, northbound Cherry Street may be closed, so approach from the southbound lanes of Cherry Street or via Commerce or Houston Streets.",
-    "lat": 29.4168923,
-    "lng": -98.4788949
+    "lat": null,
+    "lng": null,
+    "note": "The designated drop-off and pick-up zone for rideshare, taxis, and limos is in Lot D at 500 Tower of Americas Way, except during the NCAA Men's Final Four weekend when it is unavailable."
   },
   "albertsons_stadium": {
-    "name": "Albertsons Stadium",
+    "venueName": "Albertsons Stadium",
     "city": "Boise",
     "state": "ID",
-    "rideshare": "nan",
-    "lat": 43.6035562,
-    "lng": -116.1957917
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "allegiant_stadium": {
-    "name": "Allegiant Stadium",
+    "venueName": "Allegiant Stadium",
     "city": "Las Vegas",
     "state": "NV",
-    "rideshare": "nan",
-    "lat": 36.0907359,
-    "lng": -115.1833303
+    "lat": null,
+    "lng": null,
+    "note": "Rideshare pick-up and drop-off is located in Lot N, just north of the stadium, with additional taxi, shuttle, and general drop-off/pick-up areas west of the stadium near Diablo and Procyon."
   },
   "amalie_arena": {
-    "name": "Amalie Arena",
+    "venueName": "Amalie Arena",
     "city": "Tampa",
     "state": "FL",
-    "rideshare": "nan",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "amerant_bank_arena": {
-    "name": "Amerant Bank Arena",
+    "venueName": "Amerant Bank Arena",
     "city": "Sunrise",
     "state": "FL",
-    "rideshare": "For rideshare services at Amerant Bank Arena, utilize Gate 3 for drop-off at the North Pedestrian Walkway entrance, and rideshare drivers should exit via Gate 2. After events, all rideshare vehicles will pick up guests at the northern end of the North Pedestrian Walkway.",
-    "lat": 26.1583701,
-    "lng": -80.3254289
+    "lat": null,
+    "lng": null,
+    "note": "Rideshare vehicles enter and exit through Gate 3 and Gate 2 respectively, with guest drop-off and pickup at the North Pedestrian Walkway entrance; Lyft is the official rideshare partner offering a discount code."
   },
   "american_airlines_center": {
-    "name": "American Airlines Center",
+    "venueName": "American Airlines Center",
     "city": "Dallas",
     "state": "TX",
-    "rideshare": "As the Official Rideshare Partner of American Airlines Center, Lyft provides convenient transportation to and from events. Please utilize alternative routes due to ongoing construction in the surrounding area when arriving at the venue.",
-    "lat": 32.7905076,
-    "lng": -96.8102721
+    "lat": null,
+    "lng": null,
+    "note": "Lyft is the official rideshare partner with a promo code AACENTER for 50% off the first two rides; no specific pickup/dropoff zones are detailed."
   },
   "american_family_field": {
-    "name": "American Family Field",
+    "venueName": "American Family Field",
     "city": "Milwaukee",
     "state": "WI",
-    "rideshare": "nan",
-    "lat": 43.028631,
-    "lng": -87.9731585
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "angel_stadium": {
-    "name": "Angel Stadium",
+    "venueName": "Angel Stadium",
     "city": "Anaheim",
     "state": "CA",
-    "rideshare": "nan",
-    "lat": 33.8002599,
-    "lng": -117.8817426
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "att_stadium": {
-    "name": "AT&T Stadium",
+    "venueName": "AT&T Stadium",
     "city": "Arlington",
     "state": "TX",
-    "rideshare": "For rideshare services at AT&T Stadium, the designated pick-up location is in Lot 15. Taxis can drop off and pick up passengers at the far west end of Miller LiteHouse off of North Collins Street and Cowboys Way.",
-    "lat": 32.7478502,
-    "lng": -97.0928337
+    "lat": null,
+    "lng": null,
+    "note": "Rideshare pickup and drop-off for this season is located in Lot 15, with taxis staged at the Miller LiteHouse area off North Collins Street and Cowboys Way for pre-event drop-off and post-event pick-up."
   },
   "bok_center": {
-    "name": "BOK Center",
+    "venueName": "BOK Center",
     "city": "Tulsa",
     "state": "OK",
-    "rideshare": "For events at BOK Center, all rideshare pick-ups and drop-offs occur at the designated Rideshare Zone on 1st Street, between Denver and Cheyenne. Look for on-site signage and keep your app open for smooth coordination with your driver.",
-    "lat": 36.1526653,
-    "lng": -95.9963745
+    "lat": null,
+    "lng": null,
+    "note": "All rideshare pick-ups and drop-offs occur at the designated Rideshare Zone on 1st Street, between Denver and Cheyenne, with signage on-site to guide riders."
   },
   "ball_arena": {
-    "name": "Ball Arena",
+    "venueName": "Ball Arena",
     "city": "Denver",
     "state": "CO",
-    "rideshare": "nan",
-    "lat": 39.7486838,
-    "lng": -105.007544
+    "lat": null,
+    "lng": null,
+    "note": "Rideshare, taxi, and limo pick-up and drop-off are located at the Ball Arena Rideshare lot at 5th and Walnut Streets in the 4Runner West parking lot, with ADA accessible pick-up/drop-off at the roundabout on 9th Street."
   },
   "bank_of_america_stadium": {
-    "name": "Bank of America Stadium",
+    "venueName": "Bank of America Stadium",
     "city": "Charlotte",
     "state": "NC",
-    "rideshare": "For rideshare services at Bank of America Stadium, pick up and drop off should occur at the corner of Third and Church Streets, next to Romare Bearden Park. Be aware that road closures may affect traffic, so plan your arrival accordingly.",
-    "lat": 35.225774,
-    "lng": -80.8528276
+    "lat": null,
+    "lng": null,
+    "note": "Fans are advised to use rideshare pickup and drop-off at the corner of Third and Church Streets, next to Romare Bearden Park."
   },
   "barclays_center": {
-    "name": "Barclays Center",
+    "venueName": "Barclays Center",
     "city": "Brooklyn",
     "state": "NY",
-    "rideshare": "nan",
-    "lat": 40.6825106,
-    "lng": -73.9752519
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "bethel_woods_center_for_the_arts": {
-    "name": "Bethel Woods Center for the Arts",
+    "venueName": "Bethel Woods Center for the Arts",
     "city": "Bethel",
     "state": "NY",
-    "rideshare": "nan",
-    "lat": 41.6956512,
-    "lng": -74.8768677
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "broadview_stage_at_spac": {
-    "name": "Broadview Stage at SPAC",
+    "venueName": "Broadview Stage at SPAC",
     "city": "Saratoga Springs",
     "state": "NY",
-    "rideshare": "nan",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "note": "A designated rideshare drop off and pick up location is in the Route 50 East Lot (Main Parking Lot), with clear signage directing drivers to the curbside area; Uber and Lyft services are available throughout the Capital Region."
   },
   "bridgestone_arena": {
-    "name": "Bridgestone Arena",
+    "venueName": "Bridgestone Arena",
     "city": "Nashville",
     "state": "TN",
-    "rideshare": "nan",
-    "lat": 36.1589806,
-    "lng": -86.7783819
+    "lat": null,
+    "lng": null,
+    "note": "Lyft is the official rideshare partner with a discount code available for first-time users; no specific pickup/dropoff zones are detailed."
   },
   "busch_stadium": {
-    "name": "Busch Stadium",
+    "venueName": "Busch Stadium",
     "city": "St. Louis",
     "state": "MO",
-    "rideshare": "nan",
-    "lat": 38.6225054,
-    "lng": -90.1930037
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "cfg_bank_arena": {
-    "name": "CFG Bank Arena",
+    "venueName": "CFG Bank Arena",
     "city": "Baltimore",
     "state": "MD",
-    "rideshare": "Use Lyft for easy rideshare access to CFG Bank Arena, as they are the Official Rideshare Partner. New users can enjoy 50% off their first two rides (up to $10 per ride) with the code CFGBANKARENA.",
-    "lat": 39.2886044,
-    "lng": -76.6187088
+    "lat": null,
+    "lng": null,
+    "note": "Lyft is the official rideshare partner of CFG Bank Arena, offering a discount code for first-time users; no specific pickup/dropoff zone details are provided."
   },
   "chi_health_center": {
-    "name": "CHI Health Center",
+    "venueName": "CHI Health Center",
     "city": "Omaha",
     "state": "NE",
-    "rideshare": "nan",
-    "lat": 41.255588,
-    "lng": -95.9479925
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "caesars_superdome": {
-    "name": "Caesars Superdome",
+    "venueName": "Caesars Superdome",
     "city": "New Orleans",
     "state": "LA",
-    "rideshare": "nan",
-    "lat": 29.9510489,
-    "lng": -90.0823076
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "camp_randall_stadium": {
-    "name": "Camp Randall Stadium",
+    "venueName": "Camp Randall Stadium",
     "city": "Madison",
     "state": "WI",
-    "rideshare": "nan",
-    "lat": 43.0700531,
-    "lng": -89.4126501
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "camping_world_stadium": {
-    "name": "Camping World Stadium",
+    "venueName": "Camping World Stadium",
     "city": "Orlando",
     "state": "FL",
-    "rideshare": "For rideshare services at Camping World Stadium, it is recommended to use the designated pick-up and drop-off area located on Central Blvd. between Garland and Hughey Ave., which is conveniently near the stadium entrance. Be aware that traffic and parking conditions may vary, so plan accordingly.",
-    "lat": 28.5390398,
-    "lng": -81.4027504
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "capital_one_arena": {
-    "name": "Capital One Arena",
+    "venueName": "Capital One Arena",
     "city": "Washington",
     "state": "DC",
-    "rideshare": "nan",
-    "lat": 38.8981883,
-    "lng": -77.0209378
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "chaifetz_arena": {
-    "name": "Chaifetz Arena",
+    "venueName": "Chaifetz Arena",
     "city": "St. Louis",
     "state": "MO",
-    "rideshare": "For rideshare services at Chaifetz Arena, use the designated drop-off and pick-up location at 3402 Laclede Ave, St. Louis, MO. To avoid traffic congestion, plan ahead and consider alternate routes like Jefferson Ave or Grand Blvd.",
-    "lat": 38.6325256,
-    "lng": -90.2281769
+    "lat": null,
+    "lng": null,
+    "note": "The designated rideshare drop-off and pick-up location is at 3402 Laclede Ave, St. Louis, MO 63013."
   },
   "chase_center": {
-    "name": "Chase Center",
+    "venueName": "Chase Center",
     "city": "San Francisco",
     "state": "CA",
-    "rideshare": "nan",
-    "lat": 37.7679001,
-    "lng": -122.3874223
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "chase_field": {
-    "name": "Chase Field",
+    "venueName": "Chase Field",
     "city": "Phoenix",
     "state": "AZ",
-    "rideshare": "nan",
-    "lat": 33.4454856,
-    "lng": -112.0666928
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "citi_field": {
-    "name": "Citi Field",
+    "venueName": "Citi Field",
     "city": "Queens",
     "state": "NY",
-    "rideshare": "nan",
-    "lat": 40.7572778,
-    "lng": -73.8458788
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "citizens_bank_park": {
-    "name": "Citizens Bank Park",
+    "venueName": "Citizens Bank Park",
     "city": "Philadelphia",
     "state": "PA",
-    "rideshare": "For rideshare services at Citizens Bank Park, use the designated Uber RideShare Lot T. After exiting the Third Base Gate, walk along Pattison Avenue toward Broad Street to enter the lot and request your vehicle.",
-    "lat": 39.9059221,
-    "lng": -75.1664804
+    "lat": null,
+    "lng": null,
+    "note": "Lot T is designated as the Uber RideShare lot for all events, serving as the only dropoff and pickup location with an Uber-branded lounge, and drivers must be actively accepting trips to enter or remain in the zone."
   },
   "climate_pledge_arena": {
-    "name": "Climate Pledge Arena",
+    "venueName": "Climate Pledge Arena",
     "city": "Seattle",
     "state": "WA",
-    "rideshare": "For events at Climate Pledge Arena, rideshare vehicles, specifically Lyft, should drop off at designated locations such as Republican St & Warren Ave N or the MoPOP turnaround, as they are prohibited from dropping off on 1st Ave N. After the event, passengers should walk to Thomas St & Taylor Ave N for pick-up, as rideshare vehicles cannot pick up nearby for 30 minutes post-event.",
-    "lat": 47.6219014,
-    "lng": -122.3539905
+    "lat": null,
+    "lng": null,
+    "note": "Lyft is the official rideshare partner with designated drop-off zones before events and a 30-minute post-event pickup restriction near the arena, with passengers directed to a specific pickup location east of the arena during that time."
   },
   "colonial_life_arena": {
-    "name": "Colonial Life Arena",
+    "venueName": "Colonial Life Arena",
     "city": "Columbia",
     "state": "SC",
-    "rideshare": "For rideshare services at Colonial Life Arena, passengers can be dropped off at the front of the venue. After drop-off, vehicles can park in one of the nearby lots and meet guests inside the arena.",
-    "lat": 33.9947839,
-    "lng": -81.0373546
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "comerica_park": {
-    "name": "Comerica Park",
+    "venueName": "Comerica Park",
     "city": "Detroit",
     "state": "MI",
-    "rideshare": "For rideshare services at Comerica Park, the designated drop-off and pick-up area is located on Clifford between Elizabeth and Columbia and Fisher Freeway. Local bars, restaurants, clubs, and private rental shuttles can also use this area for passenger loading.",
-    "lat": 42.3392219,
-    "lng": -83.0488632
+    "lat": null,
+    "lng": null,
+    "note": "The designated drop off/pick up area for shuttles, including private rental vans and mini buses, is on Clifford between Elizabeth and Columbia and Fisher Freeway; no staging or parking is permitted in this zone."
   },
   "commonwealth_stadium": {
-    "name": "Commonwealth Stadium",
+    "venueName": "Commonwealth Stadium",
     "city": "Edmonton",
     "state": "AB",
-    "rideshare": "For rideshare services at Commonwealth Stadium, use the curb lane on 112 Avenue eastbound from 95 Street to Stadium Road, which is designated for drop-off and pick-up. A taxi stand is also available outside the stadium on 89 Street and 112 Avenue, near Gate 6.",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "note": "The curb lane on 112 Avenue eastbound from 95 Street to Stadium Road is a dedicated drop-off and pick-up location for the general public and rideshare."
   },
   "coors_field": {
-    "name": "Coors Field",
+    "venueName": "Coors Field",
     "city": "Denver",
     "state": "CO",
-    "rideshare": "nan",
-    "lat": 39.7560314,
-    "lng": -104.9929286
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "credit_union_1_amphitheatre": {
-    "name": "Credit Union 1 Amphitheatre",
+    "venueName": "Credit Union 1 Amphitheatre",
     "city": "Tinley Park",
     "state": "IL",
-    "rideshare": "When visiting Credit Union 1 Amphitheatre, consider reserving your Uber ride in advance to ensure a smooth pickup or drop-off experience, especially during crowded events. This can help eliminate uncertainty about transportation when you need it most.",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "note": "The venue encourages booking rides with Uber Reserve to ensure reliable pickup and dropoff during crowded events."
   },
   "cryptocom_arena": {
-    "name": "Crypto.com Arena",
+    "venueName": "Crypto.com Arena",
     "city": "Los Angeles",
     "state": "CA",
-    "rideshare": "nan",
-    "lat": 34.0429979,
-    "lng": -118.2671352
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "daikin_park": {
-    "name": "Daikin Park",
+    "venueName": "Daikin Park",
     "city": "Houston",
     "state": "TX",
-    "rideshare": "nan",
-    "lat": 29.7572321,
-    "lng": -95.3552344
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "delta_center": {
-    "name": "Delta Center",
+    "venueName": "Delta Center",
     "city": "Salt Lake City",
     "state": "UT",
-    "rideshare": "nan",
-    "lat": 40.7683274,
-    "lng": -111.9010551
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "desert_diamond_arena": {
-    "name": "Desert Diamond Arena",
+    "venueName": "Desert Diamond Arena",
     "city": "Glendale",
     "state": "AZ",
-    "rideshare": "nan",
-    "lat": 33.5319666,
-    "lng": -112.2613181
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "dickies_arena": {
-    "name": "Dickies Arena",
+    "venueName": "Dickies Arena",
     "city": "Fort Worth",
     "state": "TX",
-    "rideshare": "Guests using rideshare services at Dickies Arena should be dropped off at the west entrance in the drop-off lane on Dickies Way. For pick-up, proceed to Harley Avenue on the north end of the building after exiting.",
-    "lat": 32.7410656,
-    "lng": -97.3684832
+    "lat": null,
+    "lng": null,
+    "note": "Ride share drop-off is at the west entrance on Dickies Way, and pickup is on Harley Avenue at the north end of the building; guests should exit to Harley Avenue and wait there for their driver."
   },
   "dodger_stadium": {
-    "name": "Dodger Stadium",
+    "venueName": "Dodger Stadium",
     "city": "Los Angeles",
     "state": "CA",
-    "rideshare": "Dodger Stadium encourages fans to use rideshare services, such as Uber and Lyft, for convenient transportation to and from the venue. Parking rates for special events, including concerts, may vary, so it's advisable to check in advance.",
-    "lat": 34.0736255,
-    "lng": -118.2398452
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "dolby_live": {
-    "name": "Dolby Live",
+    "venueName": "Dolby Live",
     "city": "Las Vegas",
     "state": "NV",
-    "rideshare": "nan",
-    "lat": 36.1042656,
-    "lng": -115.1743894
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "dos_equis_pavilion": {
-    "name": "Dos Equis Pavilion",
+    "venueName": "Dos Equis Pavilion",
     "city": "Dallas",
     "state": "TX",
-    "rideshare": "For rideshare drop-off and pick-up at Dos Equis Pavilion, use the designated area on the west side of the venue through Gate 6 off of Robert B. Collum Blvd. Arrive 45 minutes before the end of the show to avoid longer wait times.",
-    "lat": 32.7751188,
-    "lng": -96.7563258
+    "lat": null,
+    "lng": null,
+    "note": "Drop-off and pick-up areas are located on the west side of the venue through Gate 6 off Robert B. Collum Blvd; inform parking staff when dropping off, and arrive 45 minutes before show end for pickup to avoid long waits."
   },
   "empower_federal_credit_union_amphitheater": {
-    "name": "Empower Federal Credit Union Amphitheater",
+    "venueName": "Empower Federal Credit Union Amphitheater",
     "city": "Syracuse",
     "state": "NY",
-    "rideshare": "For rideshare pick-up and drop-off at Empower Federal Credit Union Amphitheater, please follow the directional signage and instructions from Parking Team Members to ensure a smooth experience. The designated area for rideshare services is located in the Orange Lot, and it is important to keep drive lanes clear for emergency vehicle access.",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "empower_field": {
-    "name": "Empower Field",
+    "venueName": "Empower Field",
     "city": "Denver",
     "state": "CO",
-    "rideshare": "For rideshare services at Empower Field, be sure to check the rideshare/taxi map for designated drop-off and pickup locations, as they are in different areas. This will help ensure a smooth arrival and departure from the venue.",
-    "lat": 39.743952,
-    "lng": -105.0192228
+    "lat": null,
+    "lng": null,
+    "note": "Drop-off and pickup locations for rideshare and taxi services are in different areas; fans should consult the venue map for exact locations."
   },
   "enterprise_center": {
-    "name": "Enterprise Center",
+    "venueName": "Enterprise Center",
     "city": "St. Louis",
     "state": "MO",
-    "rideshare": "For rideshare drop-off and pick-up at Enterprise Center, guests should use Market or Clark streets, as 14th Street is closed during events. Consider utilizing nearby golf cart shuttles for convenient transportation from parking areas to the venue.",
-    "lat": 38.6268005,
-    "lng": -90.20262
+    "lat": null,
+    "lng": null,
+    "note": "Guests being dropped off or picked up should use Market or Clark streets, as 14th Street is closed during events for safety."
   },
   "everbank_stadium": {
-    "name": "Everbank Stadium",
+    "venueName": "Everbank Stadium",
     "city": "Jacksonville",
     "state": "FL",
-    "rideshare": "For rideshare services at Everbank Stadium, guests should exit on the West side of the stadium to access the pick-up location on Beaver Street near Lot Z after the event. Those on the East Side can use the Main Concourse to reach the West Side and follow the pink RIDESHARE signage for the best route.",
-    "lat": 30.3239811,
-    "lng": -81.6373046
+    "lat": null,
+    "lng": null,
+    "note": "Rideshare pickup is located post-game on Beaver Street near Lot Z, with guests advised to exit on the West side of the stadium for easiest access and to follow pink RIDESHARE signage throughout the parking lots."
   },
   "fedex_forum": {
-    "name": "FedEx Forum",
+    "venueName": "FedEx Forum",
     "city": "Memphis",
     "state": "TN",
-    "rideshare": "For rideshare services at FedExForum, drop-off and pick-up locations are situated at the east end of the arena on Fourth Street between Beale and Dr. M.L. King Jr. Avenue. Please note that vehicles are not allowed to sit or park in this area, and unattended vehicles will be ticketed or towed.",
-    "lat": 35.1377967,
-    "lng": -90.0516243
+    "lat": null,
+    "lng": null,
+    "note": "Guest, limo, taxi, and express shuttle bus drop off is located at the east end of the arena on Fourth Street between Beale and Dr. M.L. King Jr. Avenue; vehicles may not park or wait in this area."
   },
   "fenway_park": {
-    "name": "Fenway Park",
+    "venueName": "Fenway Park",
     "city": "Boston",
     "state": "MA",
-    "rideshare": "nan",
-    "lat": 42.3464614,
-    "lng": -71.0970999
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "fiserv_forum": {
-    "name": "Fiserv Forum",
+    "venueName": "Fiserv Forum",
     "city": "Milwaukee",
     "state": "WI",
-    "rideshare": "For events at Fiserv Forum, Lyft is the official rideshare partner, and the pickup and drop-off location is on Juneau Avenue. For passenger drop-offs, you can also use the intersection of Vel R. Phillips Avenue and Highland Avenue if Juneau Avenue is closed to traffic.",
-    "lat": 43.0450096,
-    "lng": -87.9174871
+    "lat": null,
+    "lng": null,
+    "note": "Lyft is the official rideshare partner with pickup and drop-off located on Juneau Avenue."
   },
   "food_city_center": {
-    "name": "Food City Center",
+    "venueName": "Food City Center",
     "city": "Knoxville",
     "state": "TN",
-    "rideshare": "For events at Food City Center, consider using the Ag Campus for parking, which offers a reduced rate and shuttle service to the arena starting 90 minutes before the event. To avoid traffic on Neyland Drive, enter campus via Joe Johnson Drive.",
-    "lat": 36.0048923,
-    "lng": -83.9752585
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "ford_field": {
-    "name": "Ford Field",
+    "venueName": "Ford Field",
     "city": "Detroit",
     "state": "MI",
-    "rideshare": "nan",
-    "lat": 42.3399567,
-    "lng": -83.0456166
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "freedom_mortgage_pavilion": {
-    "name": "Freedom Mortgage Pavilion",
+    "venueName": "Freedom Mortgage Pavilion",
     "city": "Camden",
     "state": "NJ",
-    "rideshare": "Rideshare drop-off points for Freedom Mortgage Pavilion are located at Wiggins Circle (end of Martin Luther King Boulevard) and the corner of Clinton and 3rd Street, both of which are a short half-block walk to the venue. Taxis are typically available at the Walter Rand Transportation Center.",
-    "lat": 39.940706,
-    "lng": -75.129816
+    "lat": null,
+    "lng": null,
+    "note": "Uber and Lyft drop-off points are located at Wiggins Circle (end of Martin Luther King Boulevard) and the corner of Clinton and 3rd Street, both a short half-block walk to the venue."
   },
   "frost_bank_center": {
-    "name": "Frost Bank Center",
+    "venueName": "Frost Bank Center",
     "city": "San Antonio",
     "state": "TX",
-    "rideshare": "For rideshare at Frost Bank Center, fans can use any parking lot gate for drop-off. For pick-up, it is recommended to exit through the arena doors closest to Section 125 and meet your driver at the designated Passenger & Rideshare Pick-up Zone located in Lot 5.",
-    "lat": 29.4270504,
-    "lng": -98.4375071
+    "lat": null,
+    "lng": null,
+    "note": "Fans arriving by drop-off may use any parking lot gate, and for pickup, they should meet their driver at the designated Passenger & Rideshare Pick-up Zone in Lot 5 near Section 125."
   },
   "geha_field_at_arrowhead_stadium": {
-    "name": "GEHA Field at Arrowhead Stadium",
+    "venueName": "GEHA Field at Arrowhead Stadium",
     "city": "Kansas City",
     "state": "MO",
-    "rideshare": "For rideshare services at GEHA Field at Arrowhead Stadium, utilize the designated drop-off and pick-up areas as directed by parking staff, who will assist with traffic flow and access based on parking availability. It's recommended to plan your route in advance using the interactive map provided for optimal entry points.",
-    "lat": 39.0489309,
-    "lng": -94.4839991
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "gainbridge_fieldhouse": {
-    "name": "Gainbridge Fieldhouse",
+    "venueName": "Gainbridge Fieldhouse",
     "city": "Indianapolis",
     "state": "IN",
-    "rideshare": "nan",
-    "lat": 39.7639331,
-    "lng": -86.1555024
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "gas_south_arena": {
-    "name": "Gas South Arena",
+    "venueName": "Gas South Arena",
     "city": "Duluth",
     "state": "GA",
-    "rideshare": "For rideshare services at Gas South Arena, the designated pick-up location is in the A5 parking lot, where a staging area for Uber, Lyft, taxis, and limos is available. Please refer to the venue map for the exact location.",
-    "lat": 33.9916013,
-    "lng": -84.0938397
+    "lat": null,
+    "lng": null,
+    "note": "Rideshare pick-up and staging for Uber, Lyft, taxi, and limo services is located outside the Arena in the A5 parking lot."
   },
   "gillette_stadium": {
-    "name": "Gillette Stadium",
+    "venueName": "Gillette Stadium",
     "city": "Foxborough",
     "state": "MA",
-    "rideshare": "For events at Gillette Stadium, the designated drop-off and pick-up location for Uber and Lyft is in Lot 15, which is closest to the CVS Health Gate. Taxi pick-up is also located in Lot 15.",
-    "lat": 42.0908879,
-    "lng": -71.2641731
+    "lat": null,
+    "lng": null,
+    "note": "The designated Uber and Lyft drop off and pick up location is in Lot 15, closest to the CVS Health Gate."
   },
   "globe_life_field": {
-    "name": "Globe Life Field",
+    "venueName": "Globe Life Field",
     "city": "Arlington",
     "state": "TX",
-    "rideshare": "nan",
-    "lat": 32.7476066,
-    "lng": -97.0841063
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "golden_1_center": {
-    "name": "Golden 1 Center",
+    "venueName": "Golden 1 Center",
     "city": "Sacramento",
     "state": "CA",
-    "rideshare": "nan",
-    "lat": 38.5801405,
-    "lng": -121.4995008
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "great_american_ball_park": {
-    "name": "Great American Ball Park",
+    "venueName": "Great American Ball Park",
     "city": "Cincinnati",
     "state": "OH",
-    "rideshare": "nan",
-    "lat": 39.0972484,
-    "lng": -84.5066233
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "hard_rock_stadium": {
-    "name": "Hard Rock Stadium",
+    "venueName": "Hard Rock Stadium",
     "city": "Miami Gardens",
     "state": "FL",
-    "rideshare": "nan",
-    "lat": 25.9579032,
-    "lng": -80.2388497
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "heritage_bank_center": {
-    "name": "Heritage Bank Center",
+    "venueName": "Heritage Bank Center",
     "city": "Cincinnati",
     "state": "OH",
-    "rideshare": "nan",
-    "lat": 39.0979262,
-    "lng": -84.5044458
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "hersheypark_stadium": {
-    "name": "Hersheypark Stadium",
+    "venueName": "Hersheypark Stadium",
     "city": "Hershey",
     "state": "PA",
-    "rideshare": "nan",
-    "lat": 40.2904492,
-    "lng": -76.6590083
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "highmark_stadium": {
-    "name": "Highmark Stadium",
+    "venueName": "Highmark Stadium",
     "city": "Orchard Park",
     "state": "NY",
-    "rideshare": "For rideshare services at Highmark Stadium, use the designated Rideshare Lot for pick-up and drop-off. Be aware that Abbott Road will be closed to vehicle traffic on game days, and postgame traffic patterns will also affect access.",
-    "lat": 42.7737334,
-    "lng": -78.7868798
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "hollywood_bowl": {
-    "name": "Hollywood Bowl",
+    "venueName": "Hollywood Bowl",
     "city": "Los Angeles",
     "state": "CA",
-    "rideshare": "Lot C at the Hollywood Bowl is designated as the Rideshare hub, where parking is no longer available for purchase. For optimal access, please use rideshare services for drop-off and pick-up, and avoid parking in surrounding neighborhoods to prevent costly tickets.",
-    "lat": 34.1121836,
-    "lng": -118.3392774
+    "lat": null,
+    "lng": null,
+    "note": "Lot C is designated as the Rideshare hub with no parking available in this lot."
   },
   "honda_center": {
-    "name": "Honda Center",
+    "venueName": "Honda Center",
     "city": "Anaheim",
     "state": "CA",
-    "rideshare": "For rideshare and taxi services at Honda Center, drop-off and pick-up are available at ARTIC located at 2626 East Katella Avenue. Guests should exit through the South or East Entrances to access ARTIC, and drivers must enter from Douglass Road via Katella Avenue, following traffic officer instructions.",
-    "lat": 33.8078316,
-    "lng": -117.876534
+    "lat": null,
+    "lng": null,
+    "note": "Rideshare and taxi drop off and pick up are available at ARTIC located at 2626 East Katella Avenue, with access via Douglass Road and Katella Avenue; guests should exit Honda Center through the South or East Entrances to reach ARTIC."
   },
   "huntington_bank_field": {
-    "name": "Huntington Bank Field",
+    "venueName": "Huntington Bank Field",
     "city": "Columbus",
     "state": "OH",
-    "rideshare": "nan",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "intuit_dome": {
-    "name": "Intuit Dome",
+    "venueName": "Intuit Dome",
     "city": "Inglewood",
     "state": "CA",
-    "rideshare": "nan",
-    "lat": 33.9442586,
-    "lng": -118.3421719
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "isleta_amphitheater": {
-    "name": "Isleta Amphitheater",
+    "venueName": "Isleta Amphitheater",
     "city": "Albuquerque",
     "state": "NM",
-    "rideshare": "When using rideshare services like Uber to get to Isleta Amphitheater, it is recommended to reserve your ride in advance to ensure availability, especially during crowded events. For pickup and drop-off, look for designated areas near the venue to make your experience smoother.",
-    "lat": 34.9983218,
-    "lng": -106.6308226
+    "lat": null,
+    "lng": null,
+    "note": "Guests are encouraged to reserve rides with Uber to ensure reliable pickup and dropoff during crowded events."
   },
   "jiffy_lube_live": {
-    "name": "Jiffy Lube Live",
+    "venueName": "Jiffy Lube Live",
     "city": "Bristow",
     "state": "VA",
-    "rideshare": "When visiting Jiffy Lube Live, consider using Uber to reserve your ride in advance, ensuring you have a pickup at this busy venue when needed. This can help take the uncertainty out of getting to and from the concert.",
-    "lat": 38.7855262,
-    "lng": -77.5902804
+    "lat": null,
+    "lng": null,
+    "note": "Guests are encouraged to book rides with Uber Reserve to ensure reliable pickup and dropoff during crowded events."
   },
   "john_paul_jones_arena": {
-    "name": "John Paul Jones Arena",
+    "venueName": "John Paul Jones Arena",
     "city": "Charlottesville",
     "state": "VA",
-    "rideshare": "For rideshare services like Uber or Lyft, as well as taxis, please use the designated cut-out area located off Massie Road for drop-off at John Paul Jones Arena. Carpooling and ridesharing are encouraged for larger events.",
-    "lat": 38.0459828,
-    "lng": -78.5066437
+    "lat": null,
+    "lng": null,
+    "note": "Rideshare and taxi drop-off is designated at a cut-out area off Massie Road, and carpooling or ridesharing is encouraged for larger events."
   },
   "kaseya_center": {
-    "name": "Kaseya Center",
+    "venueName": "Kaseya Center",
     "city": "Miami",
     "state": "FL",
-    "rideshare": "For rideshare drop-off at Kaseya Center, use the corner of Bayshore Drive & HEAT Blvd. for entry. Taxis and limos should drop off at Gate 3 on NE 8th Street, next to the box office.",
-    "lat": 25.7813596,
-    "lng": -80.1879435
+    "lat": null,
+    "lng": null,
+    "note": "Uber and rideshare drop-off is located at the corner of Bayshore Drive & HEAT Blvd, using Gate 6 for entry."
   },
   "kauffman_stadium": {
-    "name": "Kauffman Stadium",
+    "venueName": "Kauffman Stadium",
     "city": "Kansas City",
     "state": "MO",
-    "rideshare": "nan",
-    "lat": 39.0515081,
-    "lng": -94.4804598
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "keybank_center": {
-    "name": "KeyBank Center",
+    "venueName": "KeyBank Center",
     "city": "Buffalo",
     "state": "NY",
-    "rideshare": "nan",
-    "lat": 42.8751467,
-    "lng": -78.8766359
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "kia_center": {
-    "name": "Kia Center",
+    "venueName": "Kia Center",
     "city": "Orlando",
     "state": "FL",
-    "rideshare": "For rideshare services like Uber and Lyft, guests at Kia Center are encouraged to use the designated drop-off and pickup location at the corner of Hughey and Pine Street, which is just a short walk from the arena. This area ensures a smooth and hassle-free experience for all attendees.",
-    "lat": 28.5392867,
-    "lng": -81.3838892
+    "lat": null,
+    "lng": null,
+    "note": "Rideshare drop-off and pickup are designated at the corner of Hughey and Pine Street, a short walk from the arena, to ensure a smooth experience for attendees."
   },
   "kia_forum": {
-    "name": "Kia Forum",
+    "venueName": "Kia Forum",
     "city": "Inglewood",
     "state": "CA",
-    "rideshare": "nan",
-    "lat": 33.9582157,
-    "lng": -118.341972
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "lambeau_field": {
-    "name": "Lambeau Field",
+    "venueName": "Lambeau Field",
     "city": "Green Bay",
     "state": "WI",
-    "rideshare": "For rideshare at Lambeau Field, exit one of the main gates on the east or south side of the stadium, and your driver will meet you at the corner of Mike McCarthy Way and Holmgren Way. Please be aware that this area may experience heavy congestion, especially after the event.",
-    "lat": 44.5009705,
-    "lng": -88.0619681
+    "lat": null,
+    "lng": null,
+    "note": "Rideshare passengers are advised to be picked up or dropped off at the corner of Mike McCarthy Way and Holmgren Way near the east and south gates of the stadium."
   },
   "lenovo_center": {
-    "name": "Lenovo Center",
+    "venueName": "Lenovo Center",
     "city": "Morrisville",
     "state": "NC",
-    "rideshare": "nan",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "levis_stadium": {
-    "name": "Leviâs Stadium",
+    "venueName": "Leviâs Stadium",
     "city": "Santa Clara",
     "state": "CA",
-    "rideshare": "Rideshare services such as Uber and Lyft have designated pick-up and drop-off zones at Leviâs Stadium. Please follow the signs for Rideshare & Pickup/Dropoff when arriving at the venue.",
-    "lat": 37.4029867,
-    "lng": -121.9696489
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "lincoln_financial_field": {
-    "name": "Lincoln Financial Field",
+    "venueName": "Lincoln Financial Field",
     "city": "Philadelphia",
     "state": "PA",
-    "rideshare": "nan",
-    "lat": 39.9009099,
-    "lng": -75.1674892
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "little_caesars_arena": {
-    "name": "Little Caesars Arena",
+    "venueName": "Little Caesars Arena",
     "city": "Detroit",
     "state": "MI",
-    "rideshare": "nan",
-    "lat": 42.3409774,
-    "lng": -83.0549545
+    "lat": null,
+    "lng": null,
+    "note": "The rideshare area is located off the westbound Fisher Service Drive, next to the UWM Garage."
   },
   "loandepot_park": {
-    "name": "LoanDepot Park",
+    "venueName": "LoanDepot Park",
     "city": "Miami",
     "state": "FL",
-    "rideshare": "nan",
-    "lat": 25.7780733,
-    "lng": -80.219554
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "lucas_oil_stadium": {
-    "name": "Lucas Oil Stadium",
+    "venueName": "Lucas Oil Stadium",
     "city": "Indianapolis",
     "state": "IN",
-    "rideshare": "For rideshare services like Uber and Lyft to Lucas Oil Stadium, please use Northbound Illinois St. for pickup and drop-off, which is one block east of the stadium. Be sure to allow extra time for traffic and road closures on gameday.",
-    "lat": 39.7590621,
-    "lng": -86.1638376
+    "lat": null,
+    "lng": null,
+    "note": "Rideshare pickup and drop-off are located on northbound Illinois Street, one block east of Lucas Oil Stadium."
   },
   "lumen_field": {
-    "name": "Lumen Field",
+    "venueName": "Lumen Field",
     "city": "Seattle",
     "state": "WA",
-    "rideshare": "nan",
-    "lat": 47.5953459,
-    "lng": -122.3316443
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "mt_bank_stadium": {
-    "name": "M&T Bank Stadium",
+    "venueName": "M&T Bank Stadium",
     "city": "Baltimore",
     "state": "MD",
-    "rideshare": "For M&T Bank Stadium, consider using public transportation or rideshare services, as parking is typically sold out for Ravens games and available only by permit. If you choose to rideshare, be aware of traffic and plan for potential delays in the area.",
-    "lat": 39.2779734,
-    "lng": -76.6226651
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "madison_square_garden": {
-    "name": "Madison Square Garden",
+    "venueName": "Madison Square Garden",
     "city": "New York",
     "state": "NY",
-    "rideshare": "nan",
-    "lat": 40.7505129,
-    "lng": -73.9935159
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "mercedes_benz_stadium": {
-    "name": "Mercedes-Benz Stadium",
+    "venueName": "Mercedes-Benz Stadium",
     "city": "Atlanta",
     "state": "GA",
-    "rideshare": "Mercedes-Benz Stadium offers a shuttle service that runs from the Yellow Lot to the Blue Lot and Vine City MARTA station, reversing after events. It is advisable to arrive early to navigate potential traffic and ensure a smooth experience.",
-    "lat": 33.7554123,
-    "lng": -84.4008493
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "metlife_stadium": {
-    "name": "MetLife Stadium",
+    "venueName": "MetLife Stadium",
     "city": "East Rutherford",
     "state": "NJ",
-    "rideshare": "nan",
-    "lat": 40.8135071,
-    "lng": -74.0743442
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "mgm_grand_garden_arena": {
-    "name": "MGM Grand Garden Arena",
+    "venueName": "MGM Grand Garden Arena",
     "city": "Las Vegas",
     "state": "NV",
-    "rideshare": "nan",
-    "lat": 36.1048311,
-    "lng": -115.1685689
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "moda_center": {
-    "name": "Moda Center",
+    "venueName": "Moda Center",
     "city": "Portland",
     "state": "OR",
-    "rideshare": "nan",
-    "lat": 45.5315787,
-    "lng": -122.6668337
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "mohegan_sun_arena": {
-    "name": "Mohegan Sun Arena",
+    "venueName": "Mohegan Sun Arena",
     "city": "Uncasville",
     "state": "CT",
-    "rideshare": "Guests utilizing rideshare services such as Uber or Lyft at Mohegan Sun Arena should use the Highland Park Blvd. entrance and inform the parking attendants upon arrival for proper drop-off and pick-up directions. Be aware that traffic may become congested in the surrounding areas, so plan accordingly.",
-    "lat": 41.4911078,
-    "lng": -72.0897434
+    "lat": null,
+    "lng": null,
+    "note": "Guests using ride share services should enter via Highland Park Blvd. and inform parking attendants to be directed to the designated drop off/pick up location."
   },
   "moody_center": {
-    "name": "Moody Center",
+    "venueName": "Moody Center",
     "city": "Austin",
     "state": "TX",
-    "rideshare": "For rideshare services at Moody Center, use the designated passenger drop-off/pick-up point located on the northwest side of the venue on Robert Dedman Dr. When arriving, notify security personnel if the passenger is disabled or mobile-impaired to access this area.",
-    "lat": 30.2809367,
-    "lng": -97.7306522
+    "lat": null,
+    "lng": null,
+    "note": "A new ADA passenger drop-off/pick-up point is located on the northwest side of the venue on Robert Dedman Dr., accessible by notifying security at the checkpoint for disabled or mobile-impaired passengers."
   },
   "nrg_stadium": {
-    "name": "NRG Stadium",
+    "venueName": "NRG Stadium",
     "city": "Houston",
     "state": "TX",
-    "rideshare": "nan",
-    "lat": 29.6848581,
-    "lng": -95.4108015
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "nationals_park": {
-    "name": "Nationals Park",
+    "venueName": "Nationals Park",
     "city": "Washington",
     "state": "DC",
-    "rideshare": "nan",
-    "lat": 38.8727332,
-    "lng": -77.0074815
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "nationwide_arena": {
-    "name": "Nationwide Arena",
+    "venueName": "Nationwide Arena",
     "city": "Columbus",
     "state": "OH",
-    "rideshare": "All pick-ups and drop-offs for Nationwide Arena take place on West Street, and vehicles must be attended at all times to avoid towing. For guests with special needs, a drop-off site is maintained along McConnell Blvd.",
-    "lat": 39.9691873,
-    "lng": -83.00608
+    "lat": null,
+    "lng": null,
+    "note": "All pick-ups and drop-offs take place on West Street; vehicles must be attended at all times."
   },
   "nissan_stadium": {
-    "name": "Nissan Stadium",
+    "venueName": "Nissan Stadium",
     "city": "Nashville",
     "state": "TN",
-    "rideshare": "Nissan Stadium has two rideshare pick-up locations located on Interstate Drive and at the intersection of S. 2nd Street and Crutcher Street. Please follow posted signs for pedestrian routes to these pick-up locations.",
-    "lat": 36.1665236,
-    "lng": -86.7713148
+    "lat": null,
+    "lng": null,
+    "note": "Nissan Stadium has two rideshare pick-up locations located on Interstate Drive and the intersection of S. 2nd Street and Crutcher St., with pedestrian routes clearly marked."
   },
   "northwest_stadium": {
-    "name": "Northwest Stadium",
+    "venueName": "Northwest Stadium",
     "city": "Chicago",
     "state": "IL",
-    "rideshare": "For rideshare drop-off at Northwest Stadium, be sure to use Waze with your specific parking lot name as the destination to avoid traffic delays. Arriving early is recommended to ensure a smooth entry and to avoid congestion.",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "north_island_credit_union_amphitheatre": {
-    "name": "North Island Credit Union Amphitheatre",
+    "venueName": "North Island Credit Union Amphitheatre",
     "city": "Chula Vista",
     "state": "CA",
-    "rideshare": "For rideshare services like Uber, consider reserving your ride in advance to ensure a pickup at North Island Credit Union Amphitheatre, especially during crowded events. This will help take the uncertainty out of your transportation needs when arriving or leaving the venue.",
-    "lat": 32.5880923,
-    "lng": -117.0057957
+    "lat": null,
+    "lng": null,
+    "note": "You can book rides with Uber Reserve to ensure pickup and dropoff at crowded events, removing uncertainty about rides to and from the venue."
   },
   "oakland_arena": {
-    "name": "Oakland Arena",
+    "venueName": "Oakland Arena",
     "city": "Oakland",
     "state": "CA",
-    "rideshare": "nan",
-    "lat": 37.7502734,
-    "lng": -122.2029323
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "oracle_park": {
-    "name": "Oracle Park",
+    "venueName": "Oracle Park",
     "city": "San Francisco",
     "state": "CA",
-    "rideshare": "nan",
-    "lat": 37.7786059,
-    "lng": -122.3894716
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "oriole_park_at_camden_yards": {
-    "name": "Oriole Park at Camden Yards",
+    "venueName": "Oriole Park at Camden Yards",
     "city": "Baltimore",
     "state": "MD",
-    "rideshare": "For Oriole Park at Camden Yards, there are three designated drop-off areas for rideshare services, located on the east side of the Warehouse, at Home Plate Plaza on the Russell Street service drive, and at the north end of the service drive. Please plan your pickup and drop-off accordingly to ensure a smooth experience.",
-    "lat": 39.2837383,
-    "lng": -76.6216056
+    "lat": null,
+    "lng": null,
+    "note": "Drop-off and pick-up areas are available at three locations: east side of the Warehouse breezeway (Gate A), Home Plate Plaza on Russell Street service drive (Gate D), and north end of the service drive (Gate F)."
   },
   "mortgage_matchup_center": {
-    "name": "Mortgage Matchup Center",
+    "venueName": "Mortgage Matchup Center",
     "city": "Phoenix",
     "state": "AZ",
-    "rideshare": "For rideshare drop-offs at Mortgage Matchup Center, use the designated locations at 1st Street/Jefferson (Mortgage Matchup Center Plaza), S 2nd Street (The Ryan), S 3rd Street (Phoenix Convention Center), or E Jefferson Street (Hotel Palomar/Arrogant Butcher). For pick-ups, the recommended location is S 3rd Street & E Jefferson Street (Phoenix Convention Center).",
-    "lat": 33.4460392,
-    "lng": -112.0711013
+    "lat": null,
+    "lng": null,
+    "note": "Lyft drop-off locations include 1st Street/Jefferson, S 2nd Street, S 3rd Street, and E Jefferson Street, with pickup at S 3rd Street & E Jefferson Street; no specific Uber details provided."
   },
   "pnc_park": {
-    "name": "PNC Park",
+    "venueName": "PNC Park",
     "city": "Pittsburgh",
     "state": "PA",
-    "rideshare": "nan",
-    "lat": 40.4469258,
-    "lng": -80.0056063
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "ppg_paints_arena": {
-    "name": "PPG Paints Arena",
+    "venueName": "PPG Paints Arena",
     "city": "Pittsburgh",
     "state": "PA",
-    "rideshare": "Let Lyft be your ride to PPG Paints Arena, as they are the Official Rideshare Partner. New users can use code PPGPAINTS for 50% off their first two rides (up to $10 per ride).",
-    "lat": 40.4395912,
-    "lng": -79.9895408
+    "lat": null,
+    "lng": null,
+    "note": "Lyft is the official rideshare partner of PPG Paints Arena, offering 50% off the first two rides with code PPGPAINTS; no specific pickup/dropoff zones are mentioned."
   },
   "paycom_center": {
-    "name": "Paycom Center",
+    "venueName": "Paycom Center",
     "city": "Oklahoma City",
     "state": "OK",
-    "rideshare": "For rideshare services like Uber and Lyft at Paycom Center, the designated pickup and drop-off point is located at Second and Harvey, on the west side of the venue. Be sure to use this location for a smooth arrival and departure experience.",
-    "lat": 35.4633961,
-    "lng": -97.5150815
+    "lat": null,
+    "lng": null,
+    "note": "Uber/Lyft pickup and drop off point is at Second and Harvey, located on the west side of Paycom Center."
   },
   "paycor_stadium": {
-    "name": "Paycor Stadium",
+    "venueName": "Paycor Stadium",
     "city": "Cincinnati",
     "state": "OH",
-    "rideshare": "For rideshare services at Paycor Stadium, drop-off and pick-up is available on 2nd Street between Vine and Walnut. Additionally, the Southbank Shuttle operates on gamedays, providing convenient transportation from areas along the Covington and Newport riverfronts.",
-    "lat": 39.0954645,
-    "lng": -84.5160488
+    "lat": null,
+    "lng": null,
+    "note": "Rideshare drop-off and pick-up is located on 2nd Street between Vine and Walnut."
   },
   "pechanga_arena": {
-    "name": "Pechanga Arena",
+    "venueName": "Pechanga Arena",
     "city": "San Diego",
     "state": "CA",
-    "rideshare": "nan",
-    "lat": 32.7553042,
-    "lng": -117.2122696
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "petco_park": {
-    "name": "Petco Park",
+    "venueName": "Petco Park",
     "city": "San Diego",
     "state": "CA",
-    "rideshare": "nan",
-    "lat": 32.7071882,
-    "lng": -117.1568773
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "petersen_events_center": {
-    "name": "Petersen Events Center",
+    "venueName": "Petersen Events Center",
     "city": "Pittsburgh",
     "state": "PA",
-    "rideshare": "Drop-off and pick-up for guests attending events at the Petersen Events Center should be made at the main lobby entrance on Terrace Street. For those needing a wheelchair accessible entrance, please use the main lobby entrance as well.",
-    "lat": 40.4440003,
-    "lng": -79.9621193
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "pinnacle_bank_arena": {
-    "name": "Pinnacle Bank Arena",
+    "venueName": "Pinnacle Bank Arena",
     "city": "Lincoln",
     "state": "NE",
-    "rideshare": "nan",
-    "lat": 40.817856,
-    "lng": -96.7125281
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "progressive_field": {
-    "name": "Progressive Field",
+    "venueName": "Progressive Field",
     "city": "Cleveland",
     "state": "OH",
-    "rideshare": "nan",
-    "lat": 41.4960906,
-    "lng": -81.6851319
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "providence_park": {
-    "name": "Providence Park",
+    "venueName": "Providence Park",
     "city": "Portland",
     "state": "OR",
-    "rideshare": "nan",
-    "lat": 45.5215291,
-    "lng": -122.6918185
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "prudential_center": {
-    "name": "Prudential Center",
+    "venueName": "Prudential Center",
     "city": "Newark",
     "state": "NJ",
-    "rideshare": "Prudential Center is easily accessible, located just two blocks from Newark Penn Station, with convenient bus and Light Rail service connecting to Newark Broad Street Station. For those using rideshare services, it is advisable to plan your pick-up and drop-off locations in advance due to the venue's proximity to public transportation options.",
-    "lat": 40.7334302,
-    "lng": -74.1711482
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "rate_field": {
-    "name": "Rate Field",
+    "venueName": "Rate Field",
     "city": "Chicago",
     "state": "IL",
-    "rideshare": "Rideshare services are highly recommended for getting to Rate Field, and fans should arrive early to avoid delays. For those using rideshare, designated drop-off and pick-up areas are available, ensuring convenient access to the venue.",
-    "lat": 41.829692,
-    "lng": -87.6337919
+    "lat": null,
+    "lng": null,
+    "note": "Public transportation and rideshare services are highly recommended, but no specific pickup/dropoff zones are detailed in the text."
   },
   "raymond_james_stadium": {
-    "name": "Raymond James Stadium",
+    "venueName": "Raymond James Stadium",
     "city": "Tampa",
     "state": "FL",
-    "rideshare": "Raymond James Stadium has designated ride-sharing drop-off and pick-up areas for services like Uber and Lyft. For specific locations and additional information, please refer to the venue's parking and transportation resources.",
-    "lat": 27.9759793,
-    "lng": -82.5033545
+    "lat": null,
+    "lng": null,
+    "note": "Ride sharing drop-off and pick-up information, including Uber and Lyft, is available at designated zones."
   },
   "red_rocks_amphitheatre": {
-    "name": "Red Rocks Amphitheatre",
+    "venueName": "Red Rocks Amphitheatre",
     "city": "Morrison",
     "state": "CO",
-    "rideshare": "For rideshare at Red Rocks Amphitheatre, it is recommended to drop off guests at the Trading Post or the Upper North or South lots, and vehicles for pickup should arrive at least 30 minutes before the end of the show. Patrons dropped off will need to walk to their respective rides for pickup after the event.",
-    "lat": 39.6653917,
-    "lng": -105.2057171
+    "lat": null,
+    "lng": null,
+    "note": "Rideshares and carpooling are recommended to minimize traffic and wait times after the show, with drop-offs and pickups at the Trading Post or the Upper North or South lots."
   },
   "rocket_arena": {
-    "name": "Rocket Arena",
+    "venueName": "Rocket Arena",
     "city": "Huntington",
     "state": "WV",
-    "rideshare": "Lyft is the official rideshare partner for Rocket Arena, making travel easy for attendees. New users can use code ROCKETARENA for 50% off their first two rides (up to $10 each).",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "note": "Lyft is Rocket Arenaâs official rideshare partner, offering new users 50% off their first two rides with code ROCKETARENA."
   },
   "rogers_arena": {
-    "name": "Rogers Arena",
+    "venueName": "Rogers Arena",
     "city": "Vancouver",
     "state": "Canada",
-    "rideshare": "nan",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "rogers_centre": {
-    "name": "Rogers Centre",
+    "venueName": "Rogers Centre",
     "city": "Toronto",
     "state": "Canada",
-    "rideshare": "nan",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "rupp_arena": {
-    "name": "Rupp Arena",
+    "venueName": "Rupp Arena",
     "city": "Lexington",
     "state": "KY",
-    "rideshare": "Catching a ride to Rupp Arena? Your Uber or Lyft driver can drop-off or pick-up patrons just steps from the door, so have them follow the provided instructions for a convenient rideshare experience.",
-    "lat": 38.0494123,
-    "lng": -84.5023586
+    "lat": null,
+    "lng": null,
+    "note": "Uber and Lyft drivers can drop off and pick up patrons just steps from the door, with simple instructions provided for a convenient rideshare experience."
   },
   "sap_center": {
-    "name": "SAP Center",
+    "venueName": "SAP Center",
     "city": "San Jose",
     "state": "CA",
-    "rideshare": "For rideshare pick-up and drop-off at SAP Center, please use the designated passenger loading areas available on-site. The parking lots typically open two hours before events, so plan your arrival accordingly.",
-    "lat": 37.3328604,
-    "lng": -121.9012247
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "schottenstein_center": {
-    "name": "Schottenstein Center",
+    "venueName": "Schottenstein Center",
     "city": "Columbus",
     "state": "OH",
-    "rideshare": "For rideshare services at Schottenstein Center, guests can be dropped off along Borror Drive on the north side of the building. After the event, select Schottenstein Center in your rideshare app to be directed to the closest available pick-up area, which may be near St. John Arena.",
-    "lat": 40.0076033,
-    "lng": -83.0249567
+    "lat": null,
+    "lng": null,
+    "note": "Guests can be dropped off before events along Borror Drive on the north side of the building, and post-event rideshare pickups are directed to a designated area near St. John Arena with assistance available for guests with mobility concerns."
   },
   "scotiabank_arena": {
-    "name": "Scotiabank Arena",
+    "venueName": "Scotiabank Arena",
     "city": "Toronto",
     "state": "ON",
-    "rideshare": "nan",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "simmons_bank_arena": {
-    "name": "Simmons Bank Arena",
+    "venueName": "Simmons Bank Arena",
     "city": "North Little Rock",
     "state": "AR",
-    "rideshare": "After a large event at Simmons Bank Arena, Washington Avenue is closed between Olive and Cypress Streets to facilitate pedestrian traffic. For handicap access, drive north on Olive Street to Washington Avenue where officers can assist with locating a safe loading position.",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "smoothie_king_center": {
-    "name": "Smoothie King Center",
+    "venueName": "Smoothie King Center",
     "city": "New Orleans",
     "state": "LA",
-    "rideshare": "nan",
-    "lat": 29.9490393,
-    "lng": -90.082069
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "sofi_stadium": {
-    "name": "SoFi Stadium",
+    "venueName": "SoFi Stadium",
     "city": "Inglewood",
     "state": "CA",
-    "rideshare": "nan",
-    "lat": 33.9534074,
-    "lng": -118.3390098
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "soldier_field": {
-    "name": "Soldier Field",
+    "venueName": "Soldier Field",
     "city": "Chicago",
     "state": "IL",
-    "rideshare": "nan",
-    "lat": 41.8624515,
-    "lng": -87.6167151
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "spectrum_center": {
-    "name": "Spectrum Center",
+    "venueName": "Spectrum Center",
     "city": "Charlotte",
     "state": "NC",
-    "rideshare": "nan",
-    "lat": 35.225098,
-    "lng": -80.8391541
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "state_farm_arena": {
-    "name": "State Farm Arena",
+    "venueName": "State Farm Arena",
     "city": "Atlanta",
     "state": "GA",
-    "rideshare": "nan",
-    "lat": 33.7573698,
-    "lng": -84.3963848
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "state_farm_stadium": {
-    "name": "State Farm Stadium",
+    "venueName": "State Farm Stadium",
     "city": "Glendale",
     "state": "AZ",
-    "rideshare": "For rideshare services at State Farm Stadium, the preferred drop-off and pickup area is located in the Black Lot, situated south of the stadium. Please follow the guidance provided by parking staff and messaging boards for a smooth experience.",
-    "lat": 33.5277957,
-    "lng": -112.2626719
+    "lat": null,
+    "lng": null,
+    "note": "The designated rideshare drop-off and pickup area is the Black Lot located south of State Farm Stadium."
   },
   "sun_bowl_stadium": {
-    "name": "Sun Bowl Stadium",
+    "venueName": "Sun Bowl Stadium",
     "city": "El Paso",
     "state": "TX",
-    "rideshare": "For events at Sun Bowl Stadium, all Uber, Lyft, taxis, and limos will drop off and pick up passengers in lot RA-2, located at the corner of Randolph and Robinson. Please ensure to use this designated rideshare lot for your convenience.",
-    "lat": 31.7733646,
-    "lng": -106.5079401
+    "lat": null,
+    "lng": null,
+    "note": "The rideshare lot is lot RA-2 at the corner of Randolph and Robinson, designated for Uber, Lyft, taxis, and limos pickup and dropoff."
   },
   "t_mobile_arena": {
-    "name": "T-Mobile Arena",
+    "venueName": "T-Mobile Arena",
     "city": "Las Vegas",
     "state": "NV",
-    "rideshare": "nan",
-    "lat": 36.102678,
-    "lng": -115.1782239
+    "lat": null,
+    "lng": null,
+    "note": "Uber/rideshare drop-off is accessible through the ground level of the New York-New York parking garage, with pick-up at the nearest local casino propertyâeither New York-New York or Park MGM."
   },
   "t_mobile_park": {
-    "name": "T-Mobile Park",
+    "venueName": "T-Mobile Park",
     "city": "Seattle",
     "state": "WA",
-    "rideshare": "nan",
-    "lat": 47.5913974,
-    "lng": -122.332507
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "t_mobile_center": {
-    "name": "T-Mobile Center",
+    "venueName": "T-Mobile Center",
     "city": "Kansas City",
     "state": "MO",
-    "rideshare": "nan",
-    "lat": 39.0972952,
-    "lng": -94.5799495
+    "lat": null,
+    "lng": null,
+    "note": "Oak Street is designated for passenger drop-off, including taxi and ride-share services, as well as ADA drop-off."
   },
   "td_garden": {
-    "name": "TD Garden",
+    "venueName": "TD Garden",
     "city": "Boston",
     "state": "MA",
-    "rideshare": "nan",
-    "lat": 42.3662986,
-    "lng": -71.0621622
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "target_center": {
-    "name": "Target Center",
+    "venueName": "Target Center",
     "city": "Minneapolis",
     "state": "MN",
-    "rideshare": "nan",
-    "lat": 44.9795917,
-    "lng": -93.2759828
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "target_field": {
-    "name": "Target Field",
+    "venueName": "Target Field",
     "city": "Minneapolis",
     "state": "MN",
-    "rideshare": "nan",
-    "lat": 44.9816845,
-    "lng": -93.2778643
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "the_anthem": {
-    "name": "The Anthem",
+    "venueName": "The Anthem",
     "city": "Washington",
     "state": "DC",
-    "rideshare": "For rideshare services like Uber and Lyft, The Anthem has designated drop-off and pick-up locations. Please check your app for specific locations to ensure a smooth arrival and departure.",
-    "lat": 38.8800652,
-    "lng": -77.0258973
+    "lat": null,
+    "lng": null,
+    "note": "There are designated drop-off and pick-up locations for Uber, Lyft, the Taxi Commission, and DDot; check your app for specific locations."
   },
   "the_armory": {
-    "name": "The Armory",
+    "venueName": "The Armory",
     "city": "Minneapolis",
     "state": "MN",
-    "rideshare": "nan",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "the_dome_at_americas_center": {
-    "name": "The Dome at Americaâs Center",
+    "venueName": "The Dome at Americaâs Center",
     "city": "St. Louis",
     "state": "MO",
-    "rideshare": "Passenger drop-off and pickup for The Dome at Americaâs Center is permitted on the west lane of Broadway, but vehicle standing or parking is prohibited. Be aware that traffic may be busier than normal around event times, so plan accordingly.",
-    "lat": 38.6327852,
-    "lng": -90.188551
+    "lat": null,
+    "lng": null,
+    "note": "Passenger drop-off and pickup are permitted on the west lane of Broadway, with vehicle standing or parking prohibited; no specific rideshare services are mentioned."
   },
   "the_pinnacle": {
-    "name": "The Pinnacle",
+    "venueName": "The Pinnacle",
     "city": "Nashville",
     "state": "TN",
-    "rideshare": "Rideshare is highly encouraged at The Pinnacle, with drop-off and pick-up located on 9th Ave. N & Commerce St.",
-    "lat": 36.0799925,
-    "lng": -86.9207879
+    "lat": null,
+    "lng": null,
+    "note": "Rideshare is highly encouraged with drop off and pick up located on 9th Ave. N & Commerce St."
   },
   "sphere_las_vegas": {
-    "name": "Sphere Las Vegas",
+    "venueName": "Sphere Las Vegas",
     "city": "Las Vegas",
     "state": "NV",
-    "rideshare": "nan",
-    "lat": 36.1212076,
-    "lng": -115.1620674
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "thunder_ridge_nature_arena": {
-    "name": "Thunder Ridge Nature Arena",
+    "venueName": "Thunder Ridge Nature Arena",
     "city": "Ridgedale",
     "state": "MO",
-    "rideshare": "For rideshare services at Thunder Ridge Nature Arena, follow the signage directing you to the \"Rideshare & Guest Pick up/Drop off\" area. Tram services will be available before and after events to assist with transportation.",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "note": "Rideshare and guest pickup/dropoff zones are designated and clearly signed, with tram services available before and after events to assist guests."
   },
   "toyota_center": {
-    "name": "Toyota Center",
+    "venueName": "Toyota Center",
     "city": "Houston",
     "state": "TX",
-    "rideshare": "nan",
-    "lat": 29.7507473,
-    "lng": -95.3622315
+    "lat": null,
+    "lng": null,
+    "note": "Lyft is the official rideshare partner with a designated pickup area west towards Austin St, on the other side of Root Memorial Square Park; new users can use code TOYOTACE for discounts."
   },
   "truist_park": {
-    "name": "Truist Park",
+    "venueName": "Truist Park",
     "city": "Atlanta",
     "state": "GA",
-    "rideshare": "nan",
-    "lat": 33.890738,
-    "lng": -84.4676163
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "us_bank_stadium": {
-    "name": "U.S. Bank Stadium",
+    "venueName": "U.S. Bank Stadium",
     "city": "Minneapolis",
     "state": "MN",
-    "rideshare": "For rideshare services like Uber and Lyft at U.S. Bank Stadium, drop-off and pick-up should occur at the designated spot on 9th Avenue South between 6th Street South and 7th Street South. Please follow the direction of traffic and parking staff for a smooth experience.",
-    "lat": 44.9751097,
-    "lng": -93.2593387
+    "lat": null,
+    "lng": null,
+    "note": "Uber and Lyft guests are directed to pick up their rides at either 9th Avenue South between 6th and 7th Streets South or 3rd Street between Park Avenue and Portland Avenue."
   },
   "ubs_arena": {
-    "name": "UBS Arena",
+    "venueName": "UBS Arena",
     "city": "Elmont",
     "state": "NY",
-    "rideshare": "Rideshare services such as taxis and black car services are not permitted to occupy lined parking spaces at UBS Arena. For drop-offs and pickups, please use designated areas and be aware that parking on residential streets nearby is prohibited.",
-    "lat": 40.7116942,
-    "lng": -73.7259229
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "uc_berkeley_greek_theatre": {
-    "name": "UC Berkeley Greek Theatre",
+    "venueName": "UC Berkeley Greek Theatre",
     "city": "Berkeley",
     "state": "CA",
-    "rideshare": "For rideshare drop-off at UC Berkeley Greek Theatre, there is a curbside drop-off area on Gayley Road just north of the entrance, which is suitable for passengers with mobility disabilities who want to minimize their travel distance. Be aware that heavy traffic is expected on show days, so plan accordingly.",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "note": "There is a curbside drop-off area on Gayley Road just north of the Greek Theatre entrance for passengers with mobility disabilities; no other specific rideshare instructions are provided."
   },
   "united_center": {
-    "name": "United Center",
+    "venueName": "United Center",
     "city": "Chicago",
     "state": "IL",
-    "rideshare": "nan",
-    "lat": 41.8806831,
-    "lng": -87.6741851
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "utah_first_credit_union_amphitheatre": {
-    "name": "Utah First Credit Union Amphitheatre",
+    "venueName": "Utah First Credit Union Amphitheatre",
     "city": "West Valley City",
     "state": "UT",
-    "rideshare": "For rideshare services at Utah First Credit Union Amphitheatre, use the designated drop-off and pick-up location at 5150 Upper Ridge Rd., West Valley City, UT 84118. If you prefer a guaranteed parking spot, consider reserving parking at 5174 South Westridge Blvd., which ensures you can exit the lot 30 minutes after the event ends.",
-    "lat": 40.6575928,
-    "lng": -112.0354658
+    "lat": null,
+    "lng": null,
+    "note": "Rideshare drop off and pick up is located at 5150 Upper Ridge Rd., West Valley City, UT 84118, and guests are encouraged to book rides in advance using Uber Reserve for guaranteed pickup and drop off."
   },
   "uw_panther_arena": {
-    "name": "UW - Panther Arena",
+    "venueName": "UW - Panther Arena",
     "city": "Milwaukee",
     "state": "WI",
-    "rideshare": "nan",
-    "lat": 43.0422882,
-    "lng": -87.916952
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "van_andel_arena": {
-    "name": "Van Andel Arena",
+    "venueName": "Van Andel Arena",
     "city": "Grand Rapids",
     "state": "MI",
-    "rideshare": "nan",
-    "lat": 42.9622423,
-    "lng": -85.6715921
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "veterans_united_home_loans_amphitheater": {
-    "name": "Veterans United Home Loans Amphitheater",
+    "venueName": "Veterans United Home Loans Amphitheater",
     "city": "Virginia Beach",
     "state": "VA",
-    "rideshare": "For rideshare services at Veterans United Home Loans Amphitheater, drop-off and pick-up should occur outside the main entrance via the Dam Neck Road entrance. Please inform the parking staff that you are dropping someone off, as guests cannot remain in their vehicles at this location during the event.",
-    "lat": 36.7691007,
-    "lng": -76.1039149
+    "lat": null,
+    "lng": null,
+    "note": "Taxis and rideshare drop-off and pick-up occur outside the main entrance gate, with a designated tent at the main entrance for this purpose."
   },
   "walmart_amp": {
-    "name": "Walmart AMP",
+    "venueName": "Walmart AMP",
     "city": "Rogers",
     "state": "AR",
-    "rideshare": "nan",
-    "lat": 36.3045191,
-    "lng": -94.1844706
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "caseys_center": {
-    "name": "Casey's Center",
+    "venueName": "Casey's Center",
     "city": "Des Moines",
     "state": "IA",
-    "rideshare": "Let Lyft be your ride to Casey's Center, as they are the official rideshare partner of the Iowa Events Center. For a discount, use code IOWAEC for 50% off your first two rides (up to $10 per ride).",
-    "lat": 41.5925082,
-    "lng": -93.6210723
+    "lat": null,
+    "lng": null,
+    "note": "Lyft is the official rideshare partner of the Iowa Events Center, offering a discount code IOWAEC for new users; no specific pickup/dropoff zone details are provided."
   },
   "xfinity_mobile_arena": {
-    "name": "Xfinity Mobile Arena",
+    "venueName": "Xfinity Mobile Arena",
     "city": "Philadelphia",
     "state": "PA",
-    "rideshare": "nan",
-    "lat": 39.9011004,
-    "lng": -75.1720165
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "wrigley_field": {
-    "name": "Wrigley Field",
+    "venueName": "Wrigley Field",
     "city": "Chicago",
     "state": "IL",
-    "rideshare": "nan",
-    "lat": 41.9481846,
-    "lng": -87.655559
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   },
   "xl_center": {
-    "name": "XL Center",
+    "venueName": "XL Center",
     "city": "Hartford",
     "state": "CT",
-    "rideshare": "For events at the XL Center, use Lyft as your rideshare option, as they are the official rideshare partner. Rideshare drop-off and pick-up is conveniently located near the venue, making it easy to get to and from your event.",
-    "lat": 41.76848,
-    "lng": -72.6770215
+    "lat": null,
+    "lng": null,
+    "note": "Lyft is the official rideshare partner of PeoplesBank Arena, offering a discount code PEOPLESBANK for new users; no specific pickup/dropoff zone details are provided."
   },
   "grand_casino_arena": {
-    "name": "Grand Casino Arena",
+    "venueName": "Grand Casino Arena",
     "city": "St. Paul",
     "state": "MN",
-    "rideshare": "For events at Grand Casino Arena, the official pick-up and drop-off location for rideshare services is at Gate 4, located on 5th Street near section 120. Lyft is the official rideshare partner, and new users can use code MINWILD for a discount on their first two rides.",
-    "lat": 44.9447659,
-    "lng": -93.1010851
+    "lat": null,
+    "lng": null,
+    "note": "Gate 4 at the northeast corner of Grand Casino Arena on 5th Street is the official pickup and drop-off location for rideshare services, with Lyft as the official partner offering a discount code for new users."
   },
   "yankee_stadium": {
-    "name": "Yankee Stadium",
+    "venueName": "Yankee Stadium",
     "city": "Bronx",
     "state": "NY",
-    "rideshare": "nan",
-    "lat": 40.8295828,
-    "lng": -73.9265212
+    "lat": null,
+    "lng": null,
+    "note": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions."
   }
 }
