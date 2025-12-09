@@ -1,61 +1,61 @@
 /* ============================================================
-   Concerto — Rideshare (Light Ultra-Clean Layout)
-   Matches Parking / Concessions / Bag Policies
+   Concessions Guide (Light Ultra-Clean)
    ============================================================ */
 
 :root {
-  --bg: #f8f9f9;
-  --ink: #121e36;
-  --muted: #5e6b86;
-  --accent: #1f2b4a;
-  --accent-2: #2a3a63;
-  --line: #e2e7f0;
-  --card: #ffffff;
-  --shadow-soft: 0 4px 10px rgba(18, 30, 54, 0.1);
-  --shadow-strong: 0 16px 40px rgba(18, 30, 54, 0.2);
+  --bg: #F8F9F9;
+  --ink: #121E36;
+  --muted: #5E6B86;
+  --accent: #1F2B4A;
+  --accent-2: #2A3A63;
+  --line: #E2E7F0;
+  --card: #FFFFFF;
+  --shadow-soft: 0 4px 10px rgba(18, 30, 54, 0.10);
+  --shadow-strong: 0 16px 40px rgba(18, 30, 54, 0.20);
 }
 
-/* ===== Reset ===== */
+/* Reset */
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
 
-html,
-body {
+html, body {
   margin: 0;
   padding: 0;
   height: 100%;
-  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
   background: var(--bg);
   color: var(--ink);
   -webkit-font-smoothing: antialiased;
 }
 
-/* ===== Page Shell ===== */
+/* Layout shell */
 .page {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
 
-/* ===== Header ===== */
+/* Header */
 .page-header {
   background: var(--bg);
-  box-shadow: 0 2px 8px rgba(18, 30, 54, 0.06);
-  padding: 10px 0;
+  box-shadow: 0 2px 8px rgba(18, 30, 54, 0.04);
+  padding: 10px 0 10px;
   z-index: 10;
 }
 
 .page-header-inner {
   width: 100%;
-  max-width: 720px;
+  max-width: 680px;
   margin: 0 auto;
-  padding: 0 16px 6px;
+  padding: 0 16px 4px;
   display: flex;
   flex-direction: column;
+  align-items: stretch;
   gap: 10px;
 }
 
@@ -66,7 +66,7 @@ body {
   margin: 0 auto;
 }
 
-/* ===== Search ===== */
+/* Search */
 .search-wrapper {
   position: relative;
 }
@@ -77,7 +77,7 @@ body {
   border: 1px solid var(--line);
   padding: 9px 40px 9px 14px;
   font-size: 15px;
-  background: #ffffff;
+  background: #fff;
   color: var(--ink);
   outline: none;
   box-shadow: var(--shadow-soft);
@@ -97,181 +97,192 @@ body {
   color: var(--muted);
 }
 
-/* ===== Main Layout ===== */
+/* Search dropdown */
+.search-results {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 110%;
+  margin-top: 4px;
+  background: #fff;
+  border-radius: 14px;
+  border: 1px solid var(--line);
+  box-shadow: 0 10px 26px rgba(18, 30, 54, 0.18);
+  max-height: 260px;
+  overflow-y: auto;
+  display: none;
+  z-index: 20;
+}
+
+.search-results.visible {
+  display: block;
+}
+
+.search-result-item {
+  padding: 8px 11px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.search-result-item:hover {
+  background: #f5f7fb;
+}
+
+/* Main layout */
 .layout {
   flex: 1;
+  padding: 12px 14px 20px;
+}
+
+/* Info panel */
+.info-panel {
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.info-panel--empty .info-empty {
+  display: block;
+}
+
+.info-empty {
+  text-align: left;
+  margin-top: 16px;
+  padding: 14px 16px;
+  background: #fff;
+  border-radius: 16px;
+  border: 1px solid var(--line);
+  box-shadow: 0 2px 8px rgba(18, 30, 54, 0.06);
+}
+
+.info-empty h2 {
+  margin: 0 0 6px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.info-empty p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.info-content {
+  margin-top: 14px;
+}
+
+/* Header inside panel */
+.info-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.info-header h2 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.venue-location {
+  margin: 2px 0 0;
+  font-size: 0.86rem;
+  color: var(--muted);
+}
+
+/* Cards */
+.info-cards {
   display: flex;
   flex-direction: column;
-  padding: 10px 12px 14px;
   gap: 10px;
 }
 
-/* Larger screens: two-column */
-@media (min-width: 768px) {
-  .layout {
-    flex-direction: row;
-    max-width: 960px;
-    margin: 0 auto;
-  }
-}
-
-/* ===== List Panel ===== */
-.list-panel {
-  background: transparent;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  min-height: 0;
-}
-
-.panel-title {
-  margin: 2px 4px 6px;
-  font-size: 0.95rem;
-  font-weight: 600;
-  color: var(--muted);
-}
-
-.venue-list {
-  background: transparent;
-  border-radius: 16px;
-  padding: 2px 0;
-  overflow-y: auto;
-  max-height: 50vh;
-}
-
-@media (min-width: 768px) {
-  .venue-list {
-    max-height: calc(100vh - 140px);
-  }
-}
-
-.venue-card {
+.info-card {
   background: var(--card);
-  border-radius: 14px;
+  border-radius: 16px;
   border: 1px solid var(--line);
-  padding: 10px 12px;
-  margin-bottom: 8px;
+  padding: 12px 14px;
   box-shadow: 0 2px 6px rgba(18, 30, 54, 0.06);
-  cursor: pointer;
-  transition: box-shadow 0.12s ease, transform 0.12s ease,
-    border-color 0.12s ease;
 }
 
-.venue-card:hover {
-  transform: translateY(-1px);
-  box-shadow: var(--shadow-soft);
-  border-color: var(--accent-2);
-}
-
-.venue-card-name {
-  margin: 0 0 2px;
+.info-card h3 {
+  margin: 0 0 6px;
   font-size: 0.92rem;
-  font-weight: 500;
-}
-
-.venue-card-meta {
-  margin: 0;
-  font-size: 0.82rem;
-  color: var(--muted);
-}
-
-/* ===== Detail Panel ===== */
-.detail-panel {
-  background: var(--card);
-  border-radius: 16px;
-  border: 1px solid var(--line);
-  box-shadow: 0 4px 14px rgba(18, 30, 54, 0.1);
-  padding: 10px 12px;
-  flex: 1.1;
-  min-height: 180px;
-}
-
-.detail-inner {
-  display: flex;
-  flex-direction: column;
-  min-height: 0;
-}
-
-.detail-hint {
-  margin: 6px 2px;
-  font-size: 0.9rem;
-  color: var(--muted);
-}
-
-.detail-content {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
-
-.detail-header {
-  margin-bottom: 4px;
-}
-
-.detail-venue-name {
-  margin: 2px 0;
-  font-size: 1.05rem;
   font-weight: 600;
 }
 
-.detail-venue-location {
-  margin: 0;
-  font-size: 0.88rem;
-  color: var(--muted);
-}
-
-/* ===== Sections ===== */
-.section-block {
-  margin-top: 8px;
-  padding-top: 8px;
-  border-top: 1px solid var(--line);
-}
-
-.section-title {
-  margin: 0 0 4px;
-  font-size: 0.9rem;
-  font-weight: 600;
-}
-
-.section-body {
+.card-body {
   margin: 0;
   font-size: 0.88rem;
   color: var(--ink);
-  line-height: 1.4;
 }
 
-/* ===== Buttons / Chips ===== */
-.button-row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-top: 6px;
+/* Bullet list */
+.bullet-list {
+  margin: 0;
+  padding-left: 18px;
+  font-size: 0.86rem;
+  color: var(--ink);
 }
 
-.primary-chip {
+.bullet-list li {
+  margin-bottom: 3px;
+}
+
+/* Browse list of venues */
+.browse-list {
+  margin-top: 12px;
+  background: #fff;
+  border-radius: 16px;
+  border: 1px solid var(--line);
+  box-shadow: 0 2px 6px rgba(18, 30, 54, 0.06);
+  padding: 8px 10px;
+}
+
+.browse-item {
+  padding: 6px 4px;
+  font-size: 0.86rem;
+  cursor: pointer;
+}
+
+.browse-item + .browse-item {
+  border-top: 1px solid #eef1f7;
+}
+
+.browse-item:hover {
+  background: #f5f7fb;
+}
+
+/* Buttons */
+.primary-btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 7px 14px;
+  padding: 8px 18px;
   border-radius: 999px;
-  font-size: 0.85rem;
-  text-decoration: none;
   border: none;
   background: linear-gradient(135deg, var(--accent), var(--accent-2));
-  color: #ffffff;
-  box-shadow: 0 2px 6px rgba(18, 30, 54, 0.2);
-  transition: transform 0.1s ease, box-shadow 0.1s ease, opacity 0.1s ease;
+  color: #fff;
+  font-size: 0.9rem;
+  text-decoration: none;
+  margin-top: 6px;
 }
 
-.primary-chip.secondary {
-  background: #ffffff;
-  color: var(--accent-2);
-  border: 1px solid var(--line);
-  box-shadow: var(--shadow-soft);
-}
+/* Tablet/Desktop */
+@media (min-width: 768px) {
+  .page-header-inner {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
 
-.primary-chip:hover {
-  transform: translateY(-1px);
-  box-shadow: var(--shadow-strong);
-  opacity: 0.95;
+  .brand-logo {
+    width: 180px;
+    max-width: 180px;
+    margin: 0;
+  }
+
+  .search-wrapper {
+    max-width: 320px;
+  }
 }
