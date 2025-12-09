@@ -2,11 +2,12 @@
   "acrisure_arena": {
     "updated": "",
     "officialParkingUrl": "https://acrisurearena.com/plan-your-trip/parking/",
-    "note": "Acrisure Arena offers parking for over 3,000 vehicles adjacent to the arena. Parking passes can be purchased in advance online via ParkWhiz or on-site, with no cash accepted\u2014only tap-to-pay methods like credit/debit cards, Apple Pay, or Google Wallet. Cell service and Wi-Fi are very limited in parking areas, so have your parking pass ready before arrival.",
+    "note": "Acrisure Arena offers parking for over 3,000 vehicles adjacent to the arena. Parking passes can be purchased in advance online via ParkWhiz or on-site, with no cash accepted—only tap-to-pay methods like credit/debit cards, Apple Pay, or Google Wallet. Cell service and Wi-Fi are very limited in parking areas, so have your parking pass ready before arrival.",
     "rideshare": "Lyft is the official rideshare partner with a discount code ACRISUREARENA for 50% off the first two rides; no specific pickup/dropoff zone details are provided.",
     "lots": [],
     "city": "Thousand Palms",
-    "state": "CA"
+    "state": "CA",
+    "venueName": "Acrisure Arena"
   },
   "acrisure_stadium": {
     "updated": "",
@@ -46,7 +47,8 @@
       "Rivers Casino Garage"
     ],
     "city": "Pittsburgh",
-    "state": "PA"
+    "state": "PA",
+    "venueName": "Acrisure Stadium"
   },
   "alamodome": {
     "updated": "",
@@ -60,7 +62,8 @@
       "Lot D"
     ],
     "city": "San Antonio",
-    "state": "TX"
+    "state": "TX",
+    "venueName": "Alamodome"
   },
   "albertsons_stadium": {
     "updated": "",
@@ -69,7 +72,8 @@
     "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
     "lots": [],
     "city": "Boise",
-    "state": "ID"
+    "state": "ID",
+    "venueName": "Albertsons Stadium"
   },
   "allegiant_stadium": {
     "updated": "",
@@ -83,7 +87,8 @@
       "Lot N"
     ],
     "city": "Las Vegas",
-    "state": "NV"
+    "state": "NV",
+    "venueName": "Allegiant Stadium"
   },
   "amalie_arena": {
     "updated": "",
@@ -104,7 +109,8 @@
       "Garrison Street Lot"
     ],
     "city": "Tampa",
-    "state": "FL"
+    "state": "FL",
+    "venueName": "Amalie Arena"
   },
   "amerant_bank_arena": {
     "updated": "",
@@ -122,7 +128,8 @@
       "DEX VIP Parking Lot"
     ],
     "city": "Sunrise",
-    "state": "FL"
+    "state": "FL",
+    "venueName": "Amerant Bank Arena"
   },
   "american_airlines_center": {
     "updated": "",
@@ -141,7 +148,8 @@
       "Inspiration Lot"
     ],
     "city": "Dallas",
-    "state": "TX"
+    "state": "TX",
+    "venueName": "American Airlines Center"
   },
   "american_family_field": {
     "updated": "",
@@ -150,7 +158,8 @@
     "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
     "lots": [],
     "city": "Milwaukee",
-    "state": "WI"
+    "state": "WI",
+    "venueName": "American Family Field"
   },
   "angel_stadium": {
     "updated": "",
@@ -161,7 +170,8 @@
       "Lexus Lot"
     ],
     "city": "Anaheim",
-    "state": "CA"
+    "state": "CA",
+    "venueName": "Angel Stadium"
   },
   "att_stadium": {
     "updated": "",
@@ -176,7 +186,8 @@
       "Silver Lot 14"
     ],
     "city": "Arlington",
-    "state": "TX"
+    "state": "TX",
+    "venueName": "AT&T Stadium"
   },
   "bok_center": {
     "updated": "",
@@ -185,7 +196,8 @@
     "rideshare": "All rideshare pick-ups and drop-offs occur at the designated Rideshare Zone on 1st Street, between Denver and Cheyenne, with signage on-site to guide riders.",
     "lots": [],
     "city": "Tulsa",
-    "state": "OK"
+    "state": "OK",
+    "venueName": "BOK Center"
   },
   "ball_arena": {
     "updated": "",
@@ -203,7 +215,8 @@
       "TRD-Pro Lot"
     ],
     "city": "Denver",
-    "state": "CO"
+    "state": "CO",
+    "venueName": "Ball Arena"
   },
   "bank_of_america_stadium": {
     "updated": "",
@@ -212,7 +225,8 @@
     "rideshare": "Fans are advised to use rideshare pickup and drop-off at the corner of Third and Church Streets, next to Romare Bearden Park.",
     "lots": [],
     "city": "Charlotte",
-    "state": "NC"
+    "state": "NC",
+    "venueName": "Bank of America Stadium"
   },
   "barclays_center": {
     "updated": "",
@@ -221,7 +235,8 @@
     "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
     "lots": [],
     "city": "Brooklyn",
-    "state": "NY"
+    "state": "NY",
+    "venueName": "Barclays Center"
   },
   "bethel_woods_center_for_the_arts": {
     "updated": "",
@@ -233,7 +248,8 @@
       "Motorcycle Parking Lot"
     ],
     "city": "Bethel",
-    "state": "NY"
+    "state": "NY",
+    "venueName": "Bethel Woods Center for the Arts"
   },
   "broadview_stage_at_spac": {
     "updated": "",
@@ -244,7 +260,8 @@
       "Route 50 East Lot (Main Parking Lot)"
     ],
     "city": "Saratoga Springs",
-    "state": "NY"
+    "state": "NY",
+    "venueName": "Broadview Stage at SPAC"
   },
   "bridgestone_arena": {
     "updated": "",
@@ -263,7 +280,8 @@
       "Nissan Stadium Parking Lot R"
     ],
     "city": "Nashville",
-    "state": "TN"
+    "state": "TN",
+    "venueName": "Bridgestone Arena"
   },
   "busch_stadium": {
     "updated": "",
@@ -279,7 +297,8 @@
       "Starr Lot"
     ],
     "city": "St. Louis",
-    "state": "MO"
+    "state": "MO",
+    "venueName": "Busch Stadium"
   },
   "cfg_bank_arena": {
     "updated": "",
@@ -288,7 +307,8 @@
     "rideshare": "Lyft is the official rideshare partner of CFG Bank Arena, offering a discount code for first-time users; no specific pickup/dropoff zone details are provided.",
     "lots": [],
     "city": "Baltimore",
-    "state": "MD"
+    "state": "MD",
+    "venueName": "CFG Bank Arena"
   },
   "chi_health_center": {
     "updated": "",
@@ -297,7 +317,8 @@
     "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
     "lots": [],
     "city": "Omaha",
-    "state": "NE"
+    "state": "NE",
+    "venueName": "CHI Health Center"
   },
   "caesars_superdome": {
     "updated": "",
@@ -316,7 +337,8 @@
       "Lot 4"
     ],
     "city": "New Orleans",
-    "state": "LA"
+    "state": "LA",
+    "venueName": "Caesars Superdome"
   },
   "camp_randall_stadium": {
     "updated": "",
@@ -325,7 +347,8 @@
     "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
     "lots": [],
     "city": "Madison",
-    "state": "WI"
+    "state": "WI",
+    "venueName": "Camp Randall Stadium"
   },
   "camping_world_stadium": {
     "updated": "",
@@ -338,7 +361,8 @@
       "Lot C"
     ],
     "city": "Orlando",
-    "state": "FL"
+    "state": "FL",
+    "venueName": "Camping World Stadium"
   },
   "capital_one_arena": {
     "updated": "",
@@ -347,7 +371,8 @@
     "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
     "lots": [],
     "city": "Washington",
-    "state": "DC"
+    "state": "DC",
+    "venueName": "Capital One Arena"
   },
   "chaifetz_arena": {
     "updated": "",
@@ -360,7 +385,8 @@
       "Fred Weber VIP Lot"
     ],
     "city": "St. Louis",
-    "state": "MO"
+    "state": "MO",
+    "venueName": "Chaifetz Arena"
   },
   "chase_center": {
     "updated": "",
@@ -375,7 +401,8 @@
       "West Garage"
     ],
     "city": "San Francisco",
-    "state": "CA"
+    "state": "CA",
+    "venueName": "Chase Center"
   },
   "chase_field": {
     "updated": "",
@@ -384,12 +411,13 @@
     "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
     "lots": [],
     "city": "Phoenix",
-    "state": "AZ"
+    "state": "AZ",
+    "venueName": "Chase Field"
   },
   "citi_field": {
     "updated": "",
     "officialParkingUrl": "https://www.mlb.com/mets/ballpark/transportation/driving-parking",
-    "note": "Fans can park in five on-site lots within Citi Field\u2019s fence line and five additional off-site lots that accommodate general parking, with shuttle service available from some off-site locations. Early bird discounted off-site parking is available at the Skyview Mall garage, a 10-minute walk from the stadium, and pre-booking is encouraged via NYMetsParking.com. All parking lots open one hour before stadium gates, are cashless (credit/debit cards, Mets Gift Cards, Apple Pay, Google Pay), and cash payers can temporarily park free in Lot G to use a reverse ATM for card payment.",
+    "note": "Fans can park in five on-site lots within Citi Field’s fence line and five additional off-site lots that accommodate general parking, with shuttle service available from some off-site locations. Early bird discounted off-site parking is available at the Skyview Mall garage, a 10-minute walk from the stadium, and pre-booking is encouraged via NYMetsParking.com. All parking lots open one hour before stadium gates, are cashless (credit/debit cards, Mets Gift Cards, Apple Pay, Google Pay), and cash payers can temporarily park free in Lot G to use a reverse ATM for card payment.",
     "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
     "lots": [
       "Lot B",
@@ -406,7 +434,8 @@
       "Lot G"
     ],
     "city": "Queens",
-    "state": "NY"
+    "state": "NY",
+    "venueName": "Citi Field"
   },
   "citizens_bank_park": {
     "updated": "",
@@ -430,7 +459,8 @@
       "Lot V"
     ],
     "city": "Philadelphia",
-    "state": "PA"
+    "state": "PA",
+    "venueName": "Citizens Bank Park"
   },
   "climate_pledge_arena": {
     "updated": "",
@@ -443,7 +473,8 @@
       "5th Ave Garage"
     ],
     "city": "Seattle",
-    "state": "WA"
+    "state": "WA",
+    "venueName": "Climate Pledge Arena"
   },
   "colonial_life_arena": {
     "updated": "",
@@ -452,7 +483,8 @@
     "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
     "lots": [],
     "city": "Columbia",
-    "state": "SC"
+    "state": "SC",
+    "venueName": "Colonial Life Arena"
   },
   "comerica_park": {
     "updated": "",
@@ -465,7 +497,8 @@
       "D Garage"
     ],
     "city": "Detroit",
-    "state": "MI"
+    "state": "MI",
+    "venueName": "Comerica Park"
   },
   "commonwealth_stadium": {
     "updated": "",
@@ -479,19 +512,21 @@
       "Lot D"
     ],
     "city": "Edmonton",
-    "state": "AB"
+    "state": "AB",
+    "venueName": "Commonwealth Stadium"
   },
   "coors_field": {
     "updated": "",
     "officialParkingUrl": "https://www.mlb.com/rockies/tickets/parking",
-    "note": "Advance individual game parking passes for Coors Field are available starting at $18 Monday-Thursday and $23 Friday-Sunday, purchasable online, at the ticket office, Dugout Stores, by phone, or on gameday at Lot A or B if available. Parking lots open 2\u00bd hours before game time and accept only credit cards at entrance; day-of-game passes are available for Lot B if advance passes sell out. Motorcycle parking is available in Lot B, and shuttle service drops off at Gate A.",
+    "note": "Advance individual game parking passes for Coors Field are available starting at $18 Monday-Thursday and $23 Friday-Sunday, purchasable online, at the ticket office, Dugout Stores, by phone, or on gameday at Lot A or B if available. Parking lots open 2½ hours before game time and accept only credit cards at entrance; day-of-game passes are available for Lot B if advance passes sell out. Motorcycle parking is available in Lot B, and shuttle service drops off at Gate A.",
     "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
     "lots": [
       "Lot A",
       "Lot B"
     ],
     "city": "Denver",
-    "state": "CO"
+    "state": "CO",
+    "venueName": "Coors Field"
   },
   "credit_union_1_amphitheatre": {
     "updated": "",
@@ -500,7 +535,8 @@
     "rideshare": "The venue encourages booking rides with Uber Reserve to ensure reliable pickup and dropoff during crowded events.",
     "lots": [],
     "city": "Tinley Park",
-    "state": "IL"
+    "state": "IL",
+    "venueName": "Credit Union 1 Amphitheatre"
   },
   "cryptocom_arena": {
     "updated": "",
@@ -514,7 +550,8 @@
       "Lot C"
     ],
     "city": "Los Angeles",
-    "state": "CA"
+    "state": "CA",
+    "venueName": "Crypto.com Arena"
   },
   "daikin_park": {
     "updated": "",
@@ -523,7 +560,8 @@
     "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
     "lots": [],
     "city": "Houston",
-    "state": "TX"
+    "state": "TX",
+    "venueName": "Daikin Park"
   },
   "delta_center": {
     "updated": "",
@@ -541,7 +579,8 @@
       "West High"
     ],
     "city": "Salt Lake City",
-    "state": "UT"
+    "state": "UT",
+    "venueName": "Delta Center"
   },
   "desert_diamond_arena": {
     "updated": "",
@@ -559,12 +598,13 @@
       "West VIP"
     ],
     "city": "Glendale",
-    "state": "AZ"
+    "state": "AZ",
+    "venueName": "Desert Diamond Arena"
   },
   "dickies_arena": {
     "updated": "",
     "officialParkingUrl": "https://dickiesarena.com/directions-and-parking/",
-    "note": "Dickies Arena offers ample on-site parking including the Yellow Lots and the 2,200-space Chevrolet Parking Garage. Parking lots open 3\u00bd hours before showtime, with general prepaid parking available in both the Yellow Lots and Chevrolet Garage, and preferred/reserved parking in the Chevrolet Garage. Guests can pay with cash or credit card at any parking lot, and the cost varies depending on the event.",
+    "note": "Dickies Arena offers ample on-site parking including the Yellow Lots and the 2,200-space Chevrolet Parking Garage. Parking lots open 3½ hours before showtime, with general prepaid parking available in both the Yellow Lots and Chevrolet Garage, and preferred/reserved parking in the Chevrolet Garage. Guests can pay with cash or credit card at any parking lot, and the cost varies depending on the event.",
     "rideshare": "Ride share drop-off is at the west entrance on Dickies Way, and pickup is on Harley Avenue at the north end of the building; guests should exit to Harley Avenue and wait there for their driver.",
     "lots": [
       "Yellow Lots",
@@ -572,7 +612,8 @@
       "Montgomery Lot"
     ],
     "city": "Fort Worth",
-    "state": "TX"
+    "state": "TX",
+    "venueName": "Dickies Arena"
   },
   "dodger_stadium": {
     "updated": "",
@@ -601,7 +642,8 @@
       "Lots P"
     ],
     "city": "Los Angeles",
-    "state": "CA"
+    "state": "CA",
+    "venueName": "Dodger Stadium"
   },
   "dolby_live": {
     "updated": "",
@@ -610,7 +652,8 @@
     "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
     "lots": [],
     "city": "Las Vegas",
-    "state": "NV"
+    "state": "NV",
+    "venueName": "Dolby Live"
   },
   "dos_equis_pavilion": {
     "updated": "",
@@ -619,7 +662,8 @@
     "rideshare": "Drop-off and pick-up areas are located on the west side of the venue through Gate 6 off Robert B. Collum Blvd; inform parking staff when dropping off, and arrive 45 minutes before show end for pickup to avoid long waits.",
     "lots": [],
     "city": "Dallas",
-    "state": "TX"
+    "state": "TX",
+    "venueName": "Dos Equis Pavilion"
   },
   "empower_federal_credit_union_amphitheater": {
     "updated": "",
@@ -631,7 +675,8 @@
       "Premier Parking"
     ],
     "city": "Syracuse",
-    "state": "NY"
+    "state": "NY",
+    "venueName": "Empower Federal Credit Union Amphitheater"
   },
   "empower_field": {
     "updated": "",
@@ -644,7 +689,8 @@
       "Lot G"
     ],
     "city": "Denver",
-    "state": "CO"
+    "state": "CO",
+    "venueName": "Empower Field"
   },
   "enterprise_center": {
     "updated": "",
@@ -684,7 +730,8 @@
       "Tucker and St. Charles Lot"
     ],
     "city": "St. Louis",
-    "state": "MO"
+    "state": "MO",
+    "venueName": "Enterprise Center"
   },
   "everbank_stadium": {
     "updated": "",
@@ -710,7 +757,8 @@
       "Old Cypress Parking"
     ],
     "city": "Jacksonville",
-    "state": "FL"
+    "state": "FL",
+    "venueName": "Everbank Stadium"
   },
   "fedex_forum": {
     "updated": "",
@@ -721,7 +769,8 @@
       "FedExForum Gossett Motors Parking Garage"
     ],
     "city": "Memphis",
-    "state": "TN"
+    "state": "TN",
+    "venueName": "FedEx Forum"
   },
   "fenway_park": {
     "updated": "",
@@ -750,7 +799,8 @@
       "Somerset Garage"
     ],
     "city": "Boston",
-    "state": "MA"
+    "state": "MA",
+    "venueName": "Fenway Park"
   },
   "fiserv_forum": {
     "updated": "",
@@ -764,7 +814,8 @@
       "Brewery Structure"
     ],
     "city": "Milwaukee",
-    "state": "WI"
+    "state": "WI",
+    "venueName": "Fiserv Forum"
   },
   "food_city_center": {
     "updated": "",
@@ -786,7 +837,8 @@
       "Ag Campus S65/66"
     ],
     "city": "Knoxville",
-    "state": "TN"
+    "state": "TN",
+    "venueName": "Food City Center"
   },
   "ford_field": {
     "updated": "",
@@ -798,7 +850,8 @@
       "Ford Field Parking Deck"
     ],
     "city": "Detroit",
-    "state": "MI"
+    "state": "MI",
+    "venueName": "Ford Field"
   },
   "freedom_mortgage_pavilion": {
     "updated": "",
@@ -809,7 +862,8 @@
       "Lot 1"
     ],
     "city": "Camden",
-    "state": "NJ"
+    "state": "NJ",
+    "venueName": "Freedom Mortgage Pavilion"
   },
   "frost_bank_center": {
     "updated": "",
@@ -824,7 +878,8 @@
       "Lot 5"
     ],
     "city": "San Antonio",
-    "state": "TX"
+    "state": "TX",
+    "venueName": "Frost Bank Center"
   },
   "geha_field_at_arrowhead_stadium": {
     "updated": "",
@@ -833,7 +888,8 @@
     "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
     "lots": [],
     "city": "Kansas City",
-    "state": "MO"
+    "state": "MO",
+    "venueName": "GEHA Field at Arrowhead Stadium"
   },
   "gainbridge_fieldhouse": {
     "updated": "",
@@ -844,7 +900,8 @@
       "Virginia Avenue Parking Garage"
     ],
     "city": "Indianapolis",
-    "state": "IN"
+    "state": "IN",
+    "venueName": "Gainbridge Fieldhouse"
   },
   "gas_south_arena": {
     "updated": "",
@@ -858,7 +915,8 @@
       "Lot C"
     ],
     "city": "Duluth",
-    "state": "GA"
+    "state": "GA",
+    "venueName": "Gas South Arena"
   },
   "gillette_stadium": {
     "updated": "",
@@ -870,7 +928,8 @@
       "Lot 5B"
     ],
     "city": "Foxborough",
-    "state": "MA"
+    "state": "MA",
+    "venueName": "Gillette Stadium"
   },
   "globe_life_field": {
     "updated": "",
@@ -879,7 +938,8 @@
     "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
     "lots": [],
     "city": "Arlington",
-    "state": "TX"
+    "state": "TX",
+    "venueName": "Globe Life Field"
   },
   "golden_1_center": {
     "updated": "",
@@ -888,7 +948,8 @@
     "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
     "lots": [],
     "city": "Sacramento",
-    "state": "CA"
+    "state": "CA",
+    "venueName": "Golden 1 Center"
   },
   "great_american_ball_park": {
     "updated": "",
@@ -901,7 +962,8 @@
       "East Garage"
     ],
     "city": "Cincinnati",
-    "state": "OH"
+    "state": "OH",
+    "venueName": "Great American Ball Park"
   },
   "hard_rock_stadium": {
     "updated": "",
@@ -912,7 +974,8 @@
       "Yellow Lot"
     ],
     "city": "Miami Gardens",
-    "state": "FL"
+    "state": "FL",
+    "venueName": "Hard Rock Stadium"
   },
   "heritage_bank_center": {
     "updated": "",
@@ -924,7 +987,8 @@
       "Central Riverfront Garage"
     ],
     "city": "Cincinnati",
-    "state": "OH"
+    "state": "OH",
+    "venueName": "Heritage Bank Center"
   },
   "hersheypark_stadium": {
     "updated": "",
@@ -933,7 +997,8 @@
     "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
     "lots": [],
     "city": "Hershey",
-    "state": "PA"
+    "state": "PA",
+    "venueName": "Hersheypark Stadium"
   },
   "highmark_stadium": {
     "updated": "",
@@ -948,7 +1013,8 @@
       "Bus & Limo Lot"
     ],
     "city": "Orchard Park",
-    "state": "NY"
+    "state": "NY",
+    "venueName": "Highmark Stadium"
   },
   "hollywood_bowl": {
     "updated": "",
@@ -962,7 +1028,8 @@
       "Lot D"
     ],
     "city": "Los Angeles",
-    "state": "CA"
+    "state": "CA",
+    "venueName": "Hollywood Bowl"
   },
   "honda_center": {
     "updated": "",
@@ -974,7 +1041,8 @@
       "Cerritos Garage"
     ],
     "city": "Anaheim",
-    "state": "CA"
+    "state": "CA",
+    "venueName": "Honda Center"
   },
   "huntington_bank_field": {
     "updated": "",
@@ -983,7 +1051,8 @@
     "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
     "lots": [],
     "city": "Columbus",
-    "state": "OH"
+    "state": "OH",
+    "venueName": "Huntington Bank Field"
   },
   "intuit_dome": {
     "updated": "",
@@ -996,7 +1065,8 @@
       "Players' Garage"
     ],
     "city": "Inglewood",
-    "state": "CA"
+    "state": "CA",
+    "venueName": "Intuit Dome"
   },
   "isleta_amphitheater": {
     "updated": "",
@@ -1005,7 +1075,8 @@
     "rideshare": "Guests are encouraged to reserve rides with Uber to ensure reliable pickup and dropoff during crowded events.",
     "lots": [],
     "city": "Albuquerque",
-    "state": "NM"
+    "state": "NM",
+    "venueName": "Isleta Amphitheater"
   },
   "jiffy_lube_live": {
     "updated": "",
@@ -1014,7 +1085,8 @@
     "rideshare": "Guests are encouraged to book rides with Uber Reserve to ensure reliable pickup and dropoff during crowded events.",
     "lots": [],
     "city": "Bristow",
-    "state": "VA"
+    "state": "VA",
+    "venueName": "Jiffy Lube Live"
   },
   "john_paul_jones_arena": {
     "updated": "",
@@ -1033,7 +1105,8 @@
       "The Park"
     ],
     "city": "Charlottesville",
-    "state": "VA"
+    "state": "VA",
+    "venueName": "John Paul Jones Arena"
   },
   "kaseya_center": {
     "updated": "",
@@ -1042,7 +1115,8 @@
     "rideshare": "Uber and rideshare drop-off is located at the corner of Bayshore Drive & HEAT Blvd, using Gate 6 for entry.",
     "lots": [],
     "city": "Miami",
-    "state": "FL"
+    "state": "FL",
+    "venueName": "Kaseya Center"
   },
   "kauffman_stadium": {
     "updated": "",
@@ -1051,7 +1125,8 @@
     "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
     "lots": [],
     "city": "Kansas City",
-    "state": "MO"
+    "state": "MO",
+    "venueName": "Kauffman Stadium"
   },
   "keybank_center": {
     "updated": "",
@@ -1064,7 +1139,8 @@
       "LECOM Harborcenter"
     ],
     "city": "Buffalo",
-    "state": "NY"
+    "state": "NY",
+    "venueName": "KeyBank Center"
   },
   "kia_center": {
     "updated": "",
@@ -1077,7 +1153,8 @@
       "Blue Lot"
     ],
     "city": "Orlando",
-    "state": "FL"
+    "state": "FL",
+    "venueName": "Kia Center"
   },
   "kia_forum": {
     "updated": "",
@@ -1086,7 +1163,8 @@
     "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
     "lots": [],
     "city": "Inglewood",
-    "state": "CA"
+    "state": "CA",
+    "venueName": "Kia Forum"
   },
   "lambeau_field": {
     "updated": "",
@@ -1099,7 +1177,8 @@
       "Lot 15"
     ],
     "city": "Green Bay",
-    "state": "WI"
+    "state": "WI",
+    "venueName": "Lambeau Field"
   },
   "lenovo_center": {
     "updated": "",
@@ -1111,16 +1190,18 @@
       "Gate F"
     ],
     "city": "Morrisville",
-    "state": "NC"
+    "state": "NC",
+    "venueName": "Lenovo Center"
   },
   "levis_stadium": {
     "updated": "",
     "officialParkingUrl": "https://www.levisstadium.com/plan-your-visit/parking/",
-    "note": "Parking passes for events at Levi\u2019s Stadium can be purchased in advance, with prices varying by event. Credit card lots are available on event day but are limited and may cost more than prepaid passes. Fans are encouraged to buy parking ahead of time to ensure availability and potentially lower costs.",
+    "note": "Parking passes for events at Levi’s Stadium can be purchased in advance, with prices varying by event. Credit card lots are available on event day but are limited and may cost more than prepaid passes. Fans are encouraged to buy parking ahead of time to ensure availability and potentially lower costs.",
     "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
     "lots": [],
     "city": "Santa Clara",
-    "state": "CA"
+    "state": "CA",
+    "venueName": "Levi’s Stadium"
   },
   "lincoln_financial_field": {
     "updated": "",
@@ -1154,7 +1235,8 @@
       "V"
     ],
     "city": "Philadelphia",
-    "state": "PA"
+    "state": "PA",
+    "venueName": "Lincoln Financial Field"
   },
   "little_caesars_arena": {
     "updated": "",
@@ -1170,12 +1252,13 @@
       "Tigers Garage"
     ],
     "city": "Detroit",
-    "state": "MI"
+    "state": "MI",
+    "venueName": "Little Caesars Arena"
   },
   "loandepot_park": {
     "updated": "",
     "officialParkingUrl": "https://www.mlb.com/marlins/ballpark/transportation/parking",
-    "note": "loanDepot park offers parking in four parking garages on the North and South sides and six surface lots on the East and West sides, all operating on a free flow model. Parking passes must be purchased directly through official Marlins channels and prepaid parking is required to guarantee on-site parking. Payment is cashless and done via the MLB Ballpark app by registering your vehicle\u2019s license plate and activating your parking session using garage-specific codes or QR codes on site.",
+    "note": "loanDepot park offers parking in four parking garages on the North and South sides and six surface lots on the East and West sides, all operating on a free flow model. Parking passes must be purchased directly through official Marlins channels and prepaid parking is required to guarantee on-site parking. Payment is cashless and done via the MLB Ballpark app by registering your vehicle’s license plate and activating your parking session using garage-specific codes or QR codes on site.",
     "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
     "lots": [
       "Home Plate Garage",
@@ -1183,7 +1266,8 @@
       "Third Base Garage"
     ],
     "city": "Miami",
-    "state": "FL"
+    "state": "FL",
+    "venueName": "LoanDepot Park"
   },
   "lucas_oil_stadium": {
     "updated": "",
@@ -1202,7 +1286,8 @@
       "LaRosa South"
     ],
     "city": "Indianapolis",
-    "state": "IN"
+    "state": "IN",
+    "venueName": "Lucas Oil Stadium"
   },
   "lumen_field": {
     "updated": "",
@@ -1214,7 +1299,8 @@
       "North Lot"
     ],
     "city": "Seattle",
-    "state": "WA"
+    "state": "WA",
+    "venueName": "Lumen Field"
   },
   "mt_bank_stadium": {
     "updated": "",
@@ -1229,7 +1315,8 @@
       "Horseshoe Casino Garage"
     ],
     "city": "Baltimore",
-    "state": "MD"
+    "state": "MD",
+    "venueName": "M&T Bank Stadium"
   },
   "madison_square_garden": {
     "updated": "",
@@ -1238,7 +1325,8 @@
     "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
     "lots": [],
     "city": "New York",
-    "state": "NY"
+    "state": "NY",
+    "venueName": "Madison Square Garden"
   },
   "mercedes_benz_stadium": {
     "updated": "",
@@ -1255,7 +1343,8 @@
       "Orange Deck"
     ],
     "city": "Atlanta",
-    "state": "GA"
+    "state": "GA",
+    "venueName": "Mercedes-Benz Stadium"
   },
   "metlife_stadium": {
     "updated": "",
@@ -1264,7 +1353,8 @@
     "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
     "lots": [],
     "city": "East Rutherford",
-    "state": "NJ"
+    "state": "NJ",
+    "venueName": "MetLife Stadium"
   },
   "mgm_grand_garden_arena": {
     "updated": "",
@@ -1273,7 +1363,8 @@
     "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
     "lots": [],
     "city": "Las Vegas",
-    "state": "NV"
+    "state": "NV",
+    "venueName": "MGM Grand Garden Arena"
   },
   "moda_center": {
     "updated": "",
@@ -1288,7 +1379,8 @@
       "Benton Surface Lot"
     ],
     "city": "Portland",
-    "state": "OR"
+    "state": "OR",
+    "venueName": "Moda Center"
   },
   "mohegan_sun_arena": {
     "updated": "",
@@ -1301,7 +1393,8 @@
       "VIP Parking Lot"
     ],
     "city": "Uncasville",
-    "state": "CT"
+    "state": "CT",
+    "venueName": "Mohegan Sun Arena"
   },
   "moody_center": {
     "updated": "",
@@ -1316,7 +1409,8 @@
       "State Garage R"
     ],
     "city": "Austin",
-    "state": "TX"
+    "state": "TX",
+    "venueName": "Moody Center"
   },
   "nrg_stadium": {
     "updated": "",
@@ -1325,7 +1419,8 @@
     "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
     "lots": [],
     "city": "Houston",
-    "state": "TX"
+    "state": "TX",
+    "venueName": "NRG Stadium"
   },
   "nationals_park": {
     "updated": "",
@@ -1337,7 +1432,8 @@
       "Garage C"
     ],
     "city": "Washington",
-    "state": "DC"
+    "state": "DC",
+    "venueName": "Nationals Park"
   },
   "nationwide_arena": {
     "updated": "",
@@ -1349,7 +1445,8 @@
       "Front Street garage"
     ],
     "city": "Columbus",
-    "state": "OH"
+    "state": "OH",
+    "venueName": "Nationwide Arena"
   },
   "nissan_stadium": {
     "updated": "",
@@ -1358,7 +1455,8 @@
     "rideshare": "Nissan Stadium has two rideshare pick-up locations located on Interstate Drive and the intersection of S. 2nd Street and Crutcher St., with pedestrian routes clearly marked.",
     "lots": [],
     "city": "Nashville",
-    "state": "TN"
+    "state": "TN",
+    "venueName": "Nissan Stadium"
   },
   "northwest_stadium": {
     "updated": "",
@@ -1385,7 +1483,8 @@
       "Red Zone Lot"
     ],
     "city": "Chicago",
-    "state": "IL"
+    "state": "IL",
+    "venueName": "Northwest Stadium"
   },
   "north_island_credit_union_amphitheatre": {
     "updated": "",
@@ -1394,7 +1493,8 @@
     "rideshare": "You can book rides with Uber Reserve to ensure pickup and dropoff at crowded events, removing uncertainty about rides to and from the venue.",
     "lots": [],
     "city": "Chula Vista",
-    "state": "CA"
+    "state": "CA",
+    "venueName": "North Island Credit Union Amphitheatre"
   },
   "oakland_arena": {
     "updated": "",
@@ -1406,7 +1506,8 @@
       "C Lot"
     ],
     "city": "Oakland",
-    "state": "CA"
+    "state": "CA",
+    "venueName": "Oakland Arena"
   },
   "oracle_park": {
     "updated": "",
@@ -1419,7 +1520,8 @@
       "153 Townsend"
     ],
     "city": "San Francisco",
-    "state": "CA"
+    "state": "CA",
+    "venueName": "Oracle Park"
   },
   "oriole_park_at_camden_yards": {
     "updated": "",
@@ -1441,7 +1543,8 @@
       "Lot Lee"
     ],
     "city": "Baltimore",
-    "state": "MD"
+    "state": "MD",
+    "venueName": "Oriole Park at Camden Yards"
   },
   "mortgage_matchup_center": {
     "updated": "",
@@ -1453,7 +1556,8 @@
       "Jefferson Street Garage"
     ],
     "city": "Phoenix",
-    "state": "AZ"
+    "state": "AZ",
+    "venueName": "Mortgage Matchup Center"
   },
   "pnc_park": {
     "updated": "",
@@ -1470,7 +1574,8 @@
       "Blue 10 Garage"
     ],
     "city": "Pittsburgh",
-    "state": "PA"
+    "state": "PA",
+    "venueName": "PNC Park"
   },
   "ppg_paints_arena": {
     "updated": "",
@@ -1482,7 +1587,8 @@
       "Parking Garage at PPG Paints Arena"
     ],
     "city": "Pittsburgh",
-    "state": "PA"
+    "state": "PA",
+    "venueName": "PPG Paints Arena"
   },
   "paycom_center": {
     "updated": "",
@@ -1491,7 +1597,8 @@
     "rideshare": "Uber/Lyft pickup and drop off point is at Second and Harvey, located on the west side of Paycom Center.",
     "lots": [],
     "city": "Oklahoma City",
-    "state": "OK"
+    "state": "OK",
+    "venueName": "Paycom Center"
   },
   "paycor_stadium": {
     "updated": "",
@@ -1524,7 +1631,8 @@
       "South Lot"
     ],
     "city": "Cincinnati",
-    "state": "OH"
+    "state": "OH",
+    "venueName": "Paycor Stadium"
   },
   "pechanga_arena": {
     "updated": "",
@@ -1533,7 +1641,8 @@
     "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
     "lots": [],
     "city": "San Diego",
-    "state": "CA"
+    "state": "CA",
+    "venueName": "Pechanga Arena"
   },
   "petco_park": {
     "updated": "",
@@ -1542,7 +1651,8 @@
     "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
     "lots": [],
     "city": "San Diego",
-    "state": "CA"
+    "state": "CA",
+    "venueName": "Petco Park"
   },
   "petersen_events_center": {
     "updated": "",
@@ -1558,7 +1668,8 @@
       "J Lot"
     ],
     "city": "Pittsburgh",
-    "state": "PA"
+    "state": "PA",
+    "venueName": "Petersen Events Center"
   },
   "pinnacle_bank_arena": {
     "updated": "",
@@ -1574,7 +1685,8 @@
       "Lumberworks Public Parking Garage"
     ],
     "city": "Lincoln",
-    "state": "NE"
+    "state": "NE",
+    "venueName": "Pinnacle Bank Arena"
   },
   "progressive_field": {
     "updated": "",
@@ -1586,7 +1698,8 @@
       "P-Lot"
     ],
     "city": "Cleveland",
-    "state": "OH"
+    "state": "OH",
+    "venueName": "Progressive Field"
   },
   "providence_park": {
     "updated": "",
@@ -1595,7 +1708,8 @@
     "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
     "lots": [],
     "city": "Portland",
-    "state": "OR"
+    "state": "OR",
+    "venueName": "Providence Park"
   },
   "prudential_center": {
     "updated": "",
@@ -1609,7 +1723,8 @@
       "Green 7"
     ],
     "city": "Newark",
-    "state": "NJ"
+    "state": "NJ",
+    "venueName": "Prudential Center"
   },
   "rate_field": {
     "updated": "",
@@ -1626,7 +1741,8 @@
       "Lot L"
     ],
     "city": "Chicago",
-    "state": "IL"
+    "state": "IL",
+    "venueName": "Rate Field"
   },
   "raymond_james_stadium": {
     "updated": "",
@@ -1635,7 +1751,8 @@
     "rideshare": "Ride sharing drop-off and pick-up information, including Uber and Lyft, is available at designated zones.",
     "lots": [],
     "city": "Tampa",
-    "state": "FL"
+    "state": "FL",
+    "venueName": "Raymond James Stadium"
   },
   "red_rocks_amphitheatre": {
     "updated": "",
@@ -1650,13 +1767,14 @@
       "Lower South lot 2"
     ],
     "city": "Morrison",
-    "state": "CO"
+    "state": "CO",
+    "venueName": "Red Rocks Amphitheatre"
   },
   "rocket_arena": {
     "updated": "",
     "officialParkingUrl": "https://www.rocketarena.com/directions-parking",
     "note": "Parking is available on-site at the Gateway East Garage and JACK Cleveland Casino Garage, which together accommodate 3,300 cars and offer accessible parking with elevators and a connecting bridge to the venue. The Gateway East Garage uses license plate readers for cashless, automatic billing and requires event tickets to access the bridge entrance. Additional parking options are available within a 5-10 minute walk, with advance parking passes available through LAZ Parking and ParkWhiz.",
-    "rideshare": "Lyft is Rocket Arena\u2019s official rideshare partner, offering new users 50% off their first two rides with code ROCKETARENA.",
+    "rideshare": "Lyft is Rocket Arena’s official rideshare partner, offering new users 50% off their first two rides with code ROCKETARENA.",
     "lots": [
       "Gateway East Garage",
       "JACK Cleveland Casino Garage",
@@ -1664,7 +1782,8 @@
       "Surface Parking Lot 630 Prospect Avenue"
     ],
     "city": "Huntington",
-    "state": "WV"
+    "state": "WV",
+    "venueName": "Rocket Arena"
   },
   "rogers_arena": {
     "updated": "",
@@ -1673,7 +1792,8 @@
     "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
     "lots": [],
     "city": "Vancouver",
-    "state": "Canada"
+    "state": "Canada",
+    "venueName": "Rogers Arena"
   },
   "rogers_centre": {
     "updated": "",
@@ -1692,7 +1812,8 @@
       "Blue Jays Way & Navy Warf Ct."
     ],
     "city": "Toronto",
-    "state": "Canada"
+    "state": "Canada",
+    "venueName": "Rogers Centre"
   },
   "rupp_arena": {
     "updated": "",
@@ -1701,7 +1822,8 @@
     "rideshare": "Uber and Lyft drivers can drop off and pick up patrons just steps from the door, with simple instructions provided for a convenient rideshare experience.",
     "lots": [],
     "city": "Lexington",
-    "state": "KY"
+    "state": "KY",
+    "venueName": "Rupp Arena"
   },
   "sap_center": {
     "updated": "",
@@ -1712,7 +1834,8 @@
       "ABC Lot"
     ],
     "city": "San Jose",
-    "state": "CA"
+    "state": "CA",
+    "venueName": "SAP Center"
   },
   "schottenstein_center": {
     "updated": "",
@@ -1724,7 +1847,8 @@
       "Buckeye Lots"
     ],
     "city": "Columbus",
-    "state": "OH"
+    "state": "OH",
+    "venueName": "Schottenstein Center"
   },
   "scotiabank_arena": {
     "updated": "",
@@ -1736,7 +1860,8 @@
       "15 York Street Public Parking"
     ],
     "city": "Toronto",
-    "state": "ON"
+    "state": "ON",
+    "venueName": "Scotiabank Arena"
   },
   "simmons_bank_arena": {
     "updated": "",
@@ -1745,7 +1870,8 @@
     "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
     "lots": [],
     "city": "North Little Rock",
-    "state": "AR"
+    "state": "AR",
+    "venueName": "Simmons Bank Arena"
   },
   "smoothie_king_center": {
     "updated": "",
@@ -1764,7 +1890,8 @@
       "Lot 4"
     ],
     "city": "New Orleans",
-    "state": "LA"
+    "state": "LA",
+    "venueName": "Smoothie King Center"
   },
   "sofi_stadium": {
     "updated": "",
@@ -1781,7 +1908,8 @@
       "Yellow Parking Zone"
     ],
     "city": "Inglewood",
-    "state": "CA"
+    "state": "CA",
+    "venueName": "SoFi Stadium"
   },
   "soldier_field": {
     "updated": "",
@@ -1790,7 +1918,8 @@
     "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
     "lots": [],
     "city": "Chicago",
-    "state": "IL"
+    "state": "IL",
+    "venueName": "Soldier Field"
   },
   "spectrum_center": {
     "updated": "",
@@ -1799,7 +1928,8 @@
     "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
     "lots": [],
     "city": "Charlotte",
-    "state": "NC"
+    "state": "NC",
+    "venueName": "Spectrum Center"
   },
   "state_farm_arena": {
     "updated": "",
@@ -1813,7 +1943,8 @@
       "Diamond Deck"
     ],
     "city": "Atlanta",
-    "state": "GA"
+    "state": "GA",
+    "venueName": "State Farm Arena"
   },
   "state_farm_stadium": {
     "updated": "",
@@ -1827,7 +1958,8 @@
       "Black Lot"
     ],
     "city": "Glendale",
-    "state": "AZ"
+    "state": "AZ",
+    "venueName": "State Farm Stadium"
   },
   "sun_bowl_stadium": {
     "updated": "",
@@ -1842,20 +1974,22 @@
       "Premium Club Parking lots (GR1 & SB5)"
     ],
     "city": "El Paso",
-    "state": "TX"
+    "state": "TX",
+    "venueName": "Sun Bowl Stadium"
   },
   "t_mobile_arena": {
     "updated": "",
     "officialParkingUrl": "https://www.t-mobilearena.com/plan-your-visit/parking",
     "note": "Reserved Event Parking allows patrons to pre-pay for parking at facilities close to T-Mobile Arena, including Park MGM, New York-New York, and Aria Event Garages. Parking passes are non-refundable and cannot be purchased on-site the night of the event. MGM Resorts is cashless for event parking, accepting only pre-paid parking passes, credit cards, or contactless payment.",
-    "rideshare": "Uber/rideshare drop-off is accessible through the ground level of the New York-New York parking garage, with pick-up at the nearest local casino property\u2014either New York-New York or Park MGM.",
+    "rideshare": "Uber/rideshare drop-off is accessible through the ground level of the New York-New York parking garage, with pick-up at the nearest local casino property—either New York-New York or Park MGM.",
     "lots": [
       "Park MGM Event Garage",
       "New York-New York Event Garage",
       "Aria Event Garage"
     ],
     "city": "Las Vegas",
-    "state": "NV"
+    "state": "NV",
+    "venueName": "T-Mobile Arena"
   },
   "t_mobile_park": {
     "updated": "",
@@ -1866,7 +2000,8 @@
       "Mariners Garage"
     ],
     "city": "Seattle",
-    "state": "WA"
+    "state": "WA",
+    "venueName": "T-Mobile Park"
   },
   "t_mobile_center": {
     "updated": "",
@@ -1879,7 +2014,8 @@
       "Yellow Lot Parking Garage"
     ],
     "city": "Kansas City",
-    "state": "MO"
+    "state": "MO",
+    "venueName": "T-Mobile Center"
   },
   "td_garden": {
     "updated": "",
@@ -1890,7 +2026,8 @@
       "North Station Garage"
     ],
     "city": "Boston",
-    "state": "MA"
+    "state": "MA",
+    "venueName": "TD Garden"
   },
   "target_center": {
     "updated": "",
@@ -1902,7 +2039,8 @@
       "Ramp B"
     ],
     "city": "Minneapolis",
-    "state": "MN"
+    "state": "MN",
+    "venueName": "Target Center"
   },
   "target_field": {
     "updated": "",
@@ -1914,7 +2052,8 @@
       "Hawthorne Ramp"
     ],
     "city": "Minneapolis",
-    "state": "MN"
+    "state": "MN",
+    "venueName": "Target Field"
   },
   "the_anthem": {
     "updated": "",
@@ -1923,7 +2062,8 @@
     "rideshare": "There are designated drop-off and pick-up locations for Uber, Lyft, the Taxi Commission, and DDot; check your app for specific locations.",
     "lots": [],
     "city": "Washington",
-    "state": "DC"
+    "state": "DC",
+    "venueName": "The Anthem"
   },
   "the_armory": {
     "updated": "",
@@ -1932,7 +2072,8 @@
     "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
     "lots": [],
     "city": "Minneapolis",
-    "state": "MN"
+    "state": "MN",
+    "venueName": "The Armory"
   },
   "the_dome_at_americas_center": {
     "updated": "",
@@ -1947,7 +2088,8 @@
       "Ninth Street Garage"
     ],
     "city": "St. Louis",
-    "state": "MO"
+    "state": "MO",
+    "venueName": "The Dome at America’s Center"
   },
   "the_pinnacle": {
     "updated": "",
@@ -1960,7 +2102,8 @@
       "Amazon Towers"
     ],
     "city": "Nashville",
-    "state": "TN"
+    "state": "TN",
+    "venueName": "The Pinnacle"
   },
   "sphere_las_vegas": {
     "updated": "",
@@ -1969,7 +2112,8 @@
     "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
     "lots": [],
     "city": "Las Vegas",
-    "state": "NV"
+    "state": "NV",
+    "venueName": "Sphere Las Vegas"
   },
   "thunder_ridge_nature_arena": {
     "updated": "",
@@ -1984,7 +2128,8 @@
       "General Admission"
     ],
     "city": "Ridgedale",
-    "state": "MO"
+    "state": "MO",
+    "venueName": "Thunder Ridge Nature Arena"
   },
   "toyota_center": {
     "updated": "",
@@ -1995,7 +2140,8 @@
       "Toyota Tundra Garage"
     ],
     "city": "Houston",
-    "state": "TX"
+    "state": "TX",
+    "venueName": "Toyota Center"
   },
   "truist_park": {
     "updated": "",
@@ -2013,7 +2159,8 @@
       "Battery Silver Deck"
     ],
     "city": "Atlanta",
-    "state": "GA"
+    "state": "GA",
+    "venueName": "Truist Park"
   },
   "us_bank_stadium": {
     "updated": "",
@@ -2022,12 +2169,13 @@
     "rideshare": "Uber and Lyft guests are directed to pick up their rides at either 9th Avenue South between 6th and 7th Streets South or 3rd Street between Park Avenue and Portland Avenue.",
     "lots": [],
     "city": "Minneapolis",
-    "state": "MN"
+    "state": "MN",
+    "venueName": "U.S. Bank Stadium"
   },
   "ubs_arena": {
     "updated": "",
     "officialParkingUrl": "https://ubsarena.com/parking/",
-    "note": "Parking at UBS Arena is available for purchase in advance via ParkWhiz or Ticketmaster, with pre-paid parking recommended and sold up until lot opening time. All parking lots are accessed via Cross Island Parkway exits 26A, 26B, and 26D, with general paid parking available on event days at Emerald Parking. Prices increase by $5\u2013$10 for concert parking purchased at the arena lots, and tailgating is prohibited.",
+    "note": "Parking at UBS Arena is available for purchase in advance via ParkWhiz or Ticketmaster, with pre-paid parking recommended and sold up until lot opening time. All parking lots are accessed via Cross Island Parkway exits 26A, 26B, and 26D, with general paid parking available on event days at Emerald Parking. Prices increase by $5–$10 for concert parking purchased at the arena lots, and tailgating is prohibited.",
     "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
     "lots": [
       "Emerald Parking",
@@ -2037,7 +2185,8 @@
       "Ruby Parking"
     ],
     "city": "Elmont",
-    "state": "NY"
+    "state": "NY",
+    "venueName": "UBS Arena"
   },
   "uc_berkeley_greek_theatre": {
     "updated": "",
@@ -2049,7 +2198,8 @@
       "Upper Hearst"
     ],
     "city": "Berkeley",
-    "state": "CA"
+    "state": "CA",
+    "venueName": "UC Berkeley Greek Theatre"
   },
   "united_center": {
     "updated": "",
@@ -2058,7 +2208,8 @@
     "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
     "lots": [],
     "city": "Chicago",
-    "state": "IL"
+    "state": "IL",
+    "venueName": "United Center"
   },
   "utah_first_credit_union_amphitheatre": {
     "updated": "",
@@ -2067,7 +2218,8 @@
     "rideshare": "Rideshare drop off and pick up is located at 5150 Upper Ridge Rd., West Valley City, UT 84118, and guests are encouraged to book rides in advance using Uber Reserve for guaranteed pickup and drop off.",
     "lots": [],
     "city": "West Valley City",
-    "state": "UT"
+    "state": "UT",
+    "venueName": "Utah First Credit Union Amphitheatre"
   },
   "uw_panther_arena": {
     "updated": "",
@@ -2078,11 +2230,12 @@
       "Baird Center Garage",
       "330 W Wells St. Garage",
       "6th & State Lot",
-      "Isaac\u2019s Garage",
+      "Isaac’s Garage",
       "MATC Surface Lot"
     ],
     "city": "Milwaukee",
-    "state": "WI"
+    "state": "WI",
+    "venueName": "UW - Panther Arena"
   },
   "van_andel_arena": {
     "updated": "",
@@ -2091,7 +2244,8 @@
     "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
     "lots": [],
     "city": "Grand Rapids",
-    "state": "MI"
+    "state": "MI",
+    "venueName": "Van Andel Arena"
   },
   "veterans_united_home_loans_amphitheater": {
     "updated": "",
@@ -2107,7 +2261,8 @@
       "Reserved Parking"
     ],
     "city": "Virginia Beach",
-    "state": "VA"
+    "state": "VA",
+    "venueName": "Veterans United Home Loans Amphitheater"
   },
   "walmart_amp": {
     "updated": "",
@@ -2116,7 +2271,8 @@
     "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
     "lots": [],
     "city": "Rogers",
-    "state": "AR"
+    "state": "AR",
+    "venueName": "Walmart AMP"
   },
   "caseys_center": {
     "updated": "",
@@ -2132,7 +2288,8 @@
       "3rd & Court Parking Garage"
     ],
     "city": "Des Moines",
-    "state": "IA"
+    "state": "IA",
+    "venueName": "Casey's Center"
   },
   "xfinity_mobile_arena": {
     "updated": "",
@@ -2143,7 +2300,8 @@
       "Lot A"
     ],
     "city": "Philadelphia",
-    "state": "PA"
+    "state": "PA",
+    "venueName": "Xfinity Mobile Arena"
   },
   "wrigley_field": {
     "updated": "",
@@ -2157,7 +2315,8 @@
       "Irving Park Lot"
     ],
     "city": "Chicago",
-    "state": "IL"
+    "state": "IL",
+    "venueName": "Wrigley Field"
   },
   "xl_center": {
     "updated": "",
@@ -2166,7 +2325,8 @@
     "rideshare": "Lyft is the official rideshare partner of PeoplesBank Arena, offering a discount code PEOPLESBANK for new users; no specific pickup/dropoff zone details are provided.",
     "lots": [],
     "city": "Hartford",
-    "state": "CT"
+    "state": "CT",
+    "venueName": "XL Center"
   },
   "grand_casino_arena": {
     "updated": "",
@@ -2178,7 +2338,8 @@
       "Kellogg Parking Ramp"
     ],
     "city": "St. Paul",
-    "state": "MN"
+    "state": "MN",
+    "venueName": "Grand Casino Arena"
   },
   "yankee_stadium": {
     "updated": "",
@@ -2192,6 +2353,7 @@
       "River Avenue Garage"
     ],
     "city": "Bronx",
-    "state": "NY"
+    "state": "NY",
+    "venueName": "Yankee Stadium"
   }
 }
