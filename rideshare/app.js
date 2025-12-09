@@ -15,6 +15,8 @@ function initRideshare() {
       venues = buildVenuesList(rideshareData);
       renderVenueList(venues);
       wireSearch();
+      // 👇 NEW: try to auto-open a venue from ?venueId=
+      autoOpenVenueFromQuery();
     })
     .catch((err) => {
       console.error("Error loading rideshare.json", err);
@@ -249,4 +251,41 @@ function attachActionButton(btn, url, title) {
       window.location.href = url;
     }
   });
+}
+
+/* ========= NEW: deep-link support via ?venueId=slug ========= */
+
+function getVenueIdFromQuery() {
+  try {
+    const params = new URLSearchParams(window.location.search || "");
+    // Support both ?venueId= and ?venue= just in case
+    return params.get("venueId") || params.get("venue") || null;
+  } catch (e) {
+    console.warn("Unable to read query params", e);
+    return null;
+  }
+}
+
+function autoOpenVenueFromQuery() {
+  const raw = getVenueIdFromQuery();
+  if (!raw || !Array.isArray(venues) || !venues.length) return;
+
+  const needle = raw.toLowerCase();
+
+  // 1) Try slug/id match (best)
+  let match =
+    venues.find((v) => (v.id || "").toLowerCase() === needle) || null;
+
+  // 2) Fallback: match by name
+  if (!match) {
+    match =
+      venues.find((v) => (v.name || "").toLowerCase() === needle) || null;
+  }
+
+  if (!match) return;
+
+  // Open the venue details just like a user tap
+  showVenueDetail(match);
+
+  // Optional: you can scroll the list to that venue if you want later
 }
