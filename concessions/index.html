@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Rideshare Guide</title>
+  <title>Concessions Guide</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 
   <!-- Fonts -->
@@ -22,7 +22,7 @@
       <div class="page-header-inner">
         <img
           src="IMG_3180.jpeg"
-          alt="Rideshare"
+          alt="Concessions"
           class="brand-logo"
         />
 
@@ -38,58 +38,74 @@
       </div>
     </header>
 
-    <!-- Content -->
     <main class="layout">
-      <section id="infoPanel" class="info-panel info-panel--empty">
+      <!-- LEFT SIDE — venue list -->
+      <section class="list-panel">
+        <h2 class="panel-title">Find Concessions by Venue</h2>
+        <p class="panel-subtitle">
+          Search or browse to see food &amp; drink options, notable stands, and full menu links.
+        </p>
 
-        <!-- Empty state -->
-        <div class="info-empty">
-          <h2>Find Rideshare by Venue</h2>
-          <p>Search a venue or browse below to see pickup zones, drop-off tips, and direct Uber/Lyft shortcuts.</p>
-        </div>
+        <div id="venueList" class="venue-list"><!-- JS injects venue cards --></div>
+      </section>
 
-        <!-- Random browse list -->
-        <div id="browseList" class="browse-list"></div>
+      <!-- RIGHT SIDE — details -->
+      <section id="detailPanel" class="detail-panel detail-panel--empty">
+        <div class="detail-inner">
 
-        <!-- Populated once a venue is chosen -->
-        <div class="info-content" hidden>
+          <!-- Empty state -->
+          <p id="detailHint" class="detail-hint">
+            Select a venue on the left to see concessions, stands, and menu info.
+          </p>
 
-          <header class="info-header">
-            <div>
-              <h2 id="venueName"></h2>
-              <p id="venueLocation" class="venue-location"></p>
+          <!-- Loaded venue content -->
+          <div id="detailContent" class="detail-content" hidden>
+
+            <!-- Venue header -->
+            <header class="detail-header">
+              <h2 id="venueName" class="detail-venue-name"></h2>
+              <p id="venueLocation" class="detail-venue-location"></p>
+            </header>
+
+            <div class="info-cards">
+
+              <!-- Overview -->
+              <article id="noteCard" class="info-card">
+                <h3>Overview</h3>
+                <p id="concessionsNote" class="card-body"></p>
+              </article>
+
+              <!-- Notable Stands -->
+              <article id="standsCard" class="info-card" hidden>
+                <h3>Notable Stands</h3>
+                <ul id="standsList" class="bullet-list"></ul>
+              </article>
+
+              <!-- Official Concessions Link -->
+              <article id="officialCard" class="info-card" hidden>
+                <h3>Full Menus &amp; Map</h3>
+                <p class="card-body">
+                  For detailed menus, allergen info, and full concessions maps, use the official venue page below.
+                </p>
+                <a
+                  id="concessionsLink"
+                  class="primary-btn"
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View Official Concessions Info
+                </a>
+              </article>
+
             </div>
-          </header>
-
-          <div class="info-cards">
-            <!-- Rideshare Info (optional) -->
-            <article class="info-card" id="infoCard" hidden>
-              <h3>Rideshare Information</h3>
-              <p id="rideshareText" class="card-body"></p>
-            </article>
-
-            <!-- Buttons -->
-            <article class="info-card" id="buttonsCard" hidden>
-              <h3>Use Rideshare Apps</h3>
-
-              <div class="rideshare-buttons">
-                <button id="uber-to"     class="primary-btn">Uber To Venue</button>
-                <button id="uber-from"   class="primary-btn">Uber From Venue</button>
-                <button id="lyft-to"     class="primary-btn">Lyft To Venue</button>
-                <button id="lyft-from"   class="primary-btn">Lyft From Venue</button>
-              </div>
-            </article>
-
           </div>
         </div>
       </section>
     </main>
   </div>
 
-  <!-- BuildFire JS -->
-  <script src="https://js.buildfire.com/buildfire.min.js"></script>
-
-  <!-- App -->
+  <!-- Your working JS -->
   <script src="app.js" defer></script>
 </body>
 </html>
