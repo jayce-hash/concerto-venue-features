@@ -17,16 +17,17 @@
 </head>
 <body>
   <div class="page">
-    <!-- Header -->
+    <!-- Top header -->
     <header class="page-header">
       <div class="page-header-inner">
-        <!-- Logo (replace src if needed) -->
+        <!-- Logo (same pattern as other features) -->
         <img
           src="IMG_0993.jpeg"
           alt="Concerto - From the concert, to the city"
           class="brand-logo"
         />
 
+        <!-- Search -->
         <div class="search-wrapper">
           <input
             id="venueSearch"
@@ -34,26 +35,25 @@
             placeholder="Search a venue..."
             autocomplete="off"
           />
-          <div id="searchResults" class="search-results"></div>
         </div>
       </div>
     </header>
 
-    <!-- Layout -->
+    <!-- Main layout: list + detail -->
     <main class="layout">
-      <!-- Left / top: venue list -->
+      <!-- Venue list panel -->
       <section class="list-panel">
         <h2 class="panel-title">Browse Venues</h2>
         <div id="venueList" class="venue-list">
-          <!-- Venue cards injected here -->
+          <!-- Venue cards injected here by app.js -->
         </div>
       </section>
 
-      <!-- Right / bottom: detail panel -->
+      <!-- Detail panel -->
       <section id="detailPanel" class="detail-panel detail-panel--empty">
         <div class="detail-inner">
           <p id="detailHint" class="detail-hint">
-            Select a venue to view rideshare info and quick links.
+            Select a venue to view rideshare information and quick links.
           </p>
 
           <div id="detailContent" class="detail-content" hidden>
@@ -62,15 +62,16 @@
               <p id="venueLocation" class="detail-venue-location"></p>
             </header>
 
-            <!-- Rideshare Info (hidden if no text) -->
+            <!-- Rideshare text (hidden when empty) -->
             <section id="rideshare-info" class="section-block" hidden>
               <h3 class="section-title">Rideshare Information</h3>
               <p id="rideshare-text" class="section-body"></p>
             </section>
 
-            <!-- Buttons (hidden if no lat/lng) -->
+            <!-- Uber / Lyft buttons (hidden when no lat/lng) -->
             <section id="rideshare-buttons" class="section-block" hidden>
               <h3 class="section-title">Open in Uber / Lyft</h3>
+
               <div class="button-row">
                 <a
                   id="uber-to"
@@ -88,9 +89,10 @@
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Uber From Venue
+                  Uber from Venue
                 </a>
               </div>
+
               <div class="button-row">
                 <a
                   id="lyft-to"
@@ -108,7 +110,7 @@
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Lyft From Venue
+                  Lyft from Venue
                 </a>
               </div>
             </section>
