@@ -1,5 +1,6 @@
 /* ============================================================
-   Rideshare Guide (Light Ultra-Clean, Parking-style)
+   Concerto · Info Microfeatures (Bag, Parking, Concessions, Rideshare)
+   Rideshare version
    ============================================================ */
 
 :root {
@@ -98,7 +99,7 @@ body {
   color: var(--muted);
 }
 
-/* (Parking/Bag uses dropdown; harmless here but kept for consistency) */
+/* Search dropdown */
 .search-results {
   position: absolute;
   left: 0;
@@ -135,123 +136,70 @@ body {
   padding: 12px 14px 20px;
 }
 
-.layout-inner {
+/* Info panel */
+.info-panel {
   max-width: 680px;
   margin: 0 auto;
 }
 
-/* ============================================================
-   LIST PANEL (Browse venues) – mirrors Bag/Parking info box
-   ============================================================ */
-
-.list-panel {
-  background: #fff;
-  border-radius: 16px;
-  border: 1px solid var(--line);
-  box-shadow: 0 2px 8px rgba(18, 30, 54, 0.06);
-  padding: 14px 16px;
-  margin-top: 16px;
-}
-
-.section-title {
-  margin: 0 0 4px;
-  font-size: 1rem;
-  font-weight: 600;
-}
-
-.section-subtitle {
-  margin: 0;
-  margin-bottom: 8px;
-  font-size: 0.9rem;
-  color: var(--muted);
-}
-
-/* Venue list inside list-panel */
-.venue-list {
-  margin: 0;
-  padding: 0;
-}
-
-.venue-card {
-  padding: 8px 4px;
-  font-size: 0.86rem;
-  cursor: pointer;
-}
-
-.venue-card + .venue-card {
-  border-top: 1px solid #eef1f7;
-}
-
-.venue-card:hover {
-  background: #f5f7fb;
-}
-
-.venue-card-name {
-  margin: 0;
-  font-size: 0.95rem;
-  font-weight: 600;
-}
-
-.venue-card-meta {
-  margin: 2px 0 0;
-  font-size: 0.86rem;
-  color: var(--muted);
-}
-
-/* ============================================================
-   DETAIL PANEL (the part below list)
-   Matches Bag/Parking info-panel + cards
-   ============================================================ */
-
-.detail-panel {
-  max-width: 680px;
-  margin: 12px auto 0;
-}
-
-.detail-panel--empty .detail-hint {
+.info-panel--empty .info-empty {
   display: block;
 }
 
-.detail-hint {
+.info-empty {
   text-align: left;
-  margin-top: 4px;
+  margin-top: 16px;
   padding: 14px 16px;
   background: #fff;
   border-radius: 16px;
   border: 1px solid var(--line);
   box-shadow: 0 2px 8px rgba(18, 30, 54, 0.06);
+}
+
+.info-empty h2 {
+  margin: 0 0 6px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.info-empty p {
+  margin: 0;
   font-size: 0.9rem;
   color: var(--muted);
 }
 
-/* Header inside detail content */
-.detail-header {
+.info-content {
+  margin-top: 14px;
+}
+
+/* Header inside panel */
+.info-header {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  margin: 16px 0 10px;
+  margin-bottom: 10px;
 }
 
-.detail-venue-name {
+.info-header h2 {
   margin: 0;
   font-size: 1rem;
   font-weight: 600;
 }
 
-.detail-venue-location {
+.venue-location {
   margin: 2px 0 0;
   font-size: 0.86rem;
   color: var(--muted);
 }
 
 /* Cards */
-.detail-body {
+.info-cards {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
-.detail-card {
+.info-card {
   background: var(--card);
   border-radius: 16px;
   border: 1px solid var(--line);
@@ -259,32 +207,39 @@ body {
   box-shadow: 0 2px 6px rgba(18, 30, 54, 0.06);
 }
 
-.detail-card h3 {
+.info-card h3 {
   margin: 0 0 6px;
   font-size: 0.92rem;
   font-weight: 600;
 }
 
-.detail-text {
+.card-body {
   margin: 0;
   font-size: 0.88rem;
   color: var(--ink);
 }
 
-.detail-text.small {
-  font-size: 0.8rem;
-  color: var(--muted);
+/* Bullet list (if you ever add any) */
+.bullet-list {
+  margin: 0;
+  padding-left: 18px;
+  font-size: 0.86rem;
+  color: var(--ink);
 }
 
-/* Rideshare button group */
+.bullet-list li {
+  margin-bottom: 3px;
+}
+
+/* Rideshare buttons layout */
 .rideshare-buttons {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
-  margin-top: 8px;
+  margin-top: 6px;
 }
 
-/* Same pill style as Bag/Parking primary-btn */
+/* Buttons */
 .primary-btn {
   display: inline-flex;
   align-items: center;
@@ -296,14 +251,7 @@ body {
   color: #fff;
   font-size: 0.9rem;
   text-decoration: none;
-  margin-top: 6px;
-  cursor: pointer;
-}
-
-/* Make them two-per-row on small screens */
-.rideshare-buttons .primary-btn {
-  flex: 1 1 calc(50% - 8px);
-  min-width: 140px;
+  margin-top: 4px;
 }
 
 /* Tablet/Desktop */
@@ -322,9 +270,5 @@ body {
 
   .search-wrapper {
     max-width: 320px;
-  }
-
-  .layout-inner {
-    max-width: 720px;
   }
 }
