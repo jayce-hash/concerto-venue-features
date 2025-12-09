@@ -27,10 +27,8 @@ fetch("/data/parking.json")
   .then((data) => {
     parkingData = data || {};
     venuesList = buildVenuesList(parkingData);
-    renderBrowseList();
-
-    // 👇 NEW: auto-open venue if ?venueId= or ?venue= is in the URL
-    autoOpenVenueFromQuery();
+    renderBrowseList();  // no-op if no browseList
+    handleDeepLink();    // support ?venue=slug
   })
   .catch((err) => {
     console.error("Error loading parking.json", err);
@@ -61,7 +59,6 @@ function prettifySlug(slug) {
 function renderBrowseList() {
   if (!browseListEl || !venuesList.length) return;
 
-  // Shuffle and take first 12
   const shuffled = [...venuesList];
   for (let i = shuffled.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
@@ -194,38 +191,15 @@ function showVenue(slug) {
   }
 }
 
-/* ========= NEW: deep-link support via ?venueId= or ?venue= ========= */
+// Deep-link: /parking/?venue=sofi_stadium
+function handleDeepLink() {
+  const params = new URLSearchParams(window.location.search);
+  const slug = params.get("venue");
+  if (!slug || !parkingData[slug]) return;
 
-function getVenueIdFromQuery() {
-  try {
-    const params = new URLSearchParams(window.location.search || "");
-    return params.get("venueId") || params.get("venue") || null;
-  } catch (e) {
-    console.warn("Unable to read query params", e);
-    return null;
+  const meta = venuesList.find((v) => v.slug === slug);
+  if (meta && searchInput) {
+    searchInput.value = meta.displayName;
   }
-}
-
-function autoOpenVenueFromQuery() {
-  const raw = getVenueIdFromQuery();
-  if (!raw || !Array.isArray(venuesList) || !venuesList.length) return;
-
-  const needle = raw.toLowerCase();
-
-  // 1) Try slug match first
-  let match =
-    venuesList.find((v) => (v.slug || "").toLowerCase() === needle) || null;
-
-  // 2) Fallback: match by displayName (e.g. "SoFi Stadium")
-  if (!match) {
-    match =
-      venuesList.find(
-        (v) => (v.displayName || "").toLowerCase() === needle
-      ) || null;
-  }
-
-  if (!match) return;
-
-  // Open like a user tapped it
-  showVenue(match.slug);
+  showVenue(slug);
 }
