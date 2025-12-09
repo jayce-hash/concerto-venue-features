@@ -7,8 +7,8 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function initRideshare() {
-  // JSON lives in ../data like the other features
-  fetch("../data/rideshare.json")
+  // JSON now lives in the SAME folder as index.html
+  fetch("rideshare.json")
     .then((res) => res.json())
     .then((data) => {
       rideshareData = data || {};
@@ -202,26 +202,10 @@ function renderRideshare(venue) {
     lngEnc;
 
   // Attach BuildFire-powered click handlers
-  attachActionButton(
-    uberToBtn,
-    uberToUrl,
-    `Uber to ${venueName}`
-  );
-  attachActionButton(
-    uberFromBtn,
-    uberFromUrl,
-    `Uber from ${venueName}`
-  );
-  attachActionButton(
-    lyftToBtn,
-    lyftToUrl,
-    `Lyft to ${venueName}`
-  );
-  attachActionButton(
-    lyftFromBtn,
-    lyftFromUrl,
-    `Lyft from ${venueName}`
-  );
+  attachActionButton(uberToBtn, uberToUrl, `Uber to ${venueName}`);
+  attachActionButton(uberFromBtn, uberFromUrl, `Uber from ${venueName}`);
+  attachActionButton(lyftToBtn, lyftToUrl, `Lyft to ${venueName}`);
+  attachActionButton(lyftFromBtn, lyftFromUrl, `Lyft from ${venueName}`);
 }
 
 function attachActionButton(btn, url, title) {
