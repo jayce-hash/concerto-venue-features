@@ -1,5 +1,5 @@
 /* ============================================================
-   Rideshare Guide (Bag/Parking-style layout)
+   Rideshare Guide (Light Ultra-Clean, Parking-style)
    ============================================================ */
 
 :root {
@@ -11,6 +11,7 @@
   --line: #E2E7F0;
   --card: #FFFFFF;
   --shadow-soft: 0 4px 10px rgba(18, 30, 54, 0.10);
+  --shadow-strong: 0 16px 40px rgba(18, 30, 54, 0.20);
 }
 
 /* Reset */
@@ -33,7 +34,7 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-/* Page shell */
+/* Layout shell */
 .page {
   min-height: 100vh;
   display: flex;
@@ -97,7 +98,38 @@ body {
   color: var(--muted);
 }
 
-/* Layout */
+/* (Parking/Bag uses dropdown; harmless here but kept for consistency) */
+.search-results {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 110%;
+  margin-top: 4px;
+  background: #fff;
+  border-radius: 14px;
+  border: 1px solid var(--line);
+  box-shadow: 0 10px 26px rgba(18, 30, 54, 0.18);
+  max-height: 260px;
+  overflow-y: auto;
+  display: none;
+  z-index: 20;
+}
+
+.search-results.visible {
+  display: block;
+}
+
+.search-result-item {
+  padding: 8px 11px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.search-result-item:hover {
+  background: #f5f7fb;
+}
+
+/* Main layout */
 .layout {
   flex: 1;
   padding: 12px 14px 20px;
@@ -108,14 +140,17 @@ body {
   margin: 0 auto;
 }
 
-/* List panel (Browse venues box) */
+/* ============================================================
+   LIST PANEL (Browse venues) – mirrors Bag/Parking info box
+   ============================================================ */
+
 .list-panel {
   background: #fff;
   border-radius: 16px;
   border: 1px solid var(--line);
   box-shadow: 0 2px 8px rgba(18, 30, 54, 0.06);
-  padding: 12px 14px;
-  margin-bottom: 12px;
+  padding: 14px 16px;
+  margin-top: 16px;
 }
 
 .section-title {
@@ -125,12 +160,13 @@ body {
 }
 
 .section-subtitle {
-  margin: 0 0 8px;
-  font-size: 0.86rem;
+  margin: 0;
+  margin-bottom: 8px;
+  font-size: 0.9rem;
   color: var(--muted);
 }
 
-/* Venue list */
+/* Venue list inside list-panel */
 .venue-list {
   margin: 0;
   padding: 0;
@@ -138,7 +174,7 @@ body {
 
 .venue-card {
   padding: 8px 4px;
-  border-radius: 10px;
+  font-size: 0.86rem;
   cursor: pointer;
 }
 
@@ -162,9 +198,14 @@ body {
   color: var(--muted);
 }
 
-/* Detail panel */
+/* ============================================================
+   DETAIL PANEL (the part below list)
+   Matches Bag/Parking info-panel + cards
+   ============================================================ */
+
 .detail-panel {
-  margin-top: 0;
+  max-width: 680px;
+  margin: 12px auto 0;
 }
 
 .detail-panel--empty .detail-hint {
@@ -172,8 +213,9 @@ body {
 }
 
 .detail-hint {
-  margin-top: 12px;
-  padding: 12px 14px;
+  text-align: left;
+  margin-top: 4px;
+  padding: 14px 16px;
   background: #fff;
   border-radius: 16px;
   border: 1px solid var(--line);
@@ -182,12 +224,12 @@ body {
   color: var(--muted);
 }
 
-/* When content is shown, you can hide the hint via JS (already done) */
+/* Header inside detail content */
 .detail-header {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  margin: 12px 0 8px;
+  margin: 16px 0 10px;
 }
 
 .detail-venue-name {
@@ -202,7 +244,7 @@ body {
   color: var(--muted);
 }
 
-/* Cards inside detail */
+/* Cards */
 .detail-body {
   display: flex;
   flex-direction: column;
@@ -234,7 +276,7 @@ body {
   color: var(--muted);
 }
 
-/* Buttons */
+/* Rideshare button group */
 .rideshare-buttons {
   display: flex;
   flex-wrap: wrap;
@@ -242,19 +284,29 @@ body {
   margin-top: 8px;
 }
 
+/* Same pill style as Bag/Parking primary-btn */
 .primary-btn {
-  flex: 1 1 calc(50% - 8px);
-  min-width: 140px;
-  padding: 8px 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 18px;
   border-radius: 999px;
   border: none;
   background: linear-gradient(135deg, var(--accent), var(--accent-2));
   color: #fff;
-  font-size: 0.85rem;
-  text-align: center;
+  font-size: 0.9rem;
+  text-decoration: none;
+  margin-top: 6px;
+  cursor: pointer;
 }
 
-/* Tablet/Desktop adjustments */
+/* Make them two-per-row on small screens */
+.rideshare-buttons .primary-btn {
+  flex: 1 1 calc(50% - 8px);
+  min-width: 140px;
+}
+
+/* Tablet/Desktop */
 @media (min-width: 768px) {
   .page-header-inner {
     flex-direction: row;
