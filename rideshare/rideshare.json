@@ -3,8 +3,8 @@
     "venueName": "Acrisure Arena",
     "city": "Thousand Palms",
     "state": "CA",
-    "lat": null,
-    "lng": null,
+    "lat": 33.7797203,
+    "lng": -116.3399249,
     "note": "Lyft is the official rideshare partner with a discount code ACRISUREARENA for 50% off the first two rides; no specific pickup/dropoff zone details are provided."
   },
   "acrisure_stadium": {
@@ -43,8 +43,8 @@
     "venueName": "Amalie Arena",
     "city": "Tampa",
     "state": "FL",
-    "lat": null,
-    "lng": null,
+    "lat": 27.9427373,
+    "lng": -82.4517771,
     "note": ""
   },
   "amerant_bank_arena": {
@@ -267,8 +267,8 @@
     "venueName": "Commonwealth Stadium",
     "city": "Edmonton",
     "state": "AB",
-    "lat": null,
-    "lng": null,
+    "lat": 53.5597151,
+    "lng": -113.4761643,
     "note": "The curb lane on 112 Avenue eastbound from 95 Street to Stadium Road is a dedicated drop-off and pick-up location for the general public and rideshare."
   },
   "coors_field": {
@@ -283,8 +283,8 @@
     "venueName": "Credit Union 1 Amphitheatre",
     "city": "Tinley Park",
     "state": "IL",
-    "lat": null,
-    "lng": null,
+    "lat": 41.5441029,
+    "lng": -87.7755978,
     "note": "The venue encourages booking rides with Uber Reserve to ensure reliable pickup and dropoff during crowded events."
   },
   "cryptocom_arena": {
@@ -355,8 +355,8 @@
     "venueName": "Empower Federal Credit Union Amphitheater",
     "city": "Syracuse",
     "state": "NY",
-    "lat": null,
-    "lng": null,
+    "lat": 43.0881925,
+    "lng": -76.2228415,
     "note": ""
   },
   "empower_field": {
@@ -545,10 +545,10 @@
   },
   "huntington_bank_field": {
     "venueName": "Huntington Bank Field",
-    "city": "Columbus",
+    "city": "Cleveland",
     "state": "OH",
-    "lat": null,
-    "lng": null,
+    "lat": 41.506054,
+    "lng": -81.699562
     "note": ""
   },
   "intuit_dome": {
@@ -635,8 +635,8 @@
     "venueName": "Lenovo Center",
     "city": "Morrisville",
     "state": "NC",
-    "lat": null,
-    "lng": null,
+    "lat": 35.803291,
+    "lng": -78.72169920000002,
     "note": ""
   },
   "levis_stadium": {
@@ -787,8 +787,8 @@
     "venueName": "Northwest Stadium",
     "city": "Chicago",
     "state": "IL",
-    "lat": null,
-    "lng": null,
+    "lat": 42.0584293,
+    "lng": -87.67077979999999,
     "note": ""
   },
   "north_island_credit_union_amphitheatre": {
@@ -945,26 +945,26 @@
   },
   "rocket_arena": {
     "venueName": "Rocket Arena",
-    "city": "Huntington",
-    "state": "WV",
-    "lat": null,
-    "lng": null,
+    "city": "Cleveland",
+    "state": "OH",
+    "lat": 41.496556,
+    "lng": -81.688290,
     "note": "Lyft is Rocket Arenaâs official rideshare partner, offering new users 50% off their first two rides with code ROCKETARENA."
   },
   "rogers_arena": {
     "venueName": "Rogers Arena",
     "city": "Vancouver",
     "state": "Canada",
-    "lat": null,
-    "lng": null,
+    "lat": 49.2778358,
+    "lng": -123.1088227,
     "note": ""
   },
   "rogers_centre": {
     "venueName": "Rogers Centre",
     "city": "Toronto",
     "state": "Canada",
-    "lat": null,
-    "lng": null,
+    "lat": 43.6422705,
+    "lng": -79.3901667,
     "note": ""
   },
   "rupp_arena": {
@@ -995,16 +995,16 @@
     "venueName": "Scotiabank Arena",
     "city": "Toronto",
     "state": "ON",
-    "lat": null,
-    "lng": null,
+    "lat": 43.6434661,
+    "lng": -79.3790989,
     "note": ""
   },
   "simmons_bank_arena": {
     "venueName": "Simmons Bank Arena",
     "city": "North Little Rock",
     "state": "AR",
-    "lat": null,
-    "lng": null,
+    "lat": 34.7550895,
+    "lng": -92.26432349999999,
     "note": ""
   },
   "smoothie_king_center": {
@@ -1123,8 +1123,8 @@
     "venueName": "The Armory",
     "city": "Minneapolis",
     "state": "MN",
-    "lat": null,
-    "lng": null,
+    "lat": 44.9752026,
+    "lng": -93.2635268,
     "note": ""
   },
   "the_dome_at_americas_center": {
@@ -1155,8 +1155,8 @@
     "venueName": "Thunder Ridge Nature Arena",
     "city": "Ridgedale",
     "state": "MO",
-    "lat": null,
-    "lng": null,
+    "lat": 36.5122112,
+    "lng": -93.276699,
     "note": "Rideshare and guest pickup/dropoff zones are designated and clearly signed, with tram services available before and after events to assist guests."
   },
   "toyota_center": {
@@ -1195,8 +1195,8 @@
     "venueName": "UC Berkeley Greek Theatre",
     "city": "Berkeley",
     "state": "CA",
-    "lat": null,
-    "lng": null,
+    "lat": 37.8735759,
+    "lng": -122.2544715,
     "note": "There is a curbside drop-off area on Gayley Road just north of the Greek Theatre entrance for passengers with mobility disabilities; no other specific rideshare instructions are provided."
   },
   "united_center": {
