@@ -1219,7 +1219,7 @@
     "note": "Concessions information for this venue is not fully listed here yet. Use the official concessions link for the most up-to-date stands and menus.",
     "stands": [],
     "officialConcessionsUrl": "https://huntingtonbankfield.com/concessions/",
-    "city": "Columbus",
+    "city": "Cleveland",
     "state": "OH",
     "venueName": "Huntington Bank Field"
   },
@@ -2141,8 +2141,8 @@
       "CLE Cocktail"
     ],
     "officialConcessionsUrl": "https://www.rocketarena.com/plan-your-visit/concessions",
-    "city": "Huntington",
-    "state": "WV",
+    "city": "Cleveland",
+    "state": "OH",
     "venueName": "Rocket Arena"
   },
   "rogers_arena": {
