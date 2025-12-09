@@ -61,7 +61,8 @@
     "officialConcessionsUrl": "https://www.alamobowl.com/game-day/alamodome/",
     "city": "San Antonio",
     "state": "TX",
-    "venueName": "Alamodome"
+    "venueName": "Alamodome",
+    "venue": "Alamodome"
   },
   "albertsons_stadium": {
     "updated": "",
