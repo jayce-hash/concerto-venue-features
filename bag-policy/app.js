@@ -38,14 +38,29 @@ fetch("/data/bag_policies.json")
 function buildVenuesList(data) {
   const items = [];
   for (const slug in data) {
-    const v = data[slug];
-    const nameGuess = prettifySlug(slug);
+    const v = data[slug] || {};
+
+    // Prefer official venueName, fall back to prettified slug
+    const displayName = v.venueName || prettifySlug(slug);
+
     const city = v.city || "";
     const state = v.state || "";
-    const label = state ? `${nameGuess} — ${city}, ${state}` : nameGuess;
 
-    items.push({ slug, label, city, state, displayName: nameGuess });
+    let label = displayName;
+    if (city || state) {
+      const loc = [city, state].filter(Boolean).join(", ");
+      label = `${displayName} — ${loc}`;
+    }
+
+    items.push({
+      slug,
+      label,
+      city,
+      state,
+      displayName
+    });
   }
+
   return items.sort((a, b) => a.displayName.localeCompare(b.displayName));
 }
 
@@ -149,8 +164,9 @@ function showVenue(slug) {
   infoContent.hidden = false;
   if (infoEmptyEl) infoEmptyEl.style.display = "none";
 
-  const prettyName = prettifySlug(slug);
-  venueNameEl.textContent = prettyName;
+  // Use venueName first, fall back to slug prettified
+  const displayName = v.venueName || prettifySlug(slug);
+  venueNameEl.textContent = displayName;
 
   const locParts = [];
   if (v.city) locParts.push(v.city);
