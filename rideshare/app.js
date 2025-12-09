@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function initRideshare() {
-  // Match the pattern used in other microfeatures: data in ../data/
+  // Match other microfeatures: JSON lives one level up in /data
   fetch("../data/rideshare.json")
     .then((res) => res.json())
     .then((data) => {
@@ -35,7 +35,6 @@ function buildVenuesList(dataObj) {
     });
   }
 
-  // Sort alphabetically like the other features
   list.sort((a, b) => a.name.localeCompare(b.name));
   return list;
 }
@@ -108,7 +107,6 @@ function showVenueDetail(venue) {
   nameEl.textContent = venue.name;
   locEl.textContent = [venue.city, venue.state].filter(Boolean).join(", ");
 
-  // Switch from hint state to content state
   detailPanel.classList.remove("detail-panel--empty");
   detailHint.style.display = "none";
   detailContent.hidden = false;
@@ -130,9 +128,8 @@ function renderRideshare(venue) {
   const lat = venue.lat;
   const lng = venue.lng;
 
-  // ===== 1) Rideshare info block visibility =====
+  // ===== 1) Info block visibility =====
   if (!rideshareNotes) {
-    // No venue-specific copy → hide the info section completely
     infoSection.hidden = true;
   } else {
     infoSection.hidden = false;
@@ -146,7 +143,6 @@ function renderRideshare(venue) {
     lng === null ||
     lng === undefined
   ) {
-    // No coordinates → no deep links
     buttonsSection.hidden = true;
     return;
   }
@@ -155,53 +151,76 @@ function renderRideshare(venue) {
 
   const venueName = venue.name || "Venue";
 
-  const uberTo = document.getElementById("uber-to");
-  const uberFrom = document.getElementById("uber-from");
-  const lyftTo = document.getElementById("lyft-to");
-  const lyftFrom = document.getElementById("lyft-from");
+  const uberToBtn = document.getElementById("uber-to");
+  const uberFromBtn = document.getElementById("uber-from");
+  const lyftToBtn = document.getElementById("lyft-to");
+  const lyftFromBtn = document.getElementById("lyft-from");
 
-  if (!uberTo || !uberFrom || !lyftTo || !lyftFrom) {
+  if (!uberToBtn || !uberFromBtn || !lyftToBtn || !lyftFromBtn) {
     console.warn("One or more rideshare buttons missing.");
     return;
   }
 
-  // Button labels with venue name
-  uberTo.textContent = `Uber to ${venueName}`;
-  uberFrom.textContent = `Uber from ${venueName}`;
-  lyftTo.textContent = `Lyft to ${venueName}`;
-  lyftFrom.textContent = `Lyft from ${venueName}`;
-
-  // ===== 3) Native app deep links (popup-friendly) =====
-  // Use app schemes so the popup WebView can trigger Uber/Lyft directly.
+  // Labels
+  uberToBtn.textContent = `Uber to ${venueName}`;
+  uberFromBtn.textContent = `Uber from ${venueName}`;
+  lyftToBtn.textContent = `Lyft to ${venueName}`;
+  lyftFromBtn.textContent = `Lyft from ${venueName}`;
 
   const latEnc = encodeURIComponent(lat);
   const lngEnc = encodeURIComponent(lng);
   const nameEnc = encodeURIComponent(venueName);
 
-  // Uber TO venue: pickup = my_location, dropoff = venue
-  uberTo.href =
+  // Build app-scheme URLs
+  const uberToUrl =
     "uber://?action=setPickup" +
     "&pickup=my_location" +
     `&dropoff[latitude]=${latEnc}` +
     `&dropoff[longitude]=${lngEnc}` +
     `&dropoff[nickname]=${nameEnc}`;
 
-  // Uber FROM venue: pickup = venue, user chooses destination
-  uberFrom.href =
+  const uberFromUrl =
     "uber://?action=setPickup" +
     `&pickup[latitude]=${latEnc}` +
     `&pickup[longitude]=${lngEnc}` +
     `&pickup[nickname]=${nameEnc}`;
 
-  // Lyft TO venue: destination = venue
-  lyftTo.href =
+  const lyftToUrl =
     "lyft://ridetype?id=lyft" +
     `&destination[latitude]=${latEnc}` +
     `&destination[longitude]=${lngEnc}`;
 
-  // Lyft FROM venue: pickup = venue
-  lyftFrom.href =
+  const lyftFromUrl =
     "lyft://ridetype?id=lyft" +
     `&pickup[latitude]=${latEnc}` +
     `&pickup[longitude]=${lngEnc}`;
+
+  // Clear any previous handlers to avoid stacking
+  clearButtonHandlers(uberToBtn);
+  clearButtonHandlers(uberFromBtn);
+  clearButtonHandlers(lyftToBtn);
+  clearButtonHandlers(lyftFromBtn);
+
+  // Attach click handlers that force navigation via window.location.href
+  attachDeepLinkHandler(uberToBtn, uberToUrl);
+  attachDeepLinkHandler(uberFromBtn, uberFromUrl);
+  attachDeepLinkHandler(lyftToBtn, lyftToUrl);
+  attachDeepLinkHandler(lyftFromBtn, lyftFromUrl);
+}
+
+function clearButtonHandlers(btn) {
+  const newBtn = btn.cloneNode(true);
+  btn.parentNode.replaceChild(newBtn, btn);
+}
+
+function attachDeepLinkHandler(btn, url) {
+  btn.addEventListener("click", (e) => {
+    e.preventDefault();
+    try {
+      // Force the WebView to actually try to navigate
+      window.location.href = url;
+    } catch (err) {
+      console.error("Deep link navigation failed:", err);
+    }
+  });
 }
