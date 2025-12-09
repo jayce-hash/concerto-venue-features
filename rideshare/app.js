@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function initRideshare() {
-  // Match other microfeatures: JSON lives one level up in /data
+  // JSON lives in ../data like the other features
   fetch("../data/rideshare.json")
     .then((res) => res.json())
     .then((data) => {
@@ -128,7 +128,7 @@ function renderRideshare(venue) {
   const lat = venue.lat;
   const lng = venue.lng;
 
-  // ===== 1) Info block visibility =====
+  // 1) Info block visibility
   if (!rideshareNotes) {
     infoSection.hidden = true;
   } else {
@@ -136,7 +136,7 @@ function renderRideshare(venue) {
     infoText.textContent = rideshareNotes;
   }
 
-  // ===== 2) Buttons visibility based on lat/lng =====
+  // 2) Buttons visibility based on lat/lng
   if (
     lat === null ||
     lat === undefined ||
@@ -171,56 +171,88 @@ function renderRideshare(venue) {
   const lngEnc = encodeURIComponent(lng);
   const nameEnc = encodeURIComponent(venueName);
 
-  // Build app-scheme URLs
+  // Build the SAME URLs you had working in the WYSIWYG version
   const uberToUrl =
-    "uber://?action=setPickup" +
+    "https://m.uber.com/ul/?" +
+    "action=setPickup" +
     "&pickup=my_location" +
     `&dropoff[latitude]=${latEnc}` +
     `&dropoff[longitude]=${lngEnc}` +
     `&dropoff[nickname]=${nameEnc}`;
 
   const uberFromUrl =
-    "uber://?action=setPickup" +
+    "https://m.uber.com/ul/?" +
+    "action=setPickup" +
     `&pickup[latitude]=${latEnc}` +
     `&pickup[longitude]=${lngEnc}` +
     `&pickup[nickname]=${nameEnc}`;
 
   const lyftToUrl =
-    "lyft://ridetype?id=lyft" +
-    `&destination[latitude]=${latEnc}` +
-    `&destination[longitude]=${lngEnc}`;
+    "https://ride.lyft.com/?" +
+    "destination[latitude]=" +
+    latEnc +
+    "&destination[longitude]=" +
+    lngEnc;
 
   const lyftFromUrl =
-    "lyft://ridetype?id=lyft" +
-    `&pickup[latitude]=${latEnc}` +
-    `&pickup[longitude]=${lngEnc}`;
+    "https://ride.lyft.com/?" +
+    "pickup[latitude]=" +
+    latEnc +
+    "&pickup[longitude]=" +
+    lngEnc;
 
-  // Clear any previous handlers to avoid stacking
-  clearButtonHandlers(uberToBtn);
-  clearButtonHandlers(uberFromBtn);
-  clearButtonHandlers(lyftToBtn);
-  clearButtonHandlers(lyftFromBtn);
-
-  // Attach click handlers that force navigation via window.location.href
-  attachDeepLinkHandler(uberToBtn, uberToUrl);
-  attachDeepLinkHandler(uberFromBtn, uberFromUrl);
-  attachDeepLinkHandler(lyftToBtn, lyftToUrl);
-  attachDeepLinkHandler(lyftFromBtn, lyftFromUrl);
+  // Attach BuildFire-powered click handlers
+  attachActionButton(
+    uberToBtn,
+    uberToUrl,
+    `Uber to ${venueName}`
+  );
+  attachActionButton(
+    uberFromBtn,
+    uberFromUrl,
+    `Uber from ${venueName}`
+  );
+  attachActionButton(
+    lyftToBtn,
+    lyftToUrl,
+    `Lyft to ${venueName}`
+  );
+  attachActionButton(
+    lyftFromBtn,
+    lyftFromUrl,
+    `Lyft from ${venueName}`
+  );
 }
 
-function clearButtonHandlers(btn) {
+function attachActionButton(btn, url, title) {
+  // Reset any previous click handler
   const newBtn = btn.cloneNode(true);
   btn.parentNode.replaceChild(newBtn, btn);
-}
 
-function attachDeepLinkHandler(btn, url) {
-  btn.addEventListener("click", (e) => {
+  newBtn.addEventListener("click", (e) => {
     e.preventDefault();
+
+    const actionItem = {
+      title,
+      action: "linkToWeb",
+      openIn: "_system",
+      url,
+    };
+
     try {
-      // Force the WebView to actually try to navigate
-      window.location.href = url;
+      if (
+        window.buildfire &&
+        buildfire.actionItems &&
+        typeof buildfire.actionItems.execute === "function"
+      ) {
+        buildfire.actionItems.execute(actionItem, () => {});
+      } else {
+        // Fallback: just navigate normally
+        window.location.href = url;
+      }
     } catch (err) {
-      console.error("Deep link navigation failed:", err);
+      console.error("buildfire.actionItems.execute failed", err);
+      window.location.href = url;
     }
   });
 }
