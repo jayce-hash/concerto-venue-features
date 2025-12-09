@@ -23,10 +23,8 @@ fetch("/data/concessions.json")
   .then((data) => {
     concessionsData = data || {};
     venuesList = buildVenuesList(concessionsData);
-    renderBrowseList();
-
-    // 👇 NEW: auto-open venue if ?venueId= or ?venue= present
-    autoOpenVenueFromQuery();
+    renderBrowseList();   // no-op if browseListEl missing
+    handleDeepLink();     // support ?venue=slug
   })
   .catch((err) => {
     console.error("Error loading concessions.json", err);
@@ -122,7 +120,7 @@ searchResultsEl.addEventListener("click", (evt) => {
   showVenue(slug);
 });
 
-// Click on a browse item
+// Click on a browse item (safe if none)
 if (browseListEl) {
   browseListEl.addEventListener("click", (evt) => {
     const item = evt.target.closest(".browse-item");
@@ -178,38 +176,15 @@ function showVenue(slug) {
   }
 }
 
-/* ========= NEW: deep-link support via ?venueId= or ?venue= ========= */
+// Deep-link: /concessions/?venue=sofi_stadium
+function handleDeepLink() {
+  const params = new URLSearchParams(window.location.search);
+  const slug = params.get("venue");
+  if (!slug || !concessionsData[slug]) return;
 
-function getVenueIdFromQuery() {
-  try {
-    const params = new URLSearchParams(window.location.search || "");
-    return params.get("venueId") || params.get("venue") || null;
-  } catch (e) {
-    console.warn("Unable to read query params", e);
-    return null;
+  const meta = venuesList.find((v) => v.slug === slug);
+  if (meta && searchInput) {
+    searchInput.value = meta.displayName;
   }
-}
-
-function autoOpenVenueFromQuery() {
-  const raw = getVenueIdFromQuery();
-  if (!raw || !Array.isArray(venuesList) || !venuesList.length) return;
-
-  const needle = raw.toLowerCase();
-
-  // 1) Try slug match
-  let match =
-    venuesList.find((v) => (v.slug || "").toLowerCase() === needle) || null;
-
-  // 2) Fallback: match by displayName
-  if (!match) {
-    match =
-      venuesList.find(
-        (v) => (v.displayName || "").toLowerCase() === needle
-      ) || null;
-  }
-
-  if (!match) return;
-
-  // Open like a user tap
-  showVenue(match.slug);
+  showVenue(slug);
 }
