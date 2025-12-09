@@ -7,7 +7,8 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function initRideshare() {
-  fetch("/data/rideshare.json")
+  // Match the pattern used in other microfeatures: data in ../data/
+  fetch("../data/rideshare.json")
     .then((res) => res.json())
     .then((data) => {
       rideshareData = data || {};
@@ -34,12 +35,15 @@ function buildVenuesList(dataObj) {
     });
   }
 
+  // Sort alphabetically like the other features
   list.sort((a, b) => a.name.localeCompare(b.name));
   return list;
 }
 
 function renderVenueList(list) {
   const container = document.getElementById("venueList");
+  if (!container) return;
+
   container.innerHTML = "";
 
   if (!list.length) {
@@ -65,13 +69,14 @@ function renderVenueList(list) {
 
     card.appendChild(nameEl);
     card.appendChild(metaEl);
-
     container.appendChild(card);
   });
 }
 
 function wireSearch() {
   const input = document.getElementById("venueSearch");
+  if (!input) return;
+
   input.addEventListener("input", (e) => {
     const term = e.target.value.toLowerCase().trim();
     if (!term) {
@@ -92,14 +97,18 @@ function showVenueDetail(venue) {
   const detailPanel = document.getElementById("detailPanel");
   const detailHint = document.getElementById("detailHint");
   const detailContent = document.getElementById("detailContent");
-
   const nameEl = document.getElementById("venueName");
   const locEl = document.getElementById("venueLocation");
+
+  if (!detailPanel || !detailHint || !detailContent || !nameEl || !locEl) {
+    console.warn("Detail DOM elements missing.");
+    return;
+  }
 
   nameEl.textContent = venue.name;
   locEl.textContent = [venue.city, venue.state].filter(Boolean).join(", ");
 
-  // Switch panel from "hint" mode to "content" mode
+  // Switch from hint state to content state
   detailPanel.classList.remove("detail-panel--empty");
   detailHint.style.display = "none";
   detailContent.hidden = false;
@@ -112,25 +121,32 @@ function renderRideshare(venue) {
   const infoText = document.getElementById("rideshare-text");
   const buttonsSection = document.getElementById("rideshare-buttons");
 
+  if (!infoSection || !infoText || !buttonsSection) {
+    console.warn("Rideshare DOM elements missing.");
+    return;
+  }
+
   const rideshareNotes = (venue.rideshare || "").trim();
   const lat = venue.lat;
   const lng = venue.lng;
 
-  // 1) Rideshare info visibility
+  // ===== 1) Rideshare info block visibility =====
   if (!rideshareNotes) {
+    // No venue-specific copy → hide the info section completely
     infoSection.hidden = true;
   } else {
     infoSection.hidden = false;
     infoText.textContent = rideshareNotes;
   }
 
-  // 2) Buttons visibility based on lat/lng
+  // ===== 2) Buttons visibility based on lat/lng =====
   if (
     lat === null ||
     lat === undefined ||
     lng === null ||
     lng === undefined
   ) {
+    // No coordinates → no deep links
     buttonsSection.hidden = true;
     return;
   }
@@ -144,48 +160,48 @@ function renderRideshare(venue) {
   const lyftTo = document.getElementById("lyft-to");
   const lyftFrom = document.getElementById("lyft-from");
 
-  // Update button labels with venue name
+  if (!uberTo || !uberFrom || !lyftTo || !lyftFrom) {
+    console.warn("One or more rideshare buttons missing.");
+    return;
+  }
+
+  // Button labels with venue name
   uberTo.textContent = `Uber to ${venueName}`;
   uberFrom.textContent = `Uber from ${venueName}`;
   lyftTo.textContent = `Lyft to ${venueName}`;
   lyftFrom.textContent = `Lyft from ${venueName}`;
 
-  // ===== Uber deep links (m.uber.com web-style for WebView) =====
-  // Using m.uber.com WITHOUT /ul/ so parameters are honored in embedded web views.
-  // This should open the mobile web flow with pickup/dropoff pre-filled.
-  const uberBase = "https://m.uber.com/";
+  // ===== 3) Native app deep links (popup-friendly) =====
+  // Use app schemes so the popup WebView can trigger Uber/Lyft directly.
+
+  const latEnc = encodeURIComponent(lat);
+  const lngEnc = encodeURIComponent(lng);
+  const nameEnc = encodeURIComponent(venueName);
 
   // Uber TO venue: pickup = my_location, dropoff = venue
   uberTo.href =
-    uberBase +
-    "?action=setPickup" +
+    "uber://?action=setPickup" +
     "&pickup=my_location" +
-    `&dropoff[latitude]=${encodeURIComponent(lat)}` +
-    `&dropoff[longitude]=${encodeURIComponent(lng)}` +
-    `&dropoff[nickname]=${encodeURIComponent(venueName)}`;
+    `&dropoff[latitude]=${latEnc}` +
+    `&dropoff[longitude]=${lngEnc}` +
+    `&dropoff[nickname]=${nameEnc}`;
 
   // Uber FROM venue: pickup = venue, user chooses destination
   uberFrom.href =
-    uberBase +
-    "?action=setPickup" +
-    `&pickup[latitude]=${encodeURIComponent(lat)}` +
-    `&pickup[longitude]=${encodeURIComponent(lng)}` +
-    `&pickup[nickname]=${encodeURIComponent(venueName)}`;
+    "uber://?action=setPickup" +
+    `&pickup[latitude]=${latEnc}` +
+    `&pickup[longitude]=${lngEnc}` +
+    `&pickup[nickname]=${nameEnc}`;
 
-  // ===== Lyft deep links (ride.lyft.com web flow) =====
-  // To venue
+  // Lyft TO venue: destination = venue
   lyftTo.href =
-    "https://ride.lyft.com/?" +
-    "destination[latitude]=" +
-    encodeURIComponent(lat) +
-    "&destination[longitude]=" +
-    encodeURIComponent(lng);
+    "lyft://ridetype?id=lyft" +
+    `&destination[latitude]=${latEnc}` +
+    `&destination[longitude]=${lngEnc}`;
 
-  // From venue
+  // Lyft FROM venue: pickup = venue
   lyftFrom.href =
-    "https://ride.lyft.com/?" +
-    "pickup[latitude]=" +
-    encodeURIComponent(lat) +
-    "&pickup[longitude]=" +
-    encodeURIComponent(lng);
+    "lyft://ridetype?id=lyft" +
+    `&pickup[latitude]=${latEnc}` +
+    `&pickup[longitude]=${lngEnc}`;
 }
