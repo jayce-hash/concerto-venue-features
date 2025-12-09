@@ -1,191 +1,167 @@
 let rideshareData = {};
-let venues = [];
-let currentVenue = null;
+let venuesList = [];
 
-document.addEventListener("DOMContentLoaded", () => {
-  initRideshare();
-});
+const searchInput = document.getElementById("venueSearch");
+const searchResultsEl = document.getElementById("searchResults");
 
-function initRideshare() {
-  // rideshare.json is in the same folder
-  fetch("rideshare.json")
-    .then((res) => res.json())
-    .then((data) => {
-      rideshareData = data || {};
-      venues = buildVenuesList(rideshareData);
-      renderVenueList(venues);
-      wireSearch();
-      // 👇 NEW: try to auto-open a venue from ?venueId=
-      autoOpenVenueFromQuery();
-    })
-    .catch((err) => {
-      console.error("Error loading rideshare.json", err);
-    });
-}
+const infoPanel = document.getElementById("infoPanel");
+const infoContent = document.querySelector(".info-content");
+const infoEmptyEl = document.querySelector(".info-empty");
+
+const venueNameEl = document.getElementById("venueName");
+const venueLocationEl = document.getElementById("venueLocation");
+const rideshareInfoCardEl = document.getElementById("rideshare-info");
+const rideshareTextEl = document.getElementById("rideshare-text");
+const buttonsCardEl = document.getElementById("rideshare-buttons");
+
+const uberToBtn = document.getElementById("uber-to");
+const uberFromBtn = document.getElementById("uber-from");
+const lyftToBtn = document.getElementById("lyft-to");
+const lyftFromBtn = document.getElementById("lyft-from");
+
+// Load rideshare data
+fetch("rideshare.json")
+  .then((res) => res.json())
+  .then((data) => {
+    rideshareData = data || {};
+    venuesList = buildVenuesList(rideshareData);
+    wireSearch();
+    handleDeepLink(); // support ?venue=slug
+  })
+  .catch((err) => {
+    console.error("Error loading rideshare.json", err);
+  });
 
 function buildVenuesList(dataObj) {
-  const list = [];
+  const items = [];
+  for (const slug in dataObj) {
+    const v = dataObj[slug];
+    const name = v.venueName || v.name || prettifySlug(slug);
+    const city = v.city || "";
+    const state = v.state || "";
+    const label = state ? `${name} — ${city}, ${state}` : name;
 
-  for (const [slug, v] of Object.entries(dataObj)) {
-    list.push({
-      id: slug,
-      // JSON uses "venueName"
-      name: v.venueName || v.name || slug,
-      city: v.city || "",
-      state: v.state || "",
-      // JSON uses "note" for the rideshare description
-      rideshareRaw: (v.note || v.rideshare || v.rideshareNotes || "").trim(),
-      lat: v.lat,
-      lng: v.lng,
+    items.push({
+      slug,
+      displayName: name,
+      label,
     });
   }
-
-  // Sort A–Z by venue name
-  list.sort((a, b) => a.name.localeCompare(b.name));
-  return list;
+  items.sort((a, b) => a.displayName.localeCompare(b.displayName));
+  return items;
 }
 
-function renderVenueList(list) {
-  const container = document.getElementById("venueList");
-  if (!container) return;
-
-  container.innerHTML = "";
-
-  if (!list.length) {
-    const p = document.createElement("p");
-    p.className = "detail-hint";
-    p.textContent = "No venues available.";
-    container.appendChild(p);
-    return;
-  }
-
-  list.forEach((venue) => {
-    const card = document.createElement("div");
-    card.className = "venue-card";
-    card.addEventListener("click", () => showVenueDetail(venue));
-
-    const nameEl = document.createElement("p");
-    nameEl.className = "venue-card-name";
-    nameEl.textContent = venue.name;
-
-    const metaEl = document.createElement("p");
-    metaEl.className = "venue-card-meta";
-    metaEl.textContent = [venue.city, venue.state].filter(Boolean).join(", ");
-
-    card.appendChild(nameEl);
-    card.appendChild(metaEl);
-    container.appendChild(card);
-  });
+function prettifySlug(slug) {
+  if (!slug) return "";
+  return slug
+    .split("_")
+    .map((p) => (p ? p.charAt(0).toUpperCase() + p.slice(1) : ""))
+    .join(" ");
 }
 
 function wireSearch() {
-  const input = document.getElementById("venueSearch");
-  if (!input) return;
+  if (!searchInput || !searchResultsEl) return;
 
-  input.addEventListener("input", (e) => {
-    const term = e.target.value.toLowerCase().trim();
-    if (!term) {
-      renderVenueList(venues);
+  // Typeahead suggestions
+  searchInput.addEventListener("input", () => {
+    const q = searchInput.value.trim().toLowerCase();
+    if (!q) {
+      searchResultsEl.classList.remove("visible");
+      searchResultsEl.innerHTML = "";
       return;
     }
 
-    const filtered = venues.filter((v) =>
-      v.name.toLowerCase().includes(term)
+    const matches = venuesList.filter((v) =>
+      v.displayName.toLowerCase().includes(q)
     );
-    renderVenueList(filtered);
+
+    if (!matches.length) {
+      searchResultsEl.classList.remove("visible");
+      searchResultsEl.innerHTML = "";
+      return;
+    }
+
+    searchResultsEl.innerHTML = matches
+      .map(
+        (v) => `
+        <div class="search-result-item" data-slug="${v.slug}">
+          ${v.label}
+        </div>
+      `
+      )
+      .join("");
+
+    searchResultsEl.classList.add("visible");
+  });
+
+  // Click on a suggestion
+  searchResultsEl.addEventListener("click", (evt) => {
+    const item = evt.target.closest(".search-result-item");
+    if (!item) return;
+    const slug = item.getAttribute("data-slug");
+    const meta = venuesList.find((v) => v.slug === slug);
+    if (!meta) return;
+
+    searchInput.value = meta.displayName;
+    searchResultsEl.classList.remove("visible");
+    showVenue(slug);
+  });
+
+  // Hide dropdown when clicking away
+  document.addEventListener("click", (evt) => {
+    if (!searchResultsEl.contains(evt.target) && evt.target !== searchInput) {
+      searchResultsEl.classList.remove("visible");
+    }
   });
 }
 
-function showVenueDetail(venue) {
-  currentVenue = venue;
+function showVenue(slug) {
+  const v = rideshareData[slug];
+  if (!v) return;
 
-  const detailPanel = document.getElementById("detailPanel");
-  const detailHint = document.getElementById("detailHint");
-  const detailContent = document.getElementById("detailContent");
-  const nameEl = document.getElementById("venueName");
-  const locEl = document.getElementById("venueLocation");
+  infoPanel.classList.remove("info-panel--empty");
+  infoContent.hidden = false;
+  if (infoEmptyEl) infoEmptyEl.style.display = "none";
 
-  if (!detailPanel || !detailHint || !detailContent || !nameEl || !locEl) {
-    console.warn("Detail DOM elements missing.");
-    return;
-  }
+  const displayName = v.venueName || prettifySlug(slug);
+  venueNameEl.textContent = displayName;
 
-  nameEl.textContent = venue.name;
-  locEl.textContent = [venue.city, venue.state].filter(Boolean).join(", ");
+  const locParts = [];
+  if (v.city) locParts.push(v.city);
+  if (v.state) locParts.push(v.state);
+  venueLocationEl.textContent = locParts.join(", ");
 
-  detailPanel.classList.remove("detail-panel--empty");
-  detailHint.style.display = "none";
-  detailContent.hidden = false;
-
-  renderRideshare(venue);
-}
-
-function renderRideshare(venue) {
-  const infoSection = document.getElementById("rideshare-info");
-  const infoText = document.getElementById("rideshare-text");
-  const buttonsSection = document.getElementById("rideshare-buttons");
-
-  if (!infoSection || !infoText || !buttonsSection) {
-    console.warn("Rideshare DOM elements missing.");
-    return;
-  }
-
-  // Clean up the note + hide generic "No specific rideshare notes..." ones
-  let rideshareNotes = venue.rideshareRaw || "";
-  const lower = rideshareNotes.toLowerCase();
-
+  // Info text (hide generic “no specific notes” ones)
+  let notes = (v.note || v.rideshare || v.rideshareNotes || "").trim();
+  const lower = notes.toLowerCase();
   if (lower.startsWith("no specific rideshare notes available")) {
-    rideshareNotes = "";
+    notes = "";
   }
 
-  // 1) Info block visibility
-  if (!rideshareNotes) {
-    infoSection.hidden = true;
+  if (notes) {
+    rideshareTextEl.textContent = notes;
+    rideshareInfoCardEl.hidden = false;
   } else {
-    infoSection.hidden = false;
-    infoText.textContent = rideshareNotes;
+    rideshareTextEl.textContent = "";
+    rideshareInfoCardEl.hidden = true;
   }
 
-  // 2) Buttons visibility based on lat/lng
-  const lat = venue.lat;
-  const lng = venue.lng;
+  // Buttons depend on coords
+  const lat = v.lat;
+  const lng = v.lng;
 
-  if (
-    lat === null ||
-    lat === undefined ||
-    lng === null ||
-    lng === undefined
-  ) {
-    // No coords yet → hide buttons so we don't have broken deep links
-    buttonsSection.hidden = true;
+  if (lat == null || lng == null) {
+    buttonsCardEl.hidden = true;
     return;
   }
 
-  buttonsSection.hidden = false;
+  buttonsCardEl.hidden = false;
 
-  const venueName = venue.name || "Venue";
-
-  const uberToBtn = document.getElementById("uber-to");
-  const uberFromBtn = document.getElementById("uber-from");
-  const lyftToBtn = document.getElementById("lyft-to");
-  const lyftFromBtn = document.getElementById("lyft-from");
-
-  if (!uberToBtn || !uberFromBtn || !lyftToBtn || !lyftFromBtn) {
-    console.warn("One or more rideshare buttons missing.");
-    return;
-  }
-
-  // Button labels
-  uberToBtn.textContent = `Uber to ${venueName}`;
-  uberFromBtn.textContent = `Uber from ${venueName}`;
-  lyftToBtn.textContent = `Lyft to ${venueName}`;
-  lyftFromBtn.textContent = `Lyft from ${venueName}`;
-
+  const venueName = displayName || "Venue";
   const latEnc = encodeURIComponent(lat);
   const lngEnc = encodeURIComponent(lng);
   const nameEnc = encodeURIComponent(venueName);
 
-  // Deep links (same pattern as your working BF snippet)
   const uberToUrl =
     "https://m.uber.com/ul/?" +
     "action=setPickup" +
@@ -222,6 +198,8 @@ function renderRideshare(venue) {
 }
 
 function attachActionButton(btn, url, title) {
+  if (!btn) return;
+
   // Reset previous handler
   const newBtn = btn.cloneNode(true);
   btn.parentNode.replaceChild(newBtn, btn);
@@ -253,39 +231,15 @@ function attachActionButton(btn, url, title) {
   });
 }
 
-/* ========= NEW: deep-link support via ?venueId=slug ========= */
+// Deep-link: /rideshare/?venue=sofi_stadium
+function handleDeepLink() {
+  const params = new URLSearchParams(window.location.search);
+  const slug = params.get("venue");
+  if (!slug || !rideshareData[slug]) return;
 
-function getVenueIdFromQuery() {
-  try {
-    const params = new URLSearchParams(window.location.search || "");
-    // Support both ?venueId= and ?venue= just in case
-    return params.get("venueId") || params.get("venue") || null;
-  } catch (e) {
-    console.warn("Unable to read query params", e);
-    return null;
+  const meta = venuesList.find((v) => v.slug === slug);
+  if (meta && searchInput) {
+    searchInput.value = meta.displayName;
   }
-}
-
-function autoOpenVenueFromQuery() {
-  const raw = getVenueIdFromQuery();
-  if (!raw || !Array.isArray(venues) || !venues.length) return;
-
-  const needle = raw.toLowerCase();
-
-  // 1) Try slug/id match (best)
-  let match =
-    venues.find((v) => (v.id || "").toLowerCase() === needle) || null;
-
-  // 2) Fallback: match by name
-  if (!match) {
-    match =
-      venues.find((v) => (v.name || "").toLowerCase() === needle) || null;
-  }
-
-  if (!match) return;
-
-  // Open the venue details just like a user tap
-  showVenueDetail(match);
-
-  // Optional: you can scroll the list to that venue if you want later
+  showVenue(slug);
 }
