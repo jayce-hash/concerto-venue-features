@@ -163,7 +163,7 @@ function showVenue(slug) {
   if (state) locParts.push(state);
   venueLocationEl.textContent = locParts.join(", ");
 
-  // Heading + CTA copy to mirror your in-app feel
+  // Heading + CTA copy, like your original Acrisure block
   if (rideshareHeadingEl) {
     rideshareHeadingEl.textContent = `${prettyName} Rideshare Tips`;
   }
@@ -172,15 +172,14 @@ function showVenue(slug) {
       "Click below to use rideshare apps for this venue.";
   }
 
-  // Rideshare note from parking.json (already summarized by Colab),
-  // with a polished fallback if it's empty.
+  // Rideshare note (from parking.json, or fallback)
   const note =
     v.rideshare && String(v.rideshare).trim().length
       ? v.rideshare
       : "We haven’t added specific rideshare notes for this venue yet. Check your ticket or the venue’s website for the latest pickup and dropoff details.";
   rideshareNoteEl.textContent = note;
 
-  // Generate 4 deep links (Uber to/from, Lyft to/from)
+  // ========= Deep links (Uber/Lyft) =========
   const enc = encodeURIComponent;
 
   let uberToUrl = "";
@@ -267,8 +266,22 @@ function showVenue(slug) {
       "https://ride.lyft.com/?" + "pickup%5Baddress%5D=" + addr;
   }
 
+  // Set hrefs
   uberToEl.href = uberToUrl;
   uberFromEl.href = uberFromUrl;
   lyftToEl.href = lyftToUrl;
   lyftFromEl.href = lyftFromUrl;
+
+  // ========= Force navigation via JS (helps in some WebView cases) =========
+  [uberToEl, uberFromEl, lyftToEl, lyftFromEl].forEach((el) => {
+    if (!el) return;
+    el.onclick = (e) => {
+      e.preventDefault();
+      const url = el.href;
+      if (url && url !== "#") {
+        // This mimics a "system-style" navigation more closely than target="_blank"
+        window.location.href = url;
+      }
+    };
+  });
 }
