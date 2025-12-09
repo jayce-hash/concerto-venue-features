@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", () => {
         : [];
 
       renderSearchResults(matches);
-      renderBrowseList(q); // also filter the browse list for a tighter feel
+      renderBrowseList(q); // also filter the browse list
     });
 
     document.addEventListener("click", (e) => {
@@ -162,65 +162,90 @@ function selectVenue(slug) {
       city && state ? `${city}, ${state}` : city || state || "";
   }
 
-  // Rideshare info text (from CSV/JSON)
+  // Rideshare info text
   const note = (venueData.note || "").trim();
   if (rideshareCard && rideshareTextEl) {
     if (note) {
       rideshareTextEl.textContent = note;
       rideshareCard.hidden = false;
     } else {
+      // If you truly want *no* text when empty, keep this hidden:
       rideshareCard.hidden = true;
     }
   }
 
-  // Deep-link buttons
+  // 🔑 Always show the button card for every venue
+  if (rideshareButtonsCard) {
+    rideshareButtonsCard.hidden = false;
+  }
+
   const lat = venueData.lat;
   const lng = venueData.lng;
 
-  if (
-    rideshareButtonsCard &&
-    typeof lat === "number" &&
-    typeof lng === "number"
-  ) {
-    wireRideshareButtons(venueName, lat, lng);
-    rideshareButtonsCard.hidden = false;
-  } else if (rideshareButtonsCard) {
-    // No coordinates = no buttons
-    rideshareButtonsCard.hidden = true;
-  }
+  wireRideshareButtons(venueName, lat, lng, city, state);
 }
 
-// ============ Button wiring (the important part) ============
+// ============ Button wiring ============
 
-function wireRideshareButtons(venueName, lat, lng) {
+function wireRideshareButtons(venueName, lat, lng, city, state) {
   const uberToBtn = document.getElementById("uber-to");
   const uberFromBtn = document.getElementById("uber-from");
   const lyftToBtn = document.getElementById("lyft-to");
   const lyftFromBtn = document.getElementById("lyft-from");
 
   const encodedName = encodeURIComponent(venueName);
+  const fullTextLocation = [venueName, city, state].filter(Boolean).join(", ");
+  const encodedFullLocation = encodeURIComponent(fullTextLocation);
 
-  // These URLs mirror the working BuildFire pattern, but use lat/lng dynamically
-  const uberToUrl =
-    `https://m.uber.com/ul/?action=setPickup` +
-    `&pickup=my_location` +
-    `&dropoff[latitude]=${lat}` +
-    `&dropoff[longitude]=${lng}` +
-    `&dropoff[nickname]=${encodedName}`;
+  const hasCoords = typeof lat === "number" && typeof lng === "number";
 
-  const uberFromUrl =
-    `https://m.uber.com/ul/?action=setPickup` +
-    `&pickup[latitude]=${lat}` +
-    `&pickup[longitude]=${lng}` +
-    `&pickup[nickname]=${encodedName}`;
+  let uberToUrl, uberFromUrl, lyftToUrl, lyftFromUrl;
 
-  const lyftToUrl =
-    `https://ride.lyft.com/?destination[latitude]=${lat}` +
-    `&destination[longitude]=${lng}`;
+  if (hasCoords) {
+    // ✅ Best case: pre-filled coordinates
+    uberToUrl =
+      `https://m.uber.com/ul/?action=setPickup` +
+      `&pickup=my_location` +
+      `&dropoff[latitude]=${lat}` +
+      `&dropoff[longitude]=${lng}` +
+      `&dropoff[nickname]=${encodedName}`;
 
-  const lyftFromUrl =
-    `https://ride.lyft.com/?pickup[latitude]=${lat}` +
-    `&pickup[longitude]=${lng}`;
+    uberFromUrl =
+      `https://m.uber.com/ul/?action=setPickup` +
+      `&pickup[latitude]=${lat}` +
+      `&pickup[longitude]=${lng}` +
+      `&pickup[nickname]=${encodedName}`;
+
+    lyftToUrl =
+      `https://ride.lyft.com/?destination[latitude]=${lat}` +
+      `&destination[longitude]=${lng}`;
+
+    lyftFromUrl =
+      `https://ride.lyft.com/?pickup[latitude]=${lat}` +
+      `&pickup[longitude]=${lng}`;
+  } else {
+    // 🟡 Fallback: still open the app, best-effort with text location
+    // (You can tweak these if Uber/Lyft behavior changes)
+    uberToUrl =
+      `https://m.uber.com/ul/?action=setPickup` +
+      (fullTextLocation
+        ? `&dropoff[nickname]=${encodedFullLocation}`
+        : "");
+
+    uberFromUrl =
+      `https://m.uber.com/ul/?action=setPickup` +
+      (fullTextLocation
+        ? `&pickup[nickname]=${encodedFullLocation}`
+        : "");
+
+    lyftToUrl = fullTextLocation
+      ? `https://ride.lyft.com/?destination[address]=${encodedFullLocation}`
+      : `https://ride.lyft.com/`;
+
+    lyftFromUrl = fullTextLocation
+      ? `https://ride.lyft.com/?pickup[address]=${encodedFullLocation}`
+      : `https://ride.lyft.com/`;
+  }
 
   // Update button labels to be venue-specific
   if (uberToBtn) {
