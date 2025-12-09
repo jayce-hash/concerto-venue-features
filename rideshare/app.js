@@ -21,7 +21,28 @@ const uberFromEl = document.getElementById("uberFrom");
 const lyftToEl = document.getElementById("lyftTo");
 const lyftFromEl = document.getElementById("lyftFrom");
 
-// Load parking.json as the data source (includes rideshare text + city/state)
+// ------- helper to open links like BuildFire does -------
+function openViaBuildfire(url, title) {
+  if (
+    typeof window !== "undefined" &&
+    window.buildfire &&
+    buildfire.actionItems &&
+    typeof buildfire.actionItems.execute === "function"
+  ) {
+    const actionItem = {
+      title: title || "Rideshare",
+      action: "linkToWeb",
+      openIn: "_system",
+      url
+    };
+    buildfire.actionItems.execute(actionItem, () => {});
+  } else {
+    // Fallback: normal navigation if we're not in the BuildFire environment
+    window.location.href = url;
+  }
+}
+
+// Load parking.json (includes city/state + rideshare text, optionally lat/lng)
 fetch("/data/parking.json")
   .then((res) => res.json())
   .then((data) => {
@@ -163,7 +184,7 @@ function showVenue(slug) {
   if (state) locParts.push(state);
   venueLocationEl.textContent = locParts.join(", ");
 
-  // Heading + CTA copy, like your original Acrisure block
+  // Heading + CTA copy, like your original rideshare wording
   if (rideshareHeadingEl) {
     rideshareHeadingEl.textContent = `${prettyName} Rideshare Tips`;
   }
@@ -266,22 +287,32 @@ function showVenue(slug) {
       "https://ride.lyft.com/?" + "pickup%5Baddress%5D=" + addr;
   }
 
-  // Set hrefs
-  uberToEl.href = uberToUrl;
-  uberFromEl.href = uberFromUrl;
-  lyftToEl.href = lyftToUrl;
-  lyftFromEl.href = lyftFromUrl;
-
-  // ========= Force navigation via JS (helps in some WebView cases) =========
-  [uberToEl, uberFromEl, lyftToEl, lyftFromEl].forEach((el) => {
-    if (!el) return;
-    el.onclick = (e) => {
+  // Attach click handlers that use BuildFire when available
+  if (uberToEl) {
+    uberToEl.onclick = (e) => {
       e.preventDefault();
-      const url = el.href;
-      if (url && url !== "#") {
-        // This mimics a "system-style" navigation more closely than target="_blank"
-        window.location.href = url;
-      }
+      openViaBuildfire(uberToUrl, `Uber to ${prettyName}`);
     };
-  });
+  }
+
+  if (uberFromEl) {
+    uberFromEl.onclick = (e) => {
+      e.preventDefault();
+      openViaBuildfire(uberFromUrl, `Uber from ${prettyName}`);
+    };
+  }
+
+  if (lyftToEl) {
+    lyftToEl.onclick = (e) => {
+      e.preventDefault();
+      openViaBuildfire(lyftToUrl, `Lyft to ${prettyName}`);
+    };
+  }
+
+  if (lyftFromEl) {
+    lyftFromEl.onclick = (e) => {
+      e.preventDefault();
+      openViaBuildfire(lyftFromUrl, `Lyft from ${prettyName}`);
+    };
+  }
 }
