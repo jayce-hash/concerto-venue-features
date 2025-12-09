@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function initRideshare() {
-  // JSON now lives in the SAME folder as index.html
+  // JSON lives in this folder: /rideshare/rideshare.json
   fetch("rideshare.json")
     .then((res) => res.json())
     .then((data) => {
@@ -29,7 +29,7 @@ function buildVenuesList(dataObj) {
       name: v.name || slug,
       city: v.city || "",
       state: v.state || "",
-      rideshare: v.rideshare || "",
+      rideshare: v.rideshare || v.rideshareNotes || "",
       lat: v.lat,
       lng: v.lng,
     });
@@ -171,7 +171,7 @@ function renderRideshare(venue) {
   const lngEnc = encodeURIComponent(lng);
   const nameEnc = encodeURIComponent(venueName);
 
-  // Build the SAME URLs you had working in the WYSIWYG version
+  // Deep links (same structure as your working BF snippet)
   const uberToUrl =
     "https://m.uber.com/ul/?" +
     "action=setPickup" +
@@ -201,7 +201,6 @@ function renderRideshare(venue) {
     "&pickup[longitude]=" +
     lngEnc;
 
-  // Attach BuildFire-powered click handlers
   attachActionButton(uberToBtn, uberToUrl, `Uber to ${venueName}`);
   attachActionButton(uberFromBtn, uberFromUrl, `Uber from ${venueName}`);
   attachActionButton(lyftToBtn, lyftToUrl, `Lyft to ${venueName}`);
