@@ -6,23 +6,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 
   <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
 
   <link rel="stylesheet" href="styles.css" />
 </head>
-
 <body>
   <div class="page">
-
-    <!-- Header -->
+    <!-- Top header -->
     <header class="page-header">
       <div class="page-header-inner">
-        <img src="IMG_0993.jpeg" alt="Rideshare" class="brand-logo" />
+        <img
+          src="IMG_3180.jpeg"
+          alt="Rideshare"
+          class="brand-logo"
+        />
 
         <div class="search-wrapper">
-          <input id="venueSearch" type="text" placeholder="Search a venue..." autocomplete="off"/>
+          <input
+            id="venueSearch"
+            type="text"
+            placeholder="Search a venue..."
+            autocomplete="off"
+          />
           <div id="searchResults" class="search-results"></div>
         </div>
       </div>
@@ -31,17 +41,19 @@
     <!-- Content -->
     <main class="layout">
       <section id="infoPanel" class="info-panel info-panel--empty">
-
+        <!-- Empty state -->
         <div class="info-empty">
           <h2>Find rideshare by venue</h2>
-          <p>Search a venue or browse below to see dropoff areas, tips, and quick Uber & Lyft links.</p>
+          <p>
+            Search a venue or browse below to see dropoff areas, tips, and quick Uber &amp; Lyft links.
+          </p>
         </div>
 
+        <!-- Random browse list -->
         <div id="browseList" class="browse-list"></div>
 
-        <!-- Loaded venue -->
+        <!-- Populated once a venue is chosen -->
         <div class="info-content" hidden>
-
           <header class="info-header">
             <div>
               <h2 id="venueName"></h2>
@@ -50,30 +62,32 @@
           </header>
 
           <div class="info-cards">
-
-            <!-- Overview -->
+            <!-- Rideshare Overview (optional) -->
             <article class="info-card" id="rideshareOverviewCard" hidden>
               <h3>Rideshare Overview</h3>
               <p id="overviewText" class="card-body"></p>
             </article>
 
-            <!-- Buttons -->
+            <!-- Buttons (always shown once venue is selected) -->
             <article class="info-card" id="rideshareLinksCard" hidden>
               <h3>Rideshare Links</h3>
 
-              <a id="uberTo" class="primary-btn" target="_blank">Uber to Venue</a>
-              <a id="uberFrom" class="primary-btn" target="_blank">Uber from Venue</a>
-              <a id="lyftTo" class="primary-btn" target="_blank">Lyft to Venue</a>
-              <a id="lyftFrom" class="primary-btn" target="_blank">Lyft from Venue</a>
+              <!-- Using <a> so app.js can set href deep links -->
+              <a id="uberTo"   class="primary-btn" target="_blank" rel="noopener noreferrer">Uber To Venue</a>
+              <a id="uberFrom" class="primary-btn" target="_blank" rel="noopener noreferrer">Uber From Venue</a>
+              <a id="lyftTo"   class="primary-btn" target="_blank" rel="noopener noreferrer">Lyft To Venue</a>
+              <a id="lyftFrom" class="primary-btn" target="_blank" rel="noopener noreferrer">Lyft From Venue</a>
             </article>
-
           </div>
         </div>
-
       </section>
     </main>
   </div>
 
+  <!-- BuildFire (safe to keep for popup behavior) -->
+  <script src="https://js.buildfire.com/buildfire.min.js"></script>
+
+  <!-- App logic (this is your app.js where the buttons WERE working) -->
   <script src="app.js" defer></script>
 </body>
 </html>
