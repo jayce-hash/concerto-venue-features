@@ -28,10 +28,8 @@ fetch("/data/bag_policies.json")
   .then((data) => {
     bagData = data || {};
     venuesList = buildVenuesList(bagData);
-    renderBrowseList();
-
-    // 👇 NEW: auto-open venue if ?venueId= or ?venue= is present
-    autoOpenVenueFromQuery();
+    renderBrowseList();    // no-op now if there's no browseList element
+    handleDeepLink();      // support ?venue=slug
   })
   .catch((err) => {
     console.error("Error loading bag_policies.json", err);
@@ -79,7 +77,7 @@ function renderBrowseList() {
     .join("");
 }
 
-// Search
+// Search suggestions
 searchInput.addEventListener("input", () => {
   const q = searchInput.value.trim().toLowerCase();
   if (!q) {
@@ -126,7 +124,7 @@ searchResultsEl.addEventListener("click", (evt) => {
   showVenue(slug);
 });
 
-// Click on browse item
+// Click on browse item (safe even if browseListEl is missing)
 if (browseListEl) {
   browseListEl.addEventListener("click", (evt) => {
     const item = evt.target.closest(".browse-item");
@@ -136,6 +134,7 @@ if (browseListEl) {
   });
 }
 
+// Hide dropdown when clicking away
 document.addEventListener("click", (evt) => {
   if (!searchResultsEl.contains(evt.target) && evt.target !== searchInput) {
     searchResultsEl.classList.remove("visible");
@@ -197,38 +196,15 @@ function showVenue(slug) {
   }
 }
 
-/* ========= NEW: deep-link support via ?venueId= or ?venue= ========= */
+// Deep-link: /bag-policy/?venue=sofi_stadium
+function handleDeepLink() {
+  const params = new URLSearchParams(window.location.search);
+  const slug = params.get("venue");
+  if (!slug || !bagData[slug]) return;
 
-function getVenueIdFromQuery() {
-  try {
-    const params = new URLSearchParams(window.location.search || "");
-    return params.get("venueId") || params.get("venue") || null;
-  } catch (e) {
-    console.warn("Unable to read query params", e);
-    return null;
+  const meta = venuesList.find((v) => v.slug === slug);
+  if (meta && searchInput) {
+    searchInput.value = meta.displayName;
   }
-}
-
-function autoOpenVenueFromQuery() {
-  const raw = getVenueIdFromQuery();
-  if (!raw || !Array.isArray(venuesList) || !venuesList.length) return;
-
-  const needle = raw.toLowerCase();
-
-  // 1) Try slug match first
-  let match =
-    venuesList.find((v) => (v.slug || "").toLowerCase() === needle) || null;
-
-  // 2) Fallback: match by displayName
-  if (!match) {
-    match =
-      venuesList.find(
-        (v) => (v.displayName || "").toLowerCase() === needle
-      ) || null;
-  }
-
-  if (!match) return;
-
-  // Open same way as a user tap
-  showVenue(match.slug);
+  showVenue(slug);
 }
