@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Concerto · Rideshare</title>
+  <title>Rideshare Guide</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 
   <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
     href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
     rel="stylesheet"
@@ -20,14 +20,12 @@
     <!-- Top header -->
     <header class="page-header">
       <div class="page-header-inner">
-        <!-- Logo (same pattern as other features) -->
         <img
-          src="IMG_0993.jpeg"
-          alt="Concerto - From the concert, to the city"
+          src="IMG_3180.jpeg"
+          alt="Rideshare"
           class="brand-logo"
         />
 
-        <!-- Search -->
         <div class="search-wrapper">
           <input
             id="venueSearch"
@@ -35,91 +33,63 @@
             placeholder="Search a venue..."
             autocomplete="off"
           />
+          <div id="searchResults" class="search-results"></div>
         </div>
       </div>
     </header>
 
-    <!-- Main layout: list + detail -->
+    <!-- Content -->
     <main class="layout">
-      <!-- Venue list panel -->
-      <section class="list-panel">
-        <h2 class="panel-title">Browse Venues</h2>
-        <div id="venueList" class="venue-list">
-          <!-- Venue cards injected here by app.js -->
+      <section id="infoPanel" class="info-panel info-panel--empty">
+
+        <!-- Empty state -->
+        <div class="info-empty">
+          <h2>Find Rideshare by Venue</h2>
+          <p>Search a venue or browse below to see pickup zones, drop-off tips, and direct Uber/Lyft shortcuts.</p>
         </div>
-      </section>
 
-      <!-- Detail panel -->
-      <section id="detailPanel" class="detail-panel detail-panel--empty">
-        <div class="detail-inner">
-          <p id="detailHint" class="detail-hint">
-            Select a venue to view rideshare information and quick links.
-          </p>
+        <!-- Random browse list -->
+        <div id="browseList" class="browse-list"></div>
 
-          <div id="detailContent" class="detail-content" hidden>
-            <header class="detail-header">
-              <h2 id="venueName" class="detail-venue-name"></h2>
-              <p id="venueLocation" class="detail-venue-location"></p>
-            </header>
+        <!-- Populated once a venue is chosen -->
+        <div class="info-content" hidden>
 
-            <!-- Rideshare text (hidden when empty) -->
-            <section id="rideshare-info" class="section-block" hidden>
-              <h3 class="section-title">Rideshare Information</h3>
-              <p id="rideshare-text" class="section-body"></p>
-            </section>
+          <header class="info-header">
+            <div>
+              <h2 id="venueName"></h2>
+              <p id="venueLocation" class="venue-location"></p>
+            </div>
+          </header>
 
-            <!-- Uber / Lyft buttons (hidden when no lat/lng) -->
-            <section id="rideshare-buttons" class="section-block" hidden>
-              <h3 class="section-title">Open in Uber / Lyft</h3>
+          <div class="info-cards">
+            <!-- Rideshare Info (optional) -->
+            <article class="info-card" id="infoCard" hidden>
+              <h3>Rideshare Information</h3>
+              <p id="rideshareText" class="card-body"></p>
+            </article>
 
-              <div class="button-row">
-                <a
-                  id="uber-to"
-                  class="primary-chip"
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Uber to Venue
-                </a>
-                <a
-                  id="uber-from"
-                  class="primary-chip"
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Uber from Venue
-                </a>
+            <!-- Buttons -->
+            <article class="info-card" id="buttonsCard" hidden>
+              <h3>Use Rideshare Apps</h3>
+
+              <div class="rideshare-buttons">
+                <button id="uber-to"     class="primary-btn">Uber To Venue</button>
+                <button id="uber-from"   class="primary-btn">Uber From Venue</button>
+                <button id="lyft-to"     class="primary-btn">Lyft To Venue</button>
+                <button id="lyft-from"   class="primary-btn">Lyft From Venue</button>
               </div>
+            </article>
 
-              <div class="button-row">
-                <a
-                  id="lyft-to"
-                  class="primary-chip secondary"
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Lyft to Venue
-                </a>
-                <a
-                  id="lyft-from"
-                  class="primary-chip secondary"
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Lyft from Venue
-                </a>
-              </div>
-            </section>
           </div>
         </div>
       </section>
     </main>
   </div>
 
-  <script src="app.js"></script>
+  <!-- BuildFire JS -->
+  <script src="https://js.buildfire.com/buildfire.min.js"></script>
+
+  <!-- App -->
+  <script src="app.js" defer></script>
 </body>
 </html>
