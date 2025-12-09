@@ -21,7 +21,8 @@
     "state": "TX",
     "lat": 29.4168923,
     "lng": -98.4788949,
-    "note": "The designated drop-off and pick-up zone for rideshare, taxis, and limos is in Lot D at 500 Tower of Americas Way, except during the NCAA Men's Final Four weekend when it is unavailable."
+    "note": "The designated drop-off and pick-up zone for rideshare, taxis, and limos is in Lot D at 500 Tower of Americas Way, except during the NCAA Men's Final Four weekend when it is unavailable.",
+    "venue": "Alamodome"
   },
   "albertsons_stadium": {
     "venueName": "Albertsons Stadium",
@@ -640,7 +641,7 @@
     "note": ""
   },
   "levis_stadium": {
-    "venueName": "Leviâs Stadium",
+    "venueName": "LeviÃ¢ÂÂs Stadium",
     "city": "Santa Clara",
     "state": "CA",
     "lat": 37.4029867,
@@ -948,8 +949,8 @@
     "city": "Cleveland",
     "state": "OH",
     "lat": 41.496556,
-    "lng": -81.688290,
-    "note": "Lyft is Rocket Arenaâs official rideshare partner, offering new users 50% off their first two rides with code ROCKETARENA."
+    "lng": -81.68829,
+    "note": "Lyft is Rocket ArenaÃ¢ÂÂs official rideshare partner, offering new users 50% off their first two rides with code ROCKETARENA."
   },
   "rogers_arena": {
     "venueName": "Rogers Arena",
@@ -1069,7 +1070,7 @@
     "state": "NV",
     "lat": 36.102678,
     "lng": -115.1782239,
-    "note": "Uber/rideshare drop-off is accessible through the ground level of the New York-New York parking garage, with pick-up at the nearest local casino propertyâeither New York-New York or Park MGM."
+    "note": "Uber/rideshare drop-off is accessible through the ground level of the New York-New York parking garage, with pick-up at the nearest local casino propertyÃ¢ÂÂeither New York-New York or Park MGM."
   },
   "t_mobile_park": {
     "venueName": "T-Mobile Park",
@@ -1128,7 +1129,7 @@
     "note": ""
   },
   "the_dome_at_americas_center": {
-    "venueName": "The Dome at Americaâs Center",
+    "venueName": "The Dome at AmericaÃ¢ÂÂs Center",
     "city": "St. Louis",
     "state": "MO",
     "lat": 38.6327852,
