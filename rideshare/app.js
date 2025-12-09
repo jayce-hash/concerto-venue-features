@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function initRideshare() {
-  // JSON lives in this folder: /rideshare/rideshare.json
+  // rideshare.json is in the same folder
   fetch("rideshare.json")
     .then((res) => res.json())
     .then((data) => {
@@ -23,18 +23,22 @@ function initRideshare() {
 
 function buildVenuesList(dataObj) {
   const list = [];
+
   for (const [slug, v] of Object.entries(dataObj)) {
     list.push({
       id: slug,
-      name: v.name || slug,
+      // JSON uses "venueName"
+      name: v.venueName || v.name || slug,
       city: v.city || "",
       state: v.state || "",
-      rideshare: v.rideshare || v.rideshareNotes || "",
+      // JSON uses "note" for the rideshare description
+      rideshareRaw: (v.note || v.rideshare || v.rideshareNotes || "").trim(),
       lat: v.lat,
       lng: v.lng,
     });
   }
 
+  // Sort A–Z by venue name
   list.sort((a, b) => a.name.localeCompare(b.name));
   return list;
 }
@@ -124,9 +128,13 @@ function renderRideshare(venue) {
     return;
   }
 
-  const rideshareNotes = (venue.rideshare || "").trim();
-  const lat = venue.lat;
-  const lng = venue.lng;
+  // Clean up the note + hide generic "No specific rideshare notes..." ones
+  let rideshareNotes = venue.rideshareRaw || "";
+  const lower = rideshareNotes.toLowerCase();
+
+  if (lower.startsWith("no specific rideshare notes available")) {
+    rideshareNotes = "";
+  }
 
   // 1) Info block visibility
   if (!rideshareNotes) {
@@ -137,12 +145,16 @@ function renderRideshare(venue) {
   }
 
   // 2) Buttons visibility based on lat/lng
+  const lat = venue.lat;
+  const lng = venue.lng;
+
   if (
     lat === null ||
     lat === undefined ||
     lng === null ||
     lng === undefined
   ) {
+    // No coords yet → hide buttons so we don't have broken deep links
     buttonsSection.hidden = true;
     return;
   }
@@ -161,7 +173,7 @@ function renderRideshare(venue) {
     return;
   }
 
-  // Labels
+  // Button labels
   uberToBtn.textContent = `Uber to ${venueName}`;
   uberFromBtn.textContent = `Uber from ${venueName}`;
   lyftToBtn.textContent = `Lyft to ${venueName}`;
@@ -171,7 +183,7 @@ function renderRideshare(venue) {
   const lngEnc = encodeURIComponent(lng);
   const nameEnc = encodeURIComponent(venueName);
 
-  // Deep links (same structure as your working BF snippet)
+  // Deep links (same pattern as your working BF snippet)
   const uberToUrl =
     "https://m.uber.com/ul/?" +
     "action=setPickup" +
@@ -208,7 +220,7 @@ function renderRideshare(venue) {
 }
 
 function attachActionButton(btn, url, title) {
-  // Reset any previous click handler
+  // Reset previous handler
   const newBtn = btn.cloneNode(true);
   btn.parentNode.replaceChild(newBtn, btn);
 
@@ -230,7 +242,6 @@ function attachActionButton(btn, url, title) {
       ) {
         buildfire.actionItems.execute(actionItem, () => {});
       } else {
-        // Fallback: just navigate normally
         window.location.href = url;
       }
     } catch (err) {
