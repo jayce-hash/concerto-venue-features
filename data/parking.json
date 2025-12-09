@@ -1051,7 +1051,7 @@
     "note": "We haven't added detailed parking notes yet. Use the official parking map for the most accurate information on lots, garages, and access routes.",
     "rideshare": "No specific rideshare notes available; check your ticket or the venue website for pickup/dropoff instructions.",
     "lots": [],
-    "city": "Columbus",
+    "city": "Cleveland",
     "state": "OH",
     "venueName": "Huntington Bank Field"
   },
@@ -1782,8 +1782,8 @@
       "Surface Parking Lot 522 Prospect Avenue",
       "Surface Parking Lot 630 Prospect Avenue"
     ],
-    "city": "Huntington",
-    "state": "WV",
+    "city": "Cleveland",
+    "state": "OH",
     "venueName": "Rocket Arena"
   },
   "rogers_arena": {
