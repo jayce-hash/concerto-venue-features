@@ -1,5 +1,5 @@
 /* ============================================================
-   Concerto — Rideshare Guide (matches Parking / Concessions)
+   Parking Guide (Light Ultra-Clean)
    ============================================================ */
 
 :root {
@@ -11,17 +11,17 @@
   --line: #E2E7F0;
   --card: #FFFFFF;
   --shadow-soft: 0 4px 10px rgba(18, 30, 54, 0.10);
+  --shadow-strong: 0 16px 40px rgba(18, 30, 54, 0.20);
 }
 
-/* ===== Reset ===== */
+/* Reset */
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
 
-html,
-body {
+html, body {
   margin: 0;
   padding: 0;
   height: 100%;
@@ -33,14 +33,14 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-/* ===== Layout Shell ===== */
+/* Layout shell */
 .page {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
 
-/* ===== Header ===== */
+/* Header */
 .page-header {
   background: var(--bg);
   box-shadow: 0 2px 8px rgba(18, 30, 54, 0.04);
@@ -66,7 +66,7 @@ body {
   margin: 0 auto;
 }
 
-/* ===== Search ===== */
+/* Search */
 .search-wrapper {
   position: relative;
 }
@@ -97,7 +97,7 @@ body {
   color: var(--muted);
 }
 
-/* Optional dropdown (not required, but matches other features) */
+/* Search dropdown */
 .search-results {
   position: absolute;
   left: 0;
@@ -118,94 +118,69 @@ body {
   display: block;
 }
 
-/* ===== Main Layout ===== */
-.layout {
-  flex: 1;
-  padding: 10px 12px 16px;
+.search-result-item {
+  padding: 8px 11px;
+  font-size: 13px;
+  cursor: pointer;
 }
 
-/* Info panel matches Parking shell */
+.search-result-item:hover {
+  background: #f5f7fb;
+}
+
+/* Main layout */
+.layout {
+  flex: 1;
+  padding: 12px 14px 20px;
+}
+
+/* Info panel */
 .info-panel {
-  max-width: 720px;
+  max-width: 680px;
   margin: 0 auto;
-  background: transparent;
+}
+
+.info-panel--empty .info-empty {
+  display: block;
 }
 
 .info-empty {
-  background: transparent;
-  padding: 4px 4px 10px;
+  text-align: left;
+  margin-top: 16px;
+  padding: 14px 16px;
+  background: #fff;
+  border-radius: 16px;
+  border: 1px solid var(--line);
+  box-shadow: 0 2px 8px rgba(18, 30, 54, 0.06);
 }
 
 .info-empty h2 {
-  margin: 0 0 4px;
-  font-size: 1.0rem;
+  margin: 0 0 6px;
+  font-size: 1rem;
   font-weight: 600;
 }
 
 .info-empty p {
-  margin: 2px 0 0;
-  font-size: 0.88rem;
-  color: var(--muted);
-}
-
-.detail-hint {
-  margin-top: 4px;
-  font-size: 0.84rem;
-  color: var(--muted);
-}
-
-/* ===== Venue browse list ===== */
-.browse-list {
-  margin-top: 8px;
-  margin-bottom: 10px;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-}
-
-/* Each venue card in the browse list */
-.venue-card {
-  flex: 1 1 calc(50% - 8px);
-  min-width: 140px;
-  background: #fff;
-  border-radius: 11px;
-  border: 1px solid var(--line);
-  padding: 8px 10px;
-  box-shadow: 0 2px 6px rgba(18, 30, 54, 0.06);
-  cursor: pointer;
-  transition: box-shadow 0.12s ease, transform 0.12s ease;
-}
-
-.venue-card:hover {
-  transform: translateY(-1px);
-  box-shadow: var(--shadow-soft);
-}
-
-.venue-card-name {
-  margin: 0 0 2px;
-  font-size: 0.92rem;
-  font-weight: 500;
-}
-
-.venue-card-meta {
   margin: 0;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   color: var(--muted);
 }
 
-/* ===== Detail content ===== */
 .info-content {
-  background: transparent;
+  margin-top: 14px;
 }
 
+/* Header inside panel */
 .info-header {
-  padding: 6px 2px 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 10px;
 }
 
 .info-header h2 {
   margin: 0;
-  font-size: 1.0rem;
+  font-size: 1rem;
   font-weight: 600;
 }
 
@@ -215,83 +190,85 @@ body {
   color: var(--muted);
 }
 
-/* Cards layout */
+/* Cards */
 .info-cards {
   display: flex;
   flex-direction: column;
-  gap: 8px;
-  margin-top: 6px;
+  gap: 10px;
 }
 
 .info-card {
-  background: #fff;
-  border-radius: 14px;
+  background: var(--card);
+  border-radius: 16px;
   border: 1px solid var(--line);
-  padding: 10px 12px;
+  padding: 12px 14px;
   box-shadow: 0 2px 6px rgba(18, 30, 54, 0.06);
 }
 
 .info-card h3 {
-  margin: 0 0 4px;
-  font-size: 0.96rem;
+  margin: 0 0 6px;
+  font-size: 0.92rem;
   font-weight: 600;
 }
 
 .card-body {
   margin: 0;
-  font-size: 0.87rem;
+  font-size: 0.88rem;
   color: var(--ink);
 }
 
-/* Bullet list for stands / lots if reused */
+/* Bullet list (lots, allowed, etc.) */
 .bullet-list {
-  margin: 4px 0 0;
+  margin: 0;
   padding-left: 18px;
   font-size: 0.86rem;
   color: var(--ink);
 }
 
 .bullet-list li {
-  margin-bottom: 2px;
+  margin-bottom: 3px;
 }
 
-/* ===== Primary button (reused from other features) ===== */
+/* Browse list of venues */
+.browse-list {
+  margin-top: 12px;
+  background: #fff;
+  border-radius: 16px;
+  border: 1px solid var(--line);
+  box-shadow: 0 2px 6px rgba(18, 30, 54, 0.06);
+  padding: 8px 10px;
+}
+
+.browse-item {
+  padding: 6px 4px;
+  font-size: 0.86rem;
+  cursor: pointer;
+}
+
+.browse-item + .browse-item {
+  border-top: 1px solid #eef1f7;
+}
+
+.browse-item:hover {
+  background: #f5f7fb;
+}
+
+/* Buttons */
 .primary-btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 9px 16px;
+  padding: 8px 18px;
   border-radius: 999px;
   border: none;
   background: linear-gradient(135deg, var(--accent), var(--accent-2));
   color: #fff;
-  font-size: 0.88rem;
-  font-weight: 500;
+  font-size: 0.9rem;
   text-decoration: none;
-  cursor: pointer;
   margin-top: 6px;
 }
 
-.primary-btn.secondary {
-  background: #ffffff;
-  color: var(--accent-2);
-  border: 1px solid var(--line);
-}
-
-/* ===== Rideshare-specific button grid ===== */
-.rideshare-button-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-top: 8px;
-}
-
-.rideshare-button-grid .primary-btn {
-  flex: 1 1 calc(50% - 8px);
-  text-align: center;
-}
-
-/* ===== Responsive tweaks ===== */
+/* Tablet/Desktop */
 @media (min-width: 768px) {
   .page-header-inner {
     flex-direction: row;
@@ -308,16 +285,17 @@ body {
   .search-wrapper {
     max-width: 320px;
   }
+}
 
-  .info-panel {
-    max-width: 800px;
-  }
+/* Rideshare button grid */
+.rideshare-button-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 8px;
+}
 
-  .browse-list {
-    gap: 10px;
-  }
-
-  .venue-card {
-    flex: 1 1 calc(33.33% - 10px);
-  }
+.rideshare-button-grid .primary-btn {
+  flex: 1 1 calc(50% - 8px);
+  text-align: center;
 }
