@@ -25,7 +25,6 @@
           alt="Rideshare"
           class="brand-logo"
         />
-
         <div class="search-wrapper">
           <input
             id="venueSearch"
@@ -41,19 +40,16 @@
     <!-- Content -->
     <main class="layout">
       <section id="infoPanel" class="info-panel info-panel--empty">
-
-        <!-- Empty state -->
         <div class="info-empty">
-          <h2>Find Rideshare by Venue</h2>
-          <p>Search a venue or browse below to see pickup zones, drop-off tips, and direct Uber/Lyft shortcuts.</p>
+          <h2>Find rideshare by venue</h2>
+          <p>Search a venue or browse below to see pickup zones, dropoff notes, and quick Uber &amp; Lyft shortcuts.</p>
         </div>
 
-        <!-- Random browse list -->
+        <!-- Random browse list (JS fills this, same as Parking) -->
         <div id="browseList" class="browse-list"></div>
 
-        <!-- Populated once a venue is chosen -->
+        <!-- Filled once a venue is chosen -->
         <div class="info-content" hidden>
-
           <header class="info-header">
             <div>
               <h2 id="venueName"></h2>
@@ -62,34 +58,44 @@
           </header>
 
           <div class="info-cards">
-            <!-- Rideshare Info (optional) -->
-            <article class="info-card" id="infoCard" hidden>
+            <!-- Rideshare Overview / Notes -->
+            <article class="info-card" id="rideshare-info" hidden>
               <h3>Rideshare Information</h3>
-              <p id="rideshareText" class="card-body"></p>
+              <p id="rideshare-text" class="card-body"></p>
             </article>
 
-            <!-- Buttons -->
-            <article class="info-card" id="buttonsCard" hidden>
-              <h3>Use Rideshare Apps</h3>
+            <!-- Uber / Lyft Buttons -->
+            <article class="info-card" id="rideshare-buttons" hidden>
+              <h3>Open in Uber &amp; Lyft</h3>
+              <p class="card-body">
+                Use the shortcuts below to open your rideshare app with this venue pre-loaded.
+              </p>
 
-              <div class="rideshare-buttons">
-                <button id="uber-to"     class="primary-btn">Uber To Venue</button>
-                <button id="uber-from"   class="primary-btn">Uber From Venue</button>
-                <button id="lyft-to"     class="primary-btn">Lyft To Venue</button>
-                <button id="lyft-from"   class="primary-btn">Lyft From Venue</button>
+              <div class="rideshare-button-grid">
+                <button id="uber-to" class="primary-btn">
+                  Uber To Venue
+                </button>
+                <button id="uber-from" class="primary-btn">
+                  Uber From Venue
+                </button>
+                <button id="lyft-to" class="primary-btn secondary">
+                  Lyft To Venue
+                </button>
+                <button id="lyft-from" class="primary-btn secondary">
+                  Lyft From Venue
+                </button>
               </div>
             </article>
-
           </div>
         </div>
       </section>
     </main>
   </div>
 
-  <!-- BuildFire JS -->
+  <!-- BuildFire SDK so buildfire.actionItems.execute works inside the app -->
   <script src="https://js.buildfire.com/buildfire.min.js"></script>
 
-  <!-- App -->
+  <!-- Your existing rideshare JS (with deep links & venue logic) -->
   <script src="app.js" defer></script>
 </body>
 </html>
