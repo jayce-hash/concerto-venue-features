@@ -28,6 +28,9 @@ fetch("/data/parking.json")
     parkingData = data || {};
     venuesList = buildVenuesList(parkingData);
     renderBrowseList();
+
+    // 👇 NEW: auto-open venue if ?venueId= or ?venue= is in the URL
+    autoOpenVenueFromQuery();
   })
   .catch((err) => {
     console.error("Error loading parking.json", err);
@@ -189,4 +192,40 @@ function showVenue(slug) {
     parkingLinkEl.href = "#";
     officialCardEl.hidden = true;
   }
+}
+
+/* ========= NEW: deep-link support via ?venueId= or ?venue= ========= */
+
+function getVenueIdFromQuery() {
+  try {
+    const params = new URLSearchParams(window.location.search || "");
+    return params.get("venueId") || params.get("venue") || null;
+  } catch (e) {
+    console.warn("Unable to read query params", e);
+    return null;
+  }
+}
+
+function autoOpenVenueFromQuery() {
+  const raw = getVenueIdFromQuery();
+  if (!raw || !Array.isArray(venuesList) || !venuesList.length) return;
+
+  const needle = raw.toLowerCase();
+
+  // 1) Try slug match first
+  let match =
+    venuesList.find((v) => (v.slug || "").toLowerCase() === needle) || null;
+
+  // 2) Fallback: match by displayName (e.g. "SoFi Stadium")
+  if (!match) {
+    match =
+      venuesList.find(
+        (v) => (v.displayName || "").toLowerCase() === needle
+      ) || null;
+  }
+
+  if (!match) return;
+
+  // Open like a user tapped it
+  showVenue(match.slug);
 }
