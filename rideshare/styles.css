@@ -1,5 +1,6 @@
 /* ============================================================
-   Parking Guide (Light Ultra-Clean)
+   Concerto — Rideshare Guide
+   Ultra-clean, same vibe as Parking / Concessions
    ============================================================ */
 
 :root {
@@ -21,7 +22,8 @@
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   height: 100%;
@@ -33,7 +35,7 @@ html, body {
   -webkit-font-smoothing: antialiased;
 }
 
-/* Layout shell */
+/* Page shell */
 .page {
   min-height: 100vh;
   display: flex;
@@ -87,117 +89,119 @@ html, body {
   color: #9aa3b5;
 }
 
-.search-wrapper::after {
-  content: "⌕";
-  position: absolute;
-  right: 15px;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 13px;
-  color: var(--muted);
-}
-
-/* Search dropdown */
-.search-results {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 110%;
-  margin-top: 4px;
-  background: #fff;
-  border-radius: 14px;
-  border: 1px solid var(--line);
-  box-shadow: 0 10px 26px rgba(18, 30, 54, 0.18);
-  max-height: 260px;
-  overflow-y: auto;
-  display: none;
-  z-index: 20;
-}
-
-.search-results.visible {
-  display: block;
-}
-
-.search-result-item {
-  padding: 8px 11px;
-  font-size: 13px;
-  cursor: pointer;
-}
-
-.search-result-item:hover {
-  background: #f5f7fb;
-}
-
 /* Main layout */
 .layout {
   flex: 1;
   padding: 12px 14px 20px;
 }
 
-/* Info panel */
-.info-panel {
+.layout-inner {
   max-width: 680px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 
-.info-panel--empty .info-empty {
-  display: block;
+/* Section titles */
+.section-title {
+  margin: 0 0 2px;
+  font-size: 1rem;
+  font-weight: 600;
 }
 
-.info-empty {
-  text-align: left;
-  margin-top: 16px;
+.section-subtitle {
+  margin: 0 0 8px;
+  font-size: 0.86rem;
+  color: var(--muted);
+}
+
+/* Venue list */
+.venue-list {
+  background: #fff;
+  border-radius: 16px;
+  border: 1px solid var(--line);
+  box-shadow: 0 2px 6px rgba(18, 30, 54, 0.06);
+  padding: 6px 6px;
+  max-height: 40vh;
+  overflow-y: auto;
+}
+
+.venue-card {
+  padding: 8px 8px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.12s ease, box-shadow 0.12s ease,
+    transform 0.08s ease;
+}
+
+.venue-card + .venue-card {
+  border-top: 1px solid #eef1f7;
+}
+
+.venue-card:hover {
+  background: #f5f7fb;
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-soft);
+}
+
+.venue-card-name {
+  margin: 0 0 2px;
+  font-size: 0.94rem;
+  font-weight: 500;
+}
+
+.venue-card-meta {
+  margin: 0;
+  font-size: 0.82rem;
+  color: var(--muted);
+}
+
+/* Detail panel */
+.detail-panel {
+  margin-top: 10px;
+}
+
+.detail-panel--empty .detail-body {
+  display: none;
+}
+
+.detail-hint {
+  margin-top: 10px;
   padding: 14px 16px;
   background: #fff;
   border-radius: 16px;
   border: 1px solid var(--line);
   box-shadow: 0 2px 8px rgba(18, 30, 54, 0.06);
-}
-
-.info-empty h2 {
-  margin: 0 0 6px;
-  font-size: 1rem;
-  font-weight: 600;
-}
-
-.info-empty p {
-  margin: 0;
   font-size: 0.9rem;
   color: var(--muted);
 }
 
-.info-content {
-  margin-top: 14px;
+/* Detail content */
+.detail-header {
+  margin-top: 10px;
+  margin-bottom: 8px;
 }
 
-/* Header inside panel */
-.info-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin-bottom: 10px;
-}
-
-.info-header h2 {
+.detail-venue-name {
   margin: 0;
   font-size: 1rem;
   font-weight: 600;
 }
 
-.venue-location {
+.detail-venue-location {
   margin: 2px 0 0;
   font-size: 0.86rem;
   color: var(--muted);
 }
 
-/* Cards */
-.info-cards {
+.detail-body {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
-.info-card {
+.detail-card {
   background: var(--card);
   border-radius: 16px;
   border: 1px solid var(--line);
@@ -205,70 +209,46 @@ html, body {
   box-shadow: 0 2px 6px rgba(18, 30, 54, 0.06);
 }
 
-.info-card h3 {
+.detail-card h3 {
   margin: 0 0 6px;
   font-size: 0.92rem;
   font-weight: 600;
 }
 
-.card-body {
+.detail-text {
   margin: 0;
   font-size: 0.88rem;
   color: var(--ink);
 }
 
-/* Bullet list (lots, allowed, etc.) */
-.bullet-list {
-  margin: 0;
-  padding-left: 18px;
-  font-size: 0.86rem;
-  color: var(--ink);
-}
-
-.bullet-list li {
-  margin-bottom: 3px;
-}
-
-/* Browse list of venues */
-.browse-list {
-  margin-top: 12px;
-  background: #fff;
-  border-radius: 16px;
-  border: 1px solid var(--line);
-  box-shadow: 0 2px 6px rgba(18, 30, 54, 0.06);
-  padding: 8px 10px;
-}
-
-.browse-item {
-  padding: 6px 4px;
-  font-size: 0.86rem;
-  cursor: pointer;
-}
-
-.browse-item + .browse-item {
-  border-top: 1px solid #eef1f7;
-}
-
-.browse-item:hover {
-  background: #f5f7fb;
+.detail-text.small {
+  font-size: 0.8rem;
+  color: var(--muted);
+  margin-bottom: 8px;
 }
 
 /* Buttons */
+.rideshare-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
 .primary-btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 8px 18px;
+  padding: 9px 14px;
   border-radius: 999px;
   border: none;
   background: linear-gradient(135deg, var(--accent), var(--accent-2));
   color: #fff;
   font-size: 0.9rem;
   text-decoration: none;
-  margin-top: 6px;
+  cursor: pointer;
 }
 
-/* Tablet/Desktop */
+/* Tablet / Desktop tweaks */
 @media (min-width: 768px) {
   .page-header-inner {
     flex-direction: row;
@@ -282,20 +262,21 @@ html, body {
     margin: 0;
   }
 
-  .search-wrapper {
-    max-width: 320px;
+  .layout-inner {
+    flex-direction: row;
+    align-items: flex-start;
   }
-}
 
-/* Rideshare button grid */
-.rideshare-button-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-top: 8px;
-}
+  .list-panel {
+    flex: 1;
+    margin-right: 10px;
+  }
 
-.rideshare-button-grid .primary-btn {
-  flex: 1 1 calc(50% - 8px);
-  text-align: center;
+  .detail-panel {
+    flex: 1.1;
+  }
+
+  .venue-list {
+    max-height: 60vh;
+  }
 }
