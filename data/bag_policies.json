@@ -63,7 +63,8 @@
     "note": "Diaper bags must be accompanied by a guardian and child and contain childcare items; medically necessary bags larger than allowed sizes are permitted with screening. All bags, including exceptions, are subject to search. The venue reserves the right to prohibit any item deemed unsafe.",
     "venueName": "Alamodome",
     "city": "San Antonio",
-    "state": "TX"
+    "state": "TX",
+    "venue": "Alamodome"
   },
   "albertsons_stadium": {
     "summary": "Albertsons Stadium requires fans to bring clear bags that meet size limits for faster entry and security screening. Small clutches are allowed if they fit within specified dimensions. All bags are subject to inspection upon entry.",
@@ -480,7 +481,7 @@
     "state": "FL"
   },
   "capital_one_arena": {
-    "summary": "Capital One Arena does not allow bags, backpacks, or purses inside the venue. Small wallet-size clutches no larger than 5â x 7â and medical or parenting bags up to 14â x 14â x 6â are allowed but must go through security screening. All bags are subject to inspection to ensure safety.",
+    "summary": "Capital One Arena does not allow bags, backpacks, or purses inside the venue. Small wallet-size clutches no larger than 5Ã¢ÂÂ x 7Ã¢ÂÂ and medical or parenting bags up to 14Ã¢ÂÂ x 14Ã¢ÂÂ x 6Ã¢ÂÂ are allowed but must go through security screening. All bags are subject to inspection to ensure safety.",
     "fullLink": "https://www.capitalonearena.com/arena-policies",
     "updated": "",
     "allowed": [
@@ -723,14 +724,14 @@
     "state": "IL"
   },
   "cryptocom_arena": {
-    "summary": "Bags, backpacks, purses, totes, clear bags, fanny packs, and camera bags are not allowed inside the arena. Small clutches and wallets smaller than 5â x 9â x 1â are allowed but subject to security inspection. Medical and parental bags smaller than 14â x 14â x 6â are permitted but must go through X-ray screening.",
+    "summary": "Bags, backpacks, purses, totes, clear bags, fanny packs, and camera bags are not allowed inside the arena. Small clutches and wallets smaller than 5Ã¢ÂÂ x 9Ã¢ÂÂ x 1Ã¢ÂÂ are allowed but subject to security inspection. Medical and parental bags smaller than 14Ã¢ÂÂ x 14Ã¢ÂÂ x 6Ã¢ÂÂ are permitted but must go through X-ray screening.",
     "fullLink": "https://www.cryptoarena.com/general-info-faq",
     "updated": "",
     "allowed": [
-      "Small clutches smaller than 5â x 9â x 1â",
-      "Wallets smaller than 5â x 9â x 1â",
-      "Medical bags smaller than 14â x 14â x 6â",
-      "Parental bags smaller than 14â x 14â x 6â"
+      "Small clutches smaller than 5Ã¢ÂÂ x 9Ã¢ÂÂ x 1Ã¢ÂÂ",
+      "Wallets smaller than 5Ã¢ÂÂ x 9Ã¢ÂÂ x 1Ã¢ÂÂ",
+      "Medical bags smaller than 14Ã¢ÂÂ x 14Ã¢ÂÂ x 6Ã¢ÂÂ",
+      "Parental bags smaller than 14Ã¢ÂÂ x 14Ã¢ÂÂ x 6Ã¢ÂÂ"
     ],
     "notAllowed": [
       "Bags",
@@ -781,7 +782,7 @@
     "state": "UT"
   },
   "desert_diamond_arena": {
-    "summary": "Only small clutches, wallets, wristlets, and crossbody bags measuring no larger than 4.5â x 6.5â are allowed inside Desert Diamond Arena. Larger bags such as backpacks and purses are prohibited. Guests and bags are subject to screening upon entry.",
+    "summary": "Only small clutches, wallets, wristlets, and crossbody bags measuring no larger than 4.5Ã¢ÂÂ x 6.5Ã¢ÂÂ are allowed inside Desert Diamond Arena. Larger bags such as backpacks and purses are prohibited. Guests and bags are subject to screening upon entry.",
     "fullLink": "https://www.desertdiamondarena.com/venue-info/bag-policy/",
     "updated": "",
     "allowed": [
@@ -1346,7 +1347,7 @@
     "notAllowed": [],
     "note": "",
     "venueName": "Huntington Bank Field",
-    "city": "Columbus",
+    "city": "Cleveland",
     "state": "OH"
   },
   "intuit_dome": {
@@ -1540,7 +1541,7 @@
     "state": "NC"
   },
   "levis_stadium": {
-    "summary": "Leviâs Stadium only allows clear bags no larger than 12\" x 6\" x 12\" and small clutches up to 4.5\" x 6.5\" inside the stadium. All bags are subject to inspection and must comply with the clear bag policy. Bags that do not meet these requirements must be returned to the vehicle.",
+    "summary": "LeviÃ¢ÂÂs Stadium only allows clear bags no larger than 12\" x 6\" x 12\" and small clutches up to 4.5\" x 6.5\" inside the stadium. All bags are subject to inspection and must comply with the clear bag policy. Bags that do not meet these requirements must be returned to the vehicle.",
     "fullLink": "https://www.levisstadium.com/bagpolicy/",
     "updated": "",
     "allowed": [
@@ -1559,7 +1560,7 @@
       "Coolers (including soft-sided)"
     ],
     "note": "Medical bags must be inspected and marked with a wristband or sticker. The bag policy applies to all events unless otherwise noted. Guests are encouraged to arrive early to avoid delays at entry.",
-    "venueName": "Leviâs Stadium",
+    "venueName": "LeviÃ¢ÂÂs Stadium",
     "city": "Santa Clara",
     "state": "CA"
   },
@@ -1591,7 +1592,7 @@
     "state": "PA"
   },
   "little_caesars_arena": {
-    "summary": "Bags larger than 4â x 6â x 1.5â are not allowed inside Little Caesars Arena. Small clear bags, wallets, clutches, and fanny packs that meet the size limit are permitted and subject to screening. Larger bags including those for laptops, tablets, cameras, and binoculars are prohibited.",
+    "summary": "Bags larger than 4Ã¢ÂÂ x 6Ã¢ÂÂ x 1.5Ã¢ÂÂ are not allowed inside Little Caesars Arena. Small clear bags, wallets, clutches, and fanny packs that meet the size limit are permitted and subject to screening. Larger bags including those for laptops, tablets, cameras, and binoculars are prohibited.",
     "fullLink": "https://www.313presents.com/venue/little-caesars-arena/little-caesars-rules-policies",
     "updated": "",
     "allowed": [
@@ -1828,16 +1829,16 @@
     "state": "TX"
   },
   "nationals_park": {
-    "summary": "Bags must be clear plastic, vinyl, or PVC and not exceed 16\" x 16\" x 8\" to be allowed inside Nationals Park. Small clutches up to 5\" x 7\" x Â¾\" are also permitted. All bags are subject to search upon entry.",
+    "summary": "Bags must be clear plastic, vinyl, or PVC and not exceed 16\" x 16\" x 8\" to be allowed inside Nationals Park. Small clutches up to 5\" x 7\" x ÃÂ¾\" are also permitted. All bags are subject to search upon entry.",
     "fullLink": "https://www.mlb.com/nationals/ballpark/information/bag-policy",
     "updated": "",
     "allowed": [
       "Clear bags up to 16\" x 16\" x 8\"",
-      "Small clutches up to 5\" x 7\" x Â¾\""
+      "Small clutches up to 5\" x 7\" x ÃÂ¾\""
     ],
     "notAllowed": [
       "Backpacks",
-      "Non-clear bags larger than 5\" x 7\" x Â¾\"",
+      "Non-clear bags larger than 5\" x 7\" x ÃÂ¾\"",
       "Soft-sided coolers",
       "Hard coolers or ice chests",
       "Non-clear drawstring bags",
@@ -1851,7 +1852,7 @@
     "state": "DC"
   },
   "nationwide_arena": {
-    "summary": "Bags are generally not permitted inside Nationwide Arena except for medical bags, diaper bags, or small clutches no larger than 8â x 5â x 1â. All allowed bags will be screened through a designated security line. Guests are encouraged to bring as few items as possible.",
+    "summary": "Bags are generally not permitted inside Nationwide Arena except for medical bags, diaper bags, or small clutches no larger than 8Ã¢ÂÂ x 5Ã¢ÂÂ x 1Ã¢ÂÂ. All allowed bags will be screened through a designated security line. Guests are encouraged to bring as few items as possible.",
     "fullLink": "https://www.nationwidearena.com/home/what-to-expect/",
     "updated": "",
     "allowed": [
@@ -2287,8 +2288,8 @@
     ],
     "note": "Guests carrying purses larger than a clutch, diaper bags, or medical bags should use the X-ray lane. All items must pass security checks, and some items may be confiscated. Event-specific rules may apply and will be communicated before the event.",
     "venueName": "Rocket Arena",
-    "city": "Huntington",
-    "state": "WV"
+    "city": "Cleveland",
+    "state": "OH"
   },
   "rogers_arena": {
     "summary": "This venue follows a clear bag-style security policy. Check the official bag policy link for full details before you arrive.",
@@ -2302,7 +2303,7 @@
     "state": "Canada"
   },
   "rogers_centre": {
-    "summary": "Large bags and backpacks are not permitted inside Rogers Centre. Only small clutches, purses, or fanny packs smaller than 7â x 4â x 2â are allowed and will be subject to security screening before entry.",
+    "summary": "Large bags and backpacks are not permitted inside Rogers Centre. Only small clutches, purses, or fanny packs smaller than 7Ã¢ÂÂ x 4Ã¢ÂÂ x 2Ã¢ÂÂ are allowed and will be subject to security screening before entry.",
     "fullLink": "https://www.mlb.com/bluejays/tickets/health-and-safety/rogers-centre/concerts",
     "updated": "",
     "allowed": [
@@ -2338,19 +2339,19 @@
     "state": "KY"
   },
   "sap_center": {
-    "summary": "Bags should be 5â x 9â x 2â or smaller to speed up entry, but larger bags up to 20â x 14â x 11â are allowed with X-Ray screening. All bags larger than 5â x 9â x 2â must go through X-Ray inspection. Bags larger than 20â x 14â x 11â are not permitted, and no bag check is available onsite.",
+    "summary": "Bags should be 5Ã¢ÂÂ x 9Ã¢ÂÂ x 2Ã¢ÂÂ or smaller to speed up entry, but larger bags up to 20Ã¢ÂÂ x 14Ã¢ÂÂ x 11Ã¢ÂÂ are allowed with X-Ray screening. All bags larger than 5Ã¢ÂÂ x 9Ã¢ÂÂ x 2Ã¢ÂÂ must go through X-Ray inspection. Bags larger than 20Ã¢ÂÂ x 14Ã¢ÂÂ x 11Ã¢ÂÂ are not permitted, and no bag check is available onsite.",
     "fullLink": "https://www.sapcenter.com/plan-your-visit/bag-policy",
     "updated": "",
     "allowed": [
-      "Bags up to 5â x 9â x 2â",
-      "Bags up to 20â x 14â x 11â with screening",
+      "Bags up to 5Ã¢ÂÂ x 9Ã¢ÂÂ x 2Ã¢ÂÂ",
+      "Bags up to 20Ã¢ÂÂ x 14Ã¢ÂÂ x 11Ã¢ÂÂ with screening",
       "Parenting bags with diapers and necessities",
       "Medical bags with required items"
     ],
     "notAllowed": [
-      "Bags larger than 20â x 14â x 11â"
+      "Bags larger than 20Ã¢ÂÂ x 14Ã¢ÂÂ x 11Ã¢ÂÂ"
     ],
-    "note": "Medical and parenting bags of any size are allowed but must be screened and tagged. All bags larger than 5â x 9â x 2â require X-Ray screening. Bags must fit under the seat to avoid hazards. No bag check or storage lockers are available onsite.",
+    "note": "Medical and parenting bags of any size are allowed but must be screened and tagged. All bags larger than 5Ã¢ÂÂ x 9Ã¢ÂÂ x 2Ã¢ÂÂ require X-Ray screening. Bags must fit under the seat to avoid hazards. No bag check or storage lockers are available onsite.",
     "venueName": "SAP Center",
     "city": "San Jose",
     "state": "CA"
@@ -2647,7 +2648,7 @@
     "state": "MA"
   },
   "target_center": {
-    "summary": "Bags brought into Target Center must be no larger than 5â x 9â. Diaper bags and medical bags are allowed but subject to search upon entry. Strollers are not permitted inside the venue.",
+    "summary": "Bags brought into Target Center must be no larger than 5Ã¢ÂÂ x 9Ã¢ÂÂ. Diaper bags and medical bags are allowed but subject to search upon entry. Strollers are not permitted inside the venue.",
     "fullLink": "https://www.targetcenter.com/plan-your-visit-1/know-before-you-go",
     "updated": "",
     "allowed": [
@@ -2722,7 +2723,7 @@
     "state": "MN"
   },
   "the_dome_at_americas_center": {
-    "summary": "All bags entering The Dome at Americaâs Center must be clear plastic bags no larger than 12\" x 6\" x 12\", small clutches no larger than 4.5\" x 6.5\", or diaper/parent bags. All bags are subject to security screening. Bags outside these size limits will not be allowed.",
+    "summary": "All bags entering The Dome at AmericaÃ¢ÂÂs Center must be clear plastic bags no larger than 12\" x 6\" x 12\", small clutches no larger than 4.5\" x 6.5\", or diaper/parent bags. All bags are subject to security screening. Bags outside these size limits will not be allowed.",
     "fullLink": "https://explorestlouis.com/the-dome-at-americas-center/prohibited-items/",
     "updated": "",
     "allowed": [
@@ -2737,7 +2738,7 @@
       "Non-clear bags larger than allowed sizes"
     ],
     "note": "Prohibited items may vary by event. All bags are subject to search upon entry.",
-    "venueName": "The Dome at Americaâs Center",
+    "venueName": "The Dome at AmericaÃ¢ÂÂs Center",
     "city": "St. Louis",
     "state": "MO"
   },
@@ -2876,7 +2877,7 @@
     "state": "NY"
   },
   "uc_berkeley_greek_theatre": {
-    "summary": "Small personal bags and backpacks are allowed, but large backpacks and bags that do not fit within your personal space are prohibited. Personal seat cushions and small blankets under 40â x 60â are permitted if they stay within your ticketed area. All bags are subject to security inspection upon entry.",
+    "summary": "Small personal bags and backpacks are allowed, but large backpacks and bags that do not fit within your personal space are prohibited. Personal seat cushions and small blankets under 40Ã¢ÂÂ x 60Ã¢ÂÂ are permitted if they stay within your ticketed area. All bags are subject to security inspection upon entry.",
     "fullLink": "https://thegreekberkeley.com/faq/",
     "updated": "",
     "allowed": [
@@ -2908,7 +2909,7 @@
     "state": "IL"
   },
   "utah_first_credit_union_amphitheatre": {
-    "summary": "Only small clutches, wristlets, or fanny packs no larger than 6â x 9â and clear plastic bags no bigger than 12â x 12â x 6â are allowed inside the venue. All bags are subject to search upon entry, and the venue may refuse entry if a bag search is declined or if the bag does not meet requirements.",
+    "summary": "Only small clutches, wristlets, or fanny packs no larger than 6Ã¢ÂÂ x 9Ã¢ÂÂ and clear plastic bags no bigger than 12Ã¢ÂÂ x 12Ã¢ÂÂ x 6Ã¢ÂÂ are allowed inside the venue. All bags are subject to search upon entry, and the venue may refuse entry if a bag search is declined or if the bag does not meet requirements.",
     "fullLink": "https://www.utahfirstamp.com/visit#faq",
     "updated": "",
     "allowed": [
@@ -3077,7 +3078,7 @@
     "state": "CT"
   },
   "grand_casino_arena": {
-    "summary": "For safety and faster entry, guests are strongly discouraged from bringing bags. Purses no larger than 12â x 12â x 6â are allowed at designated X-ray entry points, and small wristlets or clutches up to 4â x 6â x 1.5â are allowed at all entrances and subject to inspection.",
+    "summary": "For safety and faster entry, guests are strongly discouraged from bringing bags. Purses no larger than 12Ã¢ÂÂ x 12Ã¢ÂÂ x 6Ã¢ÂÂ are allowed at designated X-ray entry points, and small wristlets or clutches up to 4Ã¢ÂÂ x 6Ã¢ÂÂ x 1.5Ã¢ÂÂ are allowed at all entrances and subject to inspection.",
     "fullLink": "https://www.xcelenergycenter.com/plan-your-visit/guest-services-guide",
     "updated": "",
     "allowed": [
