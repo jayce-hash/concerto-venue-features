@@ -29,6 +29,9 @@ fetch("/data/bag_policies.json")
     bagData = data || {};
     venuesList = buildVenuesList(bagData);
     renderBrowseList();
+
+    // 👇 NEW: auto-open venue if ?venueId= or ?venue= is present
+    autoOpenVenueFromQuery();
   })
   .catch((err) => {
     console.error("Error loading bag_policies.json", err);
@@ -192,4 +195,40 @@ function showVenue(slug) {
     bagLinkEl.href = "#";
     officialCardEl.hidden = true;
   }
+}
+
+/* ========= NEW: deep-link support via ?venueId= or ?venue= ========= */
+
+function getVenueIdFromQuery() {
+  try {
+    const params = new URLSearchParams(window.location.search || "");
+    return params.get("venueId") || params.get("venue") || null;
+  } catch (e) {
+    console.warn("Unable to read query params", e);
+    return null;
+  }
+}
+
+function autoOpenVenueFromQuery() {
+  const raw = getVenueIdFromQuery();
+  if (!raw || !Array.isArray(venuesList) || !venuesList.length) return;
+
+  const needle = raw.toLowerCase();
+
+  // 1) Try slug match first
+  let match =
+    venuesList.find((v) => (v.slug || "").toLowerCase() === needle) || null;
+
+  // 2) Fallback: match by displayName
+  if (!match) {
+    match =
+      venuesList.find(
+        (v) => (v.displayName || "").toLowerCase() === needle
+      ) || null;
+  }
+
+  if (!match) return;
+
+  // Open same way as a user tap
+  showVenue(match.slug);
 }
