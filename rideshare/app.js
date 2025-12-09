@@ -116,7 +116,7 @@ function renderRideshare(venue) {
   const lat = venue.lat;
   const lng = venue.lng;
 
-  // 1) Handle info section visibility
+  // 1) Rideshare info visibility
   if (!rideshareNotes) {
     infoSection.hidden = true;
   } else {
@@ -124,8 +124,13 @@ function renderRideshare(venue) {
     infoText.textContent = rideshareNotes;
   }
 
-  // 2) Handle buttons based on lat/lng
-  if (lat === null || lat === undefined || lng === null || lng === undefined) {
+  // 2) Buttons visibility based on lat/lng
+  if (
+    lat === null ||
+    lat === undefined ||
+    lng === null ||
+    lng === undefined
+  ) {
     buttonsSection.hidden = true;
     return;
   }
@@ -133,36 +138,53 @@ function renderRideshare(venue) {
   buttonsSection.hidden = false;
 
   const venueName = venue.name || "Venue";
+
   const uberTo = document.getElementById("uber-to");
   const uberFrom = document.getElementById("uber-from");
   const lyftTo = document.getElementById("lyft-to");
   const lyftFrom = document.getElementById("lyft-from");
 
-  // Uber to venue
+  // Update button labels with venue name
+  uberTo.textContent = `Uber to ${venueName}`;
+  uberFrom.textContent = `Uber from ${venueName}`;
+  lyftTo.textContent = `Lyft to ${venueName}`;
+  lyftFrom.textContent = `Lyft from ${venueName}`;
+
+  // ===== Uber deep links (m.uber.com web-style for WebView) =====
+  // Using m.uber.com WITHOUT /ul/ so parameters are honored in embedded web views.
+  // This should open the mobile web flow with pickup/dropoff pre-filled.
+  const uberBase = "https://m.uber.com/";
+
+  // Uber TO venue: pickup = my_location, dropoff = venue
   uberTo.href =
-    "https://m.uber.com/ul/?action=setPickup" +
+    uberBase +
+    "?action=setPickup" +
     "&pickup=my_location" +
-    `&dropoff[latitude]=${lat}` +
-    `&dropoff[longitude]=${lng}` +
+    `&dropoff[latitude]=${encodeURIComponent(lat)}` +
+    `&dropoff[longitude]=${encodeURIComponent(lng)}` +
     `&dropoff[nickname]=${encodeURIComponent(venueName)}`;
 
-  // Uber from venue
+  // Uber FROM venue: pickup = venue, user chooses destination
   uberFrom.href =
-    "https://m.uber.com/ul/?action=setPickup" +
-    `&pickup[latitude]=${lat}` +
-    `&pickup[longitude]=${lng}` +
+    uberBase +
+    "?action=setPickup" +
+    `&pickup[latitude]=${encodeURIComponent(lat)}` +
+    `&pickup[longitude]=${encodeURIComponent(lng)}` +
     `&pickup[nickname]=${encodeURIComponent(venueName)}`;
 
-  // Lyft to venue
+  // ===== Lyft deep links (ride.lyft.com web flow) =====
+  // To venue
   lyftTo.href =
-    "https://ride.lyft.com/?destination[latitude]=" +
+    "https://ride.lyft.com/?" +
+    "destination[latitude]=" +
     encodeURIComponent(lat) +
     "&destination[longitude]=" +
     encodeURIComponent(lng);
 
-  // Lyft from venue
+  // From venue
   lyftFrom.href =
-    "https://ride.lyft.com/?pickup[latitude]=" +
+    "https://ride.lyft.com/?" +
+    "pickup[latitude]=" +
     encodeURIComponent(lat) +
     "&pickup[longitude]=" +
     encodeURIComponent(lng);
