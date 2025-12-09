@@ -14,7 +14,6 @@
 </head>
 <body>
   <div class="page">
-    <!-- Top header -->
     <header class="page-header">
       <div class="page-header-inner">
         <img
@@ -34,18 +33,18 @@
       </div>
     </header>
 
-    <!-- Content -->
     <main class="layout">
       <section id="infoPanel" class="info-panel info-panel--empty">
+        <!-- Static title + description -->
         <div class="info-empty">
-          <h2>Find parking by venue</h2>
-          <p>Search a venue or browse below to see a quick overview, rideshare notes, lots &amp; garages, and a link to official parking info.</p>
+          <h2>Plan parking before the show</h2>
+          <p>
+            Use the search bar above to look up a venue. You’ll see parking notes, any key lots,
+            rideshare tips, and a link to the full parking page.
+          </p>
         </div>
 
-        <!-- Random browse list -->
-        <div id="browseList" class="browse-list"></div>
-
-        <!-- Filled once a venue is chosen -->
+        <!-- Venue content (hidden until a venue is chosen) -->
         <div class="info-content" hidden>
           <header class="info-header">
             <div>
@@ -63,21 +62,21 @@
 
             <!-- Rideshare -->
             <article class="info-card" id="rideshareCard" hidden>
-              <h3>Rideshare &amp; Dropoff</h3>
+              <h3>Rideshare Zones</h3>
               <p id="rideshareText" class="card-body"></p>
             </article>
 
-            <!-- Lots & Garages -->
+            <!-- Lots -->
             <article class="info-card" id="lotsCard" hidden>
-              <h3>Lots &amp; Garages</h3>
+              <h3>Key Lots</h3>
               <ul id="lotsList" class="bullet-list"></ul>
             </article>
 
             <!-- Official link -->
             <article class="info-card" id="officialCard" hidden>
-              <h3>Official Parking Info</h3>
+              <h3>Full Parking Info</h3>
               <p class="card-body">
-                For detailed maps, pricing, and event-specific changes, use the official parking page.
+                Some events may have different rules. Always confirm with the official parking page.
               </p>
               <a
                 id="parkingLink"
@@ -86,7 +85,7 @@
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                View Official Parking Info
+                View Parking Details
               </a>
             </article>
           </div>
